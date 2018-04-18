@@ -1,0 +1,154 @@
+Conditions/Options
+C00	Void	
+C01	IF A.4/2B THEN R ELSE N/A (condition unused, see NOTE 1 below)	Initiating session
+C02	Void	
+C03	IF A.4/2B AND A.4/16 THEN R ELSE N/A (condition unused, see NOTE 1)	Initiating session and preconditions
+C04	IF A.12/4 THEN R ELSE N/A	Dedicated PDP Context
+C05	IF A.12/5 THEN R ELSE N/A	P-CSCF Discovery via PCO
+C06	IF A.7/1 AND A.13/1 THEN R ELSE N/A	IPv4 and configured to initiate P-CSCF discovery via DHCPv4
+C07	IF A.7/1 AND A.12/8 AND A.13/2 AND A.12/5 THEN R ELSE N/A	IPv4 and P-CSCF discovery via PCO and P-CSCF discovery via DHCPv4 and configured to initiate P-CSCF discovery via PCO
+C08	IF A.12/7 THEN R ELSE N/A	Configured to initiate P-CSCF discovery via DHCPv6
+C09	IF A.12/8 AND A.12/10 AND A.12/5 THEN R ELSE N/A	P-CSCF Discovery via PCO and P-CSCF discovery via DHCPv6 and configured to initiate P-CSCF discovery via PCO
+C10	IF A.12/8 AND A.12/10 AND A.12/7 THEN R ELSE N/A	P-CSCF Discovery via PCO and P-CSCF discovery via DHCPv6 and configured to initiate P-CSCF discovery via DHCPv6
+C11	Void	
+C12	Void	
+C13	Void	
+C14	Void	
+C15	Void	
+C16	Void	
+C17	IF A.6a/2 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	IMS security and E-UTRA and not UE category M1
+C18	IF A.6a/1 AND NOT A.6a/2 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	GIBA and not IMS security and E-UTRA and not UE category M1
+C19	IF A.6a/2 AND A.6a/1 THEN R ELSE N/A	IMS security and GIBA
+C20	Void	
+C21	Void	
+C22	IF A.3A/50 AND A.15/1 AND A.4/2B AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and initiating a session and E-UTRA and not UE category M1
+C23	IF A.3A/50 AND A.15/1 AND A.16/6 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI Communication Hold and E-UTRA and not UE category M1
+C24	IF A.3A/50 AND A.16/7 AND (A.6a/3 OR A.6a/4) AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and Incoming Communication Barring and (GBA or HTTP Digest) and E-UTRA and not UE category M1
+C25	Void	
+C26	IF A.3A/50 AND A.4/2B AND A.4/16 AND A.15/7 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and Initiating session and preconditions and MTSI text, RTP and E-UTRA and not UE category M1
+C27	IF A.3A/50 AND A.15/1 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech
+C28	IF A.3A/50 AND A.4/2B AND A.15/1 AND A.15/2 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI speech, AMR wideband and E-UTRA and not UE category M1
+C29	IF A.3A/50 AND A.15/1 AND A.16/11 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI Explicit Communication Transfer - consultative transfer and E-UTRA and not UE category M1
+C30	IF A.3A/50 AND A.16/5 AND (A.6a/3 OR A.6a/4) AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Communication Diversion and (GBA or HTTP Digest) and E-UTRA and not UE category M1
+C31	IF A.3A/50 AND A.15/1 AND A.16/5 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI Communication Diversion and E-UTRA and not UE category M1
+C32	IF A.3A/50 AND A.15/1 AND A.16/9 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI Conference and E-UTRA and not UE category M1
+C33	Void	
+C34	Void	
+C35	Void	
+C37	IF A.3A/50 AND A.4/2B AND A.15/7 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and Initiating session and MTSI text, RTP and E-UTRA and not UE category M1
+C38	Void	
+C39	Void	
+C40	Void	
+C41	Void	
+C42	Void	
+C43	IF A.3A/50 AND A.16/1 AND (A.6a/3 OR A.6a/4) AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Originating Identification Presentation and (GBA or HTTP Digest) and E-UTRA and not UE category M1
+C44	IF A.3A/50 AND A.16/2 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Originating Identification Restriction and E-UTRA and not UE category M1
+C45	IF A.3A/50 AND A.16/7 AND A.16/12 AND (A.6a/3 OR A.6a/4) AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Communication Barring and MTSI Anonymous Communication Rejection and (GBA or HTTP Digest) and E-UTRA and not UE category M1
+C46	Void	
+C47	Void	
+C48	IF A.3A/50 AND A.16/3 AND (A.6a/3 OR A.6a/4) AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and Terminating Identification Presentation and (GBA or HTTP Digest) and E-UTRA and not UE category M1
+C49	IF A.3A/50 AND A.16/4 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Terminating Identification Restriction and E-UTRA and not UE category M1
+C50	IF A.3A/50 AND A.16/8 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Message Waiting Indication and E-UTRA and not UE category M1
+C51	Void	
+C52	Void	
+C53	Void	
+C54	Void	
+C55	IF A.3A/61 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	SM-over-IP sender and E-UTRA and not UE category M1
+C56	IF A.3A/62 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	SM-over-IP receiver and E-UTRA and not UE category M1
+C57	IF A.3A/50 AND A.15/1 AND A.16/13 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI communication waiting and E-UTRA and not UE category M1
+C58	IF A.6a/2 AND A.8/5 THEN R ELSE N/A	IMS security and Indicate Sigcomp
+C59	IF A.12/26 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	IMS emergency services and E-UTRA and not UE category M1
+C60	Void	
+C61	IF A.3A/50 AND A.16/9 AND A.16/14 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Conference and MTSI three way session?and E-UTRA and not UE category M1
+C62	IF A.12/26 AND [34.123-2] A.2/2 AND ([73] A.4.1-1/6 OR [73] A.4.1-1/7) THEN R ELSE N/A	IMS emergency services and emergency speech call and (UTRAN or GERAN)
+C63	Void	
+C64	IF A.12/26 AND A.18/1 AND NOT [73] A.4.3.2-2A/1THEN R ELSE N/A	IMS emergency services and E-UTRA and not UE category M1
+C65	Void	
+C66	IF A.12/26 AND A.12/12 AND A.15/1 AND ([34.123-2] A.2/2 AND ([73] A.4.1-1/6 OR [73] A.4.1-1/7) THEN R ELSE N/A	IMS emergency services and initiating bidirectional voice session over IMS and MTSI speech and emergency call and (UTRAN or GERAN)
+C67	Void	
+C68	Void	
+C69	Void	
+C70	IF A.3A/50 AND A.15/1 AND A.15/3 AND A.15/9 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video and MTSI Video H.264 CBP Level 1.2 and E-UTRA and not UE category M1
+C71	IF A.3A/50 AND A.4/2B AND A.15/1 AND A.15/3 AND A.15/9 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and Initiating session and MTSI speech and MTSI video and MTSI Video H.264 CBP Level 1.2 and E-UTRA and not UE category M1
+C72	IF A.12/26 AND A.3A/50 AND A.15/1 AND A.12/33 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	IMS emergency services and MTSI and MTSI speech and MTSI Communication Hold during emergency call and E-UTRA and not UE category M1
+C73	IF A.12/26 AND A.3A/50 AND A.15/1 AND A.18/1 AND NOT [73] A.4.3.2-2A/1THEN R ELSE N/A	IMS emergency services and MTSI and MTSI speech and E-UTRA and not UE category M1
+C74	IF A.12/26 AND [3] A.2/2 AND [73] A.4.1-1/4 THEN R ELSE N/A	IMS emergency services and emergency speech call and 1xRTT 
+C75	IF A.12/12 AND A.15/1 AND [3] A.2/2 AND [73] A.4.1-1/4 THEN R ELSE N/A	initiating bidirectional voice session over IMS and MTSI Speech and IMS emergency call and emergency speech call and 1xRTT
+C76	IF A.12/26 AND A.12/27 AND A.18/1 AND NOT [73] A.4.3.2-2A/1THEN R ELSE N/A	IMS emergency services and capable of obtaining location Information and E-UTRA and not UE category M1
+C77	IF A.3A/50 AND A.15/1 AND A.15/3 AND A.15/9 AND A.16/6 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video and MTSI Video H.264 CBP Level 1.2 and MTSI Communication Hold and E-UTRA and not UE category M1
+C78	IF A.3A/50 AND A.15/1 AND A.15/3 AND A.15/9 AND A.16/9 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video H.264 CBP Level 1.2 and MTSI Conference and E-UTRA and not UE category M1
+C79	IF A.3A/50 AND A.15/1 AND A.15/3 AND A.15/9 AND A.16/9 AND A.16/14 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video andMTSI video H.264 CBP Level 1.2 and MTSI Conference and MTSI three way session and E-UTRA and not UE category M1
+C80	IF A.6a/2 AND A.12/39 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	IMS security and IMS deregistration and E-UTRA and not UE category M1
+C81	IF A.3A/50 AND A.16/1 AND A.6a/3 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Originating Identification Presentation and GBA for XCAP authentication. and E-UTRA and not UE category M1
+C82	IF A.3A/50 AND A.15/1 AND A.12/45 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and early media and E-UTRA and not UE category M1
+C83	IF A.3A/50 AND A.15/10 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech EVS and E-UTRA and not UE category M1
+C84	IF A.3A/50 AND A.16/15 AND (A.6a/3 OR A.6a/4) AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Outgoing Communication Barring and (GBA or HTTP Digest) and E-UTRA and not UE category M1
+C85	IF A.6a/2 AND A.12/48 THEN R ELSE N/A	IMS security and Multiple IMPU
+C86	IF A.3A/50 AND A.15/1 AND A.16/9 AND A.16/16 AND A.16/17 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI Conference and MTSI Network Invitation to Conference and MTSI Out-of-Dialog REFER and E-UTRA and not UE category M1
+C87	IF A.3A/50 AND A.15/1 AND A.15/3 AND A.15/9 AND A.16/9 AND A.16/16 AND A.16/17 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and MTSI Conference and MTSI Network Invitation to Conference and MTSI Out-of-Dialog REFER and E-UTRA and not UE category M1
+C88	IF A.3A/50 AND A.16/2A AND (A.6a/3 OR A.6a/4) AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Originating Identification Restriction Configuration and (GBA or HTTP Digest) and E-UTRA and not UE category M1
+C89	IF A.3A/50 AND A.16/4A AND (A.6a/3 OR A.6a/4) AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Terminating Identification Restriction - Configuration and (GBA or HTTP Digest) and E-UTRA and not UE category M1
+C90	IF A.6a/5 AND A.18/3 THEN R ELSE N/A	SIP Digest without TLS and Fixed Broadband
+C91	IF A.6a/5 AND A.18/3 AND A.3A/50 AND A.15/1 THEN R ELSE N/A	MTSI and MTSI speech and SIP Digest without TLS and Fixed Broadband
+C92	IF A.3A/50 AND A.16/1 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI Originating Identification Presentation and WLAN
+C93	IF A.3A/50 AND A.16/2 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI Originating Identification Restriction and WLAN
+C94	IF A.3A/50 AND A.16/3 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI Terminating Identification Presentation and WLAN
+C95	IF A.3A/50 AND A.16/4 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI Terminating Identification Restriction and WLAN
+C96	IF A.3A/50 AND A.16/1 AND A.18/3 THEN R ELSE N/A	MTSI and MTSI Originating Identification Presentation and Fixed Broadband
+C97	IF A.3A/50 AND A.16/2 AND A.18/3 THEN R ELSE N/A	MTSI and MTSI Originating Identification Restriction and Fixed Broadband
+C98	IF A.3A/50 AND A.16/3 AND A.18/3 THEN R ELSE N/A	MTSI and MTSI Terminating Identification Presentation and Fixed Broadband
+C99	IF A.3A/50 AND A.16/4 AND A.18/3 THEN R ELSE N/A	MTSI and MTSI Terminating Identification Restriction and Fixed Broadband
+C100	IF A.6a/5 AND A.18/3 AND A.12/39 THEN R ELSE N/A	SIP Digest without TLS and Fixed Broadband and IMS deregistration
+C101	IF A.3A/50 AND A.16/5 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI Communication Diversion and WLAN
+C102	IF A.3A/50 AND A.15/1 AND A.16/5 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI speech and MTSI Communication Diversion and WLAN
+C103	IF A.3A/50 AND A.16/5 AND A.18/3 THEN R ELSE N/A	MTSI and MTSI Communication Diversion and Fixed Broadband
+C104	IF A.3A/50 AND A.15/1 AND A.16/5 AND A.18/3 AND NOT A.4/16 THEN R ELSE N/A	MTSI and MTSI speech and MTSI Communication Diversion and Fixed Broadband and no preconditions
+C105	IF A.3A/50 AND A.6a/5 AND A.18/3 AND A.15/1 AND NOT A.4/16 THEN R ELSE N/A	MTSI and MTSI speech and SIP Digest without TLS and Fixed Broadband and no preconditions
+C106	IF A.3A/50 AND A.4/2B AND A.15/1 AND A.15/3 AND A.15/9 AND A.18/4 THEN R ELSE N/A	MTSI and Initiating session and MTSI speech and MTSI video and MTSI Video H.264 CBP Level 1.2 and WLAN
+C107	IF A.3A/50 AND A.15/1 AND A.15/3 AND A.15/9 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video and MTSI Video H.264 CBP Level 1.2 and WLAN
+C108	IF A.3A/50 AND A.18/4 THEN R ELSE N/A	MTSI and WLAN
+C109	IF A.3A/50 AND A.15/1 AND A.16/6 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI speech and MTSI Communication Hold and WLAN
+C110	IF A.3A/50 AND A.15/1 AND A.15/3 AND A.16/6 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video and MTSI Communication Hold and WLAN
+C111	IF A.3A/50 AND A.16/7 AND A.18/4 AND (A.6a/3 OR A.6a/4) THEN R ELSE N/A	MTSI and MTSI Incoming Communication Barring and WLAN and (GBA or HTTP Digest)
+C112	IF A.3A/50 AND A.16/15 AND A.18/4 AND (A.6a/3 OR A.6a/4) THEN R ELSE N/A	MTSI and MTSI Outgoing Communication Barring and WLAN and (GBA or HTTP Digest)
+C113	IF A.3A/50 AND A.16/8 AND A.18/4 THEN R ELSE N/A 	MTSI and MTSI Message Waiting Indication and WLAN
+C114	IF A.3A/50 AND A.15/1 AND A.16/9 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI speech and MTSI Conference and WLAN
+C115	IF A.3A/50 AND A.15/1 AND A.16/9 AND A.16/16 AND A.18/4 THEN R ELSE N/A 	MTSI and MTSI speech and MTSI Conference and MTSI Network Invitation to Conference and WLAN
+C116	IF A.3A/50 AND A.15/1 AND A.16/9 AND A.16/14 AND A.18/4 THEN R ELSE N/A 	MTSI and MTSI speech and MTSI Conference and MTSI three way session and WLAN
+C117	IF A.3A/50 AND A.15/1 AND A.15/3 AND A.15/9 AND A.16/9 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and MTSI Conference and WLAN
+C118	IF A.3A/50 AND A.15/1 AND A.15/3 AND A.15/9 AND A.16/9 AND A.16/16 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and MTSI Conference and MTSI Network Invitation to Conference and WLAN
+C119	IF A.3A/50 AND A.15/1 AND A.15/3 AND A.15/9 AND A.16/9 AND A.16/14 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and MTSI Conference and MTSI three way session and WLAN
+C120	IF A.3A/50 AND A.15/1 AND A.16/13 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI speech and MTSI communication waiting and WLAN
+C121	IF A.12/26 AND A.18/4 THEN R ELSE N/A	IMS emergency services and WLAN
+C122	IF A.3A/50 AND A.6a/5 AND A.18/3 AND A.15/1 AND A.15/3 AND NOT A.4/16 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video and SIP Digest without TLS and Fixed Broadband and no preconditions
+C123	IF A.3A/50 AND A.16/5 AND A.16/18 AND A.18/3 THEN R ELSE N/A	MTSI and MTSI Communication Diversion and SIP-based configuration and Fixed Broadband
+C124	IF A.6a/2 AND A.6a/1 AND A.12/26 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	IMS security and GIBA and IMS emergency service and E-UTRA and not UE category M1
+C125	IF A.12/26 AND A.12/52 AND A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	IMS emergency service and IMS emergency call without registration after rejection of emergency registration and E-UTRA and not UE category M1
+C126	IF A.3A/50 AND [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and UE category M1
+C127	IF A.3A/50 AND A.16/13 AND [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI communication waiting and UE category M1
+C128	IF A.3A/50 AND A.16/8 AND [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Message Waiting Indication and UE category M1
+C129	IF A.3A/50 AND A.16/2 AND [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Originating Identification Restriction and UE category M1
+C130	IF A.3A/50 AND A.16/4 AND [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Terminating Identification Restriction and UE category M1
+C131	IF A.3A/50 AND A.16/5 AND [73] A.4.3.2-2A/1 THEN R ELSE N/A	MTSI and MTSI Communication Diversion and UE category M1
+C132	IF A.12/26 AND A.12/27 AND [73] A.4.3.2-2A/1 THEN R ELSE N/A	IMS emergency services and capable of obtaining location Information and UE category M1
+C133	IF A.12/26 AND [73] A.4.3.2-2A/1 THEN R ELSE N/A	IMS emergency services and UE category M1
+C134	IF A.6a/2 AND NOT A.6a/1 AND A.12/26 AND A.12/52 AND A.18/1 AND NOT [73] A.4.3.2-2A/1THEN R ELSE N/A	IMS security and NOT GIBA and IMS emergency service and IMS emergency call without registration after rejection of emergency registration. UE supports E-UTRA and not UE category M1
+C135	IF A.20/1 THEN R ELSE N/A	Combined Registration E-UTRA
+C136	IF A.20/2 THEN R ELSE N/A	Dual Registration E-UTRA
+C137	IF A.20/3 THEN R ELSE N/A	Combined Registration WLAN
+C138	IF A.20/4 THEN R ELSE N/A	Dual Registration WLAN
+C139	IF A.20/5 THEN R ELSE N/A	Voice Call after combined registration E-UTRA
+C140	IF A.20/6 THEN R ELSE N/A	Voice call after dual registration E-UTRA
+C141	IF A.20/7 THEN R ELSE N/A	Voice Call after combined registration WLAN
+C142	IF A.20/8 THEN R ELSE N/A	Voice call after dual registration WLAN
+C143	IF A.20/9 THEN R ELSE N/A	RCS chat after combined registration E-UTRA
+C144	IF A.20/10 THEN R ELSE N/A	RCS chat after dual registration E-UTRA
+C145	IF A.20/11 THEN R ELSE N/A	RCS chat after combined registration WLAN
+C146	IF A.20/12 THEN R ELSE N/A	RCS chat after dual registration WLAN
+C147	IF A.12/54 AND [3] A.10/16 THEN R ELSE N/A	IMS eCall type of emergency service and eCallCapable and manual type of eCall
+C148	IF A.12/54 AND [3] A.10/17 THEN R ELSE N/A	IMS eCall type of emergency service and eCallCapable and automatic type of eCall
+C149	IF A.12/55 AND [3] A.10/16 THEN R ELSE N/A	IMS eCall type of emergency service and eCallOnly and manual type of eCall
+C150	IF A.12/55 AND [3] A.10/17 THEN R ELSE N/A	IMS eCall type of emergency service and eCallOnly and automatic type of eCall
+C151	IF A.18/1 AND NOT [73] A.4.3.2-2A/1 THEN R ELSE N/A	E-UTRA and not UE category M1
+C152	IF A.3A/50 AND A.15/1 AND A.18/4 THEN R ELSE N/A	MTSI and MTSI speech and WLAN
+C153	IF A.3A/50 AND A.15/1 AND A.18/4 AND A.15/3 THEN R ELSE N/A	MTSI and MTSI speech and MTSI video and WLAN

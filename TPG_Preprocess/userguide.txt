@@ -1,0 +1,87 @@
+Steps to run the script:
+	1)	replace all tab and new line from the word file 
+		use ^13 for finding additional new line. 
+		and remove all tab. 
+	2)	copy the word table to the text file. 
+	3) 	script will generate the output for -2 spec. 
+	4)	R12 is replaced by Rel-12
+	5)	Spec 31124-
+		TC 27.22.7 has been treated specially to match with GCF document only one digit picked after this. 
+		example 27.22.7.2.2/1
+	
+	6)	for some case preprocess CVL might not need to remove alltab char. 
+
+    7) 31.121-1tva some test case has note as the condition for the testcase
+    8) 31124CVL manually corrected items = C124,C169,C176 condition is altered. 
+    9) 31124 o.1 manually added. 
+    10) 34123 requires special attention as it is getting condition for TDD and FDD
+    
+
+
+
+
+Preprocess:
+102 230 
+	CVL: _O_SWP =>O_SWP
+	C001 OR C002 THEN M=>C001 OR C002 THEN M ELSE N/A
+34121
+	5.2BC C_ RF124 -> C_RF124
+34123-2TVA
+	6.1.2.9a/b = use or between conditions
+	update raw file
+34229
+	C66: remove spec	36.523-2=>
+36521
+	8.10.1. test case need to remove space from c198 a/b/c
+36521-3
+	8.16.37 ce92-C92
+	what to do with these below 2 test cases as these are available without switch too. 
+	8.2.4.17.2switch
+	8.2.4.18.2switch
+	
+37571-3
+	7.2.2.1_15s Rel-9(2) -> Rel-9
+31211
+	c49  THEM -> THEN
+36521-2-1
+	A.4.3-4a/1a = > A.4.3-4a/1
+36521-2-3
+	A.4.3-7/yy
+	A.4.3-4aa1=>A.4.3-4aa/1
+	A.4.5-1/ 3=> A.4.5-1/3
+	A.4.3-3a/8 a =>A.4.3-3a/8
+
+	CVL file regex replace 
+	[^\.](4.4) =>  A.\1
+
+	TVA
+	8.2.1.1.1_A. 4=>8.2.1.1.1_A.4
+	8.2.1.1.1_A. 3=>8.2.1.1.1_A.3
+36523-2
+	8.2.2.6.2 condition C 187=>C187
+	C313 A4.4-1/164=>A.4.4-1/164
+	C270 A.4.4 -1/131=>A.4.4-1/131
+	C270 NA=>N/A
+	C288 : A.4.4-1A/10THEN=>A.4.4-1a/10 THEN
+	C19F : A.4.3.2-2/1 1 =>A.4.3.2-2/1
+	C19T : A.4.3.2-2/1 1 =>A.4.3.2-2/1
+51010-4 rawtva
+	C130 C130 AND C139=>C130 AND C139
+	what to do with A.1/bbb or A.1/aaa or A.1/ccc 4 test cases
+
+51010-2 CVL
+	A.2/142 22=>A.2/142
+	For R99: C316 For Rel-4 and onwards: C216=>C216
+	
+INFO	Processing spec = 36.521-3
+WARN	TC missing :  4.2.a
+WARN	TC missing :  4.2.b
+WARN	TC missing :  7.3.9_1
+WARN	TC missing :  8.1.a
+WARN	TC missing :  8.2.b
+WARN	TC missing :  8.26.7
+WARN	TC missing :  9.1.6.2_2
+
+INFO	Processing spec = 34.122
+WARN	TC missing :  8.7.17
+

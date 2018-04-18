@@ -1,0 +1,856 @@
+.Test sequence (s)	Network Dependency	Re-lease	Rel-13 ME	Description	
+27.22.1.1	No	R99	M	PROFILE DOWNLOAD 27.22.1	
+27.22.2	No	R99	M	Contents of the TERMINAL PROFILE command 27.22.2	
+27.22.3	No	R99	M	Servicing of Proactive UICC Commands 27.22.3	
+27.22.4.1				DISPLAY TEXT 27.22.4.1	
+27.22.4.1.1/1	No	R99	C177	Unpacked	
+27.22.4.1.1/2	No	R99	C177	Screen busy	
+27.22.4.1.1/3	No	R99	C177	high priority	
+27.22.4.1.1/4	No	R99	C177	Packed	
+27.22.4.1.1/5	No	R99	C177	clear after delay	
+27.22.4.1.1/6	No	R99	C177	long text up to 160 bytes	
+27.22.4.1.1/7	No	R99	C177 AND C178	Backwards move in USIM session	
+27.22.4.1.1/8	No	R99	C177 AND C178	Session terminated by user	
+27.22.4.1.1/9	No	R99	C177	Command not understood by ME	
+27.22.4.1.2/1	No	R99	C120 AND C177 AND C178	no response from user	
+27.22.4.1.3/1	No	R99	C177	Extension Text	
+27.22.4.1.4/1	No	R99	C177	sustained text	
+27.22.4.1.4/2	No	R99	C177	sustained text	
+27.22.4.1.4/3	No	R99	C177 AND C178	sustained text	
+27.22.4.1.4/4	UMTS System Simulator or System Simulator only	R99	C177 AND C180 AND C183	sustained text	
+27.22.4.1.5/1	No	R99	C108 AND C177	Icons – basic icon	
+27.22.4.1.5/3	No	R99	C108 AND C177	Icons – basic icon	
+27.22.4.1.5/2	No	R99	C171 AND C177	Icons – colour icon	
+27.22.4.1.6/1	No	R99	C118 AND C177	UCS2 display in Cyrillic	
+27.22.4.1.7/1	No	Rel-4	C126 AND C177 AND C178	Variable Timeout	
+27.22.4.1.8/1	No	Rel-5	C153 AND C177	Text attribute – left alignment	
+27.22.4.1.8/2	No	Rel-5	C154 AND C177	Text attribute – center alignment	
+27.22.4.1.8/3	No	Rel-5	C155 AND C177	Text attribute – right alignment	
+27.22.4.1.8/4	No	Rel-5	C157 AND C156 AND C177	Text attribute – large font size	
+27.22.4.1.8/5	No	Rel-5	C158 AND C156 AND C177	Text attribute – small font size	
+27.22.4.1.8/6	No	Rel-5	C160 AND C159 AND C177	Text attribute – bold on	
+27.22.4.1.8/7	No	Rel-5	C161 AND C159 AND C177	Text attribute – italic on	
+27.22.4.1.8/8	No	Rel-5	C162 AND C159 AND C177	Text attribute – underlined on	
+27.22.4.1.8/9	No	Rel-5	C163 AND C159 AND C177	Text attribute – strikethrough on	
+27.22.4.1.8/10	No	Rel-5	C164 AND C165 AND C177	Text attribute – foreground and background colours	
+27.22.4.1.9/1	No	R99	C143 AND C177	UCS2 display in Chinese	
+27.22.4.1.10/1	No	R99	C145 AND C177	UCS2 display in Katakana	
+27.22.4.1.TBD	TBD	Rel-6		Frames	
+27.22.4.2				GET INKEY 27.22.4.2	
+27.22.4.2.1/1	No	R99	C177 AND C178	prompt unpacked	
+27.22.4.2.1/2	No	R99	C177 AND C178	prompt packed	
+27.22.4.2.1/3	No	R99	C177 AND C178	Backwards move in UICC session	
+27.22.4.2.1/4	No	R99	C177 AND C178	Session terminated by user	
+27.22.4.2.1/5	No	R99	C177 AND C178	SMS alphabet	
+27.22.4.2.1/6	No	R99	C177 AND C178	Long text up to 160 bytes	
+27.22.4.2.2/1	No	R99	C120 AND C177 AND C178	no response from user	
+27.22.4.2.3/1	No	R99	C118 AND C177 AND C178	UCS2 display in Cyrillic	
+27.22.4.2.3/2	No	R99	C118 AND C177 AND C178	UCS2 display, Long text up to 70 chars in Cyrillic	
+27.22.4.2.4/1	No	R99	C105 AND C177 AND C178	UCS2 entry in Cyrillic	
+27.22.4.2.5/1	No	R99	C177 AND C178	\\\"Yes/No\\\" response	
+27.22.4.2.6/1	No	R99	C108 AND C177 AND C178	Icons – basic icon	
+27.22.4.2.6/2	No	R99	C108 AND C177 AND C178	Icons – basic icon	
+27.22.4.2.6/3	No	R99	C171 AND C177 AND C178	Icons – colour icon	
+27.22.4.2.6/4	No	R99	C171 AND C177 AND C178	Icons – colour icon	
+27.22.4.2.7/1	No	R99	C107 AND C177 AND C178	Help information	
+27.22.4.2.8/1	No	Rel-4	C126 AND C177 AND C178	Variable Timeout	
+27.22.4.2.9/1	No	Rel-5	C153 AND C177 AND C178	Text attribute – left alignment	
+27.22.4.2.9/2	No	Rel-5	C154 AND C177 AND C178	Text attribute – center alignment	
+27.22.4.2.9/3	No	Rel-5	C155 AND C177 AND C178	Text attribute – right alignment	
+27.22.4.2.9/4	No	Rel-5	C157 AND C156 AND C177 AND C178	Text attribute – large font size	
+27.22.4.2.9/5	No	Rel-5	C158 AND C156 AND C177 AND C178	Text attribute – small font size	
+27.22.4.2.9/6	No	Rel-5	C160 AND C159 AND C177 AND C178	Text attribute – bold on	
+27.22.4.2.9/7	No	Rel-5	C161 AND C159 AND C177 AND C178	Text attribute – italic on	
+27.22.4.2.9/8	No	Rel-5	C162 AND C159 AND C177 AND C178	Text attribute – underlined on	
+27.22.4.2.9/9	No	Rel-5	C163 AND C159 AND C177 AND C178	Text attribute – strikethough on	
+27.22.4.2.9/10	No	Rel-5	C164 AND C165 AND C177 AND C178	Text attribute – foreground and background colours	
+27.22.4.2.10/1	No	R99	C143 AND C177 AND C178	UCS2 display in Chinese	
+27.22.4.2.10/2	No	R99	C143 AND C177 AND C178	UCS2 display in Chinese, Long text up to 70 chars	
+27.22.4.2.11/1	No	R99	C142 AND C177 AND C178	UCS2 entry in Chinese	
+27.22.4.2.12/1	No	R99	C145 AND C177 AND C178	UCS2 display in Katakana	
+27.22.4.2.12/2	No	R99	C145 AND C177 AND C178	UCS2 display in Katakana, Long text up to 70 chars	
+27.22.4.2.13/1	No	R99	C144 AND C177 AND C178	UCS2 entry in Katakana	
+27.22.4.2.TBD	TBD	Rel-6		Frames	
+27.22.4.3				GET INPUT 27.22.4.3	
+27.22.4.3.1/1	No	R99	C177 AND C178	input unpacked	
+27.22.4.3.1/2	No	R99	C177 AND C178	input packed	
+27.22.4.3.1/1	No	R99	C177 AND C178	digits only	
+27.22.4.3.1/3	No	R99	C177 AND C178	SMS alphabet	
+27.22.4.3.1/4	No	R99	C177 AND C178	hidden input	
+27.22.4.3.1/5	No	R99	C177 AND C178	min / max acceptable length	
+27.22.4.3.1/9	No	R99	C177 AND C178	min / max acceptable length	
+27.22.4.3.1/6	No	R99	C177 AND C178	Backwards move in UICC session	
+27.22.4.3.1/7	No	R99	C177 AND C178	Session terminated by user	
+27.22.4.3.1/8	No	R99	C177 AND C178	Prompt text up to 160 bytes	
+27.22.4.3.1/9	No	R99	C177 AND C178	SMS default alphabet, ME to echo text, packing not required	
+27.22.4.3.1/10	No	R99	C177 AND C178	Null length for the text string	
+27.22.4.3.2/1	No	R99	C120 AND C177 AND C178	no response from user	
+27.22.4.3.3/1	No	R99	C118 AND C177 AND C178	UCS2 display in Cyrillic	
+27.22.4.3.3/2	No	R99	C118 AND C177 AND C178	UCS2 display in Cyrillic	
+27.22.4.3.4/1	No	R99	C105 AND C177 AND C178	UCS2 entry in Cyrillic	
+27.22.4.3.4/2	No	R99	C105 AND C177 AND C178	UCS2 entry in Cyrillic	
+27.22.4.3.5/1	No	R99	C177 AND C178	default text for the input	
+27.22.4.3.5/2	No	R99	C177 AND C178	default text for the input	
+27.22.4.3.6/1	No	R99	C108 AND C177 AND C178	Icons – basic icon	
+27.22.4.3.6/2	No	R99	C108 AND C177 AND C178	Icons – basic icon	
+27.22.4.3.6/3	No	R99	C171 AND C177 AND C178	Icons – colour icon	
+27.22.4.3.6/4	No	R99	C171 AND C177 AND C178	Icons – colour icon	
+27.22.4.3.7/1	No	R99	C107 AND C177 AND C178	help information	
+27.22.4.3.8/1	No	Rel-5	C153 AND C177 AND C178	Text attribute– left alignment	
+27.22.4.3.8/2	No	Rel-5	C154 AND C177 AND C178	Text attribute – center alignment	
+27.22.4.3.8/3	No	Rel-5	C155 AND C177 AND C178	Text attribute – right alignment	
+27.22.4.3.8/4	No	Rel-5	C157 AND C156 AND C177 AND C178	Text attribute – large font size	
+27.22.4.3.8/5	No	Rel-5	C158 AND C156 AND C177 AND C178	Text attribute – small font size	
+27.22.4.3.8/6	No	Rel-5	C160 AND C159 AND C177 AND C178	Text attribute – bold on	
+27.22.4.3.8/7	No	Rel-5	C161 AND C159 AND C177 AND C178	Text attribute – italic on	
+27.22.4.3.8/8	No	Rel-5	C162 AND C159 AND C177 AND C178	Text attribute – underlined on	
+27.22.4.3.8/9	No	Rel-5	C163 AND C159 AND C177 AND C178	Text attribute – strikethrough on	
+27.22.4.3.8/10	N o	Rel-5	C164 AND C165 AND C177 AND C178	Text attribute – foreground and background colours	
+27.22.4.3.9/1	No	R99	C143 AND C177 AND C178	UCS2 display in Chinese	
+27.22.4.3.9/2	No	R99	C143 AND C177 AND C178	UCS2 display in Chinese	
+27.22.4.3.10/1	No	R99	C142 AND C177 AND C178	UCS2 entry in Chinese	
+27.22.4.3.10/2	No	R99	C142 AND C177 AND C178	UCS2 entry in Chinese	
+27.22.4.3.11/1	No	R99	C145 AND C177 AND C178	UCS2 display in Katakana	
+27.22.4.3.11/2	No	R99	C145 AND C177 AND C178	UCS2 display in Katakana	
+27.22.4.3.12/1	No	R99	C144 AND C177 AND C178	UCS2 entry in Katakana	
+27.22.4.3.12/2	No	R99	C144 AND C177 AND C178	UCS2 entry in Katakana	
+27.22.4.3.TBD	TBD	Rel-6		Frames	
+27.22.4.4.1/1	No	R99	M	MORE TIME 27.22.4.4	
+27.22.4.5				PLAY TONE 27.22.4.5	
+27.22.4.5.1/1	UMTS System Simulator or System Simulator only	R99	C178 AND C179 AND C180 AND C183	play all tones, display alpha, user termination, superimpose	
+27.22.4.5.2/1	No	R99	C118 AND C179	UCS2 display in Cyrillic	
+27.22.4.5.3/1	No	R99	C108 AND C179	Icons – basic icon	
+27.22.4.5.3/2	No	R99	C108 AND C179	Icons – basic icon	
+27.22.4.5.3/3	No	R99	C171 AND C179	Icons – colour icon	
+27.22.4.5.3/4	No	R99	C171 AND C179	Icons – colour icon	
+27.22.4.5.4/1	No	Rel-5	C153 AND C179	Text attribute – left alignment	
+27.22.4.5.4/2	No	Rel-5	C154 AND C179	Text attribute – center alignment	
+27.22.4.5.4/3	No	Rel-5	C155 AND C179	Text attribute – right alignment	
+27.22.4.5.4/4	No	Rel-5	C157 AND C156 AND C179	Text attribute – large font size	
+27.22.4.5.4/5	No	Rel-5	C158 AND C156 AND C179	Text attribute – small font size	
+27.22.4.5.4/6	No	Rel-5	C160 AND C159 AND C179	Text attribute – bold on	
+27.22.4.5.4/7	No	Rel-5	C161 AND C159 AND C179	Text attribute – italic on	
+27.22.4.5.4/8	No	Rel-5	C162 AND C159 AND C179	Text attribute – underlined on	
+27.22.4.5.4/9	No	Rel-5	C163 AND C159 AND C179	Text attribute – strikethrough on	
+27.22.4.5.4/10	No	Rel-5	C164 AND C165 AND C179	Text attribute– foreground and background colours	
+27.22.4.5.5/1	No	R99	C143 AND C179	UCS2 display in Chinese	
+27.22.4.5.6/1	No	R99	C145 AND C179	UCS2 display in Katakana	
+27.22.4.5.TBD	TBD	Rel-6		Frames	
+27.22.4.5.TBD	TBD	Rel-6		Themed and Melody tones	
+27.22.4.6				POLL INTERVAL 27.22.4.6	
+27.22.4.6.1/1	No	R99	M	duration	
+27.22.4.6	No	R99	M	duration		Extra
+27.22.4.7				REFRESH 27.22.4.7	
+27.22.4.7.1/1	UMTS System Simulator or System Simulator only	R99	C146 AND C177 AND C178 AND C180 AND C183	USIM initialization, enabling FDN mode	
+27.22.4.7.1/2	UMTS System Simulator or System Simulator only	R99	C146 AND C177 AND C178 AND C180 AND C183	file change notification of FDN file	
+27.22.4.7.1/3	No	R99	C177 AND C178	USIM initialization and file change notification of ADN	
+27.22.4.7.1/4	UMTS System Simulator or System Simulator only	R99	C146 AND C177 AND C178 AND C180 AND C183	USIM initialization and full file change notification, enabling FDN mode	
+27.22.4.7.1/5	No	R99	M	UICC reset	
+27.22.4.7.1/6	UMTS System Simulator or System Simulator only	R99	C146 AND C177 AND C178 AND C180 AND C183	USIM Initialization after SMS-PP data download	
+27.22.4.7.1/7	UMTS System Simulator or System Simulator only	R99	C146 AND C177 AND C178 AND C180 AND C183	USIM Application Reset	
+27.22.4.7.2/1	UMTS System Simulator or System Simulator only	R99	M	UICC Reset for IMSI Changing procedure	
+27.22.4.7.2/2	Yes	R99	M	USIM Application Reset for IMSI Changing procedure	
+27.22.4.7.2/3	UMTS System Simulator or System Simulator only	R99	M	3G Session Reset for IMSI Changing procedure	
+27.22.4.7.2/4	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	reject 3G Session Reset for IMSI Changing procedure during CScall	
+27.22.4.7.2/5	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	reject UICC Reset for IMSI Changing procedure during CS call	
+27.22.4.7.2/6	UMTS System Simulator or System Simulator only	R99	C215	UICC Reset for IMSI Changing procedure during active PDP context	
+27.22.4.7.2/7	UMTS System Simulator or System Simulator only	R99	C215	3G Session Reset for IMSI Change procedure during active PDP context	
+27.22.4.7.3/1	UMTS System Simulator only	Rel-7	C184	Steering of roaming, UTRAN	
+27.22.4.7.3/2	UMTS System Simulator and System Simulator	Rel-7	C167 AND C184	Steering of roaming, InterRAT	
+27.22.4.7.3/3	E-USS or NB-SS (See NOTE)	Rel-8	C222	Steering of roaming, E-UTRAN	
+27.22.4.7.4/1	E-USS only or UMTS System Simulator	Rel-8	C202 OR C203	Refresh with AID, E-UTRAN or UTRAN	
+27.22.4.7.5/1	E-USSor NB-SS (See NOTE) 	Rel-8	C222	UICC Reset for IMSI Changing procedure, E-UTRAN	
+27.22.4.7.5/2	E-USSor NB-SS (See NOTE) 	Rel-8	C222	3G Session Reset for IMSI Changing procedure, E-UTRAN	
+27.22.4.8				SET UP MENU 27.22.4.8	
+27.22.4.8.1/1	No	R99	C177 AND C178	Set up, menu selection, replace and remove menu	
+27.22.4.8.1/2	No	R99	C177 AND C178	Large menu	
+27.22.4.8.2/1	No	R99	C107 AND C177 AND C178	help information	
+27.22.4.8.3/1	No	R99	C177 AND C178	next action indicator	
+27.22.4.8.4/1	No	R99	C172 AND C177 AND C178	Icons	
+27.22.4.8.4/2	No	R99	C172 AND C177 AND C178	Icons	
+27.22.4.8.5/1	No	R99	C112 AND C177 AND C178	soft key access 	
+27.22.4.8.6/1	No	Rel-5	C153 AND C177 AND C178	Text attribute – left alignment	
+27.22.4.8.6/2	No	Rel-5	C154 AND C177 AND C178	Text attribute – center alignment	
+27.22.4.8.6/3	No	Rel-5	C155 AND C177 AND C178	Text attribute – right alignment	
+27.22.4.8.6/4	No	Rel-5	C157 AND C156 AND C177 AND C178	Text attribute – large font size	
+27.22.4.8.6/5	No	Rel-5	C158 AND C156 AND C177 AND C178	Text attribute – small font size	
+27.22.4.8.6/6	No	Rel-5	C160 AND C159 AND C177 AND C178	Text attribute – bold on	
+27.22.4.8.6/7	No	Rel-5	C161 AND C159 AND C177 AND C178	Text attribute – italic on	
+27.22.4.8.6/8	No	Rel-5	C162 AND C159 AND C177 AND C178	Text attribute – underlined on	
+27.22.4.8.6/9	No	Rel-5	C163 AND C159 AND C177 AND C178	Text attribute – strikethrough on	
+27.22.4.8.6/10	No	Rel-5	C164 AND C165 AND C177 AND C178	Text attribute – foreground and background colours	
+27.22.4.8.7/1	No	R99	C118 AND C177 AND C178	UCS2 display in Cyrillic	
+27.22.4.8.8/1	No	R99	C143 AND C177 AND C178	UCS2 display in Chinese	
+27.22.4.8.9/1	No	R99	C145 AND C177 AND C178	UCS2 display in Katakana	
+27.22.4.9				SELECT ITEM 27.22.4.9	
+27.22.4.9.1/1	No	R99	C177 AND C178	Mandatory features	
+27.22.4.9.1/2	No	R99	C177 AND C178	Large menu	
+27.22.4.9.1/3	No	R99	C177 AND C178	Large menu	
+27.22.4.9.1/5	No	R99	C177 AND C178	Large menu	
+27.22.4.9.1/6	No	R99	C177 AND C178	Large menu	
+27.22.4.9.1/4	No	R99	C177 AND C178	Backwards move	
+27.22.4.9.1/5	No	R99	C177 AND C178	user termination	
+27.22.4.9.2/1	No	R99	C177 AND C178	next action indicator	
+27.22.4.9.3/1	No	R99	C177 AND C178 AND C194	default selected item	
+27.22.4.9.4/1	No	R99	C107 AND C177 AND C178	help information	
+27.22.4.9.5/1	No	R99	C172 AND C177 AND C178	Icons	
+27.22.4.9.5/2	No	R99	C172 AND C177 AND C178	Icons	
+27.22.4.9.6/1	No	R99	C177 AND C178	Presentation style	
+27.22.4.9.6/2	No	R99	C177 AND C178	Presentation style	
+27.22.4.9.7/1	No	R99	C112 AND C177 AND C178	Soft keys	
+27.22.4.9.8/1	No	R99	C120 AND C177 AND C178	No Response from user	
+27.22.4.9.9/1	No	Rel-5	C153 AND C177 AND C178	Text attribute – left alignment	
+27.22.4.9.9/2	No	Rel-5	C154 AND C177 AND C178	Text attribute – center alignment	
+27.22.4.9.9/3	No	Rel-5	C155 AND C177 AND C178	Text attribute – right alignment	
+27.22.4.9.9/4	No	Rel-5	C157 AND C156 AND C177 AND C178	Text attribute – large font size	
+27.22.4.9.9/5	No	Rel-5	C158 AND C156 AND C177 AND C178	Text attribute – small font size	
+27.22.4.9.9/6	No	Rel-5	C160 AND C159 AND C177 AND C178	Text attribute – bold on	
+27.22.4.9.9/7	No	Rel-5	C161 AND C159 AND C177 AND C178	Text attribute – italic on	
+27.22.4.9.9/8	No	Rel-5	C162 AND C159 AND C177 AND C178	Text attribute – underline on	
+27.22.4.9.9/9	No	Rel-5	C163 AND C159 AND C177 AND C178	Text attribute – strikethrough on	
+27.22.4.9.9/10	No	Rel-5	C164 AND C165 AND C177 AND C178	Text attribute – foreground and background colours	
+27.22.4.9.10/1	No	R99	C118 AND C177 AND C178	UCS2 display in Cyrillic	
+27.22.4.9.10/2	No	R99	C118 AND C177 AND C178	UCS2 display in Cyrillic	
+27.22.4.9.10/3	No	R99	C118 AND C177 AND C178	UCS2 display in Cyrillic	
+27.22.4.9.11/1	No	R99	C143 AND C177 AND C178	UCS2 display in Chinese	
+27.22.4.9.12/1	No	R99	C145 AND C177 AND C178	UCS2 display in Katakana	
+27.22.4.9.12/2	No	R99	C145 AND C177 AND C178	UCS2 display in Katakana	
+27.22.4.9.12/3	No	R99	C145 AND C177 AND C178	UCS2 display in Katakana	
+27.22.4.9.TBD	TBD	Rel-6		Frames	
+27.22.4.10				SEND SMS 27.22.4.10	
+27.22.4.10.1/1		R99		Void	
+27.22.4.10.1/2		R99		Void	
+27.22.4.10.1/3		R99		Void	
+27.22.4.10.1/4		R99		Void	
+27.22.4.10.1/5		R99		Void	
+27.22.4.10.1/6		R99		Void	
+27.22.4.10.1/7		R99		Void	
+27.22.4.10.1/9	UMTS System Simulator or System Simulator only	R99	C210	Send Short Message over CS/PS, UTRAN/GERAN	
+27.22.4.10.2/1	UMTS System Simulator or System Simulator only	R99	NA	UCS2 SMS in Cyrillic	
+27.22.4.10.3/1	UMTS System Simulator or System Simulator only	R99	NA	Icons – basic icon	
+27.22.4.10.3/2	UMTS System Simulator or System Simulator only	R99	NA	Icons – basic icon	
+27.22.4.10.4/1	UMTS System Simulator or System Simulator only	Rel-5	NA	Text attribute– left alignment	
+27.22.4.10.4/2	UMTS System Simulator or System Simulator only	Rel-5	NA	Text attribute – center alignment	
+27.22.4.10.4/3	UMTS System Simulator or System Simulator only	Rel-5	NA	Text attribute – right alignment	
+27.22.4.10.4/4	UMTS System Simulator or System Simulator only	Rel-5	NA	Text attribute – large font size	
+27.22.4.10.4/5	UMTS System Simulator or System Simulator only	Rel-5	NA	Text attribute – small font size	
+27.22.4.10.4/6	UMTS System Simulator or System Simulator only	Rel-5	NA	Text attribute – bold on	
+27.22.4.10.4/7	UMTS System Simulator or System Simulator only	Rel-5	NA	Text attribute – italic on	
+27.22.4.10.4/8	UMTS System Simulator or System Simulator only	Rel-5	NA	Text attribute – underline on	
+27.22.4.10.4/9	UMTS System Simulator or System Simulator only	Rel-5	NA	Text attribute– strikethrough on	
+27.22.4.10.4/10	UMTS System Simulator or System Simulator only	Rel-5	NA	Text attribute – foreground and background colours	
+27.22.4.10.5/1	UMTS System Simulator or System Simulator only	R99	NA	UCS2 display in Chinese	
+27.22.4.10.6/1	UMTS System Simulator or System Simulator only	R99	NA	UCS2 display in Katakana	
+27.22.4.10.7/1	E-USS only	Rel-8	C196	SMS-over-IP, E-UTRAN	
+27.22.4.10.7/2	UMTS System Simulator or System Simulator only	Rel-7	C197	SMS-over-IP, UTRAN	
+27.22.4.10.8/1	E-USS or NB-SS (See NOTE)	Rel-8	C220	Send Short Message over SGs, E-UTRAN	
+27.22.4.10.TBD	TBD	Rel-6		Frames	
+27.22.4.11				SEND SS 27.22.4.11	
+27.22.4.11.1/1	UMTS System Simulator or System Simulator only	R99	C166 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful	
+27.22.4.11.1/1a	UMTS System Simulator or System Simulator only	R99	C166 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful		Extra
+27.22.4.11.1/1b	UMTS System Simulator or System Simulator only	R99	C166 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful		Extra
+27.22.4.11.1/2	UMTS System Simulator or System Simulator only	R99	C174 AND C183 AND C204	call forward unconditional, all bearers, Return Error	
+27.22.4.11.1/2a	UMTS System Simulator or System Simulator only	R99	C174 AND C183 AND C204	call forward unconditional, all bearers, Return Error		Extra
+27.22.4.11.1/2b	UMTS System Simulator or System Simulator only	R99	C174 AND C183 AND C204	call forward unconditional, all bearers, Return Error		Extra
+27.22.4.11.1/3	UMTS System Simulator or System Simulator only	R99	C174 AND C183 AND C204	call forward unconditional, all bearers, Reject	
+27.22.4.11.1/3a	UMTS System Simulator or System Simulator only	R99	C174 AND C183 AND C204	call forward unconditional, all bearers, Reject		Extra
+27.22.4.11.1/3b	UMTS System Simulator or System Simulator only	R99	C174 AND C183 AND C204	call forward unconditional, all bearers, Reject		Extra
+27.22.4.11.1/4	UMTS System Simulator or System Simulator only	R99	C166 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, SS request size limit	
+27.22.4.11.1/4a	UMTS System Simulator or System Simulator only	R99	C166 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, SS request size limit		Extra
+27.22.4.11.1/4b	UMTS System Simulator or System Simulator only	R99	C166 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, SS request size limit		Extra
+27.22.4.11.1/5	UMTS System Simulator or System Simulator only	R99	C175 AND C183 AND C204	interrogate CLIR status, successful, alpha identifier limits	
+27.22.4.11.1/5a	UMTS System Simulator or System Simulator only	R99	C175 AND C183 AND C204	interrogate CLIR status, successful, alpha identifier limits		Extra
+27.22.4.11.1/5b	UMTS System Simulator or System Simulator only	R99	C175 AND C183 AND C204	interrogate CLIR status, successful, alpha identifier limits		Extra
+27.22.4.11.1/6	UMTS System Simulator or System Simulator only	R99	C166 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, null data alpha identifier	
+27.22.4.11.1/6a	UMTS System Simulator or System Simulator only	R99	C166 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, null data alpha identifier		Extra
+27.22.4.11.1/6b	UMTS System Simulator or System Simulator only	R99	C166 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, null data alpha identifier		Extra
+27.22.4.11.2/1	UMTS System Simulator or System Simulator only	R99	C108 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, basic icon support	
+27.22.4.11.2/1a	UMTS System Simulator or System Simulator only	R99	C108 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, basic icon support		Extra
+27.22.4.11.2/1b	UMTS System Simulator or System Simulator only	R99	C108 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, basic icon support		Extra
+27.22.4.11.2/3	UMTS System Simulator or System Simulator only	R99	C108 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, basic icon support	
+27.22.4.11.2/3a	UMTS System Simulator or System Simulator only	R99	C108 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, basic icon support		Extra
+27.22.4.11.2/3b	UMTS System Simulator or System Simulator only	R99	C108 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, basic icon support		Extra
+27.22.4.11.2/2	UMTS System Simulator or System Simulator only	R99	C171 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, colour icon support	
+27.22.4.11.2/2a	UMTS System Simulator or System Simulator only	R99	C171 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, colour icon support		Extra
+27.22.4.11.2/2b	UMTS System Simulator or System Simulator only	R99	C171 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, colour icon support		Extra
+27.22.4.11.2/4	UMTS System Simulator or System Simulator only	R99	C185 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, basic icon non self-explanatory, no alpha identifier presented	
+27.22.4.11.2/4a	UMTS System Simulator or System Simulator only	R99	C185 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, basic icon non self-explanatory, no alpha identifier presented		Extra
+27.22.4.11.2/4b	UMTS System Simulator or System Simulator only	R99	C185 AND C174 AND C183 AND C204	call forward unconditional, all bearers, successful, basic icon non self-explanatory, no alpha identifier presented		Extra
+27.22.4.11.3/1	UMTS System Simulator or System Simulator only	R99	C118 AND C174 AND C183 AND C204	UCS2 display in Cyrillic	
+27.22.4.11.3/1a	UMTS System Simulator or System Simulator only	R99	C118 AND C174 AND C183 AND C204	UCS2 display in Cyrillic		Extra
+27.22.4.11.3/1b	UMTS System Simulator or System Simulator only	R99	C118 AND C174 AND C183 AND C204	UCS2 display in Cyrillic		Extra
+27.22.4.11.4/1	UMTS System Simulator or System Simulator only	Rel-5	C153 AND C166 AND C174 AND C183 AND C204	Text attribute – left alignment	
+27.22.4.11.4/1a	UMTS System Simulator or System Simulator only	Rel-5	C153 AND C166 AND C174 AND C183 AND C204	Text attribute – left alignment		Extra
+27.22.4.11.4/1b	UMTS System Simulator or System Simulator only	Rel-5	C153 AND C166 AND C174 AND C183 AND C204	Text attribute – left alignment		Extra
+27.22.4.11.4/2	UMTS System Simulator or System Simulator only	Rel-5	C154 AND C166 AND C174 AND C183 AND C204	Text attribute – center alignment	
+27.22.4.11.4/2a	UMTS System Simulator or System Simulator only	Rel-5	C154 AND C166 AND C174 AND C183 AND C204	Text attribute – center alignment		Extra
+27.22.4.11.4/2b	UMTS System Simulator or System Simulator only	Rel-5	C154 AND C166 AND C174 AND C183 AND C204	Text attribute – center alignment		Extra
+27.22.4.11.4/3	UMTS System Simulator or System Simulator only	Rel-5	C155 AND C166 AND C174 AND C183 AND C204	Text attribute – right alignment	
+27.22.4.11.4/3a	UMTS System Simulator or System Simulator only	Rel-5	C155 AND C166 AND C174 AND C183 AND C204	Text attribute – right alignment		Extra
+27.22.4.11.4/3b	UMTS System Simulator or System Simulator only	Rel-5	C155 AND C166 AND C174 AND C183 AND C204	Text attribute – right alignment		Extra
+27.22.4.11.4/4	UMTS System Simulator or System Simulator only	Rel-5	C157AND C156ANDC166 AND C174 AND C183 AND C204	Text attribute – large font size	
+27.22.4.11.4/4a	UMTS System Simulator or System Simulator only	Rel-5	C157AND C156ANDC166 AND C174 AND C183 AND C204	Text attribute – large font size		Extra
+27.22.4.11.4/4b	UMTS System Simulator or System Simulator only	Rel-5	C157AND C156ANDC166 AND C174 AND C183 AND C204	Text attribute – large font size		Extra
+27.22.4.11.4/5	UMTS System Simulator or System Simulator only	Rel-5	C158AND C156 AND C166 AND C174 AND C183 AND C204	Text attribute – small font size	
+27.22.4.11.4/5a	UMTS System Simulator or System Simulator only	Rel-5	C158AND C156 AND C166 AND C174 AND C183 AND C204	Text attribute – small font size		Extra
+27.22.4.11.4/5b	UMTS System Simulator or System Simulator only	Rel-5	C158AND C156 AND C166 AND C174 AND C183 AND C204	Text attribute – small font size		Extra
+27.22.4.11.4/6	UMTS System Simulator or System Simulator only	Rel-5	C160 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – bold on	
+27.22.4.11.4/6a	UMTS System Simulator or System Simulator only	Rel-5	C160 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – bold on		Extra
+27.22.4.11.4/6b	UMTS System Simulator or System Simulator only	Rel-5	C160 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – bold on		Extra
+27.22.4.11.4/7	UMTS System Simulator or System Simulator only	Rel-5	C161 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – italic on	
+27.22.4.11.4/7a	UMTS System Simulator or System Simulator only	Rel-5	C161 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – italic on		Extra
+27.22.4.11.4/7b	UMTS System Simulator or System Simulator only	Rel-5	C161 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – italic on		Extra
+27.22.4.11.4/8	UMTS System Simulator or System Simulator only	Rel-5	C162 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – underline on	
+27.22.4.11.4/8a	UMTS System Simulator or System Simulator only	Rel-5	C162 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – underline on		Extra
+27.22.4.11.4/8b	UMTS System Simulator or System Simulator only	Rel-5	C162 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – underline on		Extra
+27.22.4.11.4/9	UMTS System Simulator or System Simulator only	Rel-5	C163 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – strikethrough on	
+27.22.4.11.4/9a	UMTS System Simulator or System Simulator only	Rel-5	C163 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – strikethrough on		Extra
+27.22.4.11.4/9b	UMTS System Simulator or System Simulator only	Rel-5	C163 AND C159 AND C166 AND C174 AND C183 AND C204	Text attribute – strikethrough on		Extra
+27.22.4.11.4/10	UMTS System Simulator or System Simulator only	Rel-5	C164 AND C165 AND C166 AND C174 AND C183 AND C204	Text attribute – foreground and background colours	
+27.22.4.11.4/10a	UMTS System Simulator or System Simulator only	Rel-5	C164 AND C165 AND C166 AND C174 AND C183 AND C204	Text attribute – foreground and background colours		Extra
+27.22.4.11.4/10b	UMTS System Simulator or System Simulator only	Rel-5	C164 AND C165 AND C166 AND C174 AND C183 AND C204	Text attribute – foreground and background colours		Extra
+27.22.4.11.5/1	UMTS System Simulator or System Simulator only	R99	C143 AND C166 AND C174 AND C183 AND C204	UCS2 display in Chinese	
+27.22.4.11.5/1a	UMTS System Simulator or System Simulator only	R99	C143 AND C166 AND C174 AND C183 AND C204	UCS2 display in Chinese		Extra
+27.22.4.11.5/1b	UMTS System Simulator or System Simulator only	R99	C143 AND C166 AND C174 AND C183 AND C204	UCS2 display in Chinese		Extra
+27.22.4.11.6/1	UMTS System Simulator or System Simulator only	R99	C145 AND C166 AND C174 AND C183 AND C204	UCS2 display in Katakana	
+27.22.4.11.6/1a	UMTS System Simulator or System Simulator only	R99	C145 AND C166 AND C174 AND C183 AND C204	UCS2 display in Katakana		Extra
+27.22.4.11.6/1b	UMTS System Simulator or System Simulator only	R99	C145 AND C166 AND C174 AND C183 AND C204	UCS2 display in Katakana		Extra
+27.22.4.12				SEND USSD 27.22.4.12	
+27.22.4.12.1/1	UMTS System Simulator or System Simulator only	R99	C183 AND C204	7-bit data, successful	
+27.22.4.12.1/2	UMTS System Simulator or System Simulator only	R99	C183 AND C204	8-bit data, successful	
+27.22.4.12.1/3	UMTS System Simulator or System Simulator only	R99	C183 AND C204	UCS2 data, successful	
+27.22.4.12.1/4	UMTS System Simulator or System Simulator only	R99	C183 AND C204	7-bit data, unsuccessful	
+27.22.4.12.1/5	UMTS System Simulator or System Simulator only	R99	C183 AND C204	7-bit data, unsuccessful	
+27.22.4.12.1/6	UMTS System Simulator or System Simulator only	R99	C183 AND C204	256 octets, 7-bit data, successful, long alpha identifier	
+27.22.4.12.1/7	UMTS System Simulator or System Simulator only	R99	C183 AND C204	7-bit data, successful, no alpha identifier	
+27.22.4.12.1/8	UMTS System Simulator or System Simulator only	R99	C183 AND C204	7-bit data, successful, null length alpha identifier	
+27.22.4.12.2/1	UMTS System Simulator or System Simulator only	R99	C108 AND C183 AND C204	Icons  – basic icon	
+27.22.4.12.2/3	UMTS System Simulator or System Simulator only	R99	C108 AND C183 AND C204	Icons  – basic icon	
+27.22.4.12.2/2	UMTS System Simulator or System Simulator only	R99	C186 AND C183 AND C204	Icons  – colour icon	
+27.22.4.12.2/4	UMTS System Simulator or System Simulator only	R99	C187 AND C183 AND C204	7-bit data, basic icon non self-explanatory, no alpha identifier presented	
+27.22.4.12.3/1	UMTS System Simulator or System Simulator only	R99	C118 AND C183 AND C204	UCS2 in Cyrillic	
+27.22.4.12.4/1	UMTS System Simulator or System Simulator only	Rel-5	C153 AND C183 AND C204	Text attribute – left alignment	
+27.22.4.12.4/2	UMTS System Simulator or System Simulator only	Rel-5	C154 AND C183 AND C204	Text attribute – center alignment	
+27.22.4.12.4/3	UMTS System Simulator or System Simulator only	Rel-5	C155 AND C183 AND C204	Text attribute – right alignment	
+27.22.4.12.4/4	UMTS System Simulator or System Simulator only	Rel-5	C157 AND C156 AND C183 AND C204	Text attribute – large font size	
+27.22.4.12.4/5	UMTS System Simulator or System Simulator only	Rel-5	C158 AND C156 AND C183 AND C204	Text attribute – small font size	
+27.22.4.12.4/6	UMTS System Simulator or System Simulator only	Rel-5	C160 AND C159 AND C183 AND C204	Text attribute – bold on	
+27.22.4.12.4/7	UMTS System Simulator or System Simulator only	Rel-5	C161 AND C159 AND C183 AND C204	Text attribute – italic on	
+27.22.4.12.4/8	UMTS System Simulator or System Simulator only	Rel-5	C162 AND C159 AND C183 AND C204	Text attribute – underline on	
+27.22.4.12.4/9	UMTS System Simulator or System Simulator only	Rel-5	C163 AND C159 AND C183 AND C204	Text attribute – strikethrough on	
+27.22.4.12.4/10	UMTS System Simulator or System Simulator only	Rel-5	C164 AND C165 AND C183 AND C204	Text attribute – foreground and background colours	
+27.22.4.12.5/1	UMTS System Simulator or System Simulator only	R99	C143 AND C183 AND C204	UCS2 in Chinese	
+27.22.4.12.6/1	UMTS System Simulator or System Simulator only	R99	C145 AND C183 AND C204	UCS2 in Katakana	
+27.22.4.13				SET UP CALL 27.22.4.13	
+27.22.4.13.1/1	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	Call confirmed by the user and connected 	
+27.22.4.13.1/1a	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	Call confirmed by the user and connected 		Extra
+27.22.4.13.1/1b	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	Call confirmed by the user and connected 		Extra
+27.22.4.13.1/2	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	call rejected by the user	
+27.22.4.13.1/2a	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	call rejected by the user		Extra
+27.22.4.13.1/2b	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	call rejected by the user		Extra
+27.22.4.13				void	
+27.22.4.13.1/4	UMTS System Simulator or System Simulator only	R99	C170 AND C177 AND C178 AND C180 AND C183	putting all other calls on hold, ME busy	
+27.22.4.13.1/4a	UMTS System Simulator or System Simulator only	R99	C170 AND C177 AND C178 AND C180 AND C183	putting all other calls on hold, ME busy		Extra
+27.22.4.13.1/4b	UMTS System Simulator or System Simulator only	R99	C170 AND C177 AND C178 AND C180 AND C183	putting all other calls on hold, ME busy		Extra
+27.22.4.13.1/5	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	disconnecting all other calls, ME busy	
+27.22.4.13.1/5a	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	disconnecting all other calls, ME busy		Extra
+27.22.4.13.1/5b	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	disconnecting all other calls, ME busy		Extra
+27.22.4.13.1/6	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	only if not currently busy on another call, ME busy	
+27.22.4.13.1/6a	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	only if not currently busy on another call, ME busy		Extra
+27.22.4.13.1/6b	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	only if not currently busy on another call, ME busy		Extra
+27.22.4.13.1/7	UMTS System Simulator or System Simulator only	R99	C170 AND C177 AND C178 AND C180 AND C183	putting all other calls on hold, call hold is not allowed	
+27.22.4.13.1/7a	UMTS System Simulator or System Simulator only	R99	C170 AND C177 AND C178 AND C180 AND C183	putting all other calls on hold, call hold is not allowed		Extra
+27.22.4.13.1/7b	UMTS System Simulator or System Simulator only	R99	C170 AND C177 AND C178 AND C180 AND C183	putting all other calls on hold, call hold is not allowed		Extra
+27.22.4.13.1/8	UMTS System Simulator or System Simulator only	R99	C101 AND C177 AND C178 AND C180 AND C183	Capability configuration	
+27.22.4.13.1/8a	UMTS System Simulator or System Simulator only	R99	C101 AND C177 AND C178 AND C180 AND C183	Capability configuration		Extra
+27.22.4.13.1/8b	UMTS System Simulator or System Simulator only	R99	C101 AND C177 AND C178 AND C180 AND C183	Capability configuration		Extra
+27.22.4.13.1/9	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	long dialling number string	
+27.22.4.13.1/9a	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	long dialling number string		Extra
+27.22.4.13.1/9b	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	long dialling number string		Extra
+27.22.4.13.1/10	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	long first alpha identifier	
+27.22.4.13.1/10a	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	long first alpha identifier		Extra
+27.22.4.13.1/10b	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	long first alpha identifier		Extra
+27.22.4.13.1/11	UMTS System Simulator or System Simulator only	R99	C124 AND C177 AND C178 AND C180 AND C183	Called party subaddress	
+27.22.4.13.1/11a	UMTS System Simulator or System Simulator only	R99	C124 AND C177 AND C178 AND C180 AND C183	Called party subaddress		Extra
+27.22.4.13.1/11b	UMTS System Simulator or System Simulator only	R99	C124 AND C177 AND C178 AND C180 AND C183	Called party subaddress		Extra
+27.22.4.13.1/12	UMTS System Simulator or System Simulator only	R99	C119 AND C177 AND C178 AND C180 AND C183	maximum duration for the redial mechanism	
+27.22.4.13.1/12a	UMTS System Simulator or System Simulator only	R99	C119 AND C177 AND C178 AND C180 AND C183	maximum duration for the redial mechanism		Extra
+27.22.4.13.1/12b	UMTS System Simulator or System Simulator only	R99	C119 AND C177 AND C178 AND C180 AND C183	maximum duration for the redial mechanism		Extra
+27.22.4.13.2/1	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	second alpha identifier	
+27.22.4.13.2/1a	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	second alpha identifier		Extra
+27.22.4.13.2/1b	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	second alpha identifier		Extra
+27.22.4.13.3/1	UMTS System Simulator or System Simulator only	R99	C108 AND C177 AND C178 AND C180 AND C183	Icons – basic icon	
+27.22.4.13.3/1a	UMTS System Simulator or System Simulator only	R99	C108 AND C177 AND C178 AND C180 AND C183	Icons – basic icon		Extra
+27.22.4.13.3/1b	UMTS System Simulator or System Simulator only	R99	C108 AND C177 AND C178 AND C180 AND C183	Icons – basic icon		Extra
+27.22.4.13.3/2	UMTS System Simulator or System Simulator only	R99	C108 AND C177 AND C178 AND C180 AND C183	Icons – basic icon	
+27.22.4.13.3/2a	UMTS System Simulator or System Simulator only	R99	C108 AND C177 AND C178 AND C180 AND C183	Icons – basic icon		Extra
+27.22.4.13.3/2b	UMTS System Simulator or System Simulator only	R99	C108 AND C177 AND C178 AND C180 AND C183	Icons – basic icon		Extra
+27.22.4.13.3/4	UMTS System Simulator or System Simulator only	R99	C108 AND C177 AND C178 AND C180 AND C183	Icons – basic icon	
+27.22.4.13.3/4a	UMTS System Simulator or System Simulator only	R99	C108 AND C177 AND C178 AND C180 AND C183	Icons – basic icon		Extra
+27.22.4.13.3/4b	UMTS System Simulator or System Simulator only	R99	C108 AND C177 AND C178 AND C180 AND C183	Icons – basic icon		Extra
+27.22.4.13.3/3	UMTS System Simulator or System Simulator only	R99	C171 AND C177 AND C178 AND C180 AND C183	Icons – colour icon	
+27.22.4.13.3/3a	UMTS System Simulator or System Simulator only	R99	C171 AND C177 AND C178 AND C180 AND C183	Icons – colour icon		Extra
+27.22.4.13.3/3b	UMTS System Simulator or System Simulator only	R99	C171 AND C177 AND C178 AND C180 AND C183	Icons – colour icon		Extra
+27.22.4.13.4/1	UMTS System Simulator or System Simulator only	Rel-5	C153 AND C177 AND C178 AND C180 AND C183	Text attribute – left alignment	
+27.22.4.13.4/1a	UMTS System Simulator or System Simulator only	Rel-5	C153 AND C177 AND C178 AND C180 AND C183	Text attribute – left alignment		Extra
+27.22.4.13.4/1b	UMTS System Simulator or System Simulator only	Rel-5	C153 AND C177 AND C178 AND C180 AND C183	Text attribute – left alignment		Extra
+27.22.4.13.4/2	UMTS System Simulator or System Simulator only	Rel-5	C154 AND C177 AND C178 AND C180 AND C183	Text attribute – center alignment	
+27.22.4.13.4/2a	UMTS System Simulator or System Simulator only	Rel-5	C154 AND C177 AND C178 AND C180 AND C183	Text attribute – center alignment		Extra
+27.22.4.13.4/2b	UMTS System Simulator or System Simulator only	Rel-5	C154 AND C177 AND C178 AND C180 AND C183	Text attribute – center alignment		Extra
+27.22.4.13.4/3	UMTS System Simulator or System Simulator only	Rel-5	C155 AND C177 AND C178 AND C180 AND C183	Text attribute – right alignment	
+27.22.4.13.4/3a	UMTS System Simulator or System Simulator only	Rel-5	C155 AND C177 AND C178 AND C180 AND C183	Text attribute – right alignment		Extra
+27.22.4.13.4/3b	UMTS System Simulator or System Simulator only	Rel-5	C155 AND C177 AND C178 AND C180 AND C183	Text attribute – right alignment		Extra
+27.22.4.13.4/4	UMTS System Simulator or System Simulator only	Rel-5	C157AND C156 AND C177 AND C178 AND C180 AND C183	Text attribute – large font size	
+27.22.4.13.4/4a	UMTS System Simulator or System Simulator only	Rel-5	C157AND C156 AND C177 AND C178 AND C180 AND C183	Text attribute – large font size		Extra
+27.22.4.13.4/4b	UMTS System Simulator or System Simulator only	Rel-5	C157AND C156 AND C177 AND C178 AND C180 AND C183	Text attribute – large font size		Extra
+27.22.4.13.4/5	UMTS System Simulator or System Simulator only	Rel-5	C158AND C156 AND C177 AND C178 AND C180 AND C183	Text attribute – small font size	
+27.22.4.13.4/5a	UMTS System Simulator or System Simulator only	Rel-5	C158AND C156 AND C177 AND C178 AND C180 AND C183	Text attribute – small font size		Extra
+27.22.4.13.4/5b	UMTS System Simulator or System Simulator only	Rel-5	C158AND C156 AND C177 AND C178 AND C180 AND C183	Text attribute – small font size		Extra
+27.22.4.13.4/6	UMTS System Simulator or System Simulator only	Rel-5	C160 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – bold on	
+27.22.4.13.4/6a	UMTS System Simulator or System Simulator only	Rel-5	C160 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – bold on		Extra
+27.22.4.13.4/6b	UMTS System Simulator or System Simulator only	Rel-5	C160 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – bold on		Extra
+27.22.4.13.4/7	UMTS System Simulator or System Simulator only	Rel-5	C161 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – italic on	
+27.22.4.13.4/7a	UMTS System Simulator or System Simulator only	Rel-5	C161 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – italic on		Extra
+27.22.4.13.4/7b	UMTS System Simulator or System Simulator only	Rel-5	C161 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – italic on		Extra
+27.22.4.13.4/8	UMTS System Simulator or System Simulator only	Rel-5	C162 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – underline on	
+27.22.4.13.4/8a	UMTS System Simulator or System Simulator only	Rel-5	C162 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – underline on		Extra
+27.22.4.13.4/8b	UMTS System Simulator or System Simulator only	Rel-5	C162 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – underline on		Extra
+27.22.4.13.4/9	UMTS System Simulator or System Simulator only	Rel-5	C163 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – strikethrough on	
+27.22.4.13.4/9a	UMTS System Simulator or System Simulator only	Rel-5	C163 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – strikethrough on		Extra
+27.22.4.13.4/9b	UMTS System Simulator or System Simulator only	Rel-5	C163 AND C159 AND C177 AND C178 AND C180 AND C183	Text attribute – strikethrough on		Extra
+27.22.4.13.4/10	UMTS System Simulator or System Simulator only	Rel-5	C164 AND C165 AND C177 AND C178 AND C180 AND C183	Text attribute – foreground and background colours	
+27.22.4.13.4/10a	UMTS System Simulator or System Simulator only	Rel-5	C164 AND C165 AND C177 AND C178 AND C180 AND C183	Text attribute – foreground and background colours		Extra
+27.22.4.13.4/10b	UMTS System Simulator or System Simulator only	Rel-5	C164 AND C165 AND C177 AND C178 AND C180 AND C183	Text attribute – foreground and background colours		Extra
+27.22.4.13.5/1	UMTS System Simulator or System Simulator only	R99	C118 AND C177 AND C178 AND C180 AND C183	UCS2 Display in Cyrillic	
+27.22.4.13.5/1a	UMTS System Simulator or System Simulator only	R99	C118 AND C177 AND C178 AND C180 AND C183	UCS2 Display in Cyrillic		Extra
+27.22.4.13.5/1b	UMTS System Simulator or System Simulator only	R99	C118 AND C177 AND C178 AND C180 AND C183	UCS2 Display in Cyrillic		Extra
+27.22.4.13.5/2/	UMTS System Simulator or System Simulator only	R99	C118 AND C177 AND C178 AND C180 AND C183	UCS2 Display in Cyrillic	
+27.22.4.13.5/2/a	UMTS System Simulator or System Simulator only	R99	C118 AND C177 AND C178 AND C180 AND C183	UCS2 Display in Cyrillic		Extra
+27.22.4.13.5/2/b	UMTS System Simulator or System Simulator only	R99	C118 AND C177 AND C178 AND C180 AND C183	UCS2 Display in Cyrillic		Extra
+27.22.4.13.6/1	UMTS System Simulator or System Simulator only	R99	C143 AND C177 AND C178 AND C180 AND C183	UCS2 display in Chinese	
+27.22.4.13.6/1a	UMTS System Simulator or System Simulator only	R99	C143 AND C177 AND C178 AND C180 AND C183	UCS2 display in Chinese		Extra
+27.22.4.13.6/1b	UMTS System Simulator or System Simulator only	R99	C143 AND C177 AND C178 AND C180 AND C183	UCS2 display in Chinese		Extra
+27.22.4.13.6/2	UMTS System Simulator or System Simulator only	R99	C143 AND C177 AND C178 AND C180 AND C183	UCS2 display in Chinese	
+27.22.4.13.6/2a	UMTS System Simulator or System Simulator only	R99	C143 AND C177 AND C178 AND C180 AND C183	UCS2 display in Chinese		Extra
+27.22.4.13.6/2b	UMTS System Simulator or System Simulator only	R99	C143 AND C177 AND C178 AND C180 AND C183	UCS2 display in Chinese		Extra
+27.22.4.13.7/1	UMTS System Simulator or System Simulator only	R99	C145 AND C177 AND C178 AND C180 AND C183	UCS2 display in Katakana	
+27.22.4.13.7/1a	UMTS System Simulator or System Simulator only	R99	C145 AND C177 AND C178 AND C180 AND C183	UCS2 display in Katakana		Extra
+27.22.4.13.7/1b	UMTS System Simulator or System Simulator only	R99	C145 AND C177 AND C178 AND C180 AND C183	UCS2 display in Katakana		Extra
+27.22.4.13.7/2	UMTS System Simulator or System Simulator only	R99	C145 AND C177 AND C178 AND C180 AND C183	UCS2 display in Katakana	
+27.22.4.13.7/2a	UMTS System Simulator or System Simulator only	R99	C145 AND C177 AND C178 AND C180 AND C183	UCS2 display in Katakana		Extra
+27.22.4.13.7/2b	UMTS System Simulator or System Simulator only	R99	C145 AND C177 AND C178 AND C180 AND C183	UCS2 display in Katakana		Extra
+27.22.4.13.TBD	TBD	Rel-6		Frames	
+27.22.4.13.TBDa	TBD	Rel-6		Frames		Extra
+27.22.4.13.TBDb	TBD	Rel-6		Frames		Extra
+27.22.4.14				POLLING OFF 27.22.4.14	
+27.22.4.14.1/1	UMTS System Simulator or System Simulator only	R99	C183	POLLING OFF	
+27.22.4.14.1/2	E-USSor NB-SS (See NOTE)  	Rel-8	C222	POLLING OFF, E-UTRAN	
+27.22.4.15				PROVIDE LOCAL INFORMATION 27.22.4.15	
+27.22.4.15.1/1	Yes	R99	M	location information	
+27.22.4.15.1/2	No	R99	M	IMEI	
+27.22.4.15.1/3	System Simulator only	R99	C167	network measurement results and BCCH channel list	
+27.22.4.15.1/4	No	R99	M	Date, time and time zone	
+27.22.4.15.1/5	No	R99	C217	language setting	
+27.22.4.15.1/6	System Simulator only	R99	C167	Timing advance	
+27.22.4.15.1/7	UMTS System Simulator only	Rel-4	C184	Access Technology	
+27.22.4.15				Void	
+27.22.4.15.1/9	No	Rel-6	M	IMEISV	
+27.22.4.15.1/10	E-USS, UMTS System Simulator or System Simulator	Rel-6	M	Network Search Mode	
+27.22.4.15.1/11	No	Rel-6	C139	Charge State of the Battery	
+27.22.4.15.1/12	UMTS System Simulator only	Rel-6	C184	Intra-frequency UTRAN measurements	
+27.22.4.15.1/13	UMTS System Simulator only	Rel-6	C184	Inter-frequency UTRAN measurements	
+27.22.4.15.1/14	E-USS or NB-SS (See NOTE) 	Rel-8	C222	Access Technology, E-UTRAN	
+27.22.4.15.1/15	E-USS only	Rel-8	C190	E-UTRAN Intra-Frequency Measurements	
+27.22.4.15.1/16	E-USS only	Rel-8	C190	E-UTRAN Intrer-Frequency Measurements	
+27.22.4.15.1/17	E-USS or NB-SS (See NOTE)	Rel-8	C190	E-UTRAN Local Info (MCC, MNC, TAC & E-UTRAN Cell ID)	
+27.22.4.15.1/18	E-USS only	Rel-9	C195	Discovery of surrounding CSG cells	
+27.22.4.15.1/19	TBD	Rel-8	TBD	Location Information for multiple Access Technologies 	
+27.22.4.15.1/20	TBD	Rel-8	TBD	NMR for multiple Access Technologies 	
+27.22.4.15.1/21	TBD	Rel-8	TBD	Current access technologies, multiple Access Technologies 	
+27.22.4.16				SET UP EVENT LIST 27.22.4.16	
+27.22.4.16.1/1	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Set up call connected event	
+27.22.4.16.1/2	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Replace by new event list	
+27.22.4.16.1/3	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Remove event	
+27.22.4.16.1/4	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Remove Event on ME Power Cycle	
+27.22.4.17				PERFORM CARD APDU 27.22.4.17	
+27.22.4.17.1/1	No	R99	C109	Additional card inserted, Select MF and Get Response	
+27.22.4.17.1/2	No	R99	C109	Additional card inserted, Select DF GSM, Select EF PLMN , Update Binary, Read Binary on EF PLMN	
+27.22.4.17.1/3	No	R99	C109	Additional card inserted, card powered off	
+27.22.4.17.1/4	No	R99	C109	No card inserted, card powered off	
+27.22.4.17.1/5	No	R99	C109	Invalid card reader identifier	
+27.22.4.17.2/1	No	R99	C116	Detachable reader	
+27.22.4.18				POWER OFF CARD 27.22.4.18	
+27.22.4.18.1/1	No	R99	C109	Additional card inserted	
+27.22.4.18.1/2	No	R99	C109	No card inserted	
+27.22.4.18.2/1	No	R99	C116	Detachable reader	
+27.22.4.19				POWER ON CARD 27.22.4.19	
+27.22.4.19.1/1	No	R99	C109	Additional card inserted	
+27.22.4.19.1/2	No	R99	C109	No ATR	
+27.22.4.19.1/3	No	R99	C109	No card inserted	
+27.22.4.19.2/1	No	R99	C116	Detachable reader	
+27.22.4.20				GET READER STATUS 27.22.4.20	
+27.22.4.20.1/1	No	R99	C109	Additional card inserted, card powered	
+27.22.4.20.1/2	No	R99	C109	Additional card inserted, card not powered	
+27.22.4.20.1/3	No	R99	C109	Additional card inserted, card not present	
+27.22.4.20.2/1	No	R99	C116	Detachable reader	
+27.22.4.21.1				TIMER MANAGEMENT 27.22.4.21.1	
+27.22.4.21				TIMER MANAGEMENT 27.22.4.21.1		Extra
+27.22.4.21.1.1/1	No	R99	M	Start timer 1 several times, get the current value of the timer and deactivate the timer successfully	
+27.22.4.21.1/1	No	R99	M	Start timer 1 several times, get the current value of the timer and deactivate the timer successfully		Extra
+27.22.4.21.1.1/2	No	R99	M	Start timer 2 several times, get the current value of the timer and deactivate the timer successfully	
+27.22.4.21.1/2	No	R99	M	Start timer 2 several times, get the current value of the timer and deactivate the timer successfully		Extra
+27.22.4.21.1.1/3	No	R99	M	Start timer 8 several times, get the current value of the timer and deactivate the timer successfully	
+27.22.4.21.1/3	No	R99	M	Start timer 8 several times, get the current value of the timer and deactivate the timer successfully		Extra
+27.22.4.21.1.1/4	No	R99	M	Try to get the current value of a timer which is not started: action in contradiction with the current timer state	
+27.22.4.21.1/4	No	R99	M	Try to get the current value of a timer which is not started: action in contradiction with the current timer state		Extra
+27.22.4.21.1.1/5	No	R99	M	Try to deactivate a timer which is not started: action in contradiction with the current timer state	
+27.22.4.21.1/5	No	R99	M	Try to deactivate a timer which is not started: action in contradiction with the current timer state		Extra
+27.22.4.21.1.1/6	No	R99	M	Start 8 timers successfully	
+27.22.4.21.1/6	No	R99	M	Start 8 timers successfully		Extra
+27.22.4.21.2				ENVELOPE TIMER EXPIRATION 27.22.4.21.2	
+27.22.4.21				ENVELOPE TIMER EXPIRATION 27.22.4.21.2		Extra
+27.22.4.21.2.2/1	No	R99	M	Pending proactive UICC command	
+27.22.4.21.2/1	No	R99	M	Pending proactive UICC command		Extra
+27.22.4.21.2.2/2	No	R99	M	USIM application toolkit busy	
+27.22.4.21.2/2	No	R99	M	USIM application toolkit busy		Extra
+27.22.4.22				SET UP IDLE MODE TEXT 27.22.4.22	
+27.22.4.22.1/1	Yes	R99	C177	Display idle mode text	
+27.22.4.22.1/2	Yes	R99	C177	Replace idle mode text	
+27.22.4.22.1/3	Yes	R99	C177	Remove idle mode test	
+27.22.4.22.1/4	UMTS System Simulator or System Simulator only	R99	C177 AND C179 AND C180 AND C183	Competing information on ME display	
+27.22.4.22.1/5	Yes	R99	C177	ME powered cycled	
+27.22.4.22.1/6	Yes	R99	C177	Refresh with USIM initialization	
+27.22.4.22.1/7	Yes	R99	C177	Large text string	
+27.22.4.22.2/1	Yes	R99	C108 AND C177	Icons – basic icon	
+27.22.4.22.2/2	Yes	R99	C108 AND C177	Icons – basic icon	
+27.22.4.22.2/3	Yes	R99	C171 AND C177	Icons – colour icon	
+27.22.4.22.2/4	Yes	R99	C188 AND C177	Icon is not self-explanatory, empty text string	
+27.22.4.22.3/1	Yes	R99	C118 AND C177	UCS2 display in Cyrillic	
+27.22.4.22.4/1	Yes	Rel-5	C153 AND C177	Text attribute – left alignment	
+27.22.4.22.4/2	Yes	Rel-5	C154 AND C177	Text attribute – center alignment	
+27.22.4.22.4/3	Yes	Rel-5	C155 AND C177	Text attribute – right alignment	
+27.22.4.22.4/4	Yes	Rel-5	C157 AND C156 AND C177	Text attribute – large font size	
+27.22.4.22.4/5	Yes	Rel-5	C158 AND C156 AND C177	Text attribute – small font size	
+27.22.4.22.4/6	Yes	Rel-5	C160 AND C159 AND C177	Text attribute – bold on	
+27.22.4.22.4/7	Yes	Rel-5	C161 AND C159 AND C177	Text attribute – italic on	
+27.22.4.22.4/8	Yes	Rel-5	C162 AND C159 AND C177	Text attribute – underline on	
+27.22.4.22.4/9	Yes	Rel-5	C163 AND C159 AND C177	Text attribute – strikethrough on	
+27.22.4.22.4/10	Yes	Rel-5	C164 AND C165 AND C177	Text attribute – foreground and background colours	
+27.22.4.22.5/1	Yes	R99	C143 AND C177	UCS2 display in Chinese	
+27.22.4.22.6/1	Yes	R99	C145 AND C177	UCS2 display in Katakana	
+27.22.4.22.TBD	TBD	Rel-6		Frames	
+27.22.4.23				RUN AT COMMAND 27.22.4.23	
+27.22.4.23.1/1	No	R99	C110	No alpha Identifier	
+27.22.4.23.1/2	No	R99	C110	null data alpha identifier presented	
+27.22.4.23.1/3	No	R99	C110 AND C177	alpha identifier presented	
+27.22.4.23.2/1	No	R99	C114 AND C177	Icons – basic icon	
+27.22.4.23.2/3	No	R99	C114 AND C177	Icons – basic icon	
+27.22.4.23.2/2	No	R99	C173 AND C177	Icons – colour icon	
+27.22.4.23.2/4	No	R99	C173 AND C177	Icons – colour icon	
+27.22.4.23.	No	R99	C173 AND C177	Icons – colour icon	
+27.22.4.23.2/5	No	R99	C189 AND C177	basic icon non self-explanatory, no alpha identifier presented	
+27.22.4.23.3/1	No	Rel-5	C110 AND C153 AND C177	Text attribute – left alignment	
+27.22.4.23.3/2	No	Rel-5	C110 AND C154 AND C177	Text attribute – center alignment	
+27.22.4.23.3/3	No	Rel-5	C110 AND C155 AND C177	Text attribute – right alignment	
+27.22.4.23.3/4	No	Rel-5	C110 AND C157 AND C156 AND C177	Text attribute – large font size	
+27.22.4.23.3/5	No	Rel-5	C110 AND C158 AND C156 AND C177	Text attribute – small font size	
+27.22.4.23.3/6	No	Rel-5	C110 AND C160 AND C159 AND C177	Text attribute – bold on	
+27.22.4.23.3/7	No	Rel-5	C110 AND C161 AND C159 AND C177	Text attribute – italic on	
+27.22.4.23.3/8	No	Rel-5	C110 AND C162 AND C159 AND C177	Text attribute – underline on	
+27.22.4.23.3/9	No	Rel-5	C110 AND C163 AND C159 AND C177	Text attribute – strikethrough on	
+27.22.4.23.3/10	No	Rel-5	C110 AND C164 AND C165 AND C177	Text attribute – foreground and background colours	
+27.22.4.23.4/1	No	R99	C149 AND C177	UCS2 Display in Cyrillic	
+27.22.4.23.5/1	No	R99	C150 AND C177	UCS2 display in Chinese	
+27.22.4.23.6/1	No	R99	C151 AND C177	UCS2 display in Katakana	
+27.22.4.23.TBD	TBD	Rel-6		Frames	
+27.22.4.24				SEND DTMF 27.22.4.24	
+27.22.4.24.1/1	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Normal	
+27.22.4.24.1/2	UMTS System Simulator or System Simulator only	R99	C180 AND C183	alpha identifier	
+27.22.4.24.1/3	UMTS System Simulator or System Simulator only	R99	C180 AND C183	alpha identifier	
+27.22.4.24.1/4	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Mobile is not in a speech call	
+27.22.4.24.2/1	UMTS System Simulator or System Simulator only	R99	C108 AND C180 AND C183	Icons – basic icon	
+27.22.4.24.2/3	UMTS System Simulator or System Simulator only	R99	C108 AND C180 AND C183	Icons – basic icon	
+27.22.4.24.2/2	UMTS System Simulator or System Simulator only	R99	C171 AND C180 AND C183	Icons – colour icon	
+27.22.4.24.3/1	UMTS System Simulator or System Simulator only	R99	C118 AND C180 AND C183	UCS2 display in Cyrillic	
+27.22.4.24.4/1	UMTS System Simulator or System Simulator only	Rel-5	C153 AND C180 AND C183	Text attribute – left alignment	
+27.22.4.24.4/2	UMTS System Simulator or System Simulator only	Rel-5	C154 AND C180 AND C183	Text attribute – center alignment	
+27.22.4.24.4/3	UMTS System Simulator or System Simulator only	Rel-5	C155 AND C180 AND C183	Text attribute – right alignment	
+27.22.4.24.4/4	UMTS System Simulator or System Simulator only	Rel-5	C157 AND C156 AND C180 AND C183	Text attribute – large font size	
+27.22.4.24.4/5	UMTS System Simulator or System Simulator only	Rel-5	C158 AND C156 AND C180 AND C183	Text attribute – small font size	
+27.22.4.24.4/6	UMTS System Simulator or System Simulator only	Rel-5	C160 AND C159 AND C180 AND C183	Text attribute – bold on	
+27.22.4.24.4/7	UMTS System Simulator or System Simulator only	Rel-5	C161 AND C159 AND C180 AND C183	Text attribute – italic on	
+27.22.4.24.4/8	UMTS System Simulator or System Simulator only	Rel-5	C162 AND C159 AND C180 AND C183	Text attribute – underline on	
+27.22.4.24.4/9	UMTS System Simulator or System Simulator only	Rel-5	C163 AND C159 AND C180 AND C183	Text attribute – strikethrough on	
+27.22.4.24.4/10	UMTS System Simulator or System Simulator only	Rel-5	C164 AND C165 AND C180 AND C183	Text attribute – foreground and background colours	
+27.22.4.24.5/1	UMTS System Simulator or System Simulator only	R99	C143 AND C180 AND C183	UCS2 display in Chinese	
+27.22.4.24.6/1	UMTS System Simulator or System Simulator only	R99	C145 AND C180 AND C183	UCS2 display in Katakana	
+27.22.4.24.TBD	TBD	Rel-6		Frames	
+27.22.4.25				LANGUAGE NOTIFICATION 27.22.4.25	
+27.22.4.25.1/1	No	R99	C181 AND C218	Specific language notification 	
+27.22.4.25.1/2	No	R99	C181 AND C218	Non specific language notification	
+27.22.4.26				LAUNCH BROWSER 27.22.4.26	
+27.22.4.26.1/1	Yes	R99 	C111 AND C177 AND C178 AND C213	No session already launched: Connect to the default URL	
+27.22.4.26.1/2	Yes	R99 	C111 AND C177 AND C178	connect to the specified URL, alpha identifier length=0	
+27.22.4.26.1/3	Yes	R99 	C111 AND C177 AND C178	Browser identity, no alpha identifier	
+27.22.4.26.1/4	Yes	R99 	C122 AND C177 AND C178	one bearer specified and gateway/proxy identity	
+27.22.4.26.1/5		R99 	Void	void	
+27.22.4.26.1/6	Yes	R99 	C111 AND C177 AND C178 AND C214	ME does not support Launch Browser with Default URL	
+27.22.4.26.2/1	Yes	R99 	C111 AND C177 AND C178	Interaction with current session	
+27.22.4.26.2/2	Yes	R99 	C111 AND C177 AND C178	Interaction with current session	
+27.22.4.26.2/3	Yes	R99 	C111 AND C177 AND C178	Interaction with current session	
+27.22.4.26.3/1	Yes	R99 	C111 AND C118 AND C177 AND C178	UCS2 display in Cyrillic	
+27.22.4.26.4/1	Yes	R99 	C115 AND C177 AND C178	Icons – basic icon	
+27.22.4.26.4/2	Yes	R99 	C115 AND C177 AND C178	Icons – basic icon	
+27.22.4.26.5/1	Yes	Rel-5	C111 AND C153 AND C177 AND C178	Text attribute – left alignment	
+27.22.4.26.5/2	Yes	Rel-5	C111 AND C154 AND C177 AND C178	Text attribute – center alignment	
+27.22.4.26.5/3	Yes	Rel-5	C111 AND C155 AND C177 AND C178	Text attribute – right alignment	
+27.22.4.26.5/4	Yes	Rel-5	C111 AND C157 AND C156 AND C177 AND C178	Text attribute – large font size	
+27.22.4.26.5/5	Yes	Rel-5	C111 AND C158 AND C156 AND C177 AND C178	Text attribute – small font size	
+27.22.4.26.5/6	Yes	Rel-5	C111 AND C160 AND C159 AND C177 AND C178	Text attribute – bold on	
+27.22.4.26.5/7	Yes	Rel-5	C111 AND C161 AND C159 AND C177 AND C178	Text attribute – italic on	
+27.22.4.26.5/8	Yes	Rel-5	C111 AND C162 AND C159 AND C177 AND C178	Text attribute – underline on	
+27.22.4.26.5/9	Yes	Rel-5	C111 AND C163 AND C159 AND C177 AND C178	Text attribute – strikethrough on	
+27.22.4.26.5/10	Yes	Rel-5	C111 AND C164 AND C165 AND C177 AND C178	Text attribute – foreground and background colours	
+27.22.4.26.6/1	Yes	R99	C111 AND C143 AND C177 AND C178	UCS2 display in Chinese	
+27.22.4.26.7/1	Yes	R99	C111 AND C145 AND C177 AND C178	UCS2 display in Katakana	
+27.22.4.26.TBD	TBD	Rel-6		Frames	
+27.22.4.27				OPEN CHANNEL 27.22.4.27	
+27.22.4.27.void		R99	void	void	
+27.22.4.27.2/1		R99	void	void	
+27.22.4.27.2/2	UMTS System Simulator or System Simulator only	R99	C121 AND C183	immediate link establishment GPRS, no alpha identifier, with network access name	
+27.22.4.27.2/3	UMTS System Simulator or System Simulator only	R99	C121 AND C183	immediate link establishment, GPRS, with alpha identifier	
+27.22.4.27.2/4	UMTS System Simulator or System Simulator only	R99	C121 AND C183	immediate link establishment, GPRS, with null alpha identifier	
+27.22.4.27.2/5	UMTS System Simulator or System Simulator only	R99	C152 AND C183	immediate link establishment, GPRS, command performed with modifications (buffer size)	
+27.22.4.27.2/6		void	Void	void	
+27.22.4.27.2/7	UMTS System Simulator or System Simulator only	R99	C169 AND C183 AND C177	immediate link establishment, GPRS, open command with alpha identifier, User did not accept the proactive command	
+27.22.4.27.2/7a	UMTS System Simulator or System Simulator only	R99	C169 AND C183 AND C177	immediate link establishment, GPRS, open command with alpha identifier, User did not accept the proactive command		Extra
+27.22.4.27.2/7b	UMTS System Simulator or System Simulator only	R99	C169 AND C183 AND C177	immediate link establishment, GPRS, open command with alpha identifier, User did not accept the proactive command		Extra
+27.22.4.27.2/8		void	Void	void	
+27.22.4.27.2/9	UMTS System Simulator or System Simulator only	R99	C191 AND C183	OPEN CHANNEL, immediate link establishment, no alpha identifier, with network access name	
+27.22.4.27.2/10	UMTS System Simulator or System Simulator only	Rel-7	C192 AND C183	Multi OPEN CHANNEL, one in TCP Server  mode and one in TCP Client mode.	
+27.22.4.27.3/1	UMTS System Simulator or System Simulator only	R99	C191 AND C183	OPEN CHANNEL, Default Bearer, GPRS, with null alpha identifier)	
+27.22.4.27.TBD	TBD	Rel-4		Local Bearer	
+27.22.4.27.5/1	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C153 AND C183	Text attribute – left alignment	
+27.22.4.27.5/2	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C154 AND C183	Text attribute – center alignment	
+27.22.4.27.5/3	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C155 AND C183	Text attribute – right alignment	
+27.22.4.27.5/4	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C157 AND C156 AND C183	Text attribute – large font size	
+27.22.4.27.5/5	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C158 AND C156 AND C183	Text attribute – small font size	
+27.22.4.27.5/6	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C160 AND C159 AND C183	Text attribute – bold on	
+27.22.4.27.5/7	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C161 AND C159 AND C183	Text attribute – italic on	
+27.22.4.27.5/8	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C162 AND C159 AND C183	Text attribute – underline on	
+27.22.4.27.5/9	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C163 AND C159 AND C183	Text attribute – strikethrough on	
+27.22.4.27.5/10	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C164 AND C165 AND C183	Text attribute – foreground and background colours	
+27.22.4.27.TBD	TBD	Rel-6		Frames	
+27.22.4.27.6/1	E-USS or NB-SS (See NOTE)	Rel-8	C224	Immediate link establishment, E-UTRAN, bearer type '02'	
+27.22.4.27.6/2	E-USS only	Rel-8	C182	Immediate link establishment, E-UTRAN, bearer type '0B'	
+27.22.4.27.6/3	E-USS or NB-SS (See NOTE)	Rel-8	C224	Immediate link establishment, E-UTRAN, bearer type '02', with Network Access Name, with alpha identifier	
+27.22.4.27.6/4	E-USS or NB-SS (See NOTE)	Rel-8	C223 AND C177	Immediate link establishment, E-UTRAN, bearer type '03',  with alpha identifier, user did not accept the proactive command	
+27.22.4.27.6/5	E-USS or NB-SS (See NOTE)	Rel-8	C223	Immediate link establishment, E-UTRAN, bearer type '03', default EPS bearer	
+27.22.4.27.7/1	UMTS System Simulator OR E-USS	Rel-10	C207	OPEN CHANNEL for IMS, IARI list stored on the USIM	
+27.22.4.28				CLOSE CHANNEL 27.22.4.28	
+27.22.4.28.1/1	UMTS System Simulator or System Simulator only	R99 	C121 AND C183	successful	
+27.22.4.28.1/2	UMTS System Simulator or System Simulator only	R99 	C121 AND C183	with an invalid channel identifier	
+27.22.4.28.1/3	UMTS System Simulator or System Simulator only	R99	C121 AND C183	on an already closed channel	
+27.22.4.28.2/1	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C153 AND C183	Text attribute – left alignment	
+27.22.4.28.2/2	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C154 AND C183	Text attribute – center alignment	
+27.22.4.28.2/3	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C155 AND C183	Text attribute – right alignment	
+27.22.4.28.2/4	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C157 AND C156 AND C183	Text attribute – large font size	
+27.22.4.28.2/5	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C158 AND C156 AND C183	Text attribute – small font size	
+27.22.4.28.2/6	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C160 AND C159 AND C183	Text attribute – bold on	
+27.22.4.28.2/7	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C161 AND C159 AND C183	Text attribute – italic on	
+27.22.4.28.2/8	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C162 AND C159 AND C183	Text attribute – underline on	
+27.22.4.28.2/9	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C163 AND C159 AND C183	Text attribute – strikethrough on	
+27.22.4.28.2/10	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C164 AND C165 AND C183	Text attribute – foreground and background colours	
+27.22.4.28.TBD	TBD	Rel-6		Frames	
+27.22.4.28.3/1	E-USS or NB-SS (See NOTE)	Rel-8	C224 	Default EPS bearer, successful	
+27.22.4.28.3/2	E-USS or NB-SS (See NOTE)	Rel-8	C224 	EPS bearer with APN different from default APN, successful	
+27.22.4.29				RECEIVE DATA 27.22.4.29	
+27.22.4.29.1/1	UMTS System Simulator or System Simulator only	R99	C121 AND C183	already opened channel	
+27.22.4.29.2/1	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C153 AND C183	Text attribute – left alignment	
+27.22.4.29.2/2	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C154 AND C183	Text attribute – center alignment	
+27.22.4.29.2/3	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C155 AND C183	Text attribute – right alignment	
+27.22.4.29.2/4	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C157 AND C156 AND C183	Text attribute – large font size	
+27.22.4.29.2/5	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C158 AND C156 AND C183	Text attribute – small font size	
+27.22.4.29.2/6	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C160 AND C159 AND C183	Text attribute – bold on	
+27.22.4.29.2/7	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C161 AND C159 AND C183	Text attribute – italic on	
+27.22.4.29.2/8	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C162 AND C159 AND C183	Text attribute – underline on	
+27.22.4.29.2/9	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C163 AND C159 AND C183	Text attribute – strikethrough on	
+27.22.4.29.2/10	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C164 AND C165 AND C183	Text attribute– foreground and background colours	
+27.22.4.29.TBD	TBD	Rel-6		Frames	
+27.22.4.29.1/2	E-USS or NB-SS (See NOTE)	Rel-8	C224 	Already opened channel – E-UTRAN, APN different from default	
+27.22.4.30				SEND DATA 27.22.4.30	
+27.22.4.30.1/1	UMTS System Simulator or System Simulator only	R99	C121 AND C183	immediate mode	
+27.22.4.30.1/2	UMTS System Simulator or System Simulator only	R99	C121 AND C183	Store mode	
+27.22.4.30.1/3	UMTS System Simulator or System Simulator only	R99	C121 AND C183	Store mode, Tx buffer fully used	
+27.22.4.30.1/4	UMTS System Simulator or System Simulator only	R99	C121 AND C183	2 consecutive SEND DATA Store mode	
+27.22.4.30.1/5	UMTS System Simulator or System Simulator only	R99	C121 AND C183	immediate mode with a bad channel identifier	
+27.22.4.30				void	
+27.22.4.30.2/1	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C153 AND C183	Text attribute– left alignment	
+27.22.4.30.2/2	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C154 AND C183	Text attribute – center alignment	
+27.22.4.30.2/3	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C155 AND C183	Text attribute – right alignment	
+27.22.4.30.2/4	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C157 AND C156 AND C183	Text attribute – large font size	
+27.22.4.30.2/5	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C158 AND C156 AND C183	Text attribute – small font size	
+27.22.4.30.2/6	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C160 AND C159 AND C183	Text attribute – bold on	
+27.22.4.30.2/7	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C161 AND C159 AND C183	Text attribute – italic on	
+27.22.4.30.2/8	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C162 AND C159 AND C183	Text attribute – underline on	
+27.22.4.30.2/9	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C163 AND C159 AND C183	Text attribute – strikethrough on	
+27.22.4.30.2/10	UMTS System Simulator or System Simulator only	Rel-5	C121 AND C164 AND C165 AND C183	Text attribute– foreground and background colours	
+27.22.4.30.TBD	TBD	Rel-6		Frames	
+27.22.4.30.3/1	E-USS or NB-SS (See NOTE)	Rel-8	C223	Immediate mode – E-UTRAN, Default EPS bearer	
+27.22.4.30.3/2	E-USS or NB-SS (See NOTE)	Rel-8	C224 	Store mode – E-UTRAN, APN different from default APN	
+27.22.4.31				GET CHANNEL STATUS 27.22.4.31	
+27.22.4.31				GET CHANNEL STATUS 27.22.4.31		Extra
+27.22.4.31.1/1	UMTS System Simulator or System Simulator only	R99	C121 AND C183	without any BIP channel opened	
+27.22.4.31/1	UMTS System Simulator or System Simulator only	R99	C121 AND C183	without any BIP channel opened		Extra
+27.22.4.31.1/2	UMTS System Simulator or System Simulator only	R99	C121 AND C183	with a BIP channel currently opened	
+27.22.4.31/2	UMTS System Simulator or System Simulator only	R99	C121 AND C183	with a BIP channel currently opened		Extra
+27.22.4.31.1/3	UMTS System Simulator or System Simulator only	R99	C121 AND C183	after a link dropped	
+27.22.4.31/3	UMTS System Simulator or System Simulator only	R99	C121 AND C183	after a link dropped		Extra
+27.22.4.31.1/4	E-USS or NB-SS (See NOTE)	Rel-8	C224 	EPS bearer with APN different from default APN	
+27.22.4.31/4	E-USS or NB-SS (See NOTE)	Rel-8	C224 	EPS bearer with APN different from default APN		Extra
+27.22.4.31.1/5	E-USS or NB-SS (See NOTE)	Rel-8	C224 	EPS bearer with APN different from default APN, after a link dropped	
+27.22.4.31/5	E-USS or NB-SS (See NOTE)	Rel-8	C224 	EPS bearer with APN different from default APN, after a link dropped		Extra
+27.22.5				DATA DOWNLOAD TO UICC 27.22.5	
+27.22.5.1				SMS-PP DATA DOWNLOAD 27.22.5.1	
+27.22.5.1.1/1				void	
+27.22.5.1/1				void		Extra
+27.22.5.1.1/2				void	
+27.22.5.1/2				void		Extra
+27.22.5.1.1/3				void	
+27.22.5.1/3				void		Extra
+27.22.5.1.1/4				void	
+27.22.5.1/4				void		Extra
+27.22.5.1.1/5				void	
+27.22.5.1/5				void		Extra
+27.22.5.1.1/6				void	
+27.22.5.1/6				void		Extra
+27.22.5.1.1/7				void	
+27.22.5.1/7				void		Extra
+27.22.5.1.1/9	UMTS System Simulator or System Simulator	R99	C212	SMS-PP Data Download over CS, UTRAN/GERAN	
+27.22.5.1/9	UMTS System Simulator or System Simulator	R99	C212	SMS-PP Data Download over CS, UTRAN/GERAN		Extra
+27.22.5.2				CELL BROADCAST DATA DOWNLOAD 27.22.5.2	
+27.22.5.2.1/1	System Simulator only	R99	C201	Cell Broadcast(GSM) - ME does not display message	
+27.22.5.2.1/2				void	
+27.22.5.2.1/3	System Simulator only	R99	C201AND C177	Cell Broadcast(GSM) - ME displays message	
+27.22.5.2.1/4	UMTS System Simulator only	Rel-5		Cell Broadcast (UTRAN) - ME does not display message	
+27.22.5.2.1/5	UMTS System Simulator only	Rel-5		Cell Broadcast (UTRAN) -More time	
+27.22.5.2.1/6	UMTS System Simulator only	Rel-5		Cell Broadcast(UTRAN) - ME displays message	
+27.22.5.2.1/7	System Simulator only	R99	C201	Cell Broadcast(GSM) - More time (UDH)	
+27.22.5.3				SMS-PP DATA DOWNLOAD 27.22.5.3	
+27.22.5.3.3/1	E-USS only	Rel-8	C198	SMS-PP Data Download over IMS, E-UTRAN	
+27.22.5.3.3/2	UMTS System Simulator only	Rel-7	C199	SMS-PP Data Download over IMS, UTRAN	
+27.22.5.4				SMS-PP DATA DOWNLOAD over SGs in E-UTRAN   27.22.5.4	
+27.22.5.4.4/1	E-USS or NB-SS (See NOTE)	Rel-8	C221	SMS-PP Data Download over SGs, E-UTRAN	
+27.22.5.4/1	E-USS or NB-SS (See NOTE)	Rel-8	C221	SMS-PP Data Download over SGs, E-UTRAN		Extra
+27.22.6				CALL CONTROL BY USIM 27.22.6	
+27.22.6.1/1	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/2	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/4	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/6	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/8	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/9	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/10	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/11	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/12	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/13	UMTS System Simulator or System Simulator only	R99	C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/3A	UMTS System Simulator or System Simulator only	R99	C140 AND C177 AND C178 AND C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/5A	UMTS System Simulator or System Simulator only	R99	C140 AND C177 AND C178 AND C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/7A	UMTS System Simulator or System Simulator only	R99	C140 AND C177 AND C178 AND C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/3B	UMTS System Simulator or System Simulator only	R99	C141 AND C177 AND C178 AND C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/7B	UMTS System Simulator or System Simulator only	R99	C141 AND C177 AND C178 AND C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/5B	UMTS System Simulator or System Simulator only	R99	C141 AND C180 AND C183	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.2/1	UMTS System Simulator or System Simulator only	R99	C174 AND C183	Procedure for SS (Cell identity in envelope call control)	
+27.22.6.2/2	UMTS System Simulator or System Simulator only	R99	C174 AND C183	Procedure for SS (Cell identity in envelope call control)	
+27.22.6.2/3	UMTS System Simulator or System Simulator only	R99	C174 AND C183	Procedure for SS (Cell identity in envelope call control)	
+27.22.6.2/4	UMTS System Simulator or System Simulator only	R99	C174 AND C183	Procedure for SS (Cell identity in envelope call control)	
+27.22.6.3/1	UMTS System Simulator or System Simulator only	R99	C146 AND C180 AND C183	Interaction with FDN (Cell identity in envelope call control)	
+27.22.6.3/2	UMTS System Simulator or System Simulator only	R99	C146 AND C180 AND C183	Interaction with FDN (Cell identity in envelope call control)	
+27.22.6.3/3	UMTS System Simulator or System Simulator only	R99	C146 AND C180 AND C183	Interaction with FDN (Cell identity in envelope call control)	
+27.22.6.3/4	UMTS System Simulator or System Simulator only	R99	C146 AND C180 AND C183	Interaction with FDN (Cell identity in envelope call control)	
+27.22.6.3/5	UMTS System Simulator or System Simulator only	R99	C146 AND C180 AND C183	Interaction with FDN (Cell identity in envelope call control)	
+27.22.6.4/1	UMTS System Simulator or System Simulator only	R99	C147 AND C177 AND C178 AND C180 AND C183	BDN service enabled 	
+27.22.6.4/2A	UMTS System Simulator or System Simulator only	R99		BDN service enabled, interaction with emergency call codes, R99 only	
+27.22.6.4/2B	UMTS System Simulator or System Simulator only	Rel-4	C147 AND C180 AND C183	BDN service enabled, interaction with emergency call codes, Rel-4+	
+27.22.6.4/3	UMTS System Simulator or System Simulator only	R99	 C146 AND C147 AND C177 AND C180 AND C183	FDN and BDN enabled, set up a call in EFFDN, Allowed with modifications	
+27.22.6.TBD	TBD	Rel-5		Call control on GPRS	
+27.22.6.5/1	UMTS System Simulator or System Simulator only	R99	C176 AND C180 AND C183	BDN service enabled, ME not supporting BDN	
+27.22.7				EVENT DOWNLOAD 27.22.7	
+27.22.7.1.1/1	UMTS System Simulator or System Simulator only	R99	C180 AND C183	27.22.7.1: MT call event	
+27.22.7.2.1/1	UMTS System Simulator or System Simulator only	R99	C180 AND C183	27.22.7.2.1: call connected event	
+27.22.7.2.1/2	UMTS System Simulator or System Simulator only	R12	C180 AND C183	27.22.7.2.1: call connected event (simultaneous call MT-MO)	
+27.22.7.2.1/3	UMTS System Simulator or System Simulator only	R12	C180 AND C183	27.22.7.2.1: call connected event (simultaneous call MO-MO)	
+27.22.7.2.1/4	UMTS System Simulator or System Simulator only	R12	C180 AND C183	27.22.7.2.1: call connected event (simultaneous call MO-MT)	
+27.22.7.2.2/1	UMTS System Simulator or System Simulator only	R99	C177 AND C178 AND C180 AND C183	27.22.7.2.2: ME supporting SET UP CALL	
+27.22.7.3.1/1	UMTS System Simulator or System Simulator only	R99	C180 AND C183	27.22.7.3: call disconnected event	
+27.22.7.4.1/1	UMTS System Simulator or System Simulator only	R99	M	27.22.7.4: location status event	
+27.22.7.4.1/2	E-USS or NB-SS (See NOTE)	Rel-8	C222	27.22.7.4: location status event, E-UTRAN	
+27.22.7.5.1/1	No	R99	C178	27.22.7.5: user activity event	
+27.22.7.6.1/1	Yes	R99	C177 AND C178	27.22.7.6: idle screen available event	
+27.22.7.7.1/1	No	R99	C109	27.22.7.7.1: Card reader status normal	
+27.22.7.7.2/1	No	R99	C116	27.22.7.7.2: Detachable card reader	
+27.22.7.8.1/1	No	R99	C177 AND C178 AND C181 AND C216	27.22.7.8: language selection event	
+27.22.7.9.1/1	Yes	R99 	C193 AND C177 AND C178	27.22.7.9: Browser termination event	
+27.22.7.10.1/1	UMTS System Simulator or System Simulator only	R99 	C121 AND C183	27.22.7.10: Data available event	
+27.22.7.10.1/2	E-USS or NB-SS (See NOTE)	Rel-8 	C223	27.22.7.10: Data available event	
+27.22.7.11.1/1	UMTS System Simulator or System Simulator only	R99 	C121 AND C183	27.22.7.11: Channel status event	
+27.22.7.11/1	UMTS System Simulator or System Simulator only	R99 	C121 AND C183	27.22.7.11: Channel status event		Extra
+27.22.7.11.1/2	E-USS or NB-SS (See NOTE)	Rel-8 	C223	27.22.7.11: Channel status event	
+27.22.7.12				27.22.7.12: Access Technology change event	
+27.22.7.1/1	UMTS System Simulator and E-USS	Rel-8	C184 AND C190	Single access technology	
+27.22.7.TBD	TBD	Rel-8	C184 AND C190	Multiple access technologies	
+27.22.7.13.TBD	TBD	Rel-4		27.22.7.13: Display parameter changed event	
+27.22.7.14.TBD	TBD	Rel-4		27.22.7.14: Local connection event	
+27.22.7.15.1/1	No	Rel-6	M	27.22.7.15: Network search mode change event	
+27.22.7.16.TBD	TBD	Rel-6		27.22.7.16: Browsing status event	
+27.22.7.17.1/1	E-USS only or NB-SS (See NOTE)	Rel-8	C222	27.22.7.17: Network Rejection Event, ATTACH REJECT	
+27.22.7.17.1/2	E-USS or NB-SS (See NOTE)	Rel-8	C222	27.22.7.17: Network Rejection Event, TRACKING AREA UPDATE REJECT	
+27.22.7.TBD	TBD	Rel-6		Frame information changed event	
+27.22.7.18.1/1	E-USS only	Rel-9	C200	27.22.7.18: CSG cell Selection	
+27.22.7.19.-	-	Rel-10		27.22.7.19 : IMS registration event (Refer to 27.22.4.27.7 and 27.22.7.20)	
+27.22.7.20.1/1	UMTS System Simulator OR E-USS	Rel-10	C208	27.22.7.20 : Incoming IMS data, IMS Registration and Data available event, IARI list stored on the ISIM	
+27.22.8				MO SMS Control by USIM 27.22.8	
+27.22.8.1/1	UMTS System Simulator or System Simulator only	R99	C183	With proactive command, Allowed , no modification	
+27.22.8.1/2	UMTS System Simulator or System Simulator only	R99	C183	With user SMS, Allowed , no modification	
+27.22.8.1/3	UMTS System Simulator or System Simulator only	R99	C183	With proactive command, Not allowed	
+27.22.8.1/4	UMTS System Simulator or System Simulator only	R99	C183	With user SMS, Not allowed	
+27.22.8.1/5	UMTS System Simulator or System Simulator only	R99	C183	With proactive command, Allowed, with modifications	
+27.22.8.1/6	UMTS System Simulator or System Simulator only	R99	C183	With user SMS, Allowed, with modifications	
+27.22.8.1/7	UMTS System Simulator or System Simulator only	R99	C183	With Proactive command, the USIM responds with '90 00', Allowed, no modification	
+27.22.8.1/8	UMTS System Simulator or System Simulator only	R99	C183	Send Short Message attempt by user, the USIM responds with '90 00', Allowed, no modification	
+27.22.8.1/9				Void	
+27.22.8.1/10	E-USS or NB-SS (See NOTE)	Rel-8	C221	MO SM CONTROL BY USIM over SG in E-UTRAN, with Proactive command, Allowed, no modification	
+27.22.8.1/11	E-USS or NB-SS (See NOTE)	Rel-8	C221	MO SM CONTROL BY USIM over SG in E-UTRAN, with user SMS, Allowed, no modification	
+27.22.8.1/12	E-USS or NB-SS (See NOTE)	Rel-8	C221	MO SM CONTROL BY USIM over SG in E-UTRAN, with Proactive command, Not allowed	
+27.22.8.1/13	E-USS or NB-SS (See NOTE)	Rel-8	C221	MO SM CONTROL BY USIM over SG in E-UTRAN, with user SMS, Not allowed	
+27.22.8.1/14	E-USS or NB-SS (See NOTE)	Rel-8	C221	MO SM CONTROL BY USIM over SG in E-UTRAN, with Proactive command, Allowed with modifications'	
+27.22.8.1/15	E-USS or NB-SS (See NOTE)	Rel-8	C221	MO SM CONTROL BY USIM over SG in E-UTRAN, with user SMS, Allowed with modifications	
+27.22.8.1/16	E-USS or NB-SS (See NOTE)	Rel-8	C221	MO SM CONTROL BY USIM over SG in E-UTRAN, with Proactive command, the USIM responds with '90 00', Allowed, no modification	
+27.22.8.1/17	E-USS or NB-SS (See NOTE)	Rel-8	C221	MO SM CONTROL BY USIM over SG in E-UTRAN, Send Short Message attempt by user, the USIM responds with '90 00', Allowed, no modification	
+27.22.8					
+27.22.8.TBD	TBD	Rel-4		SERVICE SEARCH	
+27.22.8.TBD	TBD	Rel-4		GET SERVICE INFORMATION	
+27.22.8.TBD	TBD	Rel-4		DECLARE SERVICE	
+27.22.8.TBD	TBD	Rel-6		RETRIEVE MULTIMEDIA MESSAGE	
+27.22.8.TBD	TBD	Rel-6		SUBMIT MULTIMEDIA MESSAGE	
+27.22.8.TBD	TBD	Rel-6		DISPLAY MULTIMEDIA MESSAGE	
+27.22.8.TBD	TBD	Rel-6		SET FRAMES	
+27.22.8.TBD	TBD	Rel-6		GET FRAME STATUS	
+27.22.9				Handling of command number 27.22.9	
+27.22.9.1/1	No	R99	C177	DISPLAY TEXT normal priority	
+27.22.9					
+27.22.10				Call Control on EPS PDN connection 27.22.10	
+27.22.10.1/1	E-USS or NB-SS (See NOTE)	Rel-8		CALL CONTROL on EPS PDN for E-UTRAN – default PDN connection activation, allowed without modification	
+27.22.10.1/2	E-USS or NB-SS (See NOTE)	Rel-8		CALL CONTROL on EPS PDN for E-UTRAN – default PDN connection activation, not allowed	
+27.22.10.1/3	E-USS or NB-SS (See NOTE)	Rel-8		CALL CONTROL on EPS PDN for E-UTRAN – default PDN connection activation, allowed with modification	
+27.22.10.1/4	E-USS only 	Rel-8		CALL CONTROL on EPS PDN for E-UTRAN – PDN connection triggered by user, UICC sends 90 00	
+27.22.10.1/5	E-USS only 	Rel-8		CALL CONTROL on EPS PDN for E-UTRAN – PDN connection triggered by user, UICC sends 93 00	
+27.22.10.1/6	E-USS only	Rel-8		CALL CONTROL on EPS PDN for E-UTRAN – PDN connection triggered by user, allowed with modification	
+27.22.10.1/7	E-USS only 	Rel-8		CALL CONTROL on EPS PDN -  PDN connection activation from OPEN CHANNEL command	
+27.22.11				Call Control on PDP Context Activation 27.22.11	
+27.22.11.1/1	UMTS System Simulator or System Simulator only	R99	N/A	CALL CONTROL on PDP Context Activation – default PDP connection activation, allowed without modification	
+27.22.11.1/2	UMTS System Simulator or System Simulator only	R99	N/A	CALL CONTROL on PDP Context Activation – default PDP connection activation, not allowed	
+27.22.11.1/3	UMTS System Simulator or System Simulator only	R99	N/A	CALL CONTROL on PDP Context Activation – default PDP connection activation, allowed with modification	
+27.22.11.1/4	UMTS System Simulator or System Simulator only	R99	N/A	CALL CONTROL on PDP Context Activation – PDP connection triggered by user, UICC sends 90 00	
+27.22.11.1/5	UMTS System Simulator or System Simulator only	R99	N/A	CALL CONTROL on PDP Context Activation – PDP connection triggered by user, UICC sends 93 00	
+27.22.11.1/6	UMTS System Simulator or System Simulator only	R99	N/A	CALL CONTROL on PDP Context Activation – PDP connection triggered by user, allowed with modification	
+27.22.11.1/7	UMTS System Simulator or System Simulator only	R99	N/A	CALL CONTROL on PDP Context Activation -  PDP connection activation from OPEN CHANNEL command	

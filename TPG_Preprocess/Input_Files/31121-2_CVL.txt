@@ -1,0 +1,63 @@
+C001	(NOT A.1/3) AND A.1/4	--  (NOT O_UTRAN) AND O_GERAN
+C002	A.1/1 AND A.1/3	-- O_CS AND O_UTRAN 
+C003	A.1/3 AND A.1/4	--  O_UTRAN AND O_GERAN
+C004	IF (C001 OR C002) THEN M ELSE N/A	--  ((NOT O_UTRAN) AND O_GERAN) OR (O_CS AND O_UTRAN)
+C005	IF A.1/2 THEN M ELSE N/A	--  O_PIN2_ENTRY_FEAT
+C006	IF (C001 OR C002) AND A.1/5 AND A.1/18 THEN M ELSE N/A	--  (((NOT O_UTRAN) AND O_GERAN) OR (O_CS AND O_UTRAN) AND O_FDN   AND O_Speech_Calls
+C007	IF (C001 OR C002) AND A.1/6 AND A.1/18 THEN M ELSE N/A	--  (((NOT O_UTRAN) AND O_GERAN) OR (O_CS AND O_UTRAN)) AND O_AoCC  AND O_Speech_Calls
+C008	IF (C001 OR C002) AND A.1/6 AND A.1/18 THEN O.1 ELSE N/A	--  (((NOT O_UTRAN) AND O_GERAN) OR (O_CS AND O_UTRAN)) AND O_AoCC  AND O_Speech_Calls
+C009	IF C003 THEN M ELSE N/A	--  O_UTRAN AND O_GERAN
+C010	IF (C001 OR (A.1/3 AND (!A.1/4)) OR (C003 AND (!A.1/7))) THEN M ELSE N/A	--  (((NOT O_UTRAN) AND O_GERAN) OR (O_UTRAN AND (NOT O_GERAN)) OR (O_UTRAN AND O_GERAN AND (NOT O_HPLMNwACT)))
+C011	IF C003 AND A.1/7 THEN M ELSE O 	--  O_UTRAN AND O_GERAN AND O_HPLMNwACT
+C012	IF A.1/8 THEN M ELSE N/A	--  O_Local_PB
+C013	IF A.1/9 THEN M ELSE N/A	--  O_Global_PB
+C014	IF A.1/8 AND A.1/9 THEN M ELSE N/A	--  O_Local_PB  AND O_Global_PB
+C015	IF A.1/10 AND (A.1/3 OR A.1/4) THEN M ELSE N/A	--  O_Store_Received_SMS AND (O_UTRAN OR O_GERAN)
+C016	IF A.1/11 AND A.1/12 AND A.1/13 THEN M ELSE N/A	--  O_MMS AND O_MMS_USIM_DATA AND  
+C017	IF A.1/11 AND A.1/13 THEN M ELSE N/A	--  O_MMS AND O_NO_USER_MMS_CONF_SELEC
+C018	IF A.1/11 AND A.1/14 THEN M ELSE N/A	--  O_MMS AND O_MMS_NOTIF_STORAGE
+C019	IF A.1/15 AND (A.1/3 OR A.1/4)  THEN M ELSE N/A	--  O_ACL AND (O_UTRAN OR O_GERAN)
+C020	IF (NOT A.1/15) AND (A.1/3 OR A.1/4)M ELSE N/A	--  (NOT O_ACL) AND (O_UTRAN OR O_GERAN)
+C021	IF A.1/16 THEN M ELSE N/A	--  O_SDN
+C022	IF A.1/17 THEN M ELSE N/A	--  O_EFPLMNwACT_numerical entry
+C023	IF A.1/18 THEN M ELSE N/A	--  O_Speech_Calls
+C024	IF C004 AND A.1/18 THEN M ELSE N/A	--  (((NOT O_UTRAN) AND O_GERAN) OR (O_CS AND O_UTRAN)) AND O_Speech_Calls
+C025 	IF A.1/19 THEN “Expected Sequence A” M ELSE “Expected Sequence B” M	--   O_PIN_MMI_Strings
+C026	IF A1/2 AND A.1/19 THEN “Expected Sequence A” M 	--   (O_PIN2_ENTRY_FEAT AND O_PIN_MMI_Strings) OR O_PIN2_ENTRY_FEAT
+C027	IF (A.1/20 OR A.1/21) THEN M ELSE N/A	--  pc_eFDD OR pc_eTDD
+C028	IF (A.1/20 OR A.1/21) AND A.1/22 THEN M ELSE N/A	--  (pc_eFDD OR pc_eTDD) AND pc_Allowed_CSG_list
+C029 	Void	
+C030 	Void 	
+C031	IF (A.1/10 AND A.1/23 AND (A.1/20 OR A.1/21)) THEN M ELSE N/A	--  O_Store_Received_SMS AND pc_SM-over-IP receiver AND (pc_eFDD OR pc_eTDD)
+C032	IF (A.1/10 AND AND A.1/23 AND A.1/3) THEN M ELSE N/A	--  O_Store_Received_SMS AND pc_SM-over-IP receiver AND (O_UTRAN) 
+C033	IF (A.1/24) THEN M ELSE N/A	--  pc_USIM_EF_SMS_reading_support_if_USIM_ISIM both present 
+C034	IF (A.1/25) THEN M ELSE N/A	--  pc_ISIM_EF_SMS_reading_support_if_USIM_ISIM both present
+C035	IF (A.1/10 AND NOT A.1/26 AND (A.1/3 OR A.1/4)) THEN M ELSE N/A	--  O_Store_Received_SMS AND NOT O_LARGE_SMS_STORAGE AND (O_UTRAN OR O_GERAN) 
+C036	IF (A.1/20 OR A.1/21) AND A.1/27 THEN M ELSE N/A	--  pc_eFDD OR pc_eTDD AND pc_Multiple_PDN
+C037	IF (A.1/3)  AND A.1/28 AND A.1/29 AND NOT ((A.1/20 OR A.1/21) AND A.1/22) THEN M ELSE N/A	--  O_UTRAN AND pc_CSG AND pc_manual_CSG_selection AND NOT ((pc_eFDD OR pc_eTDD) AND pc_Allowed_CSG_list) 
+C038	IF (A.1/20 OR A.1/21) AND A.1/22 AND A.1/29 THEN M ELSE N/A	--  (pc_eFDD OR pc_eTDD) AND pc_Allowed_CSG_list AND pc_manual_CSG_selection
+C039	IF A.1/1 AND A.1/30 THEN M ELSE N/A	--  O_CS AND O_PS 
+C040	IF A.1/33 THEN M ELSE N/A	--  O_EUTRA_Disabling_EMM_cause#15
+C041 	IF A.1/3 AND  A.1/34 THEN M ELSE N/A 	--  O_UTRAN AND O_Override_NAS_signalling_low_priority
+C042	IF A.1/3 AND A.1/30 THEN M ELSE N/A 	--  O_UTRAN AND O_PS
+C043	IF A.1/3 AND A.1/35 THEN M ELSE N/A	--  O_UTRAN AND O_T3245
+C044	IF A.1/3 AND A.1/36 THEN M ELSE N/A	--  O_UTRAN AND O_Override_EAB
+C045	IF A.1/20 OR A.1/21 OR A.1/37 THEN M ELSE N/A	--  pc_eFDD OR pc_eTDD OR pc_NB
+C046	IF A.1/37 THEN M ELSE N/A	-- pc_NB
+C047	IF (A.1/3 OR (A.1/4 AND NOT A.1/38)) THEN M ELSE N/A	--  O_UTRAN OR (O_GERAN AND NOT O_PLMN_specific_PS_attempt_counters)
+C048	IF A.1/3 THEN M ELSE N/A	--  O_UTRAN
+C049	IF A.1/3 OR A.1/4 THEN M ELSE N/A	--  O_UTRAN OR O_GERAN
+C050	IF A.1/15 AND (A.1/20 OR A.1/21) THEN M ELSE N/A	--  O_ACL AND (pc_eFDD OR pc_eTDD)
+C051	IF (A.1/20 OR A.1/21 OR A.1/37) AND A.1/51 THEN M ELSE N/A	--  (pc_eFDD OR pc_eTDD OR pc_NB) AND O_PSM_DEAC_UICC
+C052	IF (A.1/20 OR A.1/21 OR A.1/37) AND A.1/52 THEN M ELSE N/A	--  (pc_eFDD OR pc_eTDD OR pc_NB) AND O_DRX_DEAC_UICC 
+C053	IF (A.1/20 OR A.1/21 OR A.1/37) AND A.1/53 THEN M ELSE N/A	--  (pc_eFDD OR pc_eTDD OR pc_NB) AND O_PSM_ SUSPEND_UICC
+C054	IF (A.1/20 OR A.1/21 OR A.1/37) AND A.1/54 THEN M ELSE N/A	--  (pc_eFDD OR pc_eTDD OR pc_NB) AND O_DRX_ SUSPEND_UICC 
+O.1	IF C002 THEN "Expected Sequence A" M ELSE IF C001 THEN "Expected Sequence B" M	
+AER001	IF ((A.1/20 OR A.1/21) AND ((A.1/3 OR A.1/4) AND (NOT A.1/18))) THEN R ELSE A	--  ((pc_eFDD OR pc_eTDD) AND ((O_UTRAN OR O_GERAN) AND (NOT O_Speech_Calls)))
+AER002	IF ((A.1/20 OR A.1/21) AND ((A.1/3 OR A.1/4) THEN R ELSE A	--  (NOT O_UTRAN) AND ((O_GERAN AND (NOT O_CS))
+AER003	IF (test 8.2.3 has been PASSED) THEN R ELSE A	
+AER004	IF (test 8.2.5 has been PASSED) THEN R ELSE A	
+AER005	IF ((NOT A.1/3) AND ((A.1/4) AND (NOT A.1/1)) THEN R ELSE A	--  (NOT O_UTRAN) AND ((O_GERAN AND (NOT O_CS))
+AER006	If A.1/114 is supported set the implementation specific counter to small value to reduce the test execution time. 	
+AER007	If A.1/116 is supported, in addition to the test case initial conditions, any specific  information or particular UE configurations required to ensure that the UE performs UICC deactivation in PSM  shall be provided by the UE manufacturer.   	
+AER008	If A.1/120 is supported, in addition to the test case initial conditions, any specific  information or particular UE configurations required to ensure that the UE performs UICC deactivation in eDRX shall be provided by the UE manufacturer  	

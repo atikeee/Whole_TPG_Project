@@ -1,0 +1,124 @@
+Item	Description	Tested feature defined in Release	Test sequence(s)	R99 ME	Rel-4 ME	Rel-5 ME	Rel-6 ME	Rel-7 ME	Rel-8 ME	Rel-9 ME	Rel-10 ME	Rel-11 ME	Rel-12 ME	Rel-13 ME	Rel-14-ME	Network Dependency	Support	Additional test case execution recommendation
+1	UE identification by short IMSI	R99	5.1.1	M	M	M	M	M	C049	C049	C049	C049	C049	C049	C049	UMTS System Simulator or System Simulator only		AER005
+2	UE identification by short IMSI using 2 digit MNC	R99	5.1.2	M	M	M	M	M	C049	C049	C049	C049	C049	C049	C049	UMTS System Simulator or System Simulator only		AER005
+3	UE identification by "short" TMSI	R99	5.1.3	C004	C004	C004	C004	C004	C004	C004	C004	C004	C004	C004	C004	UMTS System Simulator or System Simulator only		AER005
+4	UE identification by "long" TMSI	R99	5.1.4	C004	C004	C004	C004	C004	C004	C004	C004	C004	C004	C004	C004	UMTS System Simulator or System Simulator only		AER005
+5	UE identification by long IMSI, TMSI updating after key set identifier assignment	R99	5.1.5	C004	C004	C004	C004	C004	C004	C004	C004	C004	C004	C004	C004	UMTS System Simulator or System Simulator only		AER005
+6	UE identification by short IMSI when accessing E-UTRAN/EPC	Rel-8	5.1.6	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		
+7	UE identification by short IMSI using 2 digit MNC when accessing E-UTRAN/EPC	Rel-8	5.1.7	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		
+8	UE identification after changed IMSI with service "EMM Information" not available	Rel-8	5.1.8	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		
+9	UE identification by GUTI when using USIM with service "EMM Information" not available 	Rel-8	5.1.9	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	 C045	C045	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		
+10	UE identification by GUTI when using USIM with service "EMM Information" available	Rel-8	5.1.10	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	 C045	C045	E-UTRAN System Simulator or NB System Simulator (See Note 2) 		
+11	Access Control information handling	R99	5.2.1	C024	C024	C024	C024	C024	C024	C024	C024	C024	C024	C024	C024	UMTS System Simulator or System Simulator only		
+12	Access Control information handling for E-UTRAN/EPC	Rel-8	5.2.2	N/A	N/A	N/A	N/A	N/A	C036	C036	C036	C036	C036	C036	C036	E-UTRAN System Simulator only		
+13	Entry of PIN	R99	6.1.1	M	M	M	M	M	M	M	M	M	M	M	M	No		
+14	Change of PIN	R99	6.1.2	M	M	M	M	M	M	M	M	M	M	M	M	No		
+15	Unblock PIN	R99	6.1.3	C025	C025	C025	C025	C025	C025	C025	C025	C025	C025	C025	C025	No		
+16	Entry of PIN2	R99	6.1.4	C005	C005	C005	C005	C005	C005	C005	C005	C005	C005	C005	C005	No		
+17	Change of PIN2	R99	6.1.5	C005	C005	C005	C005	C005	C005	C005	C005	C005	C005	C005	C005	No		
+18	Unblock PIN2	R99	6.1.6	C026	C026	C026	C026	C026	C026	C026	C026	C026	C026	C026	C026	No		
+19	Replacement of PIN	R99	6.1.7	M	M	M	M	M	M	M	M	M	M	M	M	No		
+20	Change of Universal PIN	R99	6.1.8	M	M	M	M	M	M	M	M	M	M	M	M	No		
+21	Unblock Univesal PIN	R99	6.1.9	M	M	M	M	M	M	M	M	M	M	M	M	No		
+22	Entry of PIN on multi-verification capable UICCs	Rel-4	6.1.10	N/A	M	M	M	M	M	M	M	M	M	M	M	No		
+23	Change of PIN on multi-verification capable UICCs	Rel-4	6.1.11	N/A	M	M	M	M	M	M	M	M	M	M	M	No		
+24	Unblock PIN on multi-verification capable UICCs	Rel-4	6.1.12	N/A	C025	C025	C025	C025	C025	C025	C025	C025	C025	C025	C025	No		
+25	Entry of PIN2 on multi-verification capable UICCs	Rel-4	6.1.13	N/A	C005	C005	C005	C005	C005	C005	C005	C005	C005	C005	C005	No		
+26	Change of PIN2 on multi-verification capable UICCs	Rel-4	6.1.14	N/A	C005	C005	C005	C005	C005	C005	C005	C005	C005	C005	C005	No		
+27	Unblock PIN2 on multi-verification capable UICCs	Rel-4	6.1.15	NA/	C026	C026	C026	C026	C026	C026	C026	C026	C026	C026	C026	No		
+28	Replacement of PIN with key reference "07"	Rel-4	6.1.16	N/A	M	M	M	M	M	M	M	M	M	M	M	No		
+29	Terminal and USIM with FDN enabled, EFADN readable and updateable	R99	6.2.1	C006	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	UMTS System Simulator or System Simulator only		
+30	Terminal and USIM with FDN disabled	R99	6.2.2	C006	C006	C006	C006	C006	C006	C006	C006	C006	C006	C006	C006	UMTS System Simulator or System Simulator only		
+31	Enabling, disabling and updating FDN	R99	6.2.3	C006	C006	C006	C006	C006	C006	C006	C006	C006	C006	C006	C006	UMTS System Simulator or System Simulator only		
+32	Terminal and USIM with FDN enabled, EFADN readable and updateable (Rel-4 and onwards)	Rel-4	6.2.4	N/A	C006	C006	C006	C006	C006	C006	C006	C006	C006	C006	C006	UMTS System Simulator or System Simulator only		
+33	AoC not supported by USIM	R99	6.4.1	C007	C007	C007	C007	C007	C007	C007	C007	C007	C007	C007	C007	UMTS System Simulator or System Simulator only		
+34	Maximum frequency of ACM updating	R99	6.4.2	C008	C008	C008	C008	C008	C008	C008	C008	C008	C008	C008	C008	UMTS System Simulator or System Simulator only		
+35	Call terminated when ACM greater than ACMmax	R99	6.4.3	C008	C008	C008	C008	C008	C008	C008	C008	C008	C008	C008	C008	UMTS System Simulator or System Simulator only		
+36	Response codes of increase command of ACM	R99	6.4.4	C008	C008	C008	C008	C008	C008	C008	C008	C008	C008	C008	C008	UMTS System Simulator or System Simulator only		
+37	Adding FPLMN to the forbidden PLMN list	R99	7.1.1	C047	C047	C047	C047	C047	C047	C047	C047	C047	C047	C047	C047	UMTS System Simulator or System Simulator only		AER005
+38	UE updating forbidden PLMNs	R99	7.1.2	C047	C047	C047	C047	C047	C047	C047	C047	C047	C047	C047	C047	UMTS System Simulator or System Simulator only		AER005
+39	UE deleting forbidden PLMNs	R99	7.1.3	M	M	M	M	M	C049	C049	C049	C049	C049	C049	C049	UMTS System Simulator or System Simulator only		AER005
+40	Adding FPLMN to the forbidden PLMN list when accessing E-UTRAN	Rel-8	7.1.4	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		
+41	UE updating forbidden PLMNs when accessing E-UTRAN	Rel-8	7.1.5	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		
+42	UE deleting forbidden PLMNs when accessing E-UTRAN	Rel-8	7.1.6	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		
+43	UE updating the User controlled PLMN selector list	R99	7.2.1	C022	C022	C022	C022	C022	C022	C022	C022	C022	C022	C022	C022	No		
+44	UE recognising the priority order of the User controlled PLMN selector list with the same access technology	R99	7.2.2	M	M	M	M	M	C049	C049	C049	C049	C049	C049	C049	UMTS System Simulator or System Simulator only		AER005
+45	UE recognising the priority order of the User controlled PLMN selector list using an ACT preference	R99	7.2.3	C009	C009	C009	C009	C009	C009	C009	C009	C009	C009	C009	C009	UMTS System Simulator and System Simulator 		
+46	User controlled PLMN selector handling for E-UTRAN 	Rel-8	7.2.5	N/A	N/A	N/A	N/A	N/A	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	No		
+47	UE recognising the priority order of the User controlled PLMN selector list using an ACT preference – UTRAN/E-UTRAN	Rel-8	7.2.6	N/A	N/A	N/A	N/A	N/A	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	E-UTRAN and UMTS System Simulator 		
+48	UE recognising the priority order of the User controlled PLMN selector list using an ACT preference – GSM/E-UTRAN	Rel-8	7.2.7	N/A	N/A	N/A	N/A	N/A	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	C022 AND C027	E-UTRAN and System Simulator		
+49	UE recognising the priority order of the Operator controlled PLMN selector list	R99	7.3.1	M	M	M	M	M	C049	C049	C049	C049	C049	C049	C049	UMTS System Simulator or System Simulator only		AER005
+50	UE recognising the priority order of the User controlled PLMN selector over the Operator controlled PLMN selector list	R99	7.3.2	M	M	M	M	M	C049	C049	C049	C049	C049	C049	C049	UMTS System Simulator or System Simulator only		AER005
+51	UE recognising the priority order of the Operator controlled PLMN selector list when accessing E-UTRAN	Rel-8	7.3.3	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		
+52	UE recognising the priority order of the User controlled PLMN selector over the Operator controlled PLMN selector list - E-UTRAN	Rel-8	7.3.4	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		
+53	UE recognising the search period of the Higher priority PLMN	R99	7.4.1	C010	C010	C010	C010	C010	C010	C010	C010	C010	C010	C010	C010	UMTS System Simulator or System Simulator only		AER005
+54	GSM/UMTS dual mode Ues recognising the search period of the Higher priority PLMN	R99	7.4.2	C003	C003	C003	C003	C003	C003	C003	C003	C003	C003	C003	C003	UMTS System Simulator and System Simulator 		
+55	UE recognising the search period of the Higher priority PLMN – E-UTRAN	Rel-8	7.4.3	N/A	N/A	N/A	N/A	N/A	C010 AND C027	C010 AND C027	C010 AND C027	C010 AND C027	C010 AND C027	C010 AND C045	C010 AND C045	E-UTRAN  System Simulator  or NB System Simulator  (See Note 2)		
+56	E-UTRAN/EPC capable Ues recognising the search period of the Higher priority PLMN – GSM/E-UTRAN	Rel-8	7.4.4	N/A	N/A	N/A	N/A	N/A	C003 AND C027	C003 AND C027	C003 AND C027	C003 AND C027	C003 AND C027	C003 AND C027	C003 AND C027	E-UTRAN and System Simulator		
+57	E-UTRAN/EPC capable Ues recognising the search period of the Higher priority PLMN – UTRAN/E-UTRAN	Rel-8	7.4.5	N/A	N/A	N/A	N/A	N/A	C011 AND C027	C011 AND C027	C011 AND C027	C011 AND C027	C011 AND C027	C011 AND C027	C011 AND C027	E-UTRAN and UMTS System Simulator		
+58	Recognition of a previously changed phonebook	R99	8.1.1	C012	C012	C012	C012	C012	C012	C012	C012	C012	C012	C012	C012	No		
+59	Update of the Phonebook Synchronisation counter (PSC)	R99	8.1.2	C012	C012	C012	C012	C012	C012	C012	C012	C012	C012	C012	C012	No		
+60	Handling of BCD number/ SSC content extension	R99	8.1.3.1	N/A	N/A	C013	C013	C013	C013	C013	C013	C013	C013	C013	C013	No		
+61	Phonebook selection	R99	8.1.4	N/A	N/A	C014	C014	C014	C014	C014	C014	C014	C014	C014	C014	No		
+62	Local Phonebook handling	R99	8.1.5	N/A	N/A	C012	C012	C012	C012	C012	C012	C012	C012	C012	C012	No		
+63	Correct storage of a SM on the USIM	R99	8.2.1	C015	C015	C015	C015	C015	C015	C015	C015	C015	C015	C015	C015	UMTS System Simulator or System Simulator only		AER003
+64	Correct reading of a SM on the USIM	R99	8.2.2	C015	C015	C015	C015	C015	C015	C015	C015	C015	C015	C015	C015	UMTS System Simulator or System Simulator only		AER004
+65	SM memory capacity exceeded handling	R99	8.2.3	C035	C035	C035	C035	C035	C035	C035	C035	C035	C035	C035	C035	UMTS System Simulator or System Simulator only		
+66	Correct storage of an SM on the UICC	Rel-7	8.2.4.A	N/A	N/A	N/A	N/A	C032	C032	C032	C032	C032	C032	C032	C032	UMTS System Simulator		
+67	Correct storage of an SM on the UICC	Rel-8	8.2.4.B	N/A	N/A	N/A	N/A	N/A	C031	C031	C031	C031	C031	C031	C031	E-UTRAN System Simulator only		
+68	Correct reading of a SM on the USIM if USIM and ISIM are present	Rel-7	8.2.5	N/A	N/A	N/A	N/A	C033	C033 	C033 	C033 	C033 	C033 	C033 	C033 	No		
+69	Correct reading of a SM on the ISIM if USIM and ISIM are present	Rel-7	8.2.6	N/A	N/A	N/A	N/A	C034	C034 	C034 	C034 	C034 	C034 	C034 	C034 	No		
+70	UE recognising the priority order of MMS Issuer Connectivity Parameters	Rel-4	8.3.1	N/A	C016	C017	C017	C017	C017	C017	C017	C017	C017	C017	C017	E-UTRAN System Simulator or UMTS System Simulator or System Simulator only		
+71	UE recognising the priority order of MMS User Connectivity Parameters	Rel-4	8.3.2	N/A	C016	C017	C017	C017	C017	C017	C017	C017	C017	C017	C017	E-UTRAN System Simulator or UMTS System Simulator or System Simulator only		
+72	UE recognising the priority order of MMS Issuer Connectivity Parameters over the MMS User Connectivity Parameters	Rel-4	8.3.3	N/A	C016	C017	C017	C017	C017	C017	C017	C017	C017	C017	C017	E-UTRAN System Simulator or UMTS System Simulator or System Simulator only		
+73	Usage of MMS notification	Rel-4	8.3.4	N/A	C018	C018	C018	C018	C018	C018	C018	C018	C018	C018	C018	E-UTRAN System Simulator or UMTS System Simulator or System Simulator only		
+74	UICC presence detection	Rel-5	8.4	N/A	N/A	M	M	M	C049	C049	C049	C049	C049	C049	C049	UMTS System Simulator or System Simulator only		AER001
+75	UICC presence detection when connected to E-UTRAN/EPC	Rel-8	8.5	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator or NB System Simulator (See Note 2)  		
+76	Access Point Control List handling for terminals supporting ACL	R99	9.1.1	N/A	N/A	C019	C019	C019	C019	C019	C019	C019	C019	C019	C019	UMTS System Simulator or System Simulator only		AER002
+77	Network provided APN handling for terminals supporting ACL	R99	9.1.2	N/A	N/A	C019	C019	C019	C019	C019	C019	C019	C019	C019	C019	UMTS System Simulator or System Simulator only		AER002
+78	Access Point Control List handling for terminals not supporting ACL	R99	9.1.3	N/A	N/A	C020	C020	C020	C020	C020	C020	C020	C020	C020	C020	UMTS System Simulator or System Simulator only		AER002
+79	Access Point Control List handling for terminals supporting ACL connected to E-UTRAN/EPC	Rel-8	9.1.4	N/A	N/A	N/A	N/A	N/A	C050	C050	C050	C050	C050	C050	C050	E-UTRAN System Simulator only		
+80	Void		9.1.5															
+81	Void		9.1.6															
+82	Service Dialling Numbers handling	R99	9.2	N/A	N/A	N/A	C021	C021	C021	C021	C021	C021	C021	C021	C021	UMTS System Simulator or System Simulator only		
+83	Automatic CSG selection in E-UTRA with CSG list on USIM, success	Rel-8	10.1.1	N/A	N/A	N/A	N/A	N/A	C028	C028	C028	C028	C028	C028	C028	E-UTRAN System Simulator only		
+84	Automatic CSG selection in E-UTRA with CSG list on USIM, removal of CSG ID from the USIM	Rel-8	10.1.2	N/A	N/A	N/A	N/A	N/A	C028	C028	C028	C028	C028	C028	C028	E-UTRAN System Simulator only		
+85	Manual CSG selection in E-UTRA with CSG list on USIM, success	Rel-8	10.1.3	N/A	N/A	N/A	N/A	N/A	C038	C038	C038	C038	C038	C038	C038	E-UTRAN System Simulator only		
+86	Manual CSG selection in E-UTRA with CSG list on USIM, rejected	Rel-8	10.1.4	N/A	N/A	N/A	N/A	N/A	C038	C038	C038	C038	C038	C038	C038	E-UTRAN System Simulator only		
+87	CSG selection in E-UTRA with no CSG list on USIM, no IMSI change	Rel-8	10.1.5	N/A	N/A	N/A	N/A	N/A	C038	C038	C038	C038	C038	C038	C038	E-UTRAN System Simulator only		
+88	CSG selection in E-UTRA with no CSG list on USIM, with IMSI change	Rel-8	10.1.6	N/A	N/A	N/A	N/A	N/A	C038	C038	C038	C038	C038	C038	C038	E-UTRAN System Simulator only		
+89	NAS security context parameter handling when service "EMM Information" is available	Rel-8	11.1	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulatoror NB System Simulator  (See Note 2) 		
+90	NAS security context parameter handling when service "EMM Information" is not available, no IMSI change	Rel-8	11.2	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator or NB System Simulator  (See Note 2)		
+91	NAS security context parameter handling when service "EMM Information" is not available, IMSI changed	Rel-8	11.3	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulatoror NB System Simulator  (See Note 2) 		
+92	CSG Type display test	Rel-8														TBD		
+93	Home NodeB Name display test	Rel-8														TBD		
+94	Manual CSG selection without display restrictions in E-UTRA with ACSG list and OCSG list on USIM	Rel-9	10.1.7	N/A	N/A	N/A	N/A	N/A	N/A	C038	C038	C038	C038	C038	C038	E-UTRAN System Simulator only		
+95	Manual CSG selection with display restrictions in E-UTRA with ACSG list and OCSG list on USIM	Rel-9	10.1.8	N/A	N/A	N/A	N/A	N/A	N/A	C038	C038	C038	C038	C038	C038	E-UTRAN System Simulator only		
+96	Manual CSG selection without display restrictions in UTRA with ACSG list and OCSG list on USIM	Rel-9	10.2.1	N/A	N/A	N/A	N/A	N/A	N/A	C037	C037	C037	C037	C037	C037	UTRAN System Simulator only		
+97	Manual CSG selection with display restrictions in UTRA with ACSG list and OCSG list on USIM	Rel-9	10.2.2	N/A	N/A	N/A	N/A	N/A	N/A	C037	C037	C037	C037	C037	C037	UTRAN System Simulator only		
+98	Manual CSG selection in UTRA with CSG list on USIM, success	Rel-8	10.2.3	N/A	N/A	N/A	N/A	N/A	C037  	C037  	C037  	C037  	C037  	C037  	C037  	UTRAN System Simulator only		
+99	EPS NAS Security Context Storage	Rel-8	11.4	N/A	N/A	N/A	N/A	N/A	C027	C027	C027	C027	C027	C045	C045	E-UTRAN System Simulator or NB System Simulator  (See Note 2)		
+100	EFNASCONFIG – NAS signaling priority handling	Rel-10	12.1	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	NOTE1	No		
+101	EFNASCONFIG – NMO I Network Mode of Operation I handling 	Rel-10	12.2	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No		
+102	Void	Rel-10	12.3	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No		
+103	EFNASCONFIG – Verifying Minimum Periodic Search Timer	Rel-10	12.4	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	NOTE1	No		
+104	EFNASCONFIG – Extended access barring handling	Rel-10	12.5	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No		
+105	EFNASCONFIG – Verifying Timer T3245 Behaviour	Rel-10	12.6	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C043	C043	C043	UTRAN System Simulator		
+106	EFNASCONFIG – Override NAS signalling low priority	Rel-11	12.7	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C041	C041	UTRAN System Simulator		
+107	EFNASCONFIG – Override Extended access barring 	Rel-11	12.8	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C044	C044	UTRAN System Simulator		
+108	EFNASCONFIG – Fast First Higher Priority PLMN Search	Rel-12	12.9	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	NOTE1	NOTE1	UTRAN System Simulator		
+109	EFNASCONFIG – E-UTRA Disabling Allowed for EMM cause #15  	Rel-12	12.10	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C040	C040	E-UTRAN System Simulator AND UTRAN System Simulator		
+110	EFNASCONFIG – SM_RetryWaitTime	Rel-12	12.11	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C042	C042	UTRAN System Simulator		
+111	EFNASCONFIG – SM_RetryAtRATChange	Rel-12	12.12	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	NOTE1	No		
+112	Correct storage of an SM on the UICC	Rel-13	8.2.7	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C046	C046	NB System Simulator only		
+113	Access Control information handling for NB-IoT	Rel-13	5.2.3	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C046	C046	NB System Simulator only		
+114	Updating the Forbidden PLMN list  after receiving non-integrity protected reject message – UTRAN	Rel-13	7.1.7	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C048	C048	UMTS System Simulator		AER006
+115	Updating the Forbidden PLMN list  after receiving non-integrity protected reject message – E-UTRAN	Rel-13	7.1.8	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C045	C045	E-UTRAN System Simulator or NB System Simulator  (See Note 2)		AER006
+116	UICC interface in PSM handling for E-UTRAN – No UICC deactivation in PSM	Rel-13	13.1	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C051	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		AER007
+117	UICC interface in PSM handling for E-UTRAN – PSM not accepted by E-USS/NB-SS	Rel-13	13.2	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C051	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		AER007
+118	UICC interface in PSM handling for E-UTRAN – UICC deactivation in PSM	Rel-13	13.3	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C051	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		AER007
+119	UICC interface in PSM for E-UTRAN – SUSPEND UICC	Rel-14	13.4	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C053	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		AER007
+120	UICC interface during eDRX for E-UTRAN – eDRX is not supported by the UICC	Rel-13	14.1	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C052	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		AER008
+121	UICC interface during eDRX for E-UTRAN – eDRX is not accepted by E-USS/NB-SS 	Rel-13	14.2	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C052	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		AER008
+122	UICC interface during eDRX for E-UTRAN – UICC deactivation during eDRX	Rel-13	14.3	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C052	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		AER008
+123	UICC interface during eDRX for E-UTRAN– SUSPEND UICC  	Rel-14	14.4	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	C054	E-UTRAN System Simulator  or NB System Simulator  (See Note 2)		AER008

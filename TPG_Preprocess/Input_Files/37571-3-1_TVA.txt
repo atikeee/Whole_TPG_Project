@@ -1,0 +1,252 @@
+Clause	Title	Release	Applicability	Comments
+5.2.1	Sensitivity Coarse Time Assistance	Rel-6	C01ur	All UEs supporting FDD and UE-Based A-GPS L1 C/A only or UE-Assisted A-GPS L1 C/A only
+5.2.2	Sensitivity Fine Time Assistance	Rel-6	C02ur	All UEs supporting FDD and UE-Based A-GPS L1 C/A only or UE-Assisted A-GPS L1 C/A only and Fine Time Assistance
+5.3	Nominal Accuracy	Rel-6	C01ur	All UEs supporting FDD and UE-Based A-GPS L1 C/A only or UE-Assisted A-GPS L1 C/A only
+5.4	Dynamic Range	Rel-6	C01ur	All UEs supporting FDD and UE-Based A-GPS L1 C/A only or UE-Assisted A-GPS L1 C/A only
+5.5	Multi-path Performance	Rel-6	C01ur	All UEs supporting FDD and UE-Based A-GPS L1 C/A only or UE-Assisted A-GPS L1 C/A only
+5.6	Moving Scenario and Periodic Update Performance	Rel-6	C01ur	All UEs supporting FDD and UE-Based A-GPS L1 C/A only or UE-Assisted A-GPS L1 C/A only
+6.2.1-1	Sensitivity Coarse Time Assistance: Sub-Test 1	Rel-10	C03-1ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with GLONASS only
+6.2.1-2	Sensitivity Coarse Time Assistance: Sub-Test 2	Rel-12	C03-2ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with Galileo only
+6.2.1-3	Sensitivity Coarse Time Assistance: Sub-Test 3	Rel-10	C03-3ur	All UEs supporting UE-Based A-GPS and A-GANSS with Modernized GPS only or UE-Assisted A-GPS and A-GANSS with Modernized GPS only
+6.2.1-4	Sensitivity Coarse Time Assistance: Sub-Test 4	Rel-10	C03-4ur	All UEs supporting UE-Based A-GPS and A-GANSS with GLONASS only or UE-Assisted A-GPS and A-GANSS with GLONASS only
+6.2.1-8	Sensitivity Coarse Time Assistance: Sub-Test 8	Rel-12	C03-8ur	All UEs supporting UE-Based A-GPS and A-GANSS with Galileo only or UE-Assisted A-GPS and A-GANSS with Galileo only
+6.2.1-9	Sensitivity Coarse Time Assistance: Sub-Test 9	Rel-12	C03-9ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with BDS only
+6.2.1-10	Sensitivity Coarse Time Assistance: Sub-Test 10	Rel-12	C03-10ur	All UEs supporting UE-Based A-GPS and A-GANSS with BDS only or UE-Assisted A-GPS and A-GANSS with BDS only
+6.2.2-1	Sensitivity Fine Time Assistance: Sub-Test 1	Rel-10	C04-1ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with GLONASS only and Fine Time Assistance
+6.2.2-2	Sensitivity Fine Time Assistance: Sub-Test 2	Rel-12	C04-2ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with Galileo only and Fine Time Assistance
+6.2.2-3	Sensitivity Fine Time Assistance: Sub-Test 3	Rel-10	C04-3ur	All UEs supporting UE-Based A-GPS and A-GANSS with Modernized GPS only or UE-Assisted A-GPS and A-GANSS with Modernized GPS only and Fine Time Assistance
+6.2.2-4	Sensitivity Fine Time Assistance: Sub-Test 4	Rel-10	C04-4ur	All UEs supporting UE-Based A-GPS and A-GANSS with GLONASS only or UE-Assisted A-GPS and A-GANSS with GLONASS only and Fine Time Assistance
+6.2.2-8	Sensitivity Fine Time Assistance: Sub-Test 8	Rel-12	C04-8ur	All UEs supporting UE-Based A-GPS and A-GANSS with Galileo only or UE-Assisted A-GPS and A-GANSS with Galileo only and Fine Time Assistance
+6.2.2-9	Sensitivity Fine Time Assistance: Sub-Test 9	Rel-12	C04-9ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with BDS only and Fine Time Assistance
+6.2.2-10	Sensitivity Fine Time Assistance: Sub-Test 10	Rel-12	C04-10ur	All UEs supporting UE-Based A-GPS and A-GANSS with BDS only or UE-Assisted A-GPS and A-GANSS with BDS only and Fine Time Assistance
+6.3-1	Nominal Accuracy: Sub-Test 1	Rel-10	C03-1ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with GLONASS only
+6.3-2	Nominal Accuracy: Sub-Test 2	Rel-12	C03-2ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with Galileo only
+6.3-3	Nominal Accuracy: Sub-Test 3	Rel-10	C03-3ur	All UEs supporting UE-Based A-GPS and A-GANSS with Modernized GPS only or UE-Assisted A-GPS and A-GANSS with Modernized GPS only
+6.3-4	Nominal Accuracy: Sub-Test 4	Rel-10	C03-4ur	All UEs supporting UE-Based A-GPS and A-GANSS with GLONASS only or UE-Assisted A-GPS and A-GANSS with GLONASS only
+6.3-8	Nominal Accuracy: Sub-Test 8	Rel-12	C03-8ur	All UEs supporting UE-Based A-GPS and A-GANSS with Galileo only or UE-Assisted A-GPS and A-GANSS with Galileo only
+6.3-9	Nominal Accuracy: Sub-Test 9	Rel-12	C03-9ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with BDS only
+6.3-10	Nominal Accuracy: Sub-Test 10	Rel-12	C03-10ur	All UEs supporting UE-Based A-GPS and A-GANSS with BDS only or UE-Assisted A-GPS and A-GANSS with BDS only
+6.4-1	Dynamic Range: Sub-Test 1	Rel-10	C03-1ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with GLONASS only
+6.4-2	Dynamic Range: Sub-Test 2	Rel-12	C03-2ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with Galileo only
+6.4-3	Dynamic Range: Sub-Test 3	Rel-10	C03-3ur	All UEs supporting UE-Based A-GPS and A-GANSS with Modernized GPS only or UE-Assisted A-GPS and A-GANSS with Modernized GPS only
+6.4-4	Dynamic Range: Sub-Test 4	Rel-10	C03-4ur	All UEs supporting UE-Based A-GPS and A-GANSS with GLONASS only or UE-Assisted A-GPS and A-GANSS with GLONASS only
+6.4-8	Dynamic Range: Sub-Test 8	Rel-12	C03-8ur	All UEs supporting UE-Based A-GPS and A-GANSS with Galileo only or UE-Assisted A-GPS and A-GANSS with Galileo only
+6.4-9	Dynamic Range: Sub-Test 9	Rel-12	C03-9ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with BDS only
+6.4-10	Dynamic Range: Sub-Test 10	Rel-12	C03-10ur	All UEs supporting UE-Based A-GPS and A-GANSS with BDS only or UE-Assisted A-GPS and A-GANSS with BDS only
+6.5-1	Multi-path Performance: Sub-Test 1	Rel-10	C03-1ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with GLONASS only
+6.5-2	Multi- path Performance: Sub-Test 2	Rel-12	C03-2ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with Galileo only
+6.5-3	Multi- path Performance: Sub-Test 3	Rel-10	C03-3ur	All UEs supporting UE-Based A-GPS and A-GANSS with Modernized GPS only or UE-Assisted A-GPS and A-GANSS with Modernized GPS only
+6.5-4	Multi- path Performance: Sub-Test 4	Rel-10	C03-4ur	All UEs supporting UE-Based A-GPS and A-GANSS with GLONASS only or UE-Assisted A-GPS and A-GANSS with GLONASS only
+6.5-8	Multi- path Performance: Sub-Test 8	Rel-12	C03-8ur	All UEs supporting UE-Based A-GPS and A-GANSS with Galileo only or UE-Assisted A-GPS and A-GANSS with Galileo only
+6.5-9	Multi- path Performance: Sub-Test 9	Rel-12	C03-9ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with BDS only
+6.5-10	Multi- path Performance: Sub-Test 10	Rel-12	C03-10ur	All UEs supporting UE-Based A-GPS and A-GANSS with BDS only or UE-Assisted A-GPS and A-GANSS with BDS only
+6.6-1	Moving Scenario and Periodic Update Performance: Sub-Test 1	Rel-10	C03-1ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with GLONASS only
+6.6-2	Moving Scenario and Periodic Update Performance: Sub-Test 2	Rel-12	C03-2ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with Galileo only
+6.6-3	Moving Scenario and Periodic Update Performance: Sub-Test 3	Rel-10	C03-3ur	All UEs supporting UE-Based A-GPS and A-GANSS with Modernized GPS only or UE-Assisted A-GPS and A-GANSS with Modernized GPS only
+6.6-4	Moving Scenario and Periodic Update Performance: Sub-Test 4	Rel-10	C03-4ur	All UEs supporting UE-Based A-GPS and A-GANSS with GLONASS only or UE-Assisted A-GPS and A-GANSS with GLONASS only
+6.6-8	Moving Scenario and Periodic Update Performance: Sub-Test 8	Rel-12	C03-8ur	All UEs supporting UE-Based A-GPS and A-GANSS with Galileo only or UE-Assisted A-GPS and A-GANSS with Galileo only
+6.6-9	Moving Scenario and Periodic Update Performance: Sub-Test 9	Rel-12	C03-9ur	All UEs supporting UE-Based A-GANSS or UE-Assisted A-GANSS with BDS only
+6.6-10	Moving Scenario and Periodic Update Performance: Sub-Test 10	Rel-12	C03-10ur	All UEs supporting UE-Based A-GPS and A-GANSS with BDS only or UE-Assisted A-GPS and A-GANSS with BDS only 
+
+Clause	TC Title	Release of LPP	Applicability		Additional Information 		
+			Condition	Comment	Specific ICS	Specific IXIT	Number of TC Executions	Release RAT
+7	A-GNSS minimum performance requirements							
+7.1.1-1	Sensitivity Coarse Time Assistance: Sub-Test 1	Rel-9	C01er	All UEs supporting A-GPS L1C/A only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.1-2	Sensitivity Coarse Time Assistance: Sub-Test 2	Rel-9	C02er	All UEs supporting A-GLONASS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.1-3	Sensitivity Coarse Time Assistance: Sub-Test 3	Rel-12	C03er	All UEs supporting A-Galileo only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.1-4	Sensitivity Coarse Time Assistance: Sub-Test 4	Rel-9	C04er	All UEs supporting A-GPS and Modernized GPS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.1-5	Sensitivity Coarse Time Assistance: Sub-Test 5	Rel-9	C05er	All UEs supporting A-GPS and A-GLONASS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.1-8	Sensitivity Coarse Time Assistance: Sub-Test 8	Rel-12	C29er	All UEs supporting A-GPS and A-Galileo only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.1-9	Sensitivity Coarse Time Assistance: Sub-Test 9	Rel-12	C19er	All UEs supporting A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.1-10	Sensitivity Coarse Time Assistance: Sub-Test 10	Rel-12	C20er	All UEs supporting A-GPS and A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.1-11	Sensitivity Coarse Time Assistance: Sub-Test 11	Rel-12	C32er	All UEs supporting A-GPS and A-GLONASS and A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.2-1	Sensitivity Fine Time Assistance: Sub-Test 1	Rel-9	C06er	All UEs supporting A-GPS L1C/A only, and Fine Time Assistance	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.2-2	Sensitivity Fine Time Assistance: Sub-Test 2	Rel-9	C07er	All UEs supporting A-GLONASS only, and Fine Time Assistance	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.2-3	Sensitivity Fine Time Assistance: Sub-Test 3	Rel-12	C08er	All UEs supporting A-Galileo only, and Fine Time Assistance	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.2-4	Sensitivity Fine Time Assistance: Sub-Test 4	Rel-9	C09er	All UEs supporting A-GPS and Modernized GPS only, and Fine Time Assistance	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.2-5	Sensitivity Fine Time Assistance: Sub-Test 5	Rel-9	C10er	All UEs supporting A-GPS and A-GLONASS only, and Fine Time Assistance	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.2-8	Sensitivity Fine Time Assistance: Sub-Test 8	Rel-12	C30er	All UEs supporting A-GPS and A-Galileo only, and Fine Time Assistance	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.2-9	Sensitivity Fine Time Assistance: Sub-Test 9	Rel-12	C23er	All UEs supporting A-BDS only, and Fine Time Assistance	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.2-10	Sensitivity Fine Time Assistance: Sub-Test 10	Rel-12	C24er	All UEs supporting A-GPS and A-BDS only, and Fine Time Assistance	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.1.2-11	Sensitivity Fine Time Assistance: Sub-Test 11	Rel-12	C33er	All UEs supporting A-GPS and A-GLONASS and A-BDS only, and Fine Time Assistance	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2-1	Nominal Accuracy: Sub-Test 1	Rel-9	C01er	All UEs supporting A-GPS L1C/A only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2-2	Nominal Accuracy: Sub-Test 2	Rel-9	C02er	All UEs supporting A-GLONASS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2-3	Nominal Accuracy: Sub-Test 3	Rel-12	C03er	All UEs supporting A-Galileo only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2-4	Nominal Accuracy: Sub-Test 4	Rel-9	C04er	All UEs supporting A-GPS and Modernized GPS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2-5	Nominal Accuracy: Sub-Test 5	Rel-9	C05er	All UEs supporting A-GPS and A-GLONASS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2-8	Nominal Accuracy: Sub-Test 8	Rel-12	C29er	All UEs supporting A-GPS and A-Galileo only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2-9	Nominal Accuracy: Sub-Test 9	Rel-12	C19er	All UEs supporting A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2-10	Nominal Accuracy: Sub-Test 10	Rel-12	C20er	All UEs supporting A-GPS and A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2-11	Nominal Accuracy: Sub-Test 11	Rel-12	C32er	All UEs supporting A-GPS and A-GLONASS and A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3-1	Dynamic Range: Sub-Test 1	Rel-9	C01er	All UEs supporting A-GPS L1C/A only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3-2	Dynamic Range: Sub-Test 2	Rel-9	C02er	All UEs supporting A-GLONASS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3-3	Dynamic Range: Sub-Test 3	Rel-12	C03er	All UEs supporting A-Galileo only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3-4	Dynamic Range: Sub-Test 4	Rel-9	C04er	All UEs supporting A-GPS and Modernized GPS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3-5	Dynamic Range: Sub-Test 5	Rel-9	C05er	All UEs supporting A-GPS and A-GLONASS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3-8	Dynamic Range: Sub-Test 8	Rel-12	C29er	All UEs supporting A-GPS and A-Galileo only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3-9	Dynamic Range: Sub-Test 9	Rel-12	C19er	All UEs supporting A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3-10	Dynamic Range: Sub-Test 10	Rel-12	C20er	All UEs supporting A-GPS and A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3-11	Dynamic Range: Sub-Test 11	Rel-12	C32er	All UEs supporting A-GPS and A-GLONASS and A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4-1	Multi-path scenario: Sub-Test 1	Rel-9	C01er	All UEs supporting A-GPS L1C/A only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4-2	Multi-path scenario: Sub-Test 2	Rel-9	C02er	All UEs supporting A-GLONASS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4-3	Multi-path scenario: Sub-Test 3	Rel-12	C03er	All UEs supporting A-Galileo only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4-4	Multi-path scenario: Sub-Test 4	Rel-9	C04er	All UEs supporting A-GPS and Modernized GPS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4-5	Multi-path scenario: Sub-Test 5	Rel-9	C05er	All UEs supporting A-GPS and A-GLONASS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4-8	Multi-path scenario: Sub-Test 8	Rel-12	C29er	All UEs supporting A-GPS and A-Galileo only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4-9	Multi-path scenario: Sub-Test 9	Rel-12	C19er	All UEs supporting A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4-10	Multi-path scenario: Sub-Test 10	Rel-12	C20er	All UEs supporting A-GPS and A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4-11	Multi-path scenario: Sub-Test 11	Rel-12	C32er	All UEs supporting A-GPS and A-GLONASS and A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5-1	Moving scenario and periodic update: Sub-Test 1 (Rel-9 to Rel-13)	Rel-9, Rel 10, Rel 11, Rel 12, Rel 13	C01er	All UEs supporting A-GPS L1C/A only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5-2	Moving scenario and periodic update: Sub-Test 2 (Rel-9 to Rel-13)	Rel-9, Rel 10, Rel 11, Rel 12, Rel 13	C02er	All UEs supporting A-GLONASS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5-3	Moving scenario and periodic update: Sub-Test 3 (Rel-9 to Rel-13)	Rel-12, Rel 13	C03er	All UEs supporting A-Galileo only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5-4	Moving scenario and periodic update: Sub-Test 4 (Rel-9 to Rel-13)	Rel-9, Rel 10, Rel 11, Rel 12, Rel 13	C04er	All UEs supporting A-GPS and Modernized GPS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5-5	Moving scenario and periodic update: Sub-Test 5 (Rel-9 to Rel-13)	Rel-9, Rel 10, Rel 11, Rel 12, Rel 13	C05er	All UEs supporting A-GPS and A-GLONASS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5-8	Moving scenario and periodic update: Sub-Test 8 (Rel-9 to Rel-13)	Rel-12, Rel 13	C29er	All UEs supporting A-GPS and A-Galileo only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5-9	Moving scenario and periodic update: Sub-Test 9 (Rel-9 to Rel-13)	Rel-12, Rel 13	C19er	All UEs supporting A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5-10	Moving scenario and periodic update: Sub-Test 10 (Rel-9 to Rel-13)	Rel-12, Rel 13	C20er	All UEs supporting A-GPS and A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5-11	Moving scenario and periodic update: Sub-Test 11 (Rel-9 to Rel-13)	Rel-12 Rel 13	C32er	All UEs supporting A-GPS and A-GLONASS and A-BDS only	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5A-1	Moving scenario and periodic update: Sub-Test 1 (Rel-14 onwards)	Rel-14	C34er	All UEs supporting A-GPS L1C/A only and periodical reporting	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5A-2	Moving scenario and periodic update: Sub-Test 2 (Rel-14 onwards)	Rel-14	C35er	All UEs supporting A-GLONASS only and periodical reporting	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5A-3	Moving scenario and periodic update: Sub-Test 3 (Rel-14 onwards)	Rel-14	C36er	All UEs supporting A-Galileo only and periodical reporting	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5A-4	Moving scenario and periodic update: Sub-Test 4 (Rel-14 onwards)	Rel-14	C37er	All UEs supporting A-GPS and Modernized GPS only and periodical reporting	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5A-5	Moving scenario and periodic update: Sub-Test 5 (Rel-14 onwards)	Rel-14	C38er	All UEs supporting A-GPS and A-GLONASS only and periodical reporting	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5A-8	Moving scenario and periodic update: Sub-Test 8 (Rel-14 onwards)	Rel-14	C39er	All UEs supporting A-GPS and A-Galileo only and periodical reporting	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5A-9	Moving scenario and periodic update: Sub-Test 9 (Rel-14 onwards)	Rel-14	C40er	All UEs supporting A-BDS only and periodical reporting	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5A.10	Moving scenario and periodic update: Sub-Test 10 (Rel-14 onwards)	Rel-14	C41er	All UEs supporting A-GPS and A-BDS only and periodical reporting	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+11	E-UTRA MBS measurement requirements							
+11.1	MBS Measurement Reporting Delay (Release 13 only)	Rel-13 only	C31er	All UEs supporting UE-Assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			
+11.1A	MBS Measurement Reporting Delay (Release 14 onwards)	Rel-14	C31er	All UEs supporting UE-Assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			
+11.2	MBS Sensitivity Measurement Accuracy (Release 13 only)	Rel-13 only	C31er	All UEs supporting UE-Assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			
+11.2A	MBS Sensitivity Measurement Accuracy (Release 14 onwards)	Rel-14	C31er	All UEs supporting UE-Assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			
+11.3	MBS Nominal Measurement Accuracy (Release 13 only)	Rel-13 only	C31er	All UEs supporting UE-Assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			
+11.3A	MBS Nominal Measurement Accuracy (Release 14 onwards)	Rel-14	C31er	All UEs supporting UE-Assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			
+11.4	MBS Dynamic Range Measurement Accuracy (Release 13 only)	Rel-13 only	C31er	All UEs supporting UE-Assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			
+11.4A	MBS Dynamic Range Measurement Accuracy (Release 14 onwards)	Rel-14	C31er	All UEs supporting UE-Assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			
+11.5	MBS Measurement Accuracy in Multipath (Release 13 only)	Rel-13 only	C31er	All UEs supporting UE-Assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			
+11.5A	MBS Measurement Accuracy in Multipath (Release 14 onwards) 	Rel-14	C31er	All UEs supporting UE-Assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			
+12	E-UTRA WLAN and BLE measurement requirements							
+12.1.1	WLAN AP Identification and reporting delay under nominal conditions	Rel-14 (Note 3)	C42er	All LTE UEs supporting UE-Assisted WLAN	pc_eFDD			Rel-9
+					pc_eTDD			
+12.1.2	WLAN AP Identification and reporting delay under dynamic range conditions	Rel-14 (Note 3)	C42er	All LTE UEs supporting UE-Assisted WLAN	pc_eFDD			Rel-9
+					pc_eTDD			
+12.2.1	Bluetooth identification	Rel-14 (Note 3)	C43er	All LTE UEs supporting UE-Assisted Bluetooth	pc_eFDD			Rel-9
+					pc_eTDD			
+Note 1: Void Note 2: Void Note 3: This test case can be optionally tested for Rel-9 UEs supporting LPP Rel-13 features for WLAN and BLE measurements.
+Clause	TC Title	Release of LPP	Applicability		Additional Information 
+			Condition	Comment	Specific ICS	Specific IXIT	Branch	Number of TC Executions	Release RAT
+8	E-CID measurement requirements								
+8.1.1	FDD UE Rx-Tx time difference case (Rel-9 to Rel-11)	Rel-9	C11er	All FDD UEs supporting E-CID with Rx-Tx time difference	pc_eFDD		2Rx, 4Rx		Rel-9, Rel-10, Rel-11
+8.1.1A	FDD UE Rx-Tx time difference case (Rel-12 onwards)	Rel-9	C11er	All FDD UEs supporting E-CID with Rx-Tx time difference	pc_eFDD		2Rx, 4Rx		Rel-12
+8.1.2	TDD UE Rx-Tx time difference case (Rel-9 to Rel-11)	Rel-13	C12er	All TDD UEs supporting E-CID with Rx-Tx time difference	pc_eTDD		2Rx, 4Rx		Rel-9, Rel-10, Rel-11
+8.1.2A	TDD UE Rx-Tx time difference case (Rel-12 onwards)	Rel-13	C12er	All TDD UEs supporting E-CID with Rx-Tx time difference	pc_eTDD		2Rx, 4Rx		Rel-12
+8.1.3	E-UTRAN FDD UE Rx傍x Time Difference under Time-Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC)	Rel-9	C25er	All FDD UEs supporting E-CID with Rx-Tx time difference and Feature Group Indictor 115	pc_eFDD				Rel-10
+8.1.4	E-UTRAN TDD UE Rx傍x Time Difference under Time-Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC)	Rel-13	C26er	All TDD UEs supporting E-CID with Rx-Tx time difference and Feature Group Indictor 115	pc_eTDD				Rel-10
+8.1.5	E-UTRAN FDD UE Rx傍x time difference under Time Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC)	Rel-9	C21er	All FDD UEs supporting E-CID with Rx-Tx time difference and CRS interference handling and Feature Group Indictor 115	pc_eFDD				Rel-11
+8.1.6	E-UTRAN TDD UE Rx傍x time difference under Time Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC)	Rel-13	C22er	All TDD UEs supporting E-CID with Rx-Tx time difference and CRS interference handling and ss-CCH interference handling and Feature Group Indictor 115	pc_eTDD				Rel-11
+9	OTDOA measurement requirements								
+9.1.1	FDD RSTD Measurement Reporting Delay	Rel-9	C13er	All FDD UEs supporting UE-assisted OTDOA	pc_eFDD				Rel-9
+9.1.2	TDD RSTD Measurement Reporting Delay	Rel-9	C14er	All TDD UEs supporting UE-assisted OTDOA	pc_eTDD				Rel-9
+9.1.3	FDD RSTD Measurement Accuracy	Rel-9	C13er	All FDD UEs supporting UE-assisted OTDOA	pc_eFDD		2Rx, 4Rx		Rel-9
+9.1.4	TDD RSTD Measurement Accuracy	Rel-9	C14er	All TDD UEs supporting UE-assisted OTDOA	pc_eTDD		2Rx, 4Rx		Rel-9
+9.2.1	FDD-FDD inter-frequency RSTD measurement reporting delay	Rel-10	C17er	All FDD UEs supporting UE-assisted OTDOA and inter-frequency RSTD measurements 	pc_eFDD				Rel-10 (Note 1)
+9.2.2	TDD-TDD inter-frequency RSTD measurement reporting delay	Rel-10	C18er	All TDD UEs supporting UE-assisted OTDOA and inter-frequency RSTD measurements	pc_eTDD				Rel-10 (Note 1)
+9.2.4	FDD-FDD inter-frequency RSTD Accuracy 	Rel-10	C17er	All FDD UEs supporting UE-assisted OTDOA and inter-frequency RSTD measurements 	pc_eFDD		2Rx, 4Rx		Rel-10 (Note 1)
+9.2.5	TDD-TDD inter-frequency RSTD Accuracy	Rel-10	C18er	All TDD UEs supporting UE-assisted OTDOA and inter-frequency RSTD measurements	pc_eTDD		2Rx, 4Rx		Rel-10 (Note 1)
+10	OTDOA measurement requirements for Carrier Aggregation								
+10.1	FDD RSTD Measurement Reporting Delay for Carrier Aggregation	Rel-10	C15er	All FDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eFDD			Either TC 10.1 or TC 10.1A or TC 10.1B or TC 10.1C shall be executed. (Note 2)	Rel-10
+10.1A	FDD RSTD Measurement Reporting Delay for Carrier Aggregation for 20MHz	Rel-10	C15er	All FDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eFDD			Either TC 10.1 or TC 10.1A or TC 10.1B or TC 10.1C shall be executed. (Note 2)	Rel-10
+10.1B	FDD RSTD Measurement Reporting Delay Carrier Aggregation for 5 MHz +5 MHz bandwidth	Rel-12	C15er	All FDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eFDD			Either TC 10.1 or TC 10.1A or TC 10.1B or TC 10.1C shall be executed. (Note 2)	Rel-10
+10.1C	FDD RSTD Measurement Reporting Delay for Carrier Aggregation for 10MHz+5MHz bandwidth	Rel-12	C15er	All FDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eFDD			Either TC 10.1 or TC 10.1A or TC 10.1B or TC 10.1C shall be executed. (Note 2)	Rel-11
+10.2	TDD RSTD Measurement Reporting Delay for Carrier Aggregation	Rel-10	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD			Either TC 10.2 or TC 10.2A or TC 10.2B or TC 10.2C or TC 10.2D shall be executed. (Note 2)	Rel-10
+10.2A	TDD RSTD Measurement Reporting Delay for Carrier Aggregation for 20MHz	Rel-10	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD			Either TC 10.2 or TC 10.2A or TC 10.2B or TC 10.2C or TC 10.2D shall be executed. (Note 2)	Rel-10
+10.2B	TDD RSTD Measurement Reporting Delay for Carrier Aggregation for 5MHz +5 MHz bandwidth	Rel-12	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD			Either TC 10.2 or TC 10.2A or TC 10.2B or TC 10.2C or TC 10.2D shall be executed. (Note 2)	Rel-10
+10.2C	TDD RSTD Measurement Reporting Delay for Carrier Aggregation for 10MHz+5MHz bandwidth	Rel-12	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD			Either TC 10.2 or TC 10.2A or TC 10.2B or TC 10.2C or TC 10.2D shall be executed. (Note 2)	Rel-11
+10.2D	TDD RSTD Measurement Reporting Delay for Carrier Aggregation for 20MHz +10MHz Bandwidth	Rel-10	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD			Either TC 10.2 or TC 10.2A or TC 10.2B or TC 10.2C or TC 10.2D shall be executed. (Note 2)	Rel-10
+10.3	FDD RSTD Measurement Accuracy for Carrier Aggregation	Rel-10	C15er	All FDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eFDD				Rel-10
+10.3A	FDD RSTD Measurement Accuracy for Carrier Aggregation for 20MHz (Rel-10 and Rel-11)	Rel-10	C15er	All FDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eFDD				Rel-10, Rel-11
+10.3A_1	FDD RSTD Measurement Accuracy for Carrier Aggregation for 20MHz (Rel-12 onwards)	Rel-10	C15er	All FDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eFDD				Rel-12
+10.3B	FDD RSTD Measurement Accuracy for Carrier Aggregation for 5MHz +5 MHz bandwidth	Rel-10	C15er	All FDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eFDD				Rel-10
+10.3C	FDD RSTD Measurement Accuracy for Carrier Aggregation for 10MHz+5MHz bandwidth	Rel-10	C15er	All FDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eFDD				Rel-11
+10.4	TDD RSTD Measurement Accuracy for Carrier Aggregation	Rel-10	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD				Rel-10
+10.4A	TDD RSTD Measurement Accuracy for Carrier Aggregation for 20MHz (Rel-10 and Rel-11)	Rel-10	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD				Rel-10, Rel-11
+10.4A_1	TDD RSTD Measurement Accuracy for Carrier Aggregation for 20MHz (Rel-12 onwards)	Rel-10	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD				Rel-12
+10.4B	TDD RSTD Measurement Accuracy for Carrier Aggregation for 5 MHz +5 MHz bandwidth	Rel-10	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD				Rel-10
+10.4C	TDD RSTD Measurement Accuracy for Carrier Aggregation for 10MHz+5MHz bandwidth	Rel-10	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD				Rel-11
+10.4D	TDD RSTD Measurement Accuracy for Carrier Aggregation for 20MHz+10MHz bandwidth	Rel-10	C16er	All TDD UEs supporting UE-assisted OTDOA for Carrier Aggregation	pc_eTDD				Rel-10
+10.5	FDD 3 DL CA RSTD Measurement Reporting Delay	Rel-10	C27er	All FDD UEs supporting UE-assisted OTDOA for 3DL Carrier Aggregation	pc_eFDD				Rel-12
+10.6	TDD 3 DL CA RSTD Measurement Reporting Delay	Rel-10	C28er	All TDD UEs supporting UE-assisted OTDOA for 3DL Carrier Aggregation	pc_eTDD				Rel-12
+10.7	FDD RSTD Measurement Accuracy for 3DL Carrier Aggregation	Rel-10	C27er	All FDD UEs supporting UE-assisted OTDOA for 3DL Carrier Aggregation	pc_eFDD				Rel-12
+10.8	TDD RSTD Measurement Accuracy for 3DL Carrier Aggregation	Rel-10	C28er	All TDD UEs supporting UE-assisted OTDOA for 3DL Carrier Aggregation	pc_eTDD				Rel-12
+Note 1: This test case can be optionally tested for Rel-9 UEs supporting inter-frequency RSTD measurements that do not require measurement gaps. Note 2: The Carrier Aggregation TCs verify the same core requirement(s) however with different channel bandwidth configurations, this according to the guidance in TS 37.571-1, Clause 4.7.5 [5].

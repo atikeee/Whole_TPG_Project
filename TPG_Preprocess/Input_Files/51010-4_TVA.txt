@@ -1,0 +1,512 @@
+.Test sequence (s)	Network Dependency	Release	Rel-4 ME	Description	
+27.22.1.1	No	R96	M	PROFILE DOWNLOAD 27.22.1	
+27.22.1/1	No	R96	M	PROFILE DOWNLOAD 27.22.1		Extra
+27.22.2	No	R96	M	Contents of the TERMINAL PROFILE command 27.22.2	
+27.22.3	No	R96	M	Servicing of Proactive SIM Commands 27.22.3	
+27.22.4.1				DISPLAY TEXT 27.22.4.1	
+27.22.4.1.1/1	No	R96	C139	Unpacked	
+27.22.4.1.1/2	No	R96	C139	Screen busy	
+27.22.4.1.1/3	No	R96	C139	high priority	
+27.22.4.1.1/4	No	R96	C139	Packed	
+27.22.4.1.1/5	No	R96	C139	clear after delay	
+27.22.4.1.1/6	No	R96	C139	long text up to 160 bytes	
+27.22.4.1.1/7	No	R96	C139 AND C140	Backwards move in SIM session	
+27.22.4.1.1/8	No	R96	C139 AND C140	Session terminated by user	
+27.22.4.1.1/9	No	R96	C139	Command not understood by ME	
+27.22.4.1.2/1	No	R96	C120 AND C139 AND C140	no response from user	
+27.22.4.1.3/1	No	R98	C106 AND C139	Extension Text	
+27.22.4.1.4/1	No	R98	C104 AND C139	sustained text	
+27.22.4.1.4/2	No	R98	C104 AND C139	sustained text	
+27.22.4.1.4/3	No	R98	C104 AND C139 AND C140	sustained text	
+27.22.4.1.4/4	Yes	R98	C104 AND C139 AND C142	sustained text	
+27.22.4.1.5/1	No	R98	C108 AND C139	Icons – basic icon	
+27.22.4.1.5/1A	No	R98	C108 AND C139	Icons – basic icon		Extra
+27.22.4.1.5/1B	No	R98	C108 AND C139	Icons – basic icon		Extra
+27.22.4.1.5/3	No	R98	C108 AND C139	Icons – basic icon	
+27.22.4.1.5/3A	No	R98	C108 AND C139	Icons – basic icon		Extra
+27.22.4.1.5/3B	No	R98	C108 AND C139	Icons – basic icon		Extra
+27.22.4.1.5/2	No	R98	C134 AND C139	Icons – colour icon	
+27.22.4.1.5/2A	No	R98	C134 AND C139	Icons – colour icon		Extra
+27.22.4.1.5/2B	No	R98	C134 AND C139	Icons – colour icon		Extra
+27.22.4.1.6/1	No	R97	C118 AND C139	UCS2 display	
+27.22.4.2				GET INKEY 27.22.4.2	
+27.22.4.2.1/1	No	R96	C139 AND C140	prompt unpacked	
+27.22.4.2.1/2	No	R96	C139 AND C140	prompt packed	
+27.22.4.2.1/1	No	R96	C139 AND C140	digits only	
+27.22.4.2.1/3	No	R96	C139 AND C140	Backwards move in SIM session	
+27.22.4.2.1/4	No	R96	C139 AND C140	Session terminated by user	
+27.22.4.2.1/5	No	R96	C139 AND C140	SMS alphabet	
+27.22.4.2.1/6	No	R96	C139 AND C140	Long text up to 160 bytes	
+27.22.4.2.2/1	No	R96	C120 AND C139 AND C140	no response from user	
+27.22.4.2.3/1	No	R97	C118 AND C139 AND C140	UCS2 display	
+27.22.4.2.3/2	No	R97	C118 AND C139 AND C140	UCS2 display, Long text up to 70 chars	
+27.22.4.2.4/1	No	R97	C105 AND C139 AND C140	UCS2 format of entry	
+27.22.4.2.5/1	No	R98	C139 AND C140	\\\"Yes/No\\\" response	
+27.22.4.2.6/1	No	R98	C108 AND C139 AND C140	Icons  – basic icon	
+27.22.4.2.6/1A	No	R98	C108 AND C139 AND C140	Icons  – basic icon		Extra
+27.22.4.2.6/1B	No	R98	C108 AND C139 AND C140	Icons  – basic icon		Extra
+27.22.4.2.6/2	No	R98	C108 AND C139 AND C140	Icons  – basic icon	
+27.22.4.2.6/2A	No	R98	C108 AND C139 AND C140	Icons  – basic icon		Extra
+27.22.4.2.6/2B	No	R98	C108 AND C139 AND C140	Icons  – basic icon		Extra
+27.22.4.2.6/3	No	R98	C134 AND C139 AND C140	Icons  – colour icon	
+27.22.4.2.6/3A	No	R98	C134 AND C139 AND C140	Icons  – colour icon		Extra
+27.22.4.2.6/3B	No	R98	C134 AND C139 AND C140	Icons  – colour icon		Extra
+27.22.4.2.6/4	No	R98	C134 AND C139 AND C140	Icons  – colour icon	
+27.22.4.2.6/4A	No	R98	C134 AND C139 AND C140	Icons  – colour icon		Extra
+27.22.4.2.6/4B	No	R98	C134 AND C139 AND C140	Icons  – colour icon		Extra
+27.22.4.2.7/1	No	R97	C107 AND C139 AND C140	Help information	
+27.22.4.3				GET INPUT 27.22.4.3	
+27.22.4.3.1/1	No	R96	C139 AND C140	input unpacked	
+27.22.4.3.1/2	No	R96	C139 AND C140	input packed	
+27.22.4.3.1/1	No	R96	C139 AND C140	digits only	
+27.22.4.3.1/3	No	R96	C139 AND C140	SMS alphabet	
+27.22.4.3.1/4	No	R96	C139 AND C140	hidden input	
+27.22.4.3.1/5	No	R96	C139 AND C140	min / max acceptable length	
+27.22.4.3.1/9	No	R96	C139 AND C140	min / max acceptable length	
+27.22.4.3.1/6	No	R96	C139 AND C140	Backwards move in SIM session	
+27.22.4.3.1/7	No	R96	C139 AND C140	Session terminated by user	
+27.22.4.3.1/8	No	R96	C139 AND C140	Prompt text up to 160 bytes	
+27.22.4.3.1/9	No	R96	C139 AND C140	SMS default alphabet, ME to echo text, packing not required	
+27.22.4.3.1/10	No	R96	C139 AND C140	Null length for the text string	
+27.22.4.3.2/1	No	R96	C120 AND C139 AND C140	no response from user	
+27.22.4.3.3/1	No	R97	C118 AND C139 AND C140	UCS2 display	
+27.22.4.3.3/2	No	R97	C118 AND C139 AND C140	UCS2 display	
+27.22.4.3.4/1	No	R97	C105 AND C139 AND C140	UCS2 entry	
+27.22.4.3.4/2	No	R97	C105 AND C139 AND C140	UCS2 entry	
+27.22.4.3.5/1	No	R97	C139 AND C140	default text for the input	
+27.22.4.3.5/2	No	R97	C139 AND C140	default text for the input	
+27.22.4.3.6/1	No	R98	C108 AND C139 AND C140	Icons – basic icon	
+27.22.4.3.6/1A	No	R98	C108 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.3.6/1B	No	R98	C108 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.3.6/2	No	R98	C108 AND C139 AND C140	Icons – basic icon	
+27.22.4.3.6/2A	No	R98	C108 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.3.6/2B	No	R98	C108 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.3.6/3	No	R98	C134 AND C139 AND C140	Icons – colour icon	
+27.22.4.3.6/3A	No	R98	C134 AND C139 AND C140	Icons – colour icon		Extra
+27.22.4.3.6/3B	No	R98	C134 AND C139 AND C140	Icons – colour icon		Extra
+27.22.4.3.6/4	No	R98	C134 AND C139 AND C140	Icons – colour icon	
+27.22.4.3.6/4A	No	R98	C134 AND C139 AND C140	Icons – colour icon		Extra
+27.22.4.3.6/4B	No	R98	C134 AND C139 AND C140	Icons – colour icon		Extra
+27.22.4.3.7/1	No	R97	C107 AND C139 AND C140	help information	
+27.22.4.4.1/1	No	R96	M	MORE TIME 27.22.4.4	
+27.22.4.5				PLAY TONE 27.22.4.5	
+27.22.4.5.1/1	Yes	R96	C140 AND C141 AND C142	play all tones	
+27.22.4.5.TBD		R97		UCS2 display	
+27.22.4.5.TBD		R98		icons	
+27.22.4.6				POLL INTERVAL 27.22.4.6	
+27.22.4.6.1/1	No	R96	M	duration	
+27.22.4.7				REFRESH 27.22.4.7	
+27.22.4.7.1/1	Yes	R96	C125 AND C139 AND C140 AND C142	SIM initialization, enabling FDN mode	
+27.22.4.7.1/2	Yes	R96	C125 AND C139 AND C140 AND C142	file change notification of FDN file	
+27.22.4.7.1/3	No	R96	M	SIM initialization and file change notification of PLMN	
+27.22.4.7.1/4	Yes	R96	C125 AND C139 AND C140 AND C142	SIM initialization and full file change notification, enabling FDN mode	
+27.22.4.7.1/5	No	R96	M	SIM reset	
+27.22.4.7.1/6	Yes	R96	C125 AND C139 AND C140 AND C142	SIM Initialization after SMS-PP data download	
+27.22.4.7.2/1	Yes	R98	M	IMSI Changing procedure, SIM Initialization and File Change Notification)	
+27.22.4.7.2/2	Yes	R98	M	IMSI Changing procedure, SIM Initialization and Full File Change Notification)	
+27.22.4.7.2/3	Yes	R98	M	IMSI Changing procedure, SIM Reset	
+27.22.4.8				SET UP MENU 27.22.4.8	
+27.22.4.8.1/1	No	R96	C139 AND C140	Set up, menu selection, replace and remove menu	
+27.22.4.8.1/2	No	R96	C139 AND C140	Large menu	
+27.22.4.8.2/1	No	R97	C107 AND C139 AND C140	help information	
+27.22.4.8.3/1	No	R97	C139 AND C140	next action indicator	
+27.22.4.8.4/1	No	R98	C135 AND C139 AND C140	Icons – basic icon	
+27.22.4.8.4/1A	No	R98	C135 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.8.4/1B	No	R98	C135 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.8.4/2	No	R98	C135 AND C139 AND C140	Icons – basic icon	
+27.22.4.8.4/2A	No	R98	C135 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.8.4/2B	No	R98	C135 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.8.5/1	No	R99	C112 AND C139 AND C140	soft key access 	
+27.22.4.9				SELECT ITEM 27.22.4.9	
+27.22.4.9.1/1	No	R96	C139 AND C140	Mandatory features	
+27.22.4.9.1/2	No	R96	C139 AND C140	Large menu	
+27.22.4.9.1/3	No	R96	C139 AND C140	Large menu	
+27.22.4.9.1/5	No	R96	C139 AND C140	Large menu	
+27.22.4.9.1/6	No	R96	C139 AND C140	Large menu	
+27.22.4.9.1/6A	No	R96	C139 AND C140	Large menu		Extra
+27.22.4.9.1/6B	No	R96	C139 AND C140	Large menu		Extra
+27.22.4.9.1/4	No	R96	C139 AND C140	Backwards move	
+27.22.4.9.1/5	No	R96	C139 AND C140	user termination	
+27.22.4.9.2/1	No	R97	C139 AND C140	next action indicator	
+27.22.4.9.3/1	No	R97	C139 AND C140 AND C150	default selected item	
+27.22.4.9.4/1	No	R97	C107 AND C139 AND C140	help information	
+27.22.4.9.5/1	No	R98	C135 AND C139 AND C140	Icons – basic icon	
+27.22.4.9.5/1A	No	R98	C135 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.9.5/1B	No	R98	C135 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.9.5/2	No	R98	C135 AND C139 AND C140	Icons – basic icon	
+27.22.4.9.5/2A	No	R98	C135 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.9.5/2B	No	R98	C135 AND C139 AND C140	Icons – basic icon		Extra
+27.22.4.9.6/1	No	R98	C139 AND C140	Presentation style	
+27.22.4.9.6/2	No	R98	C139 AND C140	Presentation style	
+27.22.4.9.7/1	No	R99	C112 AND C139 AND C140	Soft keys	
+27.22.4.9.8/1	No	R96	C120 AND C139 AND C140	no response from user	
+27.22.4.10				SEND SMS 27.22.4.10	
+27.22.4.10.1/1	Yes	R96	M	Packing not required, 8 bit data	
+27.22.4.10.1/2	Yes	R96	M	Packing required, 8 bit data	
+27.22.4.10.1/3	Yes	R96	M	Packing not required, SMS default alphabet	
+27.22.4.10.1/4	Yes	R96	M	Packing  required, 8 bit data, 160 bytes length	
+27.22.4.10.1/5	Yes	R96	M	Packing not required, SMS default alphabet, 160 bytes length	
+27.22.4.10.1/6	Yes	R96	M	Alpha identifier	
+27.22.4.10.1/8	Yes	R96	M	Alpha identifier	
+27.22.4.10.1/7	Yes	R96	M	Alpha identifier length \\\"00\\\"	
+27.22.4.10.2/1	Yes	R97	C118	UCS2 SMS	
+27.22.4.10.3/1	Yes	R98	C108	Icons  – basic icon	
+27.22.4.10.3/1A	Yes	R98	C108	Icons  – basic icon		Extra
+27.22.4.10.3/1B	Yes	R98	C108	Icons  – basic icon		Extra
+27.22.4.10.3/2	Yes	R98	C108	Icons  – basic icon	
+27.22.4.10.3/2A	Yes	R98	C108	Icons  – basic icon		Extra
+27.22.4.10.3/2B	Yes	R98	C108	Icons  – basic icon		Extra
+27.22.4.11				SEND SS 27.22.4.11	
+27.22.4.11.1/1	Yes	R96	C129 AND C137 AND C153	call forward unconditional, all bearers, successful	
+27.22.4.11.1/1A	Yes	R96	C129 AND C137 AND C153	call forward unconditional, all bearers, successful		Extra
+27.22.4.11.1/1B	Yes	R96	C129 AND C137 AND C153	call forward unconditional, all bearers, successful		Extra
+27.22.4.11.1/2	Yes	R96	C137 AND C153	call forward unconditional, all bearers, Return Error	
+27.22.4.11.1/3	Yes	R96	C137 AND C153	call forward unconditional, all bearers, Reject	
+27.22.4.11.1/4	Yes	R96	C129 AND C137 AND C153	call forward unconditional, all bearers, successful, SS request size limit	
+27.22.4.11.1/4A	Yes	R96	C129 AND C137 AND C153	call forward unconditional, all bearers, successful, SS request size limit		Extra
+27.22.4.11.1/4B	Yes	R96	C129 AND C137 AND C153	call forward unconditional, all bearers, successful, SS request size limit		Extra
+27.22.4.11.1/5	Yes	R96	C138 AND C153	interrogate CLIR status, successful, alpha identifier limits	
+27.22.4.11.1/6	Yes	R96	C129 AND C137 AND C153	call forward unconditional, all bearers, successful, null data alpha identifier	
+27.22.4.11.1/6A	Yes	R96	C129 AND C137 AND C153	call forward unconditional, all bearers, successful, null data alpha identifier		Extra
+27.22.4.11.1/6B	Yes	R96	C129 AND C137 AND C153	call forward unconditional, all bearers, successful, null data alpha identifier		Extra
+27.22.4.11.2/1	Yes	R98	C108 AND C137 AND C153	call forward unconditional, all bearers, successful, basic icon support	
+27.22.4.11.2/1A	Yes	R98	C108 AND C137 AND C153	call forward unconditional, all bearers, successful, basic icon support		Extra
+27.22.4.11.2/1B	Yes	R98	C108 AND C137 AND C153	call forward unconditional, all bearers, successful, basic icon support		Extra
+27.22.4.11.2/3	Yes	R98	C108 AND C137 AND C153	call forward unconditional, all bearers, successful, basic icon support	
+27.22.4.11.2/3A	Yes	R98	C108 AND C137 AND C153	call forward unconditional, all bearers, successful, basic icon support		Extra
+27.22.4.11.2/3B	Yes	R98	C108 AND C137 AND C153	call forward unconditional, all bearers, successful, basic icon support		Extra
+27.22.4.11.2/2	Yes	R98	C134 AND C137 AND C153	call forward unconditional, all bearers, successful, colour icon support	
+27.22.4.11.2/2A	Yes	R98	C134 AND C137 AND C153	call forward unconditional, all bearers, successful, colour icon support		Extra
+27.22.4.11.2/2B	Yes	R98	C134 AND C137 AND C153	call forward unconditional, all bearers, successful, colour icon support		Extra
+27.22.4.11.2/4	Yes	R98	C144 AND C137 AND C153	call forward unconditional, all bearers, successful, basic icon non self-explanatory, no alpha identifier presented	
+27.22.4.11.3/1	Yes	R97	C118 AND C137 AND C153	UCS2 display	
+27.22.4.12				SEND USSD 27.22.4.12	
+27.22.4.12.1/1	Yes	R96	C153	7-bit data, successful	
+27.22.4.12.1/2	Yes	R96	C153	8-bit data, successful	
+27.22.4.12.1/3	Yes	R96	C153	UCS2 data, successful	
+27.22.4.12.1/4	Yes	R96	C153	7-bit data, unsuccessful	
+27.22.4.12.1/5	Yes	R96	C153	7-bit data, unsuccessful	
+27.22.4.12.1/6	Yes	R96	C153	256 octets, 7-bit data, successful, long alpha identifier	
+27.22.4.12.1/7	Yes	R96	C153	7-bit data, successful, no alpha identifier	
+27.22.4.12.1/8	Yes	R96	C153	7-bit data, successful, null length alpha identifier	
+27.22.4.12.2/1	Yes	R98	C108 AND C153	Icons – basic icon	
+27.22.4.12.2/1A	Yes	R98	C108 AND C153	Icons – basic icon		Extra
+27.22.4.12.2/1B	Yes	R98	C108 AND C153	Icons – basic icon		Extra
+27.22.4.12.2/3	Yes	R98	C108 AND C153	Icons – basic icon	
+27.22.4.12.2/3A	Yes	R98	C108 AND C153	Icons – basic icon		Extra
+27.22.4.12.2/3B	Yes	R98	C108 AND C153	Icons – basic icon		Extra
+27.22.4.12.2/2	Yes	R98	C145 AND C153	Icons – colour icon	
+27.22.4.12.2/4	Yes	R98	C146 AND C153	7-bit data, basic icon non self-explanatory, no alpha identifier presented	
+27.22.4.12.3/1	Yes	R97	C118 AND C153	UCS2	
+27.22.4.13				SET UP CALL 27.22.4.13	
+27.22.4.13.1/1	Yes	R96	C139 AND C140 AND C142	Call confirmed by the user and connected 	
+27.22.4.13.1/2	Yes	R96	C139 AND C140 AND C142	call rejected by the user	
+27.22.4.13				Void	
+27.22.4.13.1/4	Yes	R96	C133 AND C139 AND C140 AND C142	putting all other calls on hold, ME busy	
+27.22.4.13.1/5	Yes	R96	C139 AND C140 AND C142	disconnecting all other calls, ME busy	
+27.22.4.13.1/6	Yes	R96	C139 AND C140 AND C142	only if not currently busy on another call, ME busy	
+27.22.4.13.1/7	Yes	R96	C133 AND C139 AND C140 AND C142	putting all other calls on hold, call hold is not allowed	
+27.22.4.13.1/8	Yes	R96	C101 AND C139 AND C140 AND C142	Capability configuration	
+27.22.4.13.1/9	Yes	R96	C139 AND C140 AND C142	long dialling number string	
+27.22.4.13.1/10	Yes	R96	C139 AND C140 AND C142	long first alpha identifier	
+27.22.4.13.1/11	Yes	R96	C124 AND C139 AND C140 AND C142	Called party subaddress	
+27.22.4.13.1/11A	Yes	R96	C124 AND C139 AND C140 AND C142	Called party subaddress		Extra
+27.22.4.13.1/11B	Yes	R96	C124 AND C139 AND C140 AND C142	Called party subaddress		Extra
+27.22.4.13.1/12	Yes	R96	C119 AND C139 AND C140 AND C142	maximum duration for the redial mechanism	
+27.22.4.13.2/1	Yes	R98	C139 AND C140 AND C142	second alpha identifier	
+27.22.4.13.TBD	Yes	R97		UCS2 Display	
+27.22.4.13.3/1	Yes	R98	C108 AND C139 AND C140 AND C142	Icons – basic icon	
+27.22.4.13.3/1A	Yes	R98	C108 AND C139 AND C140 AND C142	Icons – basic icon		Extra
+27.22.4.13.3/1B	Yes	R98	C108 AND C139 AND C140 AND C142	Icons – basic icon		Extra
+27.22.4.13.3/2	Yes	R98	C108 AND C139 AND C140 AND C142	Icons – basic icon	
+27.22.4.13.3/2A	Yes	R98	C108 AND C139 AND C140 AND C142	Icons – basic icon		Extra
+27.22.4.13.3/2B	Yes	R98	C108 AND C139 AND C140 AND C142	Icons – basic icon		Extra
+27.22.4.13.3/4	Yes	R98	C108 AND C139 AND C140 AND C142	Icons – basic icon	
+27.22.4.13.3/4A	Yes	R98	C108 AND C139 AND C140 AND C142	Icons – basic icon		Extra
+27.22.4.13.3/4B	Yes	R98	C108 AND C139 AND C140 AND C142	Icons – basic icon		Extra
+27.22.4.13.3/3	Yes	R98	C134 AND C139 AND C140 AND C142	Icons – colour icon	
+27.22.4.13.3/3A	Yes	R98	C134 AND C139 AND C140 AND C142	Icons – colour icon		Extra
+27.22.4.13.3/3B	Yes	R98	C134 AND C139 AND C140 AND C142	Icons – colour icon		Extra
+27.22.4.14.1/1	Yes	R96	C142	POLLING OFF 27.22.4.14	
+27.22.4.15				PROVIDE LOCAL INFO 27.22.4.15	
+27.22.4.15.1/1	Yes	R96	M	location information	
+27.22.4.15.1/2	Yes	R96	M	IMEI	
+27.22.4.15.1/3	Yes	R98	M	network measurement results and BCCH channel list	
+27.22.4.15.1/4	No	R98	M	Date, time and time zone	
+27.22.4.15.1/5	No	R99	C157	language setting	
+27.22.4.15.1/6	Yes	R99	M	Timing advance	
+27.22.4.16				SET UP EVENT LIST 27.22.4.16	
+27.22.4.16.1/1	Yes	R97	C142	Set up call connected event	
+27.22.4.16.1/2	Yes	R97	C142	Replace by new event list	
+27.22.4.16.1/3	Yes	R97	C142	Remove event	
+27.22.4.16.1/4	Yes	R97	C142	Remove Event on ME Power Cycle	
+27.22.4.17				PERFORM CARD APDU 27.22.4.17	
+27.22.4.17.1/1	No	R98	C109	Additional card inserted, Select MF and Get Response	
+27.22.4.17.1/2	No	R98 	C109	Additional card inserted, Select DF GSM, Select EF PLMN , Update Binary, Read Binary on EF PLMN	
+27.22.4.17.1/3	No	R98 	C109	Additional card inserted, card powered off	
+27.22.4.17.1/4	No	R98 	C109	No card inserted, card powered off	
+27.22.4.17.1/5	No	R98 	C109	Invalid card reader identifier	
+27.22.4.17.2/1	No	R98 	C116	Detachable reader	
+27.22.4.18				POWER OFF CARD 27.22.4.18	
+27.22.4.18.1/1	No	R98 	C109	Additional card inserted	
+27.22.4.18.1/2	No	R98 	C109	No card inserted	
+27.22.4.18.2/1	No	R98 	C116	Detachable reader	
+27.22.4.19				POWER ON CARD 27.22.4.19	
+27.22.4.19.1/1	No	R98 	C109	Additional card inserted	
+27.22.4.19.1/2	No	R98 	C109	No ATR	
+27.22.4.19.1/3	No	R98 	C109	No card inserted	
+27.22.4.19.2/1	No	R98 	C116	Detachable reader	
+27.22.4.20				GET READER STATUS 27.22.4.20	
+27.22.4.20.1/1	No	R98 	C109	Additional card inserted, card powered	
+27.22.4.20.1/2	No	R98 	C109	Additional card inserted, card not powered	
+27.22.4.20.1/3	No	R98 	C109	Additional card inserted, card not present	
+27.22.4.20.2/1	No	R98 	C116	Detachable reader	
+27.22.4.21.1				TIMER MANAGEMENT 27.22.4.21.1	
+27.22.4.21				TIMER MANAGEMENT 27.22.4.21.1		Extra
+27.22.4.21.1.1/1	No	R98	M	Start timer 1 several times, get the current value of the timer and deactivate the timer successfully	
+27.22.4.21.1/1	No	R98	M	Start timer 1 several times, get the current value of the timer and deactivate the timer successfully		Extra
+27.22.4.21.1.1/2	No	R98	M	Start timer 2 several times, get the current value of the timer and deactivate the timer successfully	
+27.22.4.21.1/2	No	R98	M	Start timer 2 several times, get the current value of the timer and deactivate the timer successfully		Extra
+27.22.4.21.1.1/3	No	R98	M	Start timer 8 several times, get the current value of the timer and deactivate the timer successfully	
+27.22.4.21.1/3	No	R98	M	Start timer 8 several times, get the current value of the timer and deactivate the timer successfully		Extra
+27.22.4.21.1.1/4	No	R98	M	Try to get the current value of a timer which is not started: action in contradiction with the current timer state	
+27.22.4.21.1/4	No	R98	M	Try to get the current value of a timer which is not started: action in contradiction with the current timer state		Extra
+27.22.4.21.1.1/5	No	R98	M	Try to deactivate a timer which is not started: action in contradiction with the current timer state	
+27.22.4.21.1/5	No	R98	M	Try to deactivate a timer which is not started: action in contradiction with the current timer state		Extra
+27.22.4.21.1.1/6	No	R98	M	Start 8 timers successfully	
+27.22.4.21.1/6	No	R98	M	Start 8 timers successfully		Extra
+27.22.4.21.2				ENVELOPE TIMER EXPIRATION 27.22.4.21.2	
+27.22.4.21				ENVELOPE TIMER EXPIRATION 27.22.4.21.2		Extra
+27.22.4.21.2.2/1	No	R98	M	Pending proactive SIM command	
+27.22.4.21.2/1	No	R98	M	Pending proactive SIM command		Extra
+27.22.4.21.2.2/2	No	R98	M	SIM application toolkit busy	
+27.22.4.21.2/2	No	R98	M	SIM application toolkit busy		Extra
+27.22.4.22				SET UP IDLE MODE TEXT 27.22.4.22	
+27.22.4.22A				SET UP IDLE MODE TEXT 27.22.4.22		Extra
+27.22.4.22B				SET UP IDLE MODE TEXT 27.22.4.22		Extra
+27.22.4.22.1/1	Yes	R98	C139	Display idle mode text	
+27.22.4.22.1/1A	Yes	R98	C139	Display idle mode text		Extra
+27.22.4.22.1/1B	Yes	R98	C139	Display idle mode text		Extra
+27.22.4.22.1/2	Yes	R98	C139	Replace idle mode text	
+27.22.4.22.1/2A	Yes	R98	C139	Replace idle mode text		Extra
+27.22.4.22.1/2B	Yes	R98	C139	Replace idle mode text		Extra
+27.22.4.22.1/3	Yes	R98	C139	Remove idle mode test	
+27.22.4.22.1/3A	Yes	R98	C139	Remove idle mode test		Extra
+27.22.4.22.1/3B	Yes	R98	C139	Remove idle mode test		Extra
+27.22.4.22.1/4	Yes	R98	C139 AND C141	Competing information on ME display	
+27.22.4.22.1/4A	Yes	R98	C139 AND C141	Competing information on ME display		Extra
+27.22.4.22.1/4B	Yes	R98	C139 AND C141	Competing information on ME display		Extra
+27.22.4.22.1/5	Yes	R98	C139	ME powered cycled	
+27.22.4.22.1/5A	Yes	R98	C139	ME powered cycled		Extra
+27.22.4.22.1/5B	Yes	R98	C139	ME powered cycled		Extra
+27.22.4.22.1/6	Yes	R98	C139	Refresh with SIM initialization	
+27.22.4.22.1/6A	Yes	R98	C139	Refresh with SIM initialization		Extra
+27.22.4.22.1/6B	Yes	R98	C139	Refresh with SIM initialization		Extra
+27.22.4.22.1/7	Yes	R98	C139	Large text string	
+27.22.4.22.1/7A	Yes	R98	C139	Large text string		Extra
+27.22.4.22.1/7B	Yes	R98	C139	Large text string		Extra
+27.22.4.22.2/1	Yes	R98	C108 AND C139	Icons – basic icon	
+27.22.4.22.2/1A	Yes	R98	C108 AND C139	Icons – basic icon		Extra
+27.22.4.22.2/1B	Yes	R98	C108 AND C139	Icons – basic icon		Extra
+27.22.4.22.2/2	Yes	R98	C108 AND C139	Icons – basic icon	
+27.22.4.22.2/2A	Yes	R98	C108 AND C139	Icons – basic icon		Extra
+27.22.4.22.2/2B	Yes	R98	C108 AND C139	Icons – basic icon		Extra
+27.22.4.22.2/3	Yes	R98	C134 AND C139	Icons – colour icon	
+27.22.4.22.2/3A	Yes	R98	C134 AND C139	Icons – colour icon		Extra
+27.22.4.22.2/3B	Yes	R98	C134 AND C139	Icons – colour icon		Extra
+27.22.4.22.2/4	Yes	R98	C147 AND C139	Icon is not self-explanatory, empty text string	
+27.22.4.22.2/4A	Yes	R98	C147 AND C139	Icon is not self-explanatory, empty text string		Extra
+27.22.4.22.2/4B	Yes	R98	C147 AND C139	Icon is not self-explanatory, empty text string		Extra
+27.22.4.22.3/1	Yes	R98	C118 AND C139	UCS2 display	
+27.22.4.22.3/1A	Yes	R98	C118 AND C139	UCS2 display		Extra
+27.22.4.22.3/1B	Yes	R98	C118 AND C139	UCS2 display		Extra
+27.22.4.23				RUN AT COMMAND 27.22.4.23	
+27.22.4.23.1/1	No	R98	C110	No alpha Identifier	
+27.22.4.23.1/2	No	R98	C110	null data alpha identifier presented	
+27.22.4.23.1/3	No	R98	C110	alpha identifier presented	
+27.22.4.23.2/1	No	R98	C114 AND C139	Icons – basic icon	
+27.22.4.23.2/3	No	R98	C114 AND C139	Icons – basic icon	
+27.22.4.23.2/2	No	R98	C136 AND C139	Icons – colour icon	
+27.22.4.23.2/4	No	R98	C136 AND C139	Icons – colour icon	
+27.22.4.23.	No	R98	C136 AND C139	Icons – colour icon	
+27.22.4.23.2/5	No	R98	C148 AND C139	basic icon non self-explanatory, no alpha identifier presented	
+27.22.4.24				SEND DTMF 27.22.4.24	
+27.22.4.24A				SEND DTMF 27.22.4.24		Extra
+27.22.4.24B				SEND DTMF 27.22.4.24		Extra
+27.22.4.24.1/1	Yes	R98	C142	Normal	
+27.22.4.24.1/1A	Yes	R98	C142	Normal		Extra
+27.22.4.24.1/1B	Yes	R98	C142	Normal		Extra
+27.22.4.24.1/2	Yes	R98	C142	alpha identifier	
+27.22.4.24.1/2A	Yes	R98	C142	alpha identifier		Extra
+27.22.4.24.1/2B	Yes	R98	C142	alpha identifier		Extra
+27.22.4.24.1/3	Yes	R98	C142	alpha identifier	
+27.22.4.24.1/3A	Yes	R98	C142	alpha identifier		Extra
+27.22.4.24.1/3B	Yes	R98	C142	alpha identifier		Extra
+27.22.4.24.1/4	Yes	R98	C142	Mobile is not in a speech call	
+27.22.4.24.1/4A	Yes	R98	C142	Mobile is not in a speech call		Extra
+27.22.4.24.1/4B	Yes	R98	C142	Mobile is not in a speech call		Extra
+27.22.4.24.2/1	Yes	R98	C108 AND C142	Icons – basic icon	
+27.22.4.24.2/1A	Yes	R98	C108 AND C142	Icons – basic icon		Extra
+27.22.4.24.2/1B	Yes	R98	C108 AND C142	Icons – basic icon		Extra
+27.22.4.24.2/3	Yes	R98	C108 AND C142	Icons – basic icon	
+27.22.4.24.2/3A	Yes	R98	C108 AND C142	Icons – basic icon		Extra
+27.22.4.24.2/3B	Yes	R98	C108 AND C142	Icons – basic icon		Extra
+27.22.4.24.2/2	Yes	R98	C134 AND C142	Icons – colour icon	
+27.22.4.24.2/2A	Yes	R98	C134 AND C142	Icons – colour icon		Extra
+27.22.4.24.2/2B	Yes	R98	C134 AND C142	Icons – colour icon		Extra
+27.22.4.24.3/1	Yes	R98	C118 AND C142	UCS2 display	
+27.22.4.24.3/1A	Yes	R98	C118 AND C142	UCS2 display		Extra
+27.22.4.24.3/1B	Yes	R98	C118 AND C142	UCS2 display		Extra
+27.22.4.25				LANGUAGE NOTIFICATION 27.22.4.25	
+27.22.4.25.1/1	No	R99	C143 AND C158	Specific language notification 	
+27.22.4.25.1/2	No	R99	C143 AND C158	Non specific language notification	
+27.22.4.26				LAUNCH BROWSER 27.22.4.26	
+27.22.4.26.1/1	Yes	R99 	C111 AND C139 AND C140 AND C154	No session already launched: Connect to the default URL	
+27.22.4.26.1/2	Yes	R99 	C111 AND C139 AND C140	connect to the specified URL, alpha identifier length=0	
+27.22.4.26.1/3	Yes	R99 	C111 AND C139 AND C140	Browser identity, no alpha identifier	
+27.22.4.26.1/4	Yes	R99 	C122 AND C139 AND C140	one bearer specified and gateway/proxy identity	
+27.22.4.26.1/5		R99 	Void	void	
+27.22.4.26.1/6	Yes	R99	C111 AND C139 AND C140 AND C155	ME does not support Launch Browser with Default URL	
+27.22.4.26.2/1	Yes	R99 	C111 AND C139 AND C140	Interaction with current session	
+27.22.4.26.2/2	Yes	R99 	C111 AND C139 AND C140	Interaction with current session	
+27.22.4.26.2/3	Yes	R99	C111 AND C139 AND C140	Interaction with current session	
+27.22.4.26.3/1	Yes	R99 	C117 AND C139 AND C140	UCS2 display	
+27.22.4.26.4/1	Yes	R99 	C115 AND C139 AND C140	Icons – basic icon	
+27.22.4.26.4/2	Yes	R99 	C115 AND C139 AND C140	Icons – basic icon	
+27.22.4.27				OPEN CHANNEL 27.22.4.27	
+27.22.4.27A				OPEN CHANNEL 27.22.4.27		Extra
+27.22.4.27B				OPEN CHANNEL 27.22.4.27		Extra
+27.22.4.27.1/1		R99	Void	Void	
+27.22.4.27.1/1A		R99	Void	Void		Extra
+27.22.4.27.1/1B		R99	Void	Void		Extra
+27.22.4.27.1/2		R99	Void	Void	
+27.22.4.27.1/2A		R99	Void	Void		Extra
+27.22.4.27.1/2B		R99	Void	Void		Extra
+27.22.4.27.1/3		R99	Void	Void	
+27.22.4.27.1/3A		R99	Void	Void		Extra
+27.22.4.27.1/3B		R99	Void	Void		Extra
+27.22.4.27.1/4		R99	Void	Void	
+27.22.4.27.1/4A		R99	Void	Void		Extra
+27.22.4.27.1/4B		R99	Void	Void		Extra
+27.22.4.27.1/5		R99	Void	Void	
+27.22.4.27.1/5A		R99	Void	Void		Extra
+27.22.4.27.1/5B		R99	Void	Void		Extra
+27.22.4.27.1/6		R99	Void	Void	
+27.22.4.27.1/6A		R99	Void	Void		Extra
+27.22.4.27.1/6B		R99	Void	Void		Extra
+27.22.4.27.1/7		R99	Void	Void	
+27.22.4.27.1/7A		R99	Void	Void		Extra
+27.22.4.27.1/7B		R99	Void	Void		Extra
+27.22.4.27.1/8		R99	Void	Void	
+27.22.4.27.1/8A		R99	Void	Void		Extra
+27.22.4.27.1/8B		R99	Void	Void		Extra
+27.22.4.27.1/9		R99	Void	Void	
+27.22.4.27.1/9A		R99	Void	Void		Extra
+27.22.4.27.1/9B		R99	Void	Void		Extra
+27.22.4.27.2/1	Yes	R99	C121	immediate link establishment, GPRS, no local address, no alpha identifier, no network access name	
+27.22.4.27.2/1A	Yes	R99	C121	immediate link establishment, GPRS, no local address, no alpha identifier, no network access name		Extra
+27.22.4.27.2/1B	Yes	R99	C121	immediate link establishment, GPRS, no local address, no alpha identifier, no network access name		Extra
+27.22.4.27.2/2	Yes	R99	C121	immediate link establishment GPRS, no alpha identifier, with network access name	
+27.22.4.27.2/2A	Yes	R99	C121	immediate link establishment GPRS, no alpha identifier, with network access name		Extra
+27.22.4.27.2/2B	Yes	R99	C121	immediate link establishment GPRS, no alpha identifier, with network access name		Extra
+27.22.4.27.2/3	Yes	R99	C121	immediate link establishment, GPRS, with alpha identifier	
+27.22.4.27.2/3A	Yes	R99	C121	immediate link establishment, GPRS, with alpha identifier		Extra
+27.22.4.27.2/3B	Yes	R99	C121	immediate link establishment, GPRS, with alpha identifier		Extra
+27.22.4.27.2/4	Yes	R99	C121	immediate link establishment, GPRS, with null alpha identifier	
+27.22.4.27.2/4A	Yes	R99	C121	immediate link establishment, GPRS, with null alpha identifier		Extra
+27.22.4.27.2/4B	Yes	R99	C121	immediate link establishment, GPRS, with null alpha identifier		Extra
+27.22.4.27.2/5	Yes	R99	C127	immediate link establishment, GPRS, command performed with modifications (buffer size)	
+27.22.4.27.2/5A	Yes	R99	C127	immediate link establishment, GPRS, command performed with modifications (buffer size)		Extra
+27.22.4.27.2/5B	Yes	R99	C127	immediate link establishment, GPRS, command performed with modifications (buffer size)		Extra
+27.22.4.27.2/6		Void	Void	Void	
+27.22.4.27.2/6A		Void	Void	Void		Extra
+27.22.4.27.2/6B		Void	Void	Void		Extra
+27.22.4.27.2/7	Yes	R99	C130 AND C139	immediate link establishment, GPRS, open command with alpha identifier, User did not accept the proactive command	
+27.22.4.27.2/7A	Yes	R99	C130 AND C139	immediate link establishment, GPRS, open command with alpha identifier, User did not accept the proactive command		Extra
+27.22.4.27.2/7B	Yes	R99	C130 AND C139	immediate link establishment, GPRS, open command with alpha identifier, User did not accept the proactive command		Extra
+27.22.4.27.2/8	Yes	R99	C128	GPRS, ME busy on call	
+27.22.4.27.2/8A	Yes	R99	C128	GPRS, ME busy on call		Extra
+27.22.4.27.2/8B	Yes	R99	C128	GPRS, ME busy on call		Extra
+27.22.4.28				CLOSE CHANNEL 27.22.4.28	
+27.22.4.28.1/1	Yes	R99 	C121	successful	
+27.22.4.28.1/2	Yes	R99 	C121	with an invalid channel identifier	
+27.22.4.28.1/3	Yes	R99	C121	on an already closed channel	
+27.22.4.29				RECEIVE DATA 27.22.4.29	
+27.22.4.29.1/1	Yes	R99	C121	already opened channel	
+27.22.4.30				SEND DATA 27.22.4.30	
+27.22.4.30.1/1	Yes	R99	C121	immediate mode	
+27.22.4.30.1/2	Yes	R99	C121	Store mode	
+27.22.4.30.1/3	Yes	R99	C121	Store mode, Tx buffer fully used	
+27.22.4.30.1/4	Yes	R99	C121	2 consecutive SEND DATA Store mode	
+27.22.4.30.1/5	Yes	R99	C121	immediate mode with a bad channel identifier	
+27.22.4.30.1/6		Void	Void	Void	
+27.22.4.31				GET CHANNEL STATUS 27.22.4.31	
+27.22.4.31.1/1	Yes	R99	C121	without any BIP channel opened	
+27.22.4.31.1/2	Yes	R99	C121	with a BIP channel currently opened	
+27.22.4.31.1/3	Yes	R99	C121	after a link dropped	
+27.22.5				DATA DOWNLOAD TO SIM 27.22.5	
+27.22.5.1	Yes			SMS-PP DATA DOWNLOAD 27.22.5.1	
+27.22.5.1.1/1				[void]	
+27.22.5.1.1/2	Yes	R96	M	SIM responds with '91 XX'	
+27.22.5.1.1/3	Yes	R96	M	More time	
+27.22.5.1.1/4	Yes	R96	M	8 bit alphabet	
+27.22.5.1.1/5				[void]	
+27.22.5.1.1/6	Yes	R96	M	Data coding / message class	
+27.22.5.2				SMS-CB DATA DOWNLOAD 27.22.5.2	
+27.22.5.2.1/1	Yes	R96	C151	ME does not display message	
+27.22.5.2.1/2	Yes	R96	C151	More time	
+27.22.5.2.1/3	Yes	R96	C152	ME displays message	
+27.22.6				CALL CONTROL BY SIM 27.22.6	
+27.22.6.1/1	Yes	R97	C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/2	Yes	R97	C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/4	Yes	R97	C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/8	Yes	R97	C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/9	Yes	R97	C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/10	Yes	R97	C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/11	Yes	R97	C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/12	Yes	R97	C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/13	Yes	R97	C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/3A	Yes	R97	C131 AND C139 AND C140 AND C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/5A	Yes	R97	C131 AND C139 AND C140 AND C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/3B	Yes	R97	C132 AND C139 AND C140 AND C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/5B	Yes	R97	C132 AND C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/6	Yes	R97	C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/7A	Yes	R97	C131 AND C139 AND C140 AND C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.1/7B	Yes	R97	C132 AND C139 AND C140 AND C142	Procedure for MO calls (Cell identity in envelope call control)	
+27.22.6.2/1	Yes	R97	C137	Procedure for SS (Cell identity in envelope call control)	
+27.22.6.2/2	Yes	R97	C137	Procedure for SS (Cell identity in envelope call control)	
+27.22.6.2/3	Yes	R97	C137	Procedure for SS (Cell identity in envelope call control)	
+27.22.6.2/4	Yes	R97	C137	Procedure for SS (Cell identity in envelope call control)	
+27.22.6.3/1	Yes	R97	C125 AND C142	Interaction with FDN (Cell identity in envelope call control)	
+27.22.6.3/2	Yes	R97	C125 AND C142	Interaction with FDN (Cell identity in envelope call control)	
+27.22.6.3/3	Yes	R97	C125 AND C142	Interaction with FDN (Cell identity in envelope call control)	
+27.22.6.3/4	Yes	R97	C125 AND C142	Interaction with FDN (Cell identity in envelope call control)	
+27.22.6.3/5	Yes	R97	C125 AND C142	Interaction with FDN (Cell identity in envelope call control)	
+27.22.6.4/1	Yes	R97	C126 AND C139 AND C140 AND C142	Support of BDN service (Cell identity in envelope call control)	
+27.22.6.4/2	Yes	R97	C126 AND C139 AND C140 AND C142	Support of BDN service (Cell identity in envelope call control)	
+27.22.6.4/3	Yes	R97	C126 AND C139 AND C140 AND C142	Support of BDN service (Cell identity in envelope call control)	
+27.22.6.4/4	Yes	R97	C126 AND C139 AND C140 AND C142	Support of BDN service (Cell identity in envelope call control)	
+27.22.7				EVENT DOWNLOAD 27.22.7	
+27.22.7.1.1/1	Yes	R97	C142	27.22.7.1: MT call event	
+27.22.7.2.1/1	Yes	R97	C142	27.22.7.2.1: call connected event	
+27.22.7.2.2/1	Yes	R97	C139 AND C140 AND C142	27.22.7.2.2: ME supporting SET UP CALL	
+27.22.7.3.1/1	Yes	R97	C142	27.22.7.3: call disconnected event	
+27.22.7.4.1/1	Yes	R97	M	27.22.7.4: location status event	
+27.22.7.5.1/1	No	R97	C139	27.22.7.5: user activity event	
+27.22.7.6.1/1	Yes	R97	C139 AND C140	27.22.7.6: idle screen available event	
+27.22.7.7.1/1	No	R98	C109	27.22.7.7.1: Card reader status normal	
+27.22.7.7.2/1	No	R98	C116	27.22.7.7.2: Detachable card reader	
+27.22.7.8.1/1	No	R99	C139 AND C140 AND C143 AND C156	27.22.7.8: language selection event	
+27.22.7.9.1/1	Yes	R99	C149 AND C139 AND C140	27.22.7.9: Browser termination event	
+27.22.7.10.1/1	Yes	R99	C121	27.22.7.10: Data available event	
+27.22.7.11.1/1	Yes	R99	C121	27.22.7.11: Channel status event	
+27.22.8				MO SMS Control by SIM 27.22.8	
+27.22.8.1/1	Yes	R98	M	With proactive command, Allowed , no modification	
+27.22.8.1/2	Yes	R98	M	With user SMS, Allowed , no modification	
+27.22.8.1/3	Yes	R98	M	With proactive command, Not allowed	
+27.22.8.1/4	Yes	R98	M	With user SMS, Not allowed	
+27.22.8.1/5	Yes	R98	M	With proactive command, Allowed, with modifications	
+27.22.8.1/6	Yes	R98	M	With user SMS, Allowed, with modifications	
+27.22.8.1/7	Yes	R98	M	With Proactive command, the SIM responds with '90 00',  Allowed, no modification	
+27.22.8.1/8	Yes	R98	M	Send Short Message attempt by user, the SIM responds with '90 00', Allowed, no modification	
+27.22.8				Void	

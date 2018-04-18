@@ -1,0 +1,67 @@
+C101	IF A.1/1 THEN M ELSE N/A	-- O_Cap_Conf
+C102	void	
+C103	void	
+C104	IF A.1/2 THEN M ELSE N/A 	-- O_Sust_text
+C105	IF A.1/3 AND A.1/26 THEN M ELSE N/A	-- O_Ucs2_Entry AND O_UCS2_Cyrillic
+C106	IF A.1/4 THEN M ELSE N/A	-- O_Ext_Str
+C107	IF A.1/5 THEN M ELSE N/A	-- O_Help
+C108	IF A.1/6 THEN O.1 ELSE N/A	-- O_Icons
+C109	IF A.1/7 THEN M ELSE N/A	-- O_Dual_Slot
+C110	IF (A.1/9 AND A.1/25) THEN M ELSE N/A 	O_Run_At AND O_+CIMI
+C111	IF (A.1/10 OR E.1/71) THEN M ELSE N/A	-- O_LB
+C112	IF A.1/11 THEN M ELSE N/A	-- O_Soft_key
+C113	void	
+C114	IF C110 AND A.1/6 THEN O.1 ELSE N/A	-- O_Run_At AND O_+CIMI AND O_Icons
+C115	IF C111 AND A.1/6 THEN O.1 ELSE N/A	-- O_LB AND O_Icons
+C116	IF A1/7 AND A.1/8 THEN M ELSE N/A	-- O_Dual_Slot AND O_Detach_Rdr
+C117	IF C111 AND C118 THEN M ELSE N/A	-- O_LB AND O_Ucs2_Disp AND O_UCS2_Cyrillic
+C118	IF A.1/15 AND A.1/26 THEN M ELSE N/A 	-- O_Ucs2_Disp AND O_UCS2_Cyrillic
+C119	IF A.1/19 THEN M ELSE N/A 	-- O_Redial
+C120	IF A.1/20 THEN M ELSE N/A 	-- O_D_NoResp
+C121	IF A.1/21 AND A.1/17 THEN M ELSE N/A	-- O_BIP_GPRS AND O_UDP
+C122	IF C111 AND A.1/16 THEN M ELSE N/A	-- O_LB  AND O_GPRS
+C123	void	
+C124	IF A.1/22, test x.A M ELSE x.B M (where x is the expected sequence number value)	-- O_CP_Subaddr
+C125	IF A. 1/23 THEN M ELSE N/A 	-- O_FDN
+C126	IF A. 1/24 THEN M ELSE N/A 	-- O_BDN
+C127	IF C121 AND A.1/31 THEN M ELSE N/A 	-- O_BIP_GPRS AND O_UDP AND O_BUFFER_SIZE
+C128	IF C121 AND (NOT A.1/32) AND C142 THEN M ELSE N/A	-- O_BIP_GPRS AND O_UDP AND (NOT O_DTM) AND O_No_Type_NS
+C129	IF A.1/33 THEN test x.A M ELSE test x.B M	-- O_longFTN
+C130	IF (C121 AND A.1/34) THEN test x.A M ELSE IF (C121 AND NOT A.1/34) test x.B M ELSE N/A	-- (O_BIP_GPRS AND O_UDP  AND O_User_Confirm_Before_PDP_Context_Request) OR (O_BIP_GPRS AND O_UDP AND NOT O_User_Confirm_Before_PDP_Context_Request)
+C131	IF A.1/36 THEN M ELSE N/A	-- O_UC_Before_EnvCC
+C132	IF A.1/37 THEN M ELSE N/A	-- O_UC_After_EnvCC
+C133	IF A.1/38 THEN M ELSE N/A	-- O_Serv_SS_HOLD
+C134	IF A.1/6 THEN O.2 ELSE N/A	-- O_Icons
+C135	IF A.1/6 THEN O.4 ELSE N/A	-- O_Icons
+C136	IF C110 AND A.1/6 THEN O.2 ELSE N/A	-- O_Run_At AND O_+CIMI AND O_Icons
+C137	IF A.1/42 AND A.1/43 THEN M ELSE N/A	-- O_AddInfo_SS AND O_Serv_SS_CFU
+C138	IF A.1/42 AND A.1/44 THEN M ELSE N/A	-- O_AddInfo_SS AND O_Serv_SS_CLIR
+C139	IF A.1/45 THEN M ELSE N/A	-- O_No_Type_ND
+C140	IF A.1/46 THEN M ELSE N/A	-- O_No_Type_NK
+C141	IF A.1/47 THEN M ELSE N/A                             	-- O_No_Type_NA
+C142	IF A.1/48 THEN M ELSE N/A	-- O_No_Type_NS
+C143	IF A.1/49 THEN M ELSE N/A	-- O_No_Type_NL
+C144	IF A.1/6 AND A.1/71 THEN M ELSE N/A	-- O_Icons AND O_Icon_Rec1_Send_SS
+C145	IF A.1/6 AND A.1/75 THEN M ELSE N/A	-- O_Icons AND O_Icon_Rec2_Send_USSD
+C146	IF A.1/6 AND A.1/74 THEN M ELSE N/A	-- O_Icons AND O_Icon_Rec1_Send_USSD
+C147	IF A.1/6 AND A.1/80 THEN M ELSE N/A	-- O_Icons AND O_Icon_Rec1_Set_Up_Idle_Mode_Text
+C148	IF C110 AND A.1/6 AND A.1/83 THEN M ELSE N/A	-- O_Run_At AND O_+CIMI AND O_Icons AND O_Icon_Rec1_Run_AT_Cmd
+C149	IF (A.1/10 OR (E.1/71 AND E.1/42)) THEN M ELSE N/A	-- O_LB
+C150	IF A.1/92 THEN M ELSE N/A	-- O_Select_Item_Default_Item
+C151	IF A.1/93 THEN M ELSE N/A	-- O_SMS-CB_Data_Download
+C152	IF A.1/93 AND A.1/45 THEN M ELSE N/A	-- O_SMS-CB_Data_Download AND O_No_Type_ND
+C153	IF A.1/94 THEN N/A ELSE M	-- O_CLASS_C_OPMODE
+C154	IF (NOT A.1/96) THEN M ELSE N/A	-- NOT O_Rej_Launch_Browser_with_DefURL
+C155	IF A.1/96 THEN M ELSE N/A	-- O_Rej_Launch_Browser_with_DefURL
+C156	IF (A.1/aaa) THEN M ELSE N/A	-- O_Lang_Select
+C157	IF (A.1/bbb) THEN M ELSE N/A	-- O_Provide_Local_LS
+C158	IF (A.1/ccc) THEN M ELSE N/A	-- O_Lang_Notif
+
+O.1	IF A.1/zz tests x.yA M ELSE tests x.yB M (where zz corresponds to the option relating to the command being tested (e.g. A.1/50 if Display Text supports icons as defined in record 1 of EF(IMG)) and x.y is the expected sequence number value)
+O.2	IF A.1/zz tests x.yA M ELSE tests x.yB M (where zz corresponds to the option relating to the command being tested (e.g. A.1/51 if Display Text supports icons as defined in record 2 of EF(IMG)) and x.y is the expected sequence number value)
+O.3	void
+O.4	IF A.1/zz AND A.1/ww tests x.yA M ELSE tests x.yB M (where zz and ww correspond to the options relating to the command being tested (e.g. A.1/50 if Display Text supports icons as defined in record 1 of EF(IMG) and A.1.52 if Display Text supports icons as defined in record 5 of EF(IMG) ) and x.y is the expected sequence number value)
+AER001	IF (A.1/35) THEN R ELSE A	-- O_SAT_USAT
+AER002	IF (A.1/35) THEN R (27.22.4.10.1 Seq. 1.9) ELSE A	-- O_SAT_USAT
+TCEP001	IF NOT A.1/45 THEN during the test execution, the display or the non-display of any alpha identifier, text string or icon shall be treated as successfully verified.
+TCEP002	IF NOT A.1/46 THEN the terminal may open the channel without explicit confirmation by the user.

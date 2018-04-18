@@ -1,0 +1,1305 @@
+Clause	Title	Release	Applicability	Tested Bands / CA-Configurations Selection	Branch	Additional Information
+			Condition	Comments			
+		Transmitter Characteristics
+6.2.2	UE Maximum Output Power	Rel-8	C186	UE supporting E-UTRA Power Class 3	D01	FDD, TDD	
+							
+6.2.2_1	UE Maximum Output Power for HPUE	Rel-10	C39	UE supporting E-UTRA Power Class 1 or Power Class 2	D04	FDD, TDD	
+							
+6.2.2A.1	UE Maximum Output Power for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.2.2A.2	UE Maximum Output Power for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03		
+						FDD, TDD	
+6.2.2A.3	UE Maximum Output Power for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02		
+						FDD, TDD	
+6.2.2B	UE Maximum Output Power for UL-MIMO	Rel-10	C07	UE supporting E-UTRA Power Class 3 and UL-MIMO	D05	FDD, TDD	
+							
+6.2.2B_1	HPUE Maximum Output Power for UL-MIMO	Rel-10	C202	UE supporting E-UTRA Power Class 2 and UL-MIMO	D05	FDD, TDD	
+							
+6.2.2E	UE Maximum Output Power for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD	
+							
+							
+6.2.2EA	UE Maximum Output Power for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.2.2F	UE Maximum Output Power for category NB1	Rel-13	C112b	UE supporting category NB1	D11	HD-FDD	
+6.2.5	Configured UE transmitted Output Power	Rel-8	C186	UE supporting E-UTRA Power Class 3	D01	FDD, TDD	
+							
+6.2.5_1	Configured UE transmitted Output Power for HPUE	Rel-10	C39	UE supporting E-UTRA Power Class 1 or Power Class 2	D04	FDD, TDD	
+							
+6.2.5A.1	Configured UE transmitted Output Power for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.2.5A.3	Additional Maximum Power Reduction (A-MPR) for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.2.5A.4	Additional Maximum Power Reduction (A-MPR) for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.2.5B	Configured transmitted power for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.2.5E	Configured transmitted power for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD 	
+							
+							
+6.2.5EA	Configured UE transmitted Power for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.2.5F	Configured UE transmitted Output Power for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.3.1	Void						
+6.3.2	Minimum Output Power	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.3.2A.1	Minimum Output Power for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.3.2A.2	Minimum Output Power for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.3.2A.3	Minimum Output Power for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and inter-band DL CA and UL CA	E02	FDD	
+6.3.2B	Minimum Output Power for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.3.2E	Minimum Output Power for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01		
+						FDD, HD-FDD, TDD	
+							
+6.3.2EA	Minimum Output Power for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.2F	Minimum Output Power for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.3.3	Transmit OFF Power	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.3.3A.1	Transmit OFF Power for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.3.3A.2	UE Transmit OFF power for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.3.3A.3	Transmit OFF Power for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.3.3B	UE Transmit OFF power for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.3.3E	UE Transmit OFF power for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.3EA	UE Transmit OFF power for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.4.1	General ON/OFF time mask	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.3.4.2.1	PRACH time mask	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.3.4.2.2	SRS time mask	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.3.4A.1.1	General ON/OFF time mask for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.3.4A.1.2	General ON/OFF time mask for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.3.4A.1.3	General ON/OFF time mask for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.3.4B.1	ON/OFF time mask for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.3.4C.1	General ON/OFF time mask for Dual Connectivity	Rel-12	C224	UE supporting Dual Connectivity	E03	FDD, TDD	
+							
+6.3.4C.1_1	General ON/OFF time mask for asynchronous Dual Connectivity	Rel-12	C225	UE supporting asynchronous Dual Connectivity	E03	FDD, TDD	
+							
+6.3.4E.1	General ON/OFF time mask for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.4E.2	Prach and SRC ON/OFF time mask for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.4EA.1	General ON/OFF time mask for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.4EA.2.1	PRACH time mask for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+6.3.4EA.2.2	SRS time mask for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.4F.1	General ON/OFF time mask for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.3.4F.2	NPRACH time mask for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.3.5.1	Power Control Absolute Power Tolerance	Rel-8	C186	UE supporting E-UTRA Power Class 3	D01	FDD, TDD	
+							
+6.3.5.2	Power Control Relative Power Tolerance	Rel-8	C186	UE supporting E-UTRA Power Class 3	D01	FDD, TDD	
+							
+6.3.5.3	Aggregate Power Control Tolerance	Rel-8	C186	UE supporting E-UTRA Power Class 3	D01	FDD, TDD	
+							
+6.3.5A.1.1	Power Control Absolute Power Tolerance for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.3.5A.1.2	Power Control Absolute Power Tolerance for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.3.5A.1.3	Power Control Absolute Power Tolerance for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.3.5A.2.1	Power Control Relative Power Tolerance for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.3.5A.2.2	Power Control Relative Power Tolerance for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.3.5A.2.3	Power Control Relative Power Tolerance for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.3.5A.3.1	Aggregate Power Control Tolerance for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.3.5A.3.2	Aggregate Power Control Tolerance for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.3.5A.3.3	Aggregate Power Control Tolerance for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.3.5B.1	Power Control Absolute power tolerance for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.3.5B.2	Power Control Relative power tolerance for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.3.5B.3	Aggregate power control tolerance for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.3.5C.2	Power Control Relative power tolerance for Dual Connectivity	Rel-12	C224	UE supporting Dual Connectivity	E03	FDD, TDD	
+							
+6.3.5C.2_1	Power Control Relative power tolerance for asynchronous Dual Connectivity	Rel-12	C225	UE supporting asynchronous Dual Connectivity	E03	FDD, TDD	
+							
+6.3.5E.1	Power Control Absolute power tolerance for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.5E.2	Power Control Relative power tolerance for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.5E.3	Aggregate power control tolerance for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.5EA.1	Power control for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.5EA.2	Power Control Relative power tolerance for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.5EA.3	Aggregate power control tolerance for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.3.5EA.3_1	Aggregate power control tolerance for UE category M1 (CE Mode B)	Rel-13	C156c	UE supporting E-UTRA and UE category M1	D02	HD-FDD	
+6.3.5F.1	Power Control Absolute power tolerance for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.3.5F.2	Power Control Relative power tolerance for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.3.5F.3	Aggregate power control tolerance for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.3.5_1.1	Power Control Absolute Power Tolerance for HPUE	Rel-10	C39	UE supporting E-UTRA Power Class 1 or Power Class 2	D04	FDD	
+6.3.5_1.2	Power Control Relative Power Tolerance for HPUE	Rel-10	C39	UE supporting E-UTRA Power Class 1 or Power Class 2	D04	FDD	
+6.3.5_1.3	Aggregate Power Control Tolerance for HPUE	Rel-10	C39	UE supporting E-UTRA Power Class 1 or Power Class 2	D04	FDD	
+6.5.1	Frequency Error	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.5.1A.1	Frequency Error for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.5.1A.2	Frequency error for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.5.1A.3	Frequency Error for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.5.1B	Frequency Error for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.5.1D.1	Frequency error for ProSe Direct Discovery	Rel-12	C163	UE supporting E-UTRA and ProSe direct discovery	D10	FDD, TDD	
+							
+6.5.1D.2	Frequency error for ProSe Direct Communication	Rel-12	C162	UE supporting E-UTRA and ProSe direct communication	D10	FDD, TDD	
+							
+6.5.1E	Frequency Error for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.1EA	Frequency Error for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.1EA_1	Frequency Error for UE category M1 (CEmodeB)	Rel-13	C156c	UE supporting E-UTRA FDD and (UE category M1 and CE Mode B)	D02	FDD, HD-FDD, TDD	
+6.5.1F	Frequency Error for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.5.2.1	Error Vector Magnitude (EVM)	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.5.2.1_1	Error Vector Magnitude (EVM) for UL 64QAM	Rel-13	C147	UE supporting E-UTRA and UL 64QAM	D01	FDD, TDD	Note 1
+							
+6.5.2.1A	PUSCH-EVM with exclusion period	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.5.2.1E.1	Error Vector Magnitude for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.2.1E.2	PUSCH-EVM with exclusion period for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.2.1EA.1	Error Vector Magnitude (EVM) for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.2.1EA.2	PUSCH-EVM with exclusion period for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.2.1F.1	Error Vector Magnitude (EVM) for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.5.2.2	Carrier leakage	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.5.2.2E	Carrier leakage for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.2.2EA	Carrier leakage for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.2.2F	Carrier leakage for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.5.2.3	In-band emissions for non allocated RB	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.5.2.3E	In-band emissions for non allocated RB for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.2.3EA	In-band emissions for non allocated RB for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.2.3F	In-band emissions for non allocated RB for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+6.5.2.4	EVM equalizer spectrum flatness	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.5.2.4E	EVM equalizer spectrum flatness for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.2.4EA	EVM equalizer spectrum flatness for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.5.2A.1.1	Error Vector Magnitude (EVM) for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.5.2A.1.1_1	EVM for CA (intra-band contiguous DL CA and UL CA) with UL 64QAM	Rel-13	C148	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA and UL 64QAM.	E01	FDD, TDD	Note 1
+							
+6.5.2A.1.2	Error Vector Magnitude (EVM) for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.5.2A.1.2_1	Error Vector Magnitude (EVM) for CA (inter-band DL CA and UL CA) for UL 64QAM	Rel-13	C160	UE supporting E-UTRA and inter-band DL CA and UL CA and UL 64QAM	E03	FDD, TDD	Note 1
+							
+6.5.2A.1.3	Error Vector Magnitude (EVM) for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.5.2A.1.3_1	Error Vector Magnitude (EVM) for CA (intra-band non-contiguous DL CA and UL CA) for UL 64QAM	Rel-13	C185	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA and UL 64QAM	E02	FDD, TDD	
+							
+6.5.2A.2.1	Carrier leakage for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.5.2A.2.2	Carrier leakage for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.5.2A.2.3	Carrier leakage for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.5.2A.3.1	In-band emissions for non allocated RB for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.5.2A.3.2	In-band emissions for non allocated RB for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.5.2A.3.3	In-band emissions for non allocated RB for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.5.2B.1	Error Vector Magnitude for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.5.2B.2	Carrier leakage for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.5.2B.3	In-band emissions for non allocated RB for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.5.2B.4	EVM equalizer spectrum flatness for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.6.1	Occupied bandwidth	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.6.1A.1	Occupied bandwidth for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.6.1A.2	6.6.1A.2 Occupied bandwidth for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.6.1A.3	Occupied bandwidth for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.6.1B	Occupied bandwidth for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.6.1E	Occupied bandwidth for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.1EA	Occupied bandwidth for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.1F	Occupied bandwidth for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	FDD, HD-FDD, TDD	
+6.6.2.1	Spectrum Emission Mask	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.6.2.1_1	Spectrum Emission Mask for Multi-cluster PUSCH	Rel-10	C100	UE supporting E-UTRA and Multi-Cluster PUSCH	D07	FDD, TDD	
+							
+6.6.2.1A.1	Spectrum Emission Mask for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.6.2.1A.2	Spectrum Emission Mask for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.6.2.1A.3	Spectrum Emission Mask for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.6.2.1B	Spectrum Emission Mask for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.6.2.1E	Spectrum Emission Mask for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.2.1EA	Spectrum Emission Mask for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.2.1F	Spectrum Emission Mask for category NB1	Rel-13	C112b	UE supporting category NB1	D11	HD-FDD	
+6.6.2.2	Additional Spectrum Emission Mask	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.6.2.2_1	Additional Spectrum Emission Mask for UL 64QAM	Rel-13	C147	UE supporting E-UTRA and UL 64QAM	D01	FDD, TDD	Note 1
+							
+6.6.2.2A.1	Additional Spectrum Emission Mask for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.6.2.2A.2	Additional Spectrum Emission Mask for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.6.2.2A.3	Additional Spectrum Emission Mask for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.6.2.2A.1_1	Additional Spectrum Emission Mask for CA (intra-band contiguous DL CA and UL CA) for UL 64QAM	Rel-13	C148	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA and UL 64QAM.	E01	FDD, TDD	Note 1
+							
+6.6.2.2A.2_1	Additional Spectrum Emission Mask for CA (inter-band DL CA and UL CA) for UL 64QAM	Rel-13	C160	UE supporting E-UTRA and inter-band DL CA and UL CA and UL 64QAM	E03	FDD, TDD	Note 1
+							
+6.6.2.2B	Additional Spectrum Emission Mask for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.6.2.2E	Additional Spectrum Emission Mask for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.2.2EA	Additional Spectrum Emission Mask for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.2.3	Adjacent Channel Leakage power Ratio	Rel-8	C186	UE supporting E-UTRA Power Class 3	D01	FDD, TDD	
+							
+6.6.2.3_1	Adjacent Channel Leakage power Ratio for HPUE	Rel-10	C39	UE supporting E-UTRA Power Class 1 or Power Class 2	D04	FDD, TDD	
+							
+6.6.2.3_2	Adjacent Channel Leakage power Ratio for Multi-Cluster PUSCH	Rel-10	C159 (Note 2)	UE supporting E-UTRA and Multi-Cluster PUSCH	D07	FDD, TDD	
+							
+6.6.2.3A.1	Adjacent Channel Leakage power Ratio for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.6.2.3A.2	Adjacent Channel Leakage power Ratio for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.6.2.3A.3	Adjacent Channel Leakage power Ratio for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.6.2.3A.1_1	Adjacent Channel Leakage power Ratio for CA (intra-band contiguous DL CA and UL CA) for UL 64QAM	Rel-13	C148	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA and UL 64QAM	E01	FDD, TDD	Note 1
+							
+6.6.2.3A.2_1	Adjacent Channel Leakage power Ratio for CA (inter-band DL CA and UL CA) for UL 64QAM	Rel-13	C160	UE supporting E-UTRA and inter band DL CA and UL CA and UL 64QAM	E03	FDD, TDD	Note 1
+							
+6.6.2.3A.3_1	Adjacent Channel Leakage power Ratio for CA (intra-band non-contiguous DL CA and UL CA) for UL 64QAM	Rel-13	C161	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA and UL 64QAM	E02	FDD, TDD	Note 1
+							
+6.6.2.3B	Adjacent Channel Leakage power Ratio for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.6.2.3E	Adjacent Channel Leakage power Ratio for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.2.3EA	Adjacent Channel Leakage power Ratio for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.2.3F	Adjacent Channel Leakage power Ratio for category NB1	Rel-13	C112b	UE supporting category NB1	D11	HD-FDD	
+6.6.2.3_3	Adjacent Channel Leakage power Ratio for UL 64QAM	Rel-13	C147	UE supporting E-UTRA and UL 64QAM	D01	FDD, TDD	Note 1
+							Note 1
+6.6.2.3_4	Adjacent Channel Leakage power Ratio for Multi-Cluster PUSCH with UL 64QAM	Rel-13	C149	UE supporting E-UTRA and Multi-Cluster PUSCH and UL 64QAM	D07	FDD, TDD	Note 1
+							
+6.6.2.4	Void						
+6.6.3.1	Transmitter Spurious emissions	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.6.3.1_1	Transmitter Spurious emissions for Multi-Cluster PUSCH	Rel-10	C100	UE supporting E-UTRA and Multi-Cluster PUSCH	D07	FDD, TDD	
+							
+6.6.3.1A.1	Transmitter Spurious emissions for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.6.3.1A.2	Transmitter Spurious emissions for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.6.3.1A.3	Transmitter Spurious emissions for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.6.3F.1	Transmitter Spurious emissions for category NB1	Rel-13	C112b	UE supporting category NB1	D11	HD-FDD	
+6.6.3F.2	Spurious emission band UE co-existence for category NB1	Rel-13	C112b	UE supporting category NB1	D11	HD-FDD	
+6.6.3.2	Spurious emission band UE co-existence	Rel-8 	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.6.3.2A.1	Spurious emission band UE co-existence for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.6.3.2A.2	Spurious emission band UE co-existence for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.6.3.2A.3	Spurious emission band UE co-existence for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.6.3.3	Additional spurious emissions	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.6.3.3_1	Additional spurious emissions for UL 64QAM	Rel-13	C147	UE supporting E-UTRA and UL 64QAM	D01	FDD, TDD	Note 1
+							
+6.6.3.3A.1	Additional spurious emissions for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.6.3.3A.1_1	Additional spurious emissions for CA (intra-band contiguous DL CA and UL CA) for UL 64QAM	Rel-13	C148	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA and UL 64QAM.	E01	FDD, TDD	Note 1
+							
+6.6.3.3A.2	Additional spurious emissions for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.6.3.3A.2_1	Additional spurious emissions for CA (inter-band DL CA and UL CA) for UL 64QAM	Rel-13	C160	UE supporting E-UTRA and inter-band DL CA and UL CA and UL 64QAM	E03	FDD, TDD	Note 1
+							
+6.6.3.3A.3	Additional spurious emissions for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD, TDD	
+							
+6.6.3B.2	Spurious emission band UE co-existence for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.6.3E.1	Transmitter Spurious emissions for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.3E.2	Transmitter Spurious Band UE co-existence for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.3EA.1	Transmitter Spurious emissions for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.3EA.2	Spurious emission band UE co-existence for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.3EA.3	Additional spurious emissions for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.6.3E.3	Additional spurious emissions for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.7	Transmit intermodulation	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+6.7A.1	Transmit intermodulation for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD, TDD	
+							
+6.7A.2	Transmit intermodulation for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD, TDD	
+							
+6.7B	Transmit intermodulation for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+6.7E	Transmit intermodulation for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0	D01	FDD, HD-FDD, TDD	
+							
+							
+6.7EA	Transmit intermodulation for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+6.7F	Transmit intermodulation for category NB1	Rel-13	C112b	UE supporting Category NB1	D12, D13	HD-FDD	
+6.8B	Time alignment between transmitter branches for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+		Receiver Characteristics
+7.3	Reference sensitivity level	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+7.3_1	Reference sensitivity level with 4 Rx antenna ports	Rel-10	C113a	UE supporting E-UTRA with 4Rx antenna ports	D09	FDD, TDD	
+							
+7.3A.1	Reference sensitivity level for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.3A.2	Reference sensitivity level for CA (intra-band contiguous DL CA without UL CA)	Rel-10	C20	UE supporting E-UTRA and intra-band contiguous DL CA	E08	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.3A.3	Reference sensitivity level for CA (inter-band DL CA without UL CA)	Rel-10	C21	UE supporting E-UTRA and inter-band DL CA	E10	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-12	C146	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA			
+		Rel-13	C207	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA under FS3			
+		Rel-13	C208	UE supporting E-UTRA and 2DL CA with TDD-TDD inter-band CA under FS3			
+7.3A.4	Reference sensitivity level for CA (intra-band non-contiguous DL CA without UL CA)	Rel-11	C43	UE supporting E-UTRA and intra-band non-contiguous DL CA but no UL CA	E09	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.3A.5	Reference sensitivity level for 3DL CA	Rel-10	C121	UE supporting E-UTRA and 3DL with intra-band contiguous CA or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA	E07	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C122	UE supporting E-UTRA and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA	E07		
+							
+		Rel-12	C123	UE supporting E-UTRA and 3DL CA with FDD-TDD CA	E07		
+		Rel-13	C268	UE supporting E-UTRA and 3DL CA with FDD-TDD CA under FS3	E07		
+		Rel-13	C269	UE supporting E-UTRA and 3DL CA with TDD-TDD CA under FS3	E07		
+7.3A.6	Reference sensitivity level for CA (inter-band DL CA and UL CA)	Rel-11	C116	UE supporting E-UTRA and inter-band DL CA and UL CA	E03	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.3A.7	Reference sensitivity level for CA (intra-band non-contiguous DL CA and UL CA)	Rel-11	C115	UE supporting E-UTRA and intra-band non-contiguous DL CA and UL CA	E02	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.3A.9	Reference sensitivity level for 4DL CA	Rel-11	C187	UE supporting E-UTRA and 4DL with TDD Intra-band contiguous CA, or 4DL with Inter-band CA, or 4DL with Intra-band contiguous and Inter-band CA.	E14	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C211	UE supporting E-UTRA and 4DL with Intra-band non-contiguous and Inter-band CA, or 4DL with Intra-band non-contiguous and Intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA	E14		
+							
+		Rel-12	C188	UE supporting E-UTRA and 4DL CA with FDD-TDD CA	E14		
+7.3A.10	Reference sensitivity level for 5DL CA	Rel-11	C221	UE supporting E-UTRA and 5DL with Intra-band non-contiguous CA, or 5DL with Intra-band contiguous and Inter-band CA, or 5DL with Intra-band non-contiguous and Inter-band CA, or 5DL with Intra-band non-contiguous and Intra-band contiguous CA, or 5DL with Intra-band non-contiguous and Intra-band non-contiguous CA, or 5DL with Intra-band contiguous and Intra-band contiguous CA	E15	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-12	C222	UE supporting E-UTRA and 5DL CA with inter-band CA, or 5DL CA with TDD Intra-band contiguous CA	E15		
+							
+			C223	UE supporting E-UTRA and 5DL CA with FDD-TDD	E15		
+7.3E	Reference sensitivity level for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD	
+							
+							
+7.3EA	Reference sensitivity level for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+7.3EB	Reference sensitivity level for UE category 1bis	Rel-14	C112c	UE supporting E-UTRA and UE category 1bis	D01		FDD, HD-FDD, TDD
+7.3B	Reference sensitivity level for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+7.3F.1	Reference sensitivity level without repetitions for category NB1	Rel-13	C112b	UE supporting category NB1	D11	HD-FDD	
+7.3F.2	Reference sensitivity level with repetitions for category NB1	Rel-13	C112b	UE supporting category NB1	D11	HD-FDD	
+7.4	Maximum input level	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+7.4_1	Maximum input level with 4 Rx antenna ports	Rel-10	C168	UE supporting E-UTRA with 4Rx antenna ports but not 256QAM in DL	D09	FDD, TDD	
+							
+7.4_H	7.4_H Maximum input level for 256QAM in DL	Rel-12	C113h	UE supporting E-UTRA and 256QAM in DL	D01	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.4A.1	Maximum input level for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.4A.1_H	Maximum input level for CA (intra-band contiguous DL CA and UL CA) for 256QAM in DL	Rel-12	C19h	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA and 256QAM in DL	E01	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.4A.2	Maximum input level for CA (intra-band contiguous DL CA without UL CA)	Rel-10	C20	UE supporting E-UTRA and intra-band contiguous DL CA	E08	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.4A.2_H	Maximum input level for CA (intra-band contiguous DL CA without UL CA) for 256QAM in DL	Rel-12	C20h	UE supporting E-UTRA and intra-band contiguous DL CA and 256QAM in DL	E08	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.4A.3	Maximum input level for CA (inter-band DL CA without UL CA)	Rel-10	C21	UE supporting E-UTRA and inter-band DL CA	E10	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-12	C146	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA			
+		Rel-13	C207	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA under FS3			
+		Rel-13	C208	UE supporting E-UTRA and 2DL CA with TDD-TDD inter-band CA under FS3			
+7.4A.3_H	Maximum input level for CA (inter-band DL CA without UL CA) for 256QAM in DL	Rel-12	C21h	UE supporting E-UTRA and inter-band DL CA and 256QAM in DL	E10	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.4A.4	Maximum input level for CA (intra band non-contiguous DL CA without UL CA)	Rel-11	C43	UE supporting E-UTRA and intra-band non-contiguous DL CA but no UL CA	E09	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.4A.4_H	Maximum input level for CA (intra band non-contiguous DL CA without UL CA) for 256QAM in DL	Rel-12	C43h	UE supporting E-UTRA and intra-band non-contiguous DL CA but no UL CA and 256QAM in DL	E09	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.4A.5	Maximum input level for 3DL CA	Rel-10	C121	UE supporting E-UTRA and 3DL with intra-band contiguous CA or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA	E07	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C122	UE supporting E-UTRA and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA	E07		
+							
+		Rel-12	C123	UE supporting E-UTRA and 3DL CA with FDD-TDD CA	E07		
+		Rel-13	C268	UE supporting E-UTRA and 3DL CA with FDD-TDD CA under FS3	E07		
+		Rel-13	C269	UE supporting E-UTRA and 3DL CA with TDD-TDD CA under FS3	E07		
+7.4A.5_H	Maximum input level for 3DL CA for 256QAM in DL	Rel-12	C122h	UE supporting E-UTRA and 3DL CA and 256QAM in DL	E07	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+		Rel-13	C268	UE supporting E-UTRA and 3DL CA with FDD-TDD CA under FS3	E07		
+		Rel-13	C269	UE supporting E-UTRA and 3DL CA with TDD-TDD CA under FS3	E07		
+7.4A.7	Maximum input level for 4DL CA	Rel-11	C187	UE supporting E-UTRA and 4DL with TDD Intra-band contiguous CA, or 4DL with Inter-band CA, or 4DL with Intra-band contiguous and Inter-band CA.	E14	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C211	UE supporting E-UTRA and 4DL with Intra-band non-contiguous and Inter-band CA, or 4DL with Intra-band non-contiguous and Intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA	E14		
+							
+		Rel-12	C188	UE supporting E-UTRA and 4DL CA with FDD-TDD CA	E14		
+7.4A.8	Maximum input level for 5DL CA	Rel-11	C221	UE supporting E-UTRA and 5DL with Intra-band non-contiguous CA or 5DL with Intra-band non-contiguous and Inter-band CA or 5DL with Intra-band contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Intra-band contiguous CA, or 5DL with Intra-band non-contiguous and Intra-band non-contiguous CA, or 5DL with Intra-band contiguous and Intra-band contiguous CA	E15	FDD 2Rx, FDD 4Rx, TDD 2Rx, TDD 4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+		Rel-12	C222	UE supporting E-UTRA and 5DL CA with inter-band CA, or 5DL CA with TDD Intra-band contiguous CA			
+		Rel-12	C223	UE supporting E-UTRA and 5DL CA with FDD-TDD CA			
+7.4B	Maximum input level for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+7.4D.1	Maximum input level for ProSe Direct Discovery	Rel-12	C163	UE supporting E-UTRA and ProSe direct discovery	D10	FDD, TDD	
+							
+7.4D.2	Maximum input level for ProSe Direct Communication	Rel-12	C162	UE supporting E-UTRA and ProSe direct communication	D10	FDD, TDD	
+							
+7.4E	Maximum input level for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD	
+							
+							
+7.4EA	Maximum input level for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+7.4F	Maximum input level for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+7.5	Adjacent Channel Selectivity (ACS)	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+7.5_1	Adjacent Channel Selectivity (ACS) with 4 Rx antenna ports	Rel-10	C113a	UE supporting E-UTRA with 4Rx antenna ports	D09	FDD, TDD	
+							
+7.5A.1	Adjacent Channel Selectivity (ACS) for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.5A.2	Adjacent Channel Selectivity (ACS) for CA (intra-band contiguous DL CA without UL CA)	Rel-10	C20	UE supporting E-UTRA and intra-band contiguous DL CA	E11	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.5A.3	Adjacent Channel Selectivity (ACS) for CA (inter-band DL CA without UL CA)	Rel-10	C21	UE supporting E-UTRA and inter-band DL CA	E12	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-12	C146	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA			
+		Rel-13	C207	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA under FS3			
+		Rel-13	C208	UE supporting E-UTRA and 2DL CA with TDD-TDD inter-band CA under FS3			
+7.5A.4	Adjacent Channel Selectivity (ACS) for CA (intra band non-contiguous DL CA without UL CA)	Rel-11	C43	UE supporting E-UTRA and intra-band non-contiguous DL CA but no UL CA	E09	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.5A.5	Adjacent Channel Selectivity (ACS) for 3DL CA	Rel-10	C121	UE supporting E-UTRA and 3DL with intra-band contiguous CA or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA	E07	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C122	UE supporting E-UTRA and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA	E07		
+							
+		Rel-12	C123	UE supporting E-UTRA and 3DL CA with FDD-TDD CA	E07		
+		Rel-13	C268	UE supporting E-UTRA and 3DL CA with FDD-TDD CA under FS3	E07		
+		Rel-13	C269	UE supporting E-UTRA and 3DL CA with TDD-TDD CA under FS3	E07		
+7.5A.7	Adjacent Channel Selectivity (ACS) for 4DL CA	Rel-11	C187	UE supporting E-UTRA and 4DL with TDD Intra-band contiguous CA, or 4DL with Inter-band CA, or 4DL with Intra-band contiguous and Inter-band CA.	E14	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C211	UE supporting E-UTRA and 4DL with Intra-band non-contiguous and Inter-band CA, or 4DL with Intra-band non-contiguous and Intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA	E14		
+							
+		Rel-12	C188	UE supporting E-UTRA and 4DL CA with FDD-TDD CA	E14		
+7.5A.8	Adjacent Channel Selectivity (ACS) for 5DL CA	Rel-11	C221	UE supporting E-UTRA and 5DL with Intra-band non-contiguous CA or 5DL with Intra-band non-contiguous and Inter-band CA or 5DL with Intra-band contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Intra-band contiguous CA, or 5DL with Intra-band non-contiguous and Intra-band non-contiguous CA, or 5DL with Intra-band contiguous and Intra-band contiguous CA	E15	FDD 2Rx, FDD 4Rx, TDD 2Rx, TDD 4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+		Rel-12	C222	UE supporting E-UTRA and 5DL CA with inter-band CA, or 5DL CA with TDD Intra-band contiguous CA			
+		Rel-12	C223	UE supporting E-UTRA and 5DL CA with FDD-TDD CA			
+7.5B	Adjacent Channel Selectivity (ACS)for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+7.5D.1	Adjacent Channel Selectivity (ACS) for ProSe Direct Discovery	Rel-12	C163	UE supporting E-UTRA and ProSe direct discovery	D10	FDD, TDD	
+							
+7.5D.2	Adjacent Channel Selectivity (ACS) for ProSe Direct Communication	Rel-12	C162	UE supporting E-UTRA and ProSe direct communication	D10	FDD, TDD	
+							
+7.5E	Adjacent Channel Selectivity (ACS) for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD	
+							
+							
+7.5EA	Adjacent Channel Selectivity (ACS) for category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+7.5F	Adjacent Channel Selectivity (ACS) for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+7.6.1	In-band blocking	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+7.6.1_1	In-band blocking with 4 Rx antenna ports	Rel-10	C113a	UE supporting E-UTRA with 4Rx antenna ports	D09	FDD, TDD	
+							
+7.6.1A.1	In-band blocking for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.6.1A.2	In-band blocking for CA (intra-band contiguous DL CA without UL CA)	Rel-10	C20	UE supporting E-UTRA and intra-band contiguous DL CA	E11	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.6.1A.3	In-band blocking for CA (inter-band DL CA without UL CA)	Rel-10	C21	UE supporting E-UTRA and inter-band DL CA	E12	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-12	C146	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA			
+		Rel-13	C207	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA under FS3	E12		
+		Rel-13	C208	UE supporting E-UTRA and 2DL CA with TDD-TDD inter-band CA under FS3			
+7.6.1A.4	In-band blocking for CA (intra-band non-contiguous DL CA without UL CA)	Rel-11	C43	UE supporting E-UTRA and intra-band non-contiguous DL CA but no UL CA	E09	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.6.1A.5	In-band blocking for 3DL CA	Rel-10	C121	UE supporting E-UTRA and 3DL with intra-band contiguous CA or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA	E07	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C122	UE supporting E-UTRA and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA	E07		
+							
+		Rel-12	C123	UE supporting E-UTRA and 3DL CA with FDD-TDD CA	E07		
+		Rel-13	C268	UE supporting E-UTRA and 3DL CA with FDD-TDD CA under FS3	E07		
+		Rel-13	C269	UE supporting E-UTRA and 3DL CA with TDD-TDD CA under FS3	E07		
+7.6.1A.7	In-band blocking for 4DL CA	Rel-11	C187	UE supporting E-UTRA and 4DL with TDD Intra-band contiguous CA, or 4DL with Inter-band CA, or 4DL with Intra-band contiguous and Inter-band CA.	E14	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C211	UE supporting E-UTRA and 4DL with Intra-band non-contiguous and Inter-band CA, or 4DL with Intra-band non-contiguous and Intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA	E14		
+							
+		Rel-12	C188	UE supporting E-UTRA and 4DL CA with FDD-TDD CA	E14		
+7.6.1A.8	In-band blocking for 5DL CA	Rel-11	C221	UE supporting E-UTRA and 5DL with Intra-band non-contiguous CA or 5DL with Intra-band non-contiguous and Inter-band CA or 5DL with Intra-band contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Intra-band contiguous CA, or 5DL with Intra-band non-contiguous and Intra-band non-contiguous CA, or 5DL with Intra-band contiguous and Intra-band contiguous CA	E15	FDD 2Rx, FDD 4Rx, TDD 2Rx, TDD 4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+		Rel-12	C222	UE supporting E-UTRA and 5DL CA with inter-band CA, or 5DL CA with TDD Intra-band contiguous CA			
+		Rel-12	C223	UE supporting E-UTRA and 5DL CA with FDD-TDD CA			
+7.6.1B	In-band blocking for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+7.6.1D.1	In-band blocking for ProSe Direct Discovery	Rel-12	C163	UE supporting E-UTRA and ProSe direct discovery	D10	FDD, TDD	
+							
+7.6.1D.2	In-band blocking for ProSe Direct Communication	Rel-12	C162	UE supporting E-UTRA and ProSe direct communication	D10	FDD, TDD	
+							
+7.6.1E	In-band blocking for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD	
+							
+							
+7.6.1EA	In-band blocking for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+7.6.1F	In-band blocking for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+7.6.2	Out of-band blocking	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+7.6.2_1	Out of-band blocking with 4 Rx antenna ports	Rel-10	C113a	UE supporting E-UTRA with 4Rx antenna ports	D09	FDD, TDD	
+							
+7.6.2A.1	Out of-band blocking for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.6.2A.2	Out of-band blocking for CA (intra-band contiguous DL CA without UL CA)	Rel-10	C20	UE supporting E-UTRA and intra-band contiguous DL CA	E08	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.6.2A.3	Out of-band blocking for CA (inter-band DL CA without UL CA)	Rel-10	C21	UE supporting E-UTRA and inter-band DL CA	E10	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-12	C146	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA			
+		Rel-13	C207	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA under FS3	E12		
+		Rel-13	C208	UE supporting E-UTRA and 2DL CA with TDD inter-band CA under FS3			
+7.6.2A.4	Out of-band blocking for CA (intra-band non-contiguous DL CA without UL CA)	Rel-11	C43	UE supporting E-UTRA and intra-band non-contiguous DL CA but no UL CA	E09	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.6.2A.5	Out-of-band blocking for 3DL CA	Rel-10	C121	UE supporting E-UTRA and 3DL with intra-band contiguous CA or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA	E07	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C122	UE supporting E-UTRA and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA	E07		
+							
+		Rel-12	C123	UE supporting E-UTRA and 3DL CA with FDD-TDD CA	E07		
+		Rel-13	C268	UE supporting E-UTRA and 3DL CA with FDD-TDD CA under FS3	E07		
+		Rel-13	C269	UE supporting E-UTRA and 3DL CA with TDD-TDD CA under FS3	E07		
+7.6.2A.7	Out-of-band blocking for 4DL CA	Rel-11	C187	UE supporting E-UTRA and 4DL with TDD Intra-band contiguous CA, or 4DL with Inter-band CA, or 4DL with Intra-band contiguous and Inter-band CA.	E14	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C211	UE supporting E-UTRA and 4DL with Intra-band non-contiguous and Inter-band CA, or 4DL with Intra-band non-contiguous and Intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA	E14		
+							
+		Rel-12	C188	UE supporting E-UTRA and 4DL CA with FDD-TDD CA	E14		
+7.6.2A.8	Out-of-band blocking for 5DL CA	Rel-11	C221	UE supporting E-UTRA and 5DL with Intra-band non-contiguous CA or 5DL with Intra-band non-contiguous and Inter-band CA or 5DL with Intra-band contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Intra-band contiguous CA, or 5DL with Intra-band non-contiguous and Intra-band non-contiguous CA, or 5DL with Intra-band contiguous and Intra-band contiguous CA	E15	FDD 2Rx, FDD 4Rx, TDD 2Rx, TDD 4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+		Rel-12	C222	UE supporting E-UTRA and 5DL CA with inter-band CA, or 5DL CA with TDD Intra-band contiguous CA			
+		Rel-12	C223	UE supporting E-UTRA and 5DL CA with FDD-TDD CA			
+7.6.2B	Out-of-band blocking for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+7.6.2D.1	Out-of-band blocking for ProSe Direct Discovery	Rel-12	C163	UE supporting E-UTRA and ProSe direct discovery	D10	FDD, TDD	
+							
+7.6.2D.2	Out-of-band blocking for ProSe Direct Communication	Rel-12	C162	UE supporting E-UTRA and ProSe direct communication	D10	FDD, TDD	
+							
+7.6.2E	Out of-band blocking for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD	
+							
+							
+7.6.2EA	Out of-band blocking for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+7.6.2F	Out-of-band blocking for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+7.6.3	Narrow band blocking	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+7.6.3_1	Out of-band blocking with 4 Rx antenna ports	Rel-10	C113a	UE supporting E-UTRA with 4Rx antenna ports	D09	FDD, TDD	
+							
+7.6.3A.1	Narrow band blocking for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.6.3A.2	Narrow band blocking for CA (intra-band contiguous DL CA without UL CA)	Rel-10	C20	UE supporting E-UTRA and intra-band contiguous DL CA	E08	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.6.3A.3	Narrow band blocking for CA (inter-band DL CA without UL CA)	Rel-10	C21	UE supporting E-UTRA and inter-band DL CA	E10	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-12	C146	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA			
+		Rel-13	C207	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA under FS3	E12		
+			C208	UE supporting E-UTRA and 2DL CA with TDD-TDD inter-band CA under FS3			
+7.6.3A.4	Narrow band blocking for CA (intra-band non-contiguous DL CA without UL CA)	Rel-11	C43	UE supporting E-UTRA and intra-band non-contiguous DL CA but no UL CA	E09	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.6.3A.5	Narrow band blocking for 3DL CA	Rel-10	C121	UE supporting E-UTRA and 3DL with intra-band contiguous CA or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA	E07	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C122	UE supporting E-UTRA and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA	E07		
+							
+		Rel-12	C123	UE supporting E-UTRA and 3DL CA with FDD-TDD CA	E07		
+7.6.3A.7	Narrow band blocking for 4DL CA	Rel-11	C187	UE supporting E-UTRA and 4DL with TDD Intra-band contiguous CA, or 4DL with Inter-band CA, or 4DL with Intra-band contiguous and Inter-band CA.	E14	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	TBD	UE supporting E-UTRA and 4DL with Intra-band non-contiguous and Inter-band CA, or 4DL with Intra-band non-contiguous and Intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA	E14		
+							
+		Rel-12	C188	UE supporting E-UTRA and 4DL CA with FDD-TDD CA	E14		
+7.6.3A.8	Narrow band blocking for 5DL CA	Rel-11	C221	UE supporting E-UTRA and 5DL with Intra-band non-contiguous CA or 5DL with Intra-band non-contiguous and Inter-band CA or 5DL with Intra-band contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Intra-band contiguous CA, or 5DL with Intra-band non-contiguous and Intra-band non-contiguous CA, or 5DL with Intra-band contiguous and Intra-band contiguous CA	E15	FDD 2Rx, FDD 4Rx, TDD 2Rx, TDD 4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+		Rel-12	C222	UE supporting E-UTRA and 5DL CA with inter-band CA, or 5DL CA with TDD Intra-band contiguous CA			
+		Rel-12	C223	UE supporting E-UTRA and 5DL CA with FDD-TDD CA			
+7.6.3B	Narrow band blocking for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+7.6.3D.1	Narrow band blocking for ProSe Direct Discovery	Rel-12	C163	UE supporting E-UTRA and ProSe direct discovery	D10	FDD, TDD	
+							
+7.6.3D.2	Narrow band blocking for ProSe Direct Communication	Rel-12	C162	UE supporting E-UTRA and ProSe direct communication	D10	FDD, TDD	
+							
+7.6.3E	Narrow band blocking for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD	
+							
+							
+7.6.3EA	Narrow band blocking for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+7.7	Spurious response	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+7.7_1	Spurious response with 4 Rx antenna ports	Rel-10	C113a	UE supporting E-UTRA with 4Rx antenna ports	D09	FDD, TDD	
+							
+7.7A.1	Spurious response for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.7A.2	Spurious response for CA (intra-band contiguous DL CA without UL CA)	Rel-10	C20	UE supporting E-UTRA and intra-band contiguous DL CA	E08	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.7A.3	Spurious response for CA (inter-band DL CA without UL CA)	Rel-10	C21	UE supporting E-UTRA and inter-band DL CA	E10	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-12	C146	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA			
+		Rel-13	C207	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA under FS3	E12		
+		Rel-13	C208	UE supporting E-UTRA and 2DL CA with TDD inter-band CA under FS3			
+7.7A.4	Spurious response for CA (intra-band non-contiguous DL CA without UL CA)	Rel-11	C43	UE supporting E-UTRA and intra-band non-contiguous DL CA but no UL CA	E09	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.7A.5	Spurious response for 3DL CA	Rel-10	C121	UE supporting E-UTRA and 3DL with intra-band contiguous CA or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA	E07	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C122	UE supporting E-UTRA and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA	E07		
+							
+		Rel-12	C123	UE supporting E-UTRA and 3DL CA with FDD-TDD CA	E07		
+		Rel-13	C268	UE supporting E-UTRA and 3DL CA with FDD-TDD CA under FS3	E07		
+		Rel-13	C269	UE supporting E-UTRA and 3DL CA with TDD-TDD CA under FS3	E07		
+7.7A.8	Spurious response for 5DL CA	Rel-11	C221	UE supporting E-UTRA and 5DL with Intra-band non-contiguous CA or 5DL with Intra-band non-contiguous and Inter-band CA or 5DL with Intra-band contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Intra-band contiguous CA, or 5DL with Intra-band non-contiguous and Intra-band non-contiguous CA, or 5DL with Intra-band contiguous and Intra-band contiguous CA	E15	FDD 2Rx, FDD 4Rx, TDD 2Rx, TDD 4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+		Rel-12	C222	UE supporting E-UTRA and 5DL CA with inter-band CA, or 5DL CA with TDD Intra-band contiguous CA			
+		Rel-12	C223	UE supporting E-UTRA and 5DL CA with FDD-TDD CA			
+7.7A.7	Spurious response for 4DL CA	Rel-11	C187	UE supporting E-UTRA and 4DL with TDD Intra-band contiguous CA, or 4DL with Inter-band CA, or 4DL with Intra-band contiguous and Inter-band CA.	E14	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C211	UE supporting E-UTRA and 4DL with Intra-band non-contiguous and Inter-band CA, or 4DL with Intra-band non-contiguous and Intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA	E14		
+							
+		Rel-12	C188	UE supporting E-UTRA and 4DL CA with FDD-TDD CA	E14		
+7.7B	Spurious response for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+7.7D.1	Spurious response for ProSe Direct Discovery	Rel-12	C163	UE supporting E-UTRA and ProSe direct discovery	D10	FDD, TDD	
+							
+7.7D.2	Spurious response for ProSe Direct Communication	Rel-12	C162	UE supporting E-UTRA and ProSe direct communication	D10	FDD, TDD	
+							
+7.7E	Spurious response for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD	
+							
+							
+7.7EA	Spurious response for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+7.7F	Spurious response for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+7.8.1	Wide band Intermodulation	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+7.8.1_1	Wide band Intermodulation with 4 Rx antenna ports	Rel-10	C113a	UE supporting E-UTRA with 4Rx antenna ports	D09	FDD, TDD	
+							
+7.8.1A.1	Wide band Intermodulation for CA (intra-band contiguous DL CA and UL CA)	Rel-10	C19	UE supporting E-UTRA and intra-band contiguous DL CA and UL CA	E01	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.8.1A.2	Wide band Intermodulation for CA (intra-band contiguous DL CA without UL CA)	Rel-10	C20	UE supporting E-UTRA and intra-band contiguous DL CA	E11	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.8.1A.3	Wide band Intermodulation for CA (inter-band DL CA without UL CA)	Rel-10	C21	UE supporting E-UTRA and inter-band DL CA	E12	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-12	C146	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA			
+		Rel-13	C207	UE supporting E-UTRA and 2DL CA with FDD-TDD inter-band CA under FS3	E12		
+		Rel-13	C208	UE supporting E-UTRA and 2DL CA with TDD-TDD inter-band CA under FS3			
+7.8.1A.4	Wide band Intermodulation for CA (intra-band non-contiguous DL CA without UL CA)	Rel-11	C43	UE supporting E-UTRA and intra-band non-contiguous DL CA but no UL CA	E09	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.8.1A.5	Wideband intermodulation for 3DL CA	Rel-10	C121	UE supporting E-UTRA and 3DL with intra-band contiguous CA or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA	E07	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C122	UE supporting E-UTRA and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA	E07		
+							
+		Rel-12	C123	UE supporting E-UTRA and 3DL CA with FDD-TDD CA	E07		
+		Rel-13	C268	UE supporting E-UTRA and 3DL CA with FDD-TDD CA under FS3	E07		
+		Rel-13	C269	UE supporting E-UTRA and 3DL CA with TDD-TDD CA under FS3	E07		
+7.8.1A.7	Wideband intermodulation for 4DL CA	Rel-11	C187	UE supporting E-UTRA and 4DL with TDD Intra-band contiguous CA, or 4DL with Inter-band CA, or 4DL with Intra-band contiguous and Inter-band CA.	E14	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+							
+		Rel-11	C211	UE supporting E-UTRA and 4DL with Intra-band non-contiguous and Inter-band CA, or 4DL with Intra-band non-contiguous and Intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA	E14		
+							
+		Rel-12	C188	UE supporting E-UTRA and 4DL CA with FDD-TDD CA	E14		
+7.8.1A.8	Wideband intermodulation for 5DL CA	Rel-11	C221	UE supporting E-UTRA and 5DL with Intra-band non-contiguous CA or 5DL with Intra-band non-contiguous and Inter-band CA or 5DL with Intra-band contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Intra-band contiguous CA, or 5DL with Intra-band non-contiguous and Intra-band non-contiguous CA, or 5DL with Intra-band contiguous and Intra-band contiguous CA	E15	FDD 2Rx, FDD 4Rx, TDD 2Rx, TDD 4Rx, FDD-TDD_2Rx, FDD-TDD_4Rx	
+		Rel-12	C222	UE supporting E-UTRA and 5DL CA with inter-band CA, or 5DL CA with TDD Intra-band contiguous CA			
+		Rel-12	C223	UE supporting E-UTRA and 5DL CA with FDD-TDD CA			
+7.8.1B	Wide band intermodulation for UL-MIMO	Rel-10	C07	UE supporting E-UTRA and UL_MIMO	D05	FDD, TDD	
+							
+7.8.1D.1	Wide band Intermodulation for ProSe Direct Discovery	Rel-12	C163	UE supporting E-UTRA and ProSe direct discovery	D10	FDD, TDD	
+							
+7.8.1D.2	Wide band Intermodulation for ProSe Direct Communication	Rel-12	C162	UE supporting E-UTRA and ProSe direct communication	D10	FDD, TDD	
+							
+7.8.1E	Wide band Intermodulation for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD	
+							
+							
+7.8.1EA	Wide band Intermodulation for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+7.8.1F	Wide band Intermodulation for category NB1	Rel-13	C112b	UE supporting category NB1	D12, D13	HD-FDD	
+7.9	Spurious emissions	Rel-8	C113	UE supporting E-UTRA	D01	FDD, TDD	
+							
+7.9_1	Spurious emissions with 4 Rx antenna ports	Rel-10	C113a	UE supporting E-UTRA with 4Rx antenna ports	D09	FDD, TDD	
+							
+7.9A	Spurious emissions for CA	Rel-10	C120	UE supporting E-UTRA and inter-band DL CA with a DL-only band	E13	FDD_2Rx, FDD_4Rx, TDD_2Rx, TDD_4Rx	
+							
+7.9E	Spurious emissions for UE category 0	Rel-12	C112	UE supporting E-UTRA (UE category 0)	D01	FDD, HD-FDD, TDD	
+							
+							
+7.9EA	Spurious emissions for UE category M1	Rel-13	C112a	UE supporting E-UTRA and UE category M1	D01	FDD, HD-FDD, TDD	
+							
+							
+	Performance Requirement
+8.2.1.1.1	FDD PDSCH Single Antenna Port Performance	Rel-8	C01	UE supporting E-UTRA FDD	Each ""Test Number"" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	Test execution not necessary if 8.2.1.1.1_A.1 or 8.2.1.1.1_A.2 is executed.
+8.2.1.1.1_1	FDD PDSCH Single Antenna Port Performance (Release 9 and forward)	Rel-9	C31	UE supporting E-UTRA FDD (UE categories 1, 2)	Each ""Test Number"" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.1.1.1_A.1 or 8.2.1.1.1_A.2 is executed.
+8.2.1.1.1_A.1	FDD PDSCH Single Antenna Port Performance for CA (2 DL CA)	Rel-10	C102	UE supporting E-UTRA FDD and intra-band contiguous DL CA or inter-band DL CA (UE Category >= 2)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	Test execution not necessary if 8.2.1.1.1_A.2 or 8.2.1.1.1_A.3 or 8.2.1.1.1_A.4 or 8.13.1.2.2 or 8.13.1.2.3 or 8.13.1.2.4 or 8.13.1.2.5 is executed.
+		Rel-11	C103	UE supporting E-UTRA FDD and Downlink Intra-band non-contiguous CA (UE Category >= 2)			
+8.2.1.1.1_A.2	FDD PDSCH Single Antenna Port Performance for CA (3DL CA)	Rel-10	C124	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA (UE Category >= 5)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	Test execution not necessary if 8.2.1.1.1_A.3 or 8.2.1.1.1_A.4 or 8.13.1.2.3 or 8.13.1.2.4 or 8.13.1.2.5 is executed.
+		Rel-11	C125	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.1.1.1_A.3	FDD PDSCH Single Antenna Port Performance for CA (4DL CA)	Rel-11	C214	UE supporting E-UTRA FDD and 4DL inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 8)	Refer to 36.521-1 8.1.2.3		Test execution not necessary if 8.2.1.1.1_A.4 or 8.13.1.2.4 or 8.13.1.2.5 is executed.
+8.2.1.1.1_A.4	FDD PDSCH Single Antenna Port Performance for CA (5DL CA)	Rel-11	C215	UE supporting E-UTRA FDD and 5DL with intra-band contiguous and inter-band CA, or 5DL with intra-band non-contiguous and inter-band CA, or 5DL with intra-band non-contiguous and intra-band contiguous CA (UE Category 8, >= 11)	Refer to 36.521-1 8.1.2.3		Test execution not necessary if 8.13.1.2.5 is executed.
+		Rel-12	C216	UE supporting E-UTRA FDD and 5DL with inter-band CA (UE Category 8, >= 11)	Refer to 36.521-1 8.1.2.3		
+8.2.1.1.2	FDD PDSCH Single Antenna Port Performance with 1 PRB in presence of MBSFN	Rel-8	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.2.1	FDD PDSCH Transmit Diversity 2x2	Rel-8	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.2.1_1	FDD PDSCH Transmit Diversity 2x2 (Release 9 and forward)	Rel-9	C15	UE supporting E-UTRA FDD (UE category 1)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.2.2	FDD PDSCH Transmit Diversity 4x2	Rel-8	C09	UE supporting E-UTRA FDD and operating bands supporting 1,4 MHz Bandwidth	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.2.2_1	FDD PDSCH Transmit Diversity 4x2 (Release 9 and forward)	Rel-9	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.2.3_C.1	FDD PDSCH Transmit diversity 2x2 for eICIC (non-MBFSN ABS)	Rel-10	C29	UEs supporting E-UTRA FDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.2.3_E.1	FDD PDSCH Transmit diversity 2x2 for feICIC (non-MBFSN ABS)	Rel-11	C77	UE supporting E-UTRA FDD and CRS interference handling (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.2.4	FDD PDSCH Transmit Diversity 2x2 with TM3 Interference Model -- Enhanced Performance Requirement Type A	Rel-11	C44	UE supporting E-UTRA FDD and the enhanced performance requirements type A for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.2.5	FDD PDSCH Transmit Diversity 2x2 with TM2 Interference Model -- Enhanced Performance Requirement Type B	Rel-12	C150	UE supporting E-UTRA FDD and the enhanced performance requirements type B for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.2.6	FDD PDSCH Transmit Diversity 2x2 with TM9 Interference Model -- Enhanced Performance Requirement Type B	Rel-12	C150	UE supporting E-UTRA FDD and the enhanced performance requirements type B for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.3.1	FDD PDSCH Open Loop Spatial Multiplexing 2x2	Rel-8	C13b	UE supporting E-UTRA FDD (UE categories >=2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.1.3.1_A.1 or 8.2.1.3.1_A.2 is executed.
+8.2.1.3.1_1	FDD PDSCH Open Loop Spatial Multiplexing 2x2 (Release 11 and forward)	Rel-11	 C13b	UE supporting E-UTRA FDD (UE categories >=2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.1.3.1_A.1 or 8.2.1.3.1_A.2 is executed.
+8.2.1.3.1_A.1	FDD PDSCH Open Loop Spatial Multiplexing 2x2 for CA (2 DL CA)	Rel-10	C101	UE supporting E-UTRA FDD and intra-band contiguous DL CA or inter-band DL CA (UE Category >=2)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	If 8.2.1.3.1_A.2 is executed for a CA capability, test execution is not necessary for that CA capability.
+		Rel-11	C90	UE supporting E-UTRA FDD and intra-band non-contiguous DL CA (UE Category >= 2)			
+8.2.1.3.1_A.2	FDD PDSCH Open Loop Spatial Multiplexing 2x2 for CA (3DL CA)	Rel-10	C124	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA(UE Category >= 5)	TBD	2Rx, 4Rx	
+		Rel-11	C125	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.1.3.1_A.3	FDD PDSCH Open Loop Spatial Multiplexing 2x2 for CA (4DL CA)	Rel-11	C214	UE supporting E-UTRA FDD and 4DL inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 8)	Refer to 36.521-1 8.1.2.3		
+8.2.1.3.1_A.4	FDD PDSCH Open Loop Spatial Multiplexing 2x2 for CA (5DL CA)	Rel-11	C215	UE supporting E-UTRA FDD and 5DL with intra-band contiguous and inter-band CA, or 5DL with intra-band non-contiguous and inter-band CA, or 5DL with intra-band non-contiguous and intra-band contiguous CA (UE Category 8, >= 11)	Refer to 36.521-1 8.1.2.3		
+		Rel-12	C216	UE supporting E-UTRA FDD and 5DL with inter-band CA (UE Category 8, >= 11)	Refer to 36.521-1 8.1.2.3		
+8.2.1.3.1A_A.1	FDD Soft buffer management test for CA (2 DL CA)	Rel-10	C104	UE supporting E-UTRA FDD and intra-band contiguous DL CA or inter-band DL CA (UE category 3 and 4)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	
+		Rel-11	C106	UE supporting E-UTRA FDD and Downlink Intra-band non-contiguous CA (UE categories 3 and 4)			
+8.2.1.3.1B	FDD PDSCH Open Loop Spatial Multiplexing 2x2 -- Enhanced Performance Requirement Type C	Rel-12	C142	UE supporting E-UTRA FDD and Enhanced Performance Requirement TypeC for LTE (UE Category >= 2)	Each ""Test Number"" to be performed once, in a chosen band supporting tested BW		
+8.2.1.3.1C	FDD PDSCH Open Loop Spatial Multiplexing 2x2 with TM1 Interference -- Enhanced Performance Requirement Type C	Rel-12	C142	UE supporting E-UTRA FDD and Enhanced Performance Requirement TypeC for LTE (UE Category >= 2)	Each ""Test Number"" to be performed once, in a chosen band supporting tested BW		
+8.2.1.3.2	FDD PDSCH Open Loop Spatial Multiplexing 4x2	Rel-8	C13 b	UE supporting E-UTRA FDD (UE categories >=2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.3.3_C.1	FDD PDSCH Open Loop Spatial Multiplexing 2x2 for eICIC (non-MBSFN ABS)	Rel-10	C29	UEs supporting E-UTRA FDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.3.3_C.2	FDD PDSCH Open Loop Spatial Multiplexing 2x2 for eICIC (MBSFN ABS)	Rel-10	C29	UEs supporting E-UTRA FDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.3.3_E.1	FDD PDSCH Open Loop Spatial Multiplexing 2x2 for feICIC (non-MBSFN ABS)	Rel-11	C77	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.4.1	FDD PDSCH Closed Loop Single/Multi Layer Spatial Multiplexing 2x2	Rel-8 only	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.4.1_1	FDD PDSCH Closed Loop Single/Multi Layer Spatial Multiplexing 2x2 (Release 9 and forward)	Rel-9	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.4.1_E.1	FDD PDSCH Closed Loop Single/Multi Layer Spatial Multiplexing 2x2 for feICIC (non-MBSFN ABS)	Rel-11	C77	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.4.1_H	FDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 2x2 for 256QAM in DL	Rel-12	C01h	UE supporting E-UTRA FDD and 256QAM in DL			
+8.2.1.4.2	FDD PDSCH Closed Loop Single/Multi Layer Spatial Multiplexing 4x2	Rel-8 only	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.1.4.2_A.1 or 8.2.1.4.2_A.2 is executed.
+8.2.1.4.2_1	FDD PDSCH Closed Loop Single/Multi Layer Spatial Multiplexing 4x2 (Release 9 and forward)	Rel-9	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.1.4.2_A.1 or 8.2.1.4.2_A.2 is executed.
+8.2.1.4.2_A.1	FDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for CA (2 DL CA)	Rel-10	C102	UE supporting E-UTRA FDD and intra-band contiguous DL CA or inter-band DL CA (UE Category >= 2)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	Test execution not necessary if 8.2.1.4.2_A.2 is executed.
+		Rel-11	C103	UE supporting E-UTRA FDD and intra-band non-contiguous DL CA (UE Category >= 2)			
+8.2.1.4.2_A.2	FDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for CA (3DL CA)	Rel-10	C124	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA (UE Category >= 5)	TBD	2Rx, 4Rx	
+		Rel-11	C125	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.1.4.2_A.3	FDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for CA (4DL CA)	Rel-11	C212	UE supporting E-UTRA FDD and 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA, or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA (UE Category >== 5)	TBD		
+8.2.1.4.2_A.4	FDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for CA (5DL CA)	Rel-11	TBD	UE supporting E-UTRA FDD and 5DL with intra-band contiguous and inter-band CA, or 5DL with intra-band non-contiguous and inter-band CA, or 5DL with intra-band non-contiguous and intra-band contiguous CA (UE Category 8, >== 11)	TBD		
+		Rel-12	TBD	UE supporting E-UTRA FDD and 5DL with inter-band CA (UE Category 8, >= = 11)	TBD		
+8.2.1.4.2A	FDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 2x2 - Enhanced Performance Requirement Type C	Rel-12	C142	UE supporting E-UTRA FDD and Enhanced Performance Requirement TypeC for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		8.2.1.4.2A
+8.2.1.4.3	FDD PDSCH Closed Loop Single Layer Spatial Multiplexing 2x2 with TM4 Interference model - Enhanced Performance Requirement Type A	Rel-11	C44	UE supporting E-UTRA FDD and the enhanced performance requirements type A for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.4.3A	FDD PDCSH Closed Loop Multi-Layer Spatial Multiplexing 4X2 for Dual Connectivity	Rel-12	C169	UE supporting E-UTRA FDD and Dual Connectivity (UE Category >= 3)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+8.2.1.4.4	FDD PDSCH Closed Loop Single Layer Spatial Multiplexing 2x2 with TM4 Interference Model - Enhanced Performance Requirement Type B	Rel-12	C150	UE supporting E-UTRA FDD and the enhanced performance requirements type B for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.1.7_A.1	FDD Carrier aggregation with power imbalance (intra-band contiguous DL CA)	Rel-10	C22	UE supporting E-UTRA FDD and intra-band contiguous DL CA	TBD	2Rx, 4Rx	
+8.2.2.1	Void						
+8.2.2.1.1	TDD PDSCH Single Antenna Port Performance	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.2.1.1_A.1 or 8.2.2.1.1_A.2 is executed.
+8.2.2.1.1_1	TDD PDSCH Single Antenna Port Performance (Release 9 and forward)	Rel-9	C54	UE supporting E-UTRA TDD (UE categories 1, 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.2.1.1_A.1 or 8.2.2.1.1_A.2 is executed.
+8.2.2.1.1_A.1	TDD PDSCH Single Antenna Port Performance for CA (2DL CA)	Rel-10	C110	UE supporting E-UTRA TDD and intra-band contiguous DL CA or interband DL CA (UE Category >= 5)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	Test execution not necessary if 8.2.2.1.1_A.2 is executed.
+		Rel-11	C109	UE supporting E-UTRA TDD and Intra-band non-contiguous DL CA(UE Category >= 5)			
+8.2.2.1.1_A.2	TDD PDSCH Single Antenna Port Performance for CA (3DL CA)	Rel-10	C128	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA (UE Category >= 5)	TBD	2Rx, 4Rx	
+		Rel-11	C129	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.2.1.1_A.3	TDD PDSCH Single Antenna Port Performance for CA (4DL CA)	Rel-11	C194	UE supporting E-UTRA TDD and 4DL Intra-band contiguous CA or 4DL Inter-band CA or 4DL with Intra-band contiguous and Inter-band CA or 4DL with Intra-band non-contiguous and Inter-band CA or 4DL with Intra-band non-contiguous and Intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA (UE Category >= 8)	Refer to 36.521-1 8.1.2.3		
+8.2.2.1.2	TDD PDSCH Single Antenna Port Performance with 1PRB in the presence of MBSFN	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.2	Void						
+8.2.2.2.1	TDD PDSCH Transmit Diversity 2x2	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.2.1_1	TDD PDSCH Transmit Diversity 2x2 (Release 9 and forward)	Rel-9	C16	UE supporting E-UTRA TDD (UE category 1)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.2.2	TDD PDSCH Transmit Diversity 4x2	Rel-8	C10	UE supporting E-UTRA TDD and operating bands supporting 1,4 MHz Bandwidth	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.2.2_1	TDD PDSCH Transmit Diversity 4x2 (Release 9 and forward)	Rel-9	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.2.3_C.1	TDD PDSCH Transmit diversity 2x2 for eICIC (non-MBFSN ABS)	Rel-10	C30	UEs supporting E-UTRA TDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.2.3_E.1	TDD PDSCH Transmit diversity 2x2 for feICIC (non-MBFSN ABS)	Rel-11	C78	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.2.4	TDD PDSCH Transmit Diversity 2x2 with TM3 Interference Model - Enhanced Performance Requirement Type A	Rel-11	C45	UE supporting E-UTRA TDD and the enhanced performance requirements type A for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.2.6	TDD PDSCH Transmit Diversity 2x2 with TM2 Interference Model - Enhanced Performance Requirement Type B	Rel-12	C151	UE supporting E-UTRA TDD and the enhanced performance requirements type B for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.2.7	TDD PDSCH Transmit Diversity 2x2 with TM9 Interference Model - Enhanced Performance Requirement Type B	Rel-12	C151	UE supporting E-UTRA TDD and the enhanced performance requirements type B for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.3	Void						
+8.2.2.3.1	TDD PDSCH Open Loop Spatial Multiplexing 2x2	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.2.3.1_A.1 or .2 is executed.
+8.2.2.3.1_1	TDD PDSCH Open Loop Spatial Multiplexing 2x2 (Release 11 and forward)	Rel-11	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.2.3.1_A.1 or .2 is executed.
+8.2.2.3.1_A.1	TDD PDSCH Open Loop Spatial Multiplexing 2x2 for CA (2DL CA)	Rel-10	C110	UE supporting E-UTRA TDD and intra-band contiguous DL CA or interband DL CA (UE Category >= 5)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	If 8.2.2.3.1_A.2 is executed for a CA capability, test execution is not necessary for that CA capability
+		Rel-11	C109	UE supporting E-UTRA TDD and intra-band non-contiguous DL CA (UE Category >= 5)			
+8.2.2.3.1_A.2	TDD PDSCH Open Loop Spatial Multiplexing 2x2 for CA (3DL CA)	Rel-10	C128	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA(UE Category >= 5)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	
+		Rel-11	C129	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.2.3.1_A.3	TDD PDSCH Open Loop Spatial Multiplexing 2x2 for CA(4DL CA)	Rel-11	C194	UE supporting 4DL Intra-band contiguous CA or 4DL Inter-band CA or 4DL with Intra-band contiguous and Inter-band CA or 4DL with Intra-band non-contiguous and Inter-band CA or 4DL with Intra-band non-contiguous and Intra-band contiguous CA.(UE category >=8)	Refer to 36.521-1 8.1.2.3		
+8.2.2.3.1A_A.1	TDD Soft buffer management for CA (2 DL CA)	Rel-10	C105	UE supporting E-UTRA TDD and intra-band contiguous DL CA or inter-band DL CA (UE category 3 and 4)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	TBD
+		Rel-11	C72	UE supporting E-UTRA TDD and intra-band non-contiguous DL CA (UE category 3 and 4)			
+8.2.2.3.1B	TDD PDSCH Open Loop Spatial Multiplexing 2x2 - Enhanced Performance Requirement Type C	Rel-12	C143	UE supporting E-UTRA TDD and Enhanced Performance Requirement TypeC for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.3.1C	TDD PDSCH Open Loop Spatial Multiplexing 2x2 with TM1 Interference - Enhanced Performance Requirement Type C	Rel-12	C143	UE supporting E-UTRA TDD and Enhanced Performance Requirement TypeC for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.3.2	TDD PDSCH Open Loop Spatial Multiplexing 4x2	Rel-8	C02	UE supporting E-UTRA TDD (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.3.3_C.1	TDD PDSCH Open Loop Spatial Multiplexing 2x2 for eICIC (non-MBSFN ABS)	Rel-10	C30	UEs supporting E-UTRA TDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.3.3_C.2	TDD PDSCH Open Loop Spatial Multiplexing 2x2 for eICIC (MBSFN ABS)	Rel-10	C30	UEs supporting E-UTRA TDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.3.3_E.1	TDD PDSCH Open Loop Spatial Multiplexing 2x2 for feICIC (non-MBSFN ABS)	Rel-11	C78	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115 (UE Category >= 2)	TBD		
+8.2.2.4	Void						
+8.2.2.4.1	TDD PDSCH Closed Loop Single/Multi Layer Spatial Multiplexing 2x2	Rel-8 only	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.4.1_1	TDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 2x2 (Release 9 and forward)	Rel-9	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.4.1_E.1	TDD PDSCH Closed Loop Single/Multi Layer Spatial Multiplexing 2x2 for feICIC (non-MBSFN ABS)	Rel-11	C78	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.4.1_H	TDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 2x2 for 256QAM in DL	Rel-12	C02h	UE supporting E-UTRA TDD and 256QAM in DL			
+8.2.2.4.2	TDD PDSCH Closed Loop Single/Multi Layer Spatial Multiplexing 4x2	Rel-8 only	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.2.4.2_A.1 or 8.2.2.4.2_A.2 is executed.
+8.2.2.4.2_1	TDD PDSCH Closed Loop Single/Multi Layer Spatial Multiplexing 4x2 (Release 9 and forward)	Rel-9	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		Test execution not necessary if 8.2.2.4.2_A.1 or 8.2.2.4.2_A.2 is executed.
+8.2.2.4.2_A.1	TDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for CA (2DL CA)	Rel-10	C110	UE supporting E-UTRA TDD and intra-band contiguous DL CA or inter-band DL CA (UE Category >= 5)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	Test execution not necessary if 8.2.2.4.2_A.2 is executed.
+		Rel-11	C109	UE supporting E-UTRA TDD and Intra-band non-contiguous DL CA(UE Category >= 5)			
+8.2.2.4.2_A.2	TDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for CA (3DL CA)	Rel-10	C128	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA (UE Category >= 5)	TBD	2Rx, 4Rx	
+		Rel-11	C129	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.2.4.2_A.3	TDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for CA (4DL CA)	Rel-11	C194	UE supporting E-UTRA TDD and 4DL Intra-band contiguous CA or 4DL Inter-band CA or 4DL with Intra-band contiguous and Inter-band CA or 4DL with Intra-band non-contiguous and Inter-band CA or 4DL with Intra-band non-contiguous and Intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA (UE Category >= 8)	Refer to 36.521-1 8.1.2.3		FFS
+8.2.2.4.2A	TDD PDSCH Closed Loop Multi Layer Spatial Multiplexing 2x2 - Enhanced Performance Requirement Type C	Rel-12	C143	UE supporting E-UTRA TDD and Enhanced Performance Requirement TypeC for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.4.3	TDD PDSCH Closed Loop Single Layer Spatial Multiplexing 2x2 with TM4 Interference Model - Enhanced Performance Requirement Type A	Rel-11	C45	UE supporting E-UTRA TDD and the enhanced performance requirements type A for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.4.4	TDD PDSCH Closed Loop Multi-Layer Spatial Multiplexing 4x2 for Dual Connectivity	Rel-12	C170	UE supporting E-UTRA TDD and Dual Connectivity (UE Category >= 5)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+8.2.2.4.5	TDD PDSCH Closed Loop Single Layer Spatial Multiplexing 2x2 with TM4 Interference Model - Enhanced Performance Requirement Type B	Rel-12	C151	UE supporting E-UTRA TDD and the enhanced performance requirements type B for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.2.7_A.1	TDD Carrier aggregation with power imbalance (intra-band contiguous DL CA)	Rel-10	C24	UE supporting E-UTRA TDD and intra-band contiguous DL CA	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	
+8.2.3.1.1.1	TDD FDD CA PDSCH Single Antenna Port Performance for FDD Pcell (2DL CA)	Rel-12	C154	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.3.1.1.2	TDD FDD CA PDSCH Single Antenna Port Performance for FDD PCell (3DL CA)	Rel-12	C133	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.3.1.1.3	TDD FDD CA PDSCH Single Antenna Port Performance for FDD PCell (4DL CA)	Rel-12	C133a	UE supporting E-UTRA FDD and TDD and 4DL CA with FDD as PCell (UE Category >= 8)	TBD		
+8.2.3.1.1.4	TDD FDD CA PDSCH Single Antenna Port Performance for FDD PCell (5DL CA)	Rel-12	C133b	UE supporting E-UTRA FDD and TDD and 5DL CA with FDD as PCell (UE Category8, and Category 11 and onwards)	Refer to 36.521-1 8.1.2.3		
+8.2.3.1.2.1	TDD FDD CA PDSCH Single Antenna Port Performance for TDD PCell(2DL CA)	Rel-12	C155	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.3.1.2.2	TDD FDD CA PDSCH Single Antenna Port Performance for TDD PCell (3DL CA)	Rel-12	C135	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.3.1.2.3	TDD FDD CA PDSCH Single Antenna Port Performance for TDD PCell (4DL CA)	Rel-12	C135a	UE supporting E-UTRA FDD and TDD and 4DL CA with TDD as PCell (UE Category >= 8)	TBD		
+8.2.3.1.2.4	TDD FDD CA PDSCH Single Antenna Port Performance for TDD PCell (5DL CA)	Rel-12	C135b	UE supporting E-UTRA FDD and TDD and 5DL CA with TDD as PCell (UE Category 8, and Category11 and onwards)	TBD		
+8.2.3.2.1.1	TDD FDD CA PDSCH Open Loop Spatial Multiplexing 2x2 for FDD PCell (2DL CA)	Rel-12	C154	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.3.2.1.2	TDD FDD CA PDSCH Open Loop Spatial Multiplexing 2x2 for FDD PCell (3DL CA)	Rel-12	C133	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.3.2.1.3	TDD FDD CA PDSCH Open Loop Spatial Multiplexing 2x2 for FDD PCell (4DL CA)	Rel-12	C133a	UE supporting E-UTRA FDD and TDD and 4DL CA with FDD as PCell (UE Category >= 8)	Refer to 36.521-1 8.1.2.3		
+8.2.3.2.1.4	TDD FDD CA PDSCH Open Loop Spatial Multiplexing 2x2 for FDD PCell (5DL CA)	Rel-12	C133b	UE supporting E-UTRA FDD and TDD and 5DL CA with FDD as PCell (UE Category >= 8)	Refer to 36.521-1 8.1.2.3		
+8.2.3.2.1A	TDD FDD CA PDSCH Soft buffer management test for FDD PCell (2DL CA)	Rel-12	C136	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell (UE categories 3 and 4)	TBD	2Rx, 4Rx	
+8.2.3.2.2.1	TDD FDD CA PDSCH Open Loop Spatial Multiplexing 2x2 for TDD PCell (2DL CA)	Rel-12	C155	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.3.2.2.2	TDD FDD CA PDSCH Open Loop Spatial Multiplexing 2x2 for TDD PCell (3DL CA)	Rel-12	C135	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.3.2.2.3	TDD FDD CA PDSCH Open Loop Spatial Multiplexing 2x2 for TDD PCell(4DL CA)	Rel-12	C135a	UE supporting E-UTRA FDD and TDD and 4DL CA with TDD as PCell (UE Category >= 8)	Refer to 36.521-1 8.1.2.3		
+8.2.3.2.2.4	TDD FDD CA PDSCH Open Loop Spatial Multiplexing 2x2 for TDD PCell(5DL CA)	Rel-12	C135b	UE supporting E-UTRA FDD and TDD and 5DL CA with TDD as PCell (UE Category 8, and Category11 and onwards)	Refer to 36.521-1 8.1.2.3		
+8.2.3.2.2A	TDD FDD CA PDSCH Soft buffer management test for TDD PCell (2DL CA)	Rel-12	C137	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD PCell (UE categories 3 and 4)	TBD	2Rx, 4Rx	
+8.2.3.3.1.1	TDD FDD CA PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for FDD PCell (2DL CA)	Rel-12	C154	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.3.3.1.2	TDD FDD CA PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for FDD PCell (3DL CA)	Rel-12	C133	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell (UE Category >= 5)	TBD		
+8.2.3.3.1.3	TDD FDD CA PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for FDD PCell (4DL CA)	Rel-12	C133a	UE supporting E-UTRA FDD and TDD and 4DL CA with FDD as PCell (UE Category >= 8)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	
+8.2.3.3.1.4	TDD FDD CA PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for FDD PCell (5DL CA)	Rel-12	C133b	UE supporting E-UTRA FDD and TDD and 5DL CA with FDD as PCell (UE Category >= 8)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	
+8.2.3.3.2.1	TDD FDD CA PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for TDD PCell (2DL CA)	Rel-12	C155	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD as PCell (UE Category >=5)	TBD	2Rx, 4Rx	
+8.2.3.3.2.2	TDD FDD CA PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for TDD PCell (3DL CA)	Rel-12	C135	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+8.2.3.3.2.3	TDD FDD CA PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for TDD PCell (4DL CA)	Rel-12	C135a	UE supporting E-UTRA FDD and TDD and 4DL CA with TDD as PCell (UE Category >= 8)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	
+8.2.3.3.2.4	TDD FDD CA PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x2 for TDD PCell (5DL CA)	Rel-12	C135b	UE supporting E-UTRA FDD and TDD and 5DL CA with TDD as PCell (UE Category 8, and Category11 and onwards)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	
+8.2.4.1.1	LAA PDSCH CA Closed Loop Spatial Multiplexing Performance-4 Tx Antenna port with FDD as Pcell	Rel-13	C209	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.2.4.1.2	LAA PDSCH CA Closed Loop Spatial Multiplexing Performance-4 Tx Antenna port with TDD as Pcell	Rel-13	C210	UE supporting E-UTRA TDD and downlink LAA 	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1	Void						
+8.3.1.1.1_D	FDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 without a simultaneous transmission for eDL-MIMO	Rel-10	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.1.1_H	FDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 without a simultaneous transmission for eDL-MIMO for 256QAM in DL	Rel-12	C25h	UE supporting E-UTRA FDD and eDL-MIMO and 256QAM in DL and Feature Group Indicator 103			
+8.3.1.1.2_D	FDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 with a simultaneous transmission for eDL-MIMO	Rel-10	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.1.3	FDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 with TM9 Interference Model - Enhanced Performance Requirement Type A	Rel-11	C40	UE supporting E-UTRA FDD and Feature Group Indictor 103 and supporting the enhanced performance requirements type A for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.1.4	FDD PDSCH Closed Loop Single-layer Spatial Multiplexing on antenna ports 7 or 8 with TM9 Interference Model - Enhanced Performance Requirement Type B	Rel-12	 C262	UE supporting E-UTRA FDD and the enhanced performance requirements type B for LTE and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.1.6	FDD PDSCH Closed Loop Single-layer Spatial Multiplexing on antenna ports 7 or 8 with TM3 interference model - Enhanced Performance Requirement Type B	Rel-12	C150	UE supporting E-UTRA FDD and the enhanced performance requirements type B for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.1.7	FDD PDSCH Closed Loop Single-layer Spatial Multiplexing on antenna ports 7 or 8 with TM10 serving cell configuration and TM9 interference model - Enhanced Performance Requirement Type B	Rel-12	C175	UE supporting E-UTRA FDD, enhanced performance requirements type B and PDSCH Transmission mode 10 for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.2.1_D	FDD PDSCH Dual-layer Spatial Multiplexing for eDL-MIMO	Rel-10	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.2.1_D_1	FDD PDSCH Dual-layer Spatial Multiplexing for eDL-MIMO (Release 11 and forward)	Rel-11	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.2.2	FDD PDSCH Dual-layer Spatial Multiplexing - Enhanced Performance Requirement Type C	Rel-12	C144	UE supporting E-UTRA FDD and Feature Group Indicator 103 and Enhanced Performance Requirement TypeC for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.3.1_F	FDD PDSCH Performance with DCI format 2D, non Quasi Co-located Antenna Ports, Same Cell ID and single NZP CSI-RS resource for CoMP	Rel-11	C50	UE supporting E-UTRA FDD and Maximum CSI processes of One on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.3.2_F	FDD PDSCH Performance with DCI format 2D, non Quasi Co-located Antenna Ports, Same Cell ID and multiple NZP CSI-RS resources for CoMP	Rel-11	C52	UE supporting E-UTRA FDD and Maximum CSI processes of Three or Four on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.1.3.3_F	FDD PDSCH Performance with DCI format 2D, non Quasi Co-located Antenna Ports, Different Cell ID, Colliding CRS and single NZP CSI-RS resource for CoMP	Rel-11	C117	UE supporting E-UTRA FDD and Maximum CSI processes of One, Three or Four on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.1.1	TDD PDSCH Single-layer Spatial Multiplexing on antenna port 5 (Release 8 and forward)	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.1.1_1	TDD PDSCH Single-layer Spatial Multiplexing on antenna port 5 (Release 9 and forward)	Rel-9	C16	UE supporting E-UTRA TDD (UE category 1)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.1.2	TDD PDSCH Single-layer Spatial Multiplexing on antenna port 7 or 8 without a simultaneous transmission	Rel-9 only	C34	UE supporting E-UTRA TDD and supporting enhanced dual layer TDD.	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+		Rel-10	C02	UE supporting E-UTRA TDD.	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.1.2_D	TDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 without a simultaneous transmission for eDL-MIMO	Rel-10	C26	UE supporting E-UTRA TDD and Feature Group Indicator 104	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.1.2_H	TDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 without a simultaneous transmission for eDL-MIMO for 256QAM in DL	Rel-12	C26h	UE supporting E-UTRA TDD and 256QAM in DL and Feature Group Indicator 104			
+8.3.2.1.3	TDD PDSCH Single-layer Spatial Multiplexing on antenna port 7 or 8 with a simultaneous transmission	Rel-9 only	C34	UE supporting E-UTRA TDD and supporting enhanced dual layer TDD.	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+		Rel-10	C02	UE supporting E-UTRA TDD.	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.1.3_D	TDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 with a simultaneous transmission for eDL-MIMO	Rel-10	 C26	UE supporting E-UTRA TDD and Feature Group Indicator 104	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.1.4	TDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 with TM9 Interference Model - Enhanced Performance Requirement Type A	Rel-11	C41	UE supporting E-UTRA TDD and Feature Group Indictor 103 and supporting the enhanced performance requirements type A for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.1.5	TDD PDSCH Closed Loop Single-layer Spatial Multiplexing on antenna ports 7 or 8 with TM9 Interference Model - Enhanced Performance Requirement Type B	Rel-12	 C263	UE supporting E-UTRA TDD and the enhanced performance requirements type B for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.1.7	TDD PDSCH Closed Loop Single-layer Spatial Multiplexing on antenna ports 7 or 8 with TM3 interference model - Enhanced Performance Requirement Type B	Rel-12	C151	UE supporting E-UTRA TDD and the enhanced performance requirements type B for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.1.8	TDD PDSCH Closed Loop Single-layer Spatial Multiplexing on antenna ports 7 or 8 with TM10 serving cell configuration and TM9 interference model - Enhanced Performance Requirement Type B	Rel-12	C176	UE supporting E-UTRA TDD, enhanced performance requirements type B and PDSCH Transmission mode 10 for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.2.1	TDD PDSCH Dual-layer Spatial Multiplexing	Rel-9 only	C34	UE supporting E-UTRA TDD and supporting enhanced dual layer TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+		Rel-10	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.2.1_D	TDD PDSCH Dual-layer Spatial Multiplexing for eDL-MIMO	Rel-10	C25a	UE supporting E-UTRA TDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.2.1_D_1	TDD PDSCH Dual-layer Spatial Multiplexing for eDL-MIMO (Release 11 and forward)	Rel-11	C25a	UE supporting E-UTRA TDD and Feature Group Indicator 103	TBD		
+8.3.2.2.2	TDD PDSCH Dual-layer Spatial Multiplexing - Enhanced Performance Requirement Type C	Rel-12	C143	UE supporting E-UTRA TDD and Enhanced Performance Requirement TypeC for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.4.1_F	TDD PDSCH Performance with DCI format 2D, non Quasi Co-located Antenna Ports, Same Cell ID and single NZP CSI-RS resource for CoMP	Rel-11	C51	UE supporting E-UTRA TDD and Maximum CSI processes of One on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.4.2_F	TDD PDSCH Performance with DCI format 2D, non Quasi Co-located Antenna Ports, Same Cell ID and multiple NZP CSI-RS resources for CoMP	Rel-11	C53	UE supporting E-UTRA TDD and Maximum CSI processes of Three or Four on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.2.4.3_F	TDD PDSCH Performance with DCI format 2D, non Quasi Co-located Antenna Ports, Different Cell ID, Colliding CRS and single NZP CSI-RS resource for CoMP	Rel-11	C118	UE supporting E-UTRA TDD and Maximum CSI processes of One, Three or Four on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.3.1.1	LAA Dual-Layer Spatial Multiplexing with DM-RS with FDD as PCell	Rel-13	 C264	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.3.3.1.2	LAA Dual-Layer Spatial Multiplexing with DM-RS with TDD as Pcell	Rel-13	 C265	UE supporting E-UTRA TDD and downlink LAA and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.1.1	FDD PCFICH/PDCCH Single-antenna Port Performance	Rel-8	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.1.2	Void						
+8.4.1.2.1	FDD PCFICH/PDCCH Transmit Diversity 2x2	Rel-8 only	C09	UE supporting E-UTRA FDD and operating bands supporting 1,4 MHz Bandwidth	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.1.2.1_1	FDD PCFICH/PDCCH Transmit Diversity 2x2 (Release 9 and forward)	Rel-9	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.1.2.2	FDD PCFICH/PDCCH Transmit Diversity 4x2	Rel-8 only	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.1.2.3_E.1	FDD PCFICH/PDCCH Transmit Diversity 2x2 for feICIC (non-MBSFN ABS)	Rel-11	C77	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.1.2.3_E.2	FDD PCFICH/PDCCH Transmit Diversity 2x2 for feICIC (MBSFN ABS)	Rel-11	C77	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115 (UE)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.1.2.2_1	FDD PCFICH/PDCCH Transmit Diversity 4x2 (Release 9 and forward)	Rel-9	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.1.2.3_C.1	FDD PCFICH/PDCCH Transmit Diversity 2x2 for eICIC (non-MBSFN ABS)	Rel-10	C29	UE supporting E-UTRA FDD and Feature Group Indicator 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.1.2.3_C.2	FDD PCFICH/PDCCH Transmit Diversity 2x2 for eICIC (MBSFN ABS)	Rel-10	C29	UEs supporting E-UTRA FDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.2.1	TDD PCFICH/PDCCH Single-antenna Port Performance	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.2.2	Void						
+8.4.2.2.1	TDD PCFICH/PDCCH Transmit Diversity 2x2	Rel-8 only	C10	UE supporting E-UTRA TDD and operating bands supporting 1,4 MHz Bandwidth	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.2.2.1_1	TDD PCFICH/PDCCH Transmit Diversity 2x2 (Release 9 and forward)	Rel-9	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.2.2.2	TDD PCFICH/PDCCH Transmit Diversity 4x2	Rel-8 only	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.2.2.2_1	TDD PCFICH/PDCCH Transmit Diversity 4x2 (Release 9 and forward)	Rel-9	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.2.2.3_C.1	TDD PCFICH/PDCCH Transmit Diversity 2x2 for eICIC (non-MBSFN ABS)	Rel-10	C30	UEs supporting E-UTRA TDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.2.2.3_C.2	TDD PCFICH/PDCCH Transmit Diversity 2x2 for eICIC (MBSFN ABS)	Rel-10	C30	UEs supporting E-UTRA TDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.2.2.3_E.1	TDD PCFICH/PDCCH Transmit Diversity 2x2 for feICIC (non-MBSFN ABS)	Rel-11	C78	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115(UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.2.2.3_E.2	TDD PCFICH/PDCCH Transmit Diversity 2x2 for feICIC (MBSFN ABS)	Rel-11	C78	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115(UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.3.1.1	LAA PCFICH/PDCCH Transmit Diversity 2x2 with FDD as Pcell	Rel-13	C209	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.4.3.1.2	LAA PCFICH/PDCCH Transmit Diversity 2x2 with TDD as Pcell	Rel-13	C217	UE supporting E-UTRA TDD and downlink LAA	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.1.1	FDD PHICH Single-antenna Port Performance	Rel-8	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.1.2	Void						
+8.5.1.2.1	FDD PHICH Transmit Diversity 2x2	Rel-8 only	C09	UE supporting E-UTRA FDD and operating bands supporting 1,4 MHz Bandwidth	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.1.2.1_1	FDD PHICH Transmit Diversity 2x2 (Release 9 and forward)	Rel-9	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.1.2.2	FDD PHICH Transmit Diversity 4x2	Rel-8 only	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.1.2.2_1	FDD PHICH Transmit Diversity 4x2 (Release 9 and forward)	Rel-9	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.1.2.3_C.1	FDD PHICH Transmit Diversity 2x2 for eICIC (non-MBSFN ABS)	Rel-10	C29	UE supporting E-UTRA FDD and Feature Group Indicator 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.1.2.3_E.1	FDD PHICH Transmit Diversity 2x2 for feICIC (non-MBSFN ABS)	Rel-11	C77	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.2.1	TDD PHICH Single-antenna Port Performance	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.2.2	Void						
+8.5.2.2.1	TDD PHICH Transmit Diversity 2x2	Rel-8 only	C10	UE supporting E-UTRA TDD and operating bands supporting 1,4 MHz Bandwidth	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.2.2.1_1	TDD PHICH Transmit Diversity 2x2 (Release 9 and forward)	Rel-9	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.2.2.2	TDD PHICH Transmit Diversity 4x2	Rel-8 only	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.2.2.2_1	TDD PHICH Transmit Diversity 4x2 (Release 9 and forward)	Rel-9	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.2.2.3_C.1	TDD PHICH Transmit Diversity 2x2 for eICIC (non-MBSFN ABS)	Rel-10	C30	UEs supporting E-UTRA TDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.5.2.2.3_E.1	TDD PHICH Transmit Diversity 2x2 for feICIC (non-MBSFN ABS)	Rel-11	C78	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115(UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.7.1.1	FDD sustained data rate performance (Rel-9 and forward)	Rel-9	C76	UE supporting E-UTRA FDD and not supporting 256QAM in DL (UE categories from1 to 4)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		It is not necessary for CA UEs and EPDCCH UEs to be tested in this test if 8.7.1.1_A.1 or 8.7.3.1 is executed.
+8.7.1.1_1	FDD sustained data rate performance (Rel-10 and forward)	Rel-10	C42	UE supporting E-UTRA FDD and not supporting 256QAM in DL (UE categories 6, 7)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		It is not necessary for CA UEs and EPDCCH UEs to be tested in this test if 8.7.1.1_A.1or 8.7.3.1 is executed.
+8.7.1.1_2	FDD sustained data rate performance for UE category 1bis	Rel-13	C145d	UE supporting E-UTRA FDD (UE category 1bis)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.7.1.1_A.1	FDD Sustained data rate performance for CA (2 DL CA )	Rel-10	C107	UE supporting E-UTRA FDD and intra-band contiguous DL CA or inter-band DL CA and not supporting 256QAM in DL (UE category 3, 4, 6, 7, 9 and 10)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	Test execution not necessary if 8.7.1.1_A.2 is executed.
+		Rel-11	C93	UE supporting E-UTRA FDD and intra-band non-contiguous DL CA and not supporting 256QAM in DL (UE category 3, 4, 6, 7, 9 and 10)			
+8.7.1.1_A.2	FDD Sustained data rate performance for CA (3DL CA)	Rel-10	C126	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA , or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA and not supporting 256QAM in DL (UE category 9, 10, 11 and 12)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	Test execution not necessary if 8.7.1.1_A.4 is executed
+		Rel-10	C126a	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA , or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA and supporting at most 40MHz aggregated bandwidth and not supporting 256QAM in DL (UE category 6 and 7)	Refer to 36.521-1 8.1.2.3		
+		Rel-11	C127	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA and not supporting 256QAM in DL (UE category 9, 10, 11 and 12)	TBD		
+		Rel-11	C127a	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA and supporting at most 40MHz aggregated bandwidth and not supporting 256QAM in DL (UE category 6 and 7)	TBD		
+8.7.1.1_A.4	FDD Sustained data rate performance for CA (4DL CA)	Rel-11	C189	UE supporting E-UTRA FDD and 4DL with intra-band contiguous CA, or 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA , or 4DL with Intra-band non-contiguous and Inter-band CA, or 4DL with Intra-band non-contiguous and Intra-band contiguous CA and not supporting 256QAM in DL (UE category 11 and 12)			Test execution not necessary if 8.7.1.1_A.5 is executed.
+		Rel-11	C189a	UE supporting E-UTRA FDD and 4DL with intra-band contiguous CA, or 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA , or 4DL with Intra-band non-contiguous and Inter-band CA, or 4DL with Intra-band non-contiguous and Intra-band contiguous CA and supporting at most 60MHz aggregated bandwidth and not supporting 256QAM in DL (UE category 9 and 10)			Test execution not necessary if 8.7.1.1_A.5 is executed.
+8.7.1.1_A.5	FDD Sustained data rate performance for CA (5DL CA)	Rel-11	C266 OR C189a2	UE supporting E-UTRA FDD and 5DL with Intra-band contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Intra-band contiguous CA and not supporting 256QAM in DL (UE DL category 15)			
+		Rel-12	C267 OR C189b	UE supporting E-UTRA FDD and 5DL Inter-band CA and not supporting 256QAM in DL (UE DL category 15)			
+8.7.1.1_H.1	FDD sustained data rate performance (Single Carrier) for 256QAM in DL	Rel-12	C42h	UE supporting E-UTRA FDD and 256QAM and UE DL category 13 			Test execution not necessary if 8.7.1.1_H.2 is executed
+8.7.1.1_H.2	FDD Sustained data rate performance for CA (2DL CA) for 256QAM in DL	Rel-12	C107h	UE supporting E-UTRA FDD and 2DL CA and 256QAM in DL (UE DL category 11, 12 and 13)		2Rx, 4Rx	Test execution not necessary if 8.7.1.1_H.3 is executed
+8.7.1.1_H.3	FDD Sustained data rate performance for CA (3DL CA) for 256QAM in DL	Rel-12	C126h	UE supporting E-UTRA FDD and 3DL CA ,and supporting 256QAM in DL (UE DL category 11, 12 and 15)		2Rx, 4Rx	Test execution not necessary if 8.7.1.1_H.4 is executed
+		Rel-12	C126ha	UE supporting E-UTRA FDD and 3DL CA ,and supporting 256QAM in DL and supporting at most 40MHz aggregated bandwidth (UE DL category 13)			Test execution not necessary if 8.7.1.1_H.4 is executed
+8.7.2.1	TDD sustained data rate performance (Rel-9 and forward)	Rel-9	C111	UE supporting E-UTRA TDD and not supporting 256QAM in DL (UE categories from 1 to 4)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		It is not necessary for CA UEs and EPDCCH UEs to be tested in this test if 8.7.2.1_A.1 or 8.7.4.1 is executed.
+8.7.2.1_1	TDD sustained data rate performance (Rel-10 and forward)	Rel-10	C73	UE supporting E-UTRA TDD and not supporting 256QAM in DL (UE category 6 and 7)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		It is not necessary for CA UEs and EPDCCH UEs to be tested in this test if 8.7.2.1_A.1or 8.7.4.1 is executed.
+8.7.2.1_2	TDD sustained data rate performance for UE category 1bis	Rel-13	C156f	UE supporting E-UTRA TDD (UE category 1bis)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.7.2.1_A.1	TDD sustained data rate performance for CA (2DL CA) 	Rel-10	C74	UE supporting E-UTRA TDD and intra-band contiguous DL CA or inter-band DL CA and not supporting 256QAM in DL (UE category 6, 7, 9 and 10)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	Test execution not necessary if 8.7.2.1_A.2 is executed.
+		Rel-11	C75	UE supporting E-UTRA TDD and intra-band non-contiguous DL CA and not supporting 256QAM in DL (UE category 6, 7, 9 and 10)			
+8.7.2.1_A.2	TDD Sustained data rate performance for CA (3DL CA)	Rel-10	C130	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA , or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA and not supporting 256QAM in DL (UE category 9, 10, 11 and 12)	Refer to 36.521-1 8.1.2.3	2Rx, 4Rx	Test execution not necessary if 8.7.2.1_A.3 is executed.
+		Rel-11	C131	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA and not supporting 256QAM in DL (UE category 9, 10, 11 and 12)	TBD		
+8.7.2.1_A.3	TDD Sustained data rate performance for CA (4DL CA)	Rel-11	C213	UE supporting E-UTRA TDD and 4DL Intra-band contiguous CA or 4DL Inter-band CA or 4DL with Intra-band contiguous and Inter-band CA or 4DL with Intra-band non-contiguous and Inter-band CA or 4DL with Intra-band non-contiguous and Intra-band contiguous CA, or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA (UE DL category 11, 12 and 15)			Test execution not necessary if 8.7.2.1_A.4 is executed.
+8.7.2.1_H.1	TDD sustained data rate performance (Single Carrier) for 256QAM in DL	Rel-12	C73h	UE supporting E-UTRA TDD and 256QAM in DL and UE DL category 13			Test execution not necessary if 8.7.2.1_H.2 is executed.
+8.7.2.1_H.2	TDD sustained data rate performance for CA (2DL CA) for 256QAM in DL	Rel-12	C74h	UE supporting E-UTRA TDD and 2DL CA, and supporting 256QAM in DL (UE DL category 11, 12 and 13)		2Rx, 4Rx	Test execution not necessary if 8.7.2.1_H.3 is executed.
+8.7.2.1_H.3	TDD Sustained data rate performance for CA (3DL CA) for 256QAM in DL	Rel-12	C130h	UE supporting E-UTRA TDD and 3DL CA and supporting 256QAM in DL (UE DL Category 11, 12 and 15)		2Rx, 4Rx	Test execution not necessary if 8.7.2.1_H.4 is executed.
+8.7.3.1	FDD sustained data rate performance for EPDCCH scheduling	Rel-11	C55	UE supporting E-UTRA FDD and EPDCCH	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.7.4.1	TDD sustained data rate performance for EPDCCH scheduling	Rel-11	C56	UE supporting E-UTRA TDD and EPDCCH	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.7.5.1.1	TDD FDD CA Sustained data rate performance for FDD PCell (2DL CA)	Rel-12	C138	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell and not supporting 256QAM in DL (UE category 3, 4, 6, 7, 9 and 10)	TBD	2Rx, 4Rx	Test execution not necessary if 8.7.5.1.2 is executed.
+8.7.5.1.2	TDD FDD CA Sustained data rate performance for FDD PCell (3DL CA)	Rel-12	C139	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell and not supporting 256QAM in DL (UE category 9, 10, 11 and 12)	TBD	2Rx, 4Rx	Test execution not necessary if 8.7.5.1.3 is executed.
+8.7.5.1.3	TDD FDD CA Sustained data rate performance for FDD PCell (4DL CA)	Rel-12	C139a	UE supporting E-UTRA FDD and TDD and 4DL CA with FDD as PCell and not supporting 256QAM in DL (UE category 11 and 12)	TBD		Test execution not necessary if 8.7.5.1.4 is executed.
+8.7.5.1.4	TDD FDD CA Sustained data rate performance for FDD PCell (5DL CA)	Rel-12	C139b	UE supporting E-UTRA FDD and TDD and 5DL CA with FDD as PCell and not supporting 256QAM in DL (UE DL category 15)	TBD		
+8.7.5.1_H.1	TDD FDD CA Sustained data rate performance for FDD PCell (2DL CA) for 256QAM in DL	Rel-12	C138h	UE supporting E-UTRA FDD and TDD and 2DL TDD-FDD CA with FDD as PCell and supporting 256QAM in DL (UE DL category 11, 12 and 13)		2Rx, 4Rx	Test execution not necessary if 8.7.5.1_H.2 is executed.
+8.7.5.1_H.2	TDD FDD CA Sustained data rate performance for FDD PCell (3DL CA) for 256QAM in DL	Rel-12	C139h	UE supporting E-UTRA FDD and TDD and 3DL TDD-FDD CA with FDD as PCell and supporting 256QAM in DL (UE DL Category 11, 12 and 15)		2Rx, 4Rx	Test execution not necessary if 8.7.5.1_H.3 is executed.
+8.7.5.1_H.3	TDD FDD CA Sustained data rate performance for FDD PCell (4DL CA) for 256QAM in DL	Rel-12	C139ha	UE supporting E-UTRA FDD and TDD and 4DL TDD-FDD CA with FDD as PCell and supporting 256QAM in DL			Test execution not necessary if 8.7.5.1_H.4 is executed.
+8.7.5.1_H.4	TDD FDD CA Sustained data rate performance for FDD PCell (5DL CA) for 256QAM in DL	Rel-12	C139hb	UE supporting E-UTRA FDD and TDD and 5DL TDD-FDD CA with FDD as PCell and supporting 256QAM in DL			
+8.7.5.2.1	TDD FDD CA Sustained data rate performance for TDD PCell (2DL CA)	Rel-12	C140	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD as PCell and not supporting 256QAM in DL (UE category 3, 4, 6, 7, 9 and 10)	TBD	2Rx, 4Rx	Test execution not necessary if 8.7.5.2.2 is executed.
+8.7.5.2.2	TDD FDD CA Sustained data rate performance for TDD PCell (3DL CA)	Rel-12	C141	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD as PCell and not supporting 256QAM in DL (UE category 9, 10, 11 and 12)	TBD	2Rx, 4Rx	Test execution not necessary if 8.7.5.2.3 is executed.
+8.7.5.2.3	TDD FDD CA Sustained data rate performance for TDD PCell (4DL CA)	Rel-12	C141a	UE supporting E-UTRA FDD and TDD and 4DL CA with TDD as PCell and not supporting 256QAM in DL (UE category 11 and 12)	TBD		Test execution not necessary if 8.7.5.2.4 is executed.
+8.7.5.2.4	TDD FDD CA Sustained data rate performance for TDD PCell (5DL CA)	Rel-12	C141b	UE supporting E-UTRA FDD and TDD and 5DL CA with TDD as PCell and not supporting 256QAM in DL (UE category 15)	TBD		
+8.7.5.2_H.1	TDD FDD CA Sustained data rate performance for TDD PCell (2DL CA) for 256QAM in DL	Rel-12	C140h	UE supporting E-UTRA FDD and TDD and 2DL TDD-FDD CA with TDD as PCell and supporting 256QAM in DL (UE DL Category 11, 12 and 13)		2Rx, 4Rx	Test execution not necessary if 8.7.5.2_H.2 is executed.
+8.7.5.2_H.2	TDD FDD CA Sustained data rate performance for TDD PCell (3DL CA) for 256QAM in DL	Rel-12	C141h	UE supporting E-UTRA FDD and TDD and 3DL TDD-FDD CA with TDD as PCell and supporting 256QAM in DL (UE DL Category 11, 12 and 15)		2Rx, 4Rx	Test execution not necessary if 8.7.5.2_H.3 is executed.
+8.7.6.1	FDD sustained data rate performance for Dual Connectivity 64QAM	Rel-12	C171	UE supporting E-UTRA FDD and Dual Connectivity and not supporting 256QAM in DL (UE Category 3, 4, 6, 7, 9, and 10)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+8.7.6.2	FDD sustained data rate performance for Dual Connectivity 256QAM	Rel-12	C173	UE supporting E-UTRA FDD and Dual Connectivity and supporting 256QAM in DL	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+8.7.7.1	TDD sustained data rate performance for Dual Connectivity 64QAM	Rel-12	C172	UE supporting E-UTRA TDD and Dual Connectivity and not supporting 256QAM in DL (UE Category 6, 7, 9, and 10)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+8.7.7.2	TDD sustained data rate performance for Dual Connectivity 256QAM	Rel-12	C174	UE supporting E-UTRA TDD and Dual Connectivity and supporting 256QAM in DL	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+8.7.9.2	FDD sustained data rate performance for 4 layer MIMO (single carrier)	Rel-10	C226	UE supporting E-UTRA FDD with 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 6 and 7 and UE DL category 13)	One "Test Number" to be performed. The selected band shall lead to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.9 is executed, where larger equivalent aggregated bandwidth can be achieved.
+8.7.9.3	FDD sustained data rate performance for 4 layer MIMO (2DL CA)	Rel-10	C227	UE supporting E-UTRA FDD and intra-band contiguous DL CA or inter-band DL CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 9, 10, 11 and 12 and UE DL category 9, 10, 11, 12 and 15)	One "Test Number" to be performed. The selected CA configuration shall lead to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.9 is executed, where larger equivalent aggregated bandwidth can be achieved.
+		Rel-11	C228	UE supporting E-UTRA FDD and intra-band non-contiguous DL CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 9, 10, 11 and 12 and UE DL category 9, 10, 11, 12 and 15)			
+8.7.9.4	FDD sustained data rate performance for 4 layer MIMO (3DL CA)	Rel-10	C229	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA , or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 11 and 12 and UE DL category 11, 12, 15, 16 and 18)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.9 is executed, where larger equivalent aggregated bandwidth can be achieved.
+		Rel-11	C230	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 11 and 12 and UE DL category 11, 12, 15, 16 and 18)			
+8.7.9.5	FDD sustained data rate performance for 4 layer MIMO (4DL CA)	Rel-11	C236	UE supporting E-UTRA FDD and 4DL with intra-band contiguous CA, or 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE DL category 15, 16, 18 and 19)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.9 is executed, where larger equivalent aggregated bandwidth can be achieved.
+8.7.9.6	FDD sustained data rate performance for 4 layer MIMO (5DL CA)	Rel-11	C237	UE supporting E-UTRA FDD and 5DL with intra-band contiguous CA, or 5DL with intra-band contiguous and inter-band CA, or 5DL with intra-band non-contiguous and inter-band CA, or 5DL with intra-band non-contiguous and intra-band contiguous CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE DL category 15, 16, 18 and 19)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.9 is executed, where larger equivalent aggregated bandwidth can be achieved.
+		Rel-12	C238	UE supporting E-UTRA FDD and 5DL with inter-band CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE DL category 15, 16, 18 and 19)			
+8.7.10.2	TDD sustained data rate performance for 4 layer MIMO (single carrier)	Rel-10	C239	UE supporting E-UTRA TDD with 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 6 and 7 and UE DL category 13)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.10 is executed, where larger equivalent aggregated bandwidth can be achieved.
+8.7.10.3	TDD sustained data rate performance for 4 layer MIMO (2DL CA)	Rel-10	C240	UE supporting E-UTRA TDD and intra-band contiguous DL CA or inter-band DL CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 9, 10, 11 and 12 and UE DL category 9, 10, 11, 12 and 15)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.10 is executed, where larger equivalent aggregated bandwidth can be achieved.
+		Rel-11	C241	UE supporting E-UTRA TDD and intra-band non-contiguous DL CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 9, 10, 11 and 12 and UE DL category 9, 10, 11, 12 and 15)			
+8.7.10.4	TDD sustained data rate performance for 4 layer MIMO (3DL CA)	Rel-10	C242	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA , or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 11 and 12 and UE DL category 11, 12, 15, 16 and 18)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.10 is executed, where larger equivalent aggregated bandwidth can be achieved.
+		Rel-11	C243	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 11 and 12 and UE DL category 11, 12, 15, 16 and 18)			
+8.7.10.5	TDD sustained data rate performance for 4 layer MIMO (4DL CA)	Rel-11	C244	UE supporting E-UTRA TDD and 4DL with intra-band contiguous CA, or 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE DL category 16, 18 and 19)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.10 is executed, where larger equivalent aggregated bandwidth can be achieved.
+8.7.10.6	TDD sustained data rate performance for 4 layer MIMO (5DL CA)	Rel-11	C245	UE supporting E-UTRA FDD and 5DL with intra-band contiguous CA, or 5DL with intra-band contiguous and inter-band CA, or 5DL with intra-band non-contiguous and inter-band CA, or 5DL with intra-band non-contiguous and intra-band contiguous CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE DL category 18 and 19)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.10 is executed, where larger equivalent aggregated bandwidth can be achieved.
+		Rel-12	C246	UE supporting E-UTRA FDD and 5DL with inter-band CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE DL category 18 and 19)			
+8.7.11.2	TDD FDD CA sustained data rate performance for 4 layer MIMO (2DL CA)	Rel-12	C247	UE supporting E-UTRA FDD and E-UTRA TDD and 2DL TDD FDD CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 9, 10, 11 and 12 and UE DL category 9, 10, 11, 12 and 15)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.11 is executed, where larger equivalent aggregated bandwidth can be achieved.
+8.7.11.3	TDD FDD CA sustained data rate performance for 4 layer MIMO (3DL CA)	Rel-12	C248	UE supporting E-UTRA FDD and E-UTRA TDD and 3DL TDD FDD CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 9, 10, 11 and 12 and UE DL category 9, 10, 11, 12 and 15)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.11 is executed, where larger equivalent aggregated bandwidth can be achieved.
+8.7.11.4	TDD FDD CA sustained data rate performance for 4 layer MIMO (4DL CA)	Rel-12	C249	UE supporting E-UTRA FDD and E-UTRA TDD and 4DL TDD FDD CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 9, 10, 11 and 12 and UE DL category 9, 10, 11, 12 and 15)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.11 is executed, where larger equivalent aggregated bandwidth can be achieved.
+8.7.11.5	TDD FDD CA sustained data rate performance for 4 layer MIMO (5DL CA)	Rel-12	C250	UE supporting E-UTRA FDD and E-UTRA TDD and 5DL TDD FDD CA and 4Rx antenna ports and 4-layer spatial multiplexing (UE Category 9, 10, 11 and 12 and UE DL category 9, 10, 11, 12 and 15)	One "Test Number" to be performed, in a chosen CA configuration, which leads to the largest equivalent aggregated bandwidth Note 3 supported by UE.		Test execution not necessary if another test case in clause 8.7.11 is executed, where larger equivalent aggregated bandwidth can be achieved.
+8.8.1.1	FDD distributed EPDCCH performance	Rel-11	C55	UE supporting E-UTRA FDD and EPDCCH	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.8.1.2	TDD distributed EPDCCH performance	Rel-11	C56	UE supporting E-UTRA TDD and EPDCCH	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.8.2.1	FDD localized EPDCCH performance with TM9	Rel-11	C91	UE supporting E-UTRA FDD and EPDCCH and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.8.2.2	TDD localized EPDCCH performance with TM9	Rel-11	C92	UE supporting E-UTRA TDD and EPDCCH and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.8.3.1	FDD localized EPDCCH transmission with TM10 Type B quasi co-location type	Rel-11	C57	UE supporting E-UTRA FDD and EPDCCH and Multiple CSI processes on a component carrier within a band with PDSCH transmission mode 10	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.8.3.2	TDD localized EPDCCH transmission with TM10 Type B quasi co-location type	Rel-11	C58	UE supporting E-UTRA TDD and EPDCCH and Multiple CSI processes on a component carrier within a band with PDSCH transmission mode 10	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.1.1	Transmit diversity performance for UE category 0 (Cell-Specific Reference Symbols)	Rel-12	C145	UE supporting E-UTRA FDD (UE category 0)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.1.1_1	FDD PDSCH Transmit Diversity 2x1 for UE category 1bis	Rel-13	C145d	UE supporting E-UTRA FDD (UE category 1bis)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.1.2	FDD closed-loop spatial multiplexing performance (Cell-Specific Reference Symbols)	Rel-12	C145	UE supporting E-UTRA FDD (UE category 0)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.1.2_1	FDD PDSCH Closed Loop Single Layer Spatial Multiplexing 2x1 for UE Category 1bis	Rel-13	C145d	UE supporting E-UTRA FDD (UE category 1bis)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.1.3	FDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 for UE category 0	Rel-12	C157	UE supporting E-UTRA FDD (UE category 0) and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.1.3_1	FDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 for UE category 1bis	Rel-13	C157a	UE supporting E-UTRA FDD (UE category 1bis) and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.2.1	TDD PDSCH Transmit Diversity for UE category 0	Rel-12	C156	UE supporting E-UTRA TDD (UE category 0)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.2.1_1	TDD PDSCH Transmit Diversity for UE category 1bis	Rel-13	C156f	UE supporting E-UTRA TDD (UE category 1bis)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.2.2	TDD closed-loop spatial multiplexing performance (Cell-Specific Reference Symbols)	Rel-12	C145	UE supporting E-UTRA FDD (UE category 0)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.2.2_1	TDD PDSCH Closed Loop Single Layer Spatial Multiplexing 2x1 for UE Category 1bis	Rel-13	C156f	UE supporting E-UTRA TDD (UE category 1bis)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.2.3	TDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 for UE category 0	Rel-12	C158	UE supporting E-UTRA TDD (UE category 0) and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.1.2.3_1	TDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 for UE category 1bis	Rel-13	C158a	UE supporting E-UTRA TDD (UE category 1bis) and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.2.1.1	FDD PHICH Transmit Diversity for UE category 0	Rel-12	C145	UE supporting E-UTRA FDD (UE category 0)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.2.1.1_1	FDD PHICH Transmit Diversity for UE category 1bis	Rel-13	C145d	UE supporting E-UTRA FDD (UE category 1bis)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.9.2.2.1	TDD PHICH Transmit Diversity for UE category 0	Rel-12	C156	UE supporting E-UTRA TDD (UE category 0)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.10.1.1.1	FDD PDSCH Transmit Diversity 2x4	Rel-10	C113b	UE supporting E-UTRA FDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.1.2	FDD PDSCH Open Loop Spatial Multiplexing 2x4	Rel-10	C113b	UE supporting E-UTRA FDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.1.3	FDD PDSCH Closed Loop Single Layer Spatial Multiplexing 2x4 with TM4 Interference Model – Enhanced Performance Requirement Type A	Rel-11	C113d	UE supporting E-UTRA FDD with 4Rx antenna ports and the enhanced performance requirements type A for LTE 	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.1.4	FDD PDSCH Closed Loop Spatial Multiplexing 4x4	Rel-10	C113b	UE supporting E-UTRA FDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.1.5	FDD PDSCH Single-layer Spatial Multiplexing 2x4 on antenna ports 7 or 8 with TM9 interference model – Enhanced Performance Requirement Type A	Rel-11	C113e	UE supporting E-UTRA FDD with 4Rx antenna ports and the enhanced performance requirements type A for LTE and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.1.6	FDD Dual-Layer Spatial Multiplexing 2x4 (User-Specific Reference Symbols)	Rel-10	C113c	UE supporting E-UTRA FDD and Feature Group Indicator 103 and 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.1.7	FDD Open-loop spatial multiplexing, 3 Layer Multiplexing with 4 Tx Antenna Ports	Rel-10	C220	UE supporting E-UTRA FDD with 4Rx antenna ports and 3-layer spatial multiplexing	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.1.8	FDD Closed-loop spatial multiplexing performance, 4 Layers spatial multiplexing 4 Tx antennas	Rel-10	C220	UE supporting E-UTRA FDD with 4Rx antenna ports and 4-layer spatial multiplexing	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.1.9	FDD 4 Layer Spatial Multiplexing (User-Specific Reference Symbols)	Rel-10	C113c	UE supporting E-UTRA FDD and eDL-MIMO and Feature Group Indicator 103 and 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.2.1	TDD PDSCH Transmit Diversity 2x4	Rel-10	C198	UE supporting E-UTRA TDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.2.2	TDD PDSCH Open Loop Spatial Multiplexing 2x4	Rel-10	C198	UE supporting E-UTRA TDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.2.3	TDD PDSCH Closed Loop Single Layer Spatial Multiplexing 2x4 with TM4 Interference Model – Enhanced Performance Requirement Type A	Rel-11	C198a	UE supporting E-UTRA TDD with 4Rx antenna ports and the enhanced performance requirements type A for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.2.4	TDD PDSCH Closed Loop Spatial Multiplexing 4x4	Rel-10	C198	UE supporting E-UTRA TDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.2.5 	TDD PDSCH Single-layer Spatial Multiplexing 2x4 on antenna ports 7 or 8 with TM9 interference model – Enhanced Performance Requirement Type A	Rel-11	C198c	UE supporting E-UTRA TDD with 4Rx antenna ports and the enhanced performance requirements type A for LTE and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.2.6	TDD Dual-Layer Spatial Multiplexing 2x4 (User-Specific Reference Symbols)	Rel-10	C198b	UE supporting E-UTRA TDD with 4Rx antenna ports and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.2.7	TDD Open-loop spatial multiplexing, 3 Layer Multiplexing with 4 Tx Antenna Ports	Rel-10	C235	UE supporting E-UTRA TDD with 4Rx antenna ports and 3-layer spatial multiplexing	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.2.8	TDD Closed-loop spatial multiplexing performance, 4 Layers spatial multiplexing 4 Tx antennas	Rel-10	C235	UE supporting E-UTRA TDD with 4Rx antenna ports and 4-layer spatial multiplexing	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.1.2.9	TDD 4 Layer Spatial Multiplexing (User-Specific Reference Symbols)	Rel-10	C183	UE supporting E-UTRA FDD and Feature Group Indicator 103 and 4Rx antenna ports 	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.2.1.1	FDD PCFICH/PDCCH Single-antenna Port Performance 1x4	Rel-10	C113b	UE supporting E-UTRA FDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.2.1.2	FDD PCFICH/PDCCH Transmit Diversity Performance 2x4	Rel-10	C113b	UE supporting E-UTRA FDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.2.1.3	FDD PCFICH/PDCCH Transmit Diversity Performance 4x4	Rel-10	C113b	UE supporting E-UTRA FDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.2.2.1	TDD PCFICH/PDCCH Single-antenna Port Performance 1x4	Rel-10	C184	UE supporting E-UTRA TDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.2.2.2	TDD PCFICH/PDCCH Transmit Diversity Performance 2x4	Rel-10	C184	UE supporting E-UTRA TDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.2.2.3	TDD PCFICH/PDCCH Transmit Diversity Performance 4x4	Rel-10	C184	UE supporting E-UTRA TDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.3.1.1	FDD PHICH Single-antenna Port Performance 1x4	Rel-10	C113b	UE supporting E-UTRA FDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.3.1.2	FDD PHICH Transmit Diversity Performance 2x4	Rel-10	C113b	UE supporting E-UTRA FDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.3.1.3	FDD PHICH Transmit Diversity Performance 4x4	Rel-10	C113b	UE supporting E-UTRA FDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.3.2.1	TDD PHICH Single-antenna Port Performance 1x4	Rel-10	C184	UE supporting E-UTRA TDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.3.2.2	TDD PHICH Transmit Diversity Performance 2x4	Rel-10	C184	UE supporting E-UTRA TDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.3.2.3	TDD PHICH Transmit Diversity Performance 4x4	Rel-10	C184	UE supporting E-UTRA TDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.4.1.1	FDD distributed EPDCCH performance 2x4	Rel-10	C164	UE supporting E-UTRA FDD and EPDCCH with 4Rx antenna ports 	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.4.1.2	TDD distributed EPDCCH performance 2x4	Rel-10	C165	UE supporting E-UTRA TDD and EPDCCH with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.4.2.1	FDD localized EPDCCH performance with TM9 2x4	Rel-10	C166	UE supporting E-UTRA FDD and EPDCCH and Feature Group Indicator 103 with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.10.4.2.2	TDD localized EPDCCH performance with TM9 2x4	Rel-10	C167	UE supporting E-UTRA TDD and EPDCCH and Feature Group Indicator 103 with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+8.11.1.1.1	FDD and half-duplex FDD Closed-loop spatial multiplexing performance for UE category M1	Rel-13	C145a	UE supporting E-UTRA FDD and UE category M1	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.1.1.2	FDD and half-duplex FDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 for UE category M1	Rel-13	C145d	UE supporting E-UTRA FDD and UE category M1 and TM9 in CE Mode A	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.1.1.3.1	FDD and half-duplex FDD PDSCH Transmit Diversity 2x1 for UE category M1	Rel-13	C145a	UE supporting E-UTRA FDD and UE category M1	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.1.1.3.1_1	FDD and half-duplex FDD PDSCH Transmit Diversity 2x1 for UE category M1 (CEmodeB)	Rel-13	C156c	UE supporting E-UTRA FDD and (UE category M1 and CE Mode B)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.1.2.1	TDD Closed-loop spatial multiplexing performance for UE category M1 (Cell-Specific Reference Symbols)	Rel-13	C156b	UE supporting E-UTRA TDD and UE category M1	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.1.2.2	TDD PDSCH Single-layer Spatial Multiplexing on antenna ports 7 or 8 for UE category M1	Rel-13	C156e	UE supporting E-UTRA TDD and UE category M1 and TM9 in CE Mode A	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.1.2.3.1	TDD PDSCH Transmit Diversity for UE category M1	Rel-13	C156b	UE supporting E-UTRA TDD and UE category M1	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.1.2.3.1_1	TDD PDSCH Transmit Diversity for UE category M1 (CEModeB)	Rel-13	C156d	UE supporting E-UTRA TDD and UE category M1 and CE Mode B	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.2.1.1	FDD demodulation of MPDCCH in CE Mode A	Rel-13	C145b	UE supporting E-UTRA FDD and (UE category M1 or CE Mode A)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.2.1.2	FDD and half-duplex FDD demodulation of MPDCCH in CE Mode B	Rel-13	C156c	UE supporting E-UTRA FDD and (UE category M1 and CE Mode B)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.2.2.1	TDD demodulation of MPDCCH in CE Mode A	Rel-13	C156b	UE supporting E-UTRA TDD and UE category M1	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+8.11.2.2.2	TDD demodulation of MPDCCH in CE Mode B	Rel-13	C156d	UE supporting E-UTRA TDD and (UE category M1 and CE Mode B)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+		
+8.12.1.1.1	Demodulation of NPDSCH (Cell-Specific Reference Symbols) in In-band mode for Category NB1	Rel-13	C112b	UE supporting category NB1	Each "Test Number" to be performed once, in a chosen band		
+8.12.1.1.2	Demodulation of NPDSCH (Cell-Specific Reference Symbols) in standalone and Guard-band mode for category NB1	Rel-13	C112b	UE supporting category NB1	Each "Test Number" to be performed once, in a chosen band		
+8.12.2.1.1	Demodulation of NPDCCH single-antenna performance for category NB1	Rel-13	C112b	UE supporting category NB1	Each "Test Number" to be performed once, in a chosen band		
+8.12.2.1.2	Demodulation of NPDCCH in In-band mode Transmit Diversity performance for Category NB1	Rel-13	C112b	UE supporting category NB1	Each "Test Number" to be performed once, in a chosen band		
+8.13.1.2.2	FDD Dual-Layer Spatial Multiplexing 2x4 (User-Specific Reference Symbols) (2DL CA)	Rel-10	C253	UE supporting E-UTRA FDD and intra-band contiguous DL CA or inter-band DL CA (UE Category >= 5) and 4Rx antenna ports	Refer to 36.521-1 8.1.2.6.5		Test execution not necessary if 8.13.1.2.3 or 8.13.1.2.4 or 8.13.1.2.5 is executed.
+		Rel-11	C254	UE supporting E-UTRA FDD and intra-band non-contiguous DL CA (UE Category >= 5) and 4Rx antenna ports			
+8.13.1.2.3	FDD Dual-Layer Spatial Multiplexing 2x4 (User-Specific Reference Symbols) (3DL CA)	Rel-10	C255	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA (UE Category >= 5) and 4Rx antenna ports	Refer to 36.521-1 8.1.2.6.5		Test execution not necessary if 8.13.1.2.4 or 8.13.1.2.5 is executed.
+		Rel-11	C256	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 5) and 4Rx antenna ports			
+8.13.1.2.4	FDD Dual-Layer Spatial Multiplexing 2x4 (User-Specific Reference Symbols) (4DL CA)	Rel-11	C257	UE supporting E-UTRA FDD and 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA, or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA (UE Category >= 5) and 4Rx antenna ports	Refer to 36.521-1 8.1.2.6.5		Test execution not necessary if 8.13.1.2.5 is executed.
+8.13.1.2.5	FDD Dual-Layer Spatial Multiplexing 2x4 (User-Specific Reference Symbols) (5DL CA)	Rel-11	C258	UE supporting E-UTRA FDD and 5DL with intra-band contiguous and inter-band CA, or 5DL with intra-band non-contiguous and inter-band CA, or 5DL with intra-band non-contiguous and intra-band contiguous CA (UE Category 8, >= 11) and 4Rx antenna ports	Refer to 36.521-1 8.1.2.6.5		
+		Rel-12	C259	UE supporting E-UTRA FDD and 5DL with inter-band CA (UE Category 8, >= 11) and 4Rx antenna ports			
+8.13.3.3.1	TDD-FDD CA PDSCH Closed Loop Single Layer Spatial Multiplexing 2x4 with TM4 Interference Model-Enhanced Performance Requirement Type A for FDD Pcell (2DL CA)	Rel-12	C231	UE supporting E-UTRA FDD and TDD and 2DL CA with 4Rx antenna ports and the enhanced performance requirements type A for LTE and FDD as PCell (UE Category >=5)			
+8.13.3.3.2	TDD-FDD CA PDSCH Closed Loop Single Layer Spatial Multiplexing 2x4 with TM4 Interference Model-Enhanced Performance Requirement Type A for TDD Pcell (2DL CA)	Rel-12	C232	UE supporting E-UTRA FDD and TDD and 2DL CA with 4Rx antenna ports and the enhanced performance requirements type A for LTE and TDD as PCell (UE Category >=5)			
+8.13.3.4.1	TDD-FDD CA PDSCH Single-layer Spatial Multiplexing 2x4 on antenna ports 7 or 8 with TM9 Interference Model - Enhanced Performance Requirement Type A for FDD PCell (2DL CA)	Rel-12	C233	UE supporting E-UTRA FDD and TDD and 2DL CA with 4Rx antenna ports and Feature Group Indictor 103 and the enhanced performance requirements type A for LTE and FDD as PCell (UE Category >=5)			
+8.13.3.4.2	TDD-FDD CA PDSCH Single-layer Spatial Multiplexing 2x4 on antenna ports 7 or 8 with TM9 Interference Model - Enhanced Performance Requirement Type A for TDD PCell (2DL CA)	Rel-12	C234	UE supporting E-UTRA FDD and TDD and 2DL CA with 4Rx antenna ports and Feature Group Indictor 103 and the enhanced performance requirements type A for LTE and TDD as PCell (UE Category >=5)			
+8.13.3.6.1	TDD-FDD CA PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x4 with 256QAM for FDD PCell (2DL CA)	Rel-12	C251	UE supporting E-UTRA FDD and TDD and 2DL CA with 4Rx antenna ports and 256QAM in DL and FDD as Pcell(UE Category >=5) 			
+8.13.3.6.2	TDD-FDD CA PDSCH Closed Loop Multi Layer Spatial Multiplexing 4x4 with 256QAM for TDD PCell (2DL CA)	Rel-12	C252	UE supporting E-UTRA FDD and TDD and 2DL CA with 4Rx antenna ports and 256QAM in DL and TDD as Pcell(UE Category >=5) 			
+		Reporting of Channel State Information
+9.2.1.1	FDD CQI Reporting under AWGN conditions - PUCCH 1-0	Rel-8	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.1.2	TDD CQI Reporting under AWGN conditions - PUCCH 1-0	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.1.3_C.1	FDD CQI Reporting under AWGN conditions - PUCCH 1-0 for eICIC (non-MBSFN ABS)	Rel-10	C29	UE supporting E-UTRA FDD and Feature Group Indicator 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.1.4_C.1	TDD CQI Reporting under AWGN conditions - PUCCH 1-0 for eICIC (non-MBSFN ABS)	Rel-10	C30	UEs supporting E-UTRA TDD and Feature Group Indictor 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.1.5_E.1	FDD CQI Reporting under AWGN conditions - PUCCH 1-0 for feICIC (non-MBSFN ABS)	Rel-11	C77	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.1.6_E.1	TDD CQI Reporting under AWGN conditions - PUCCH 1-0 for feICIC (non-MBSFN ABS)	Rel-11	C78	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115(UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.1.7	FDD CQI Reporting under AWGN conditions - PUCCH 1-0 for 256QAM in DL	Rel-12	C01h	UE supporting E-UTRA FDD and 256QAM in DL(UE category 11-12 and UE DL category >=11)		2Rx, 4Rx	
+9.2.1.8	TDD CQI Reporting under AWGN conditions - PUCCH 1-0 for 256QAM in DL	Rel-12	C02h	UE supporting E-UTRA TDD and 256QAM in DL(UE category 11-12 and UE DL category >=11)		2Rx, 4Rx	
+9.2.2.1	FDD CQI Reporting under AWGN conditions - PUCCH 1-1	Rel-8	C13 b	UE supporting E-UTRA FDD (UE categories >=2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.2.2.2	TDD CQI Reporting under AWGN conditions - PUCCH 1-1	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.2.3.1_D	FDD CQI Reporting under AWGN conditions - PUCCH 1-1 for eDL-MIMO	Rel-10	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.3.2_D	TDD CQI Reporting under AWGN conditions - PUCCH 1-1 for eDL-MIMO	Rel-10	C26	UE supporting E-UTRA TDD and Feature Group Indicator 104	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.4.1_F	FDD CQI Reporting under AWGN conditions - Single CSI Process for CoMP	Rel-11	C117	UE supporting E-UTRA FDD and Maximum CSI processes of One, Three or Four on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.2.4.2_F	TDD CQI Reporting under AWGN conditions - Single CSI Process for CoMP	Rel-11	C118	UE supporting E-UTRA TDD and Maximum CSI processes of One, Three or Four on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.2.6.1	LAA CQI Reporting under AWGN Conditions with Frame Structure Type 3 with FDD as Pcell (PUSCH 3-0)	Rel-13	C209	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.6.2	LAA CQI Reporting under AWGN Conditions with Frame Structure Type 3 with TDD as Pcell (PUSCH 3-0)	Rel-13	C217	UE supporting E-UTRA TDD and downlink LAA with TDD as Pcell	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.7.1	LAA CQI Reporting under AWGN Conditions with Frame Structure Type 3 with FDD as Pcell (PUSCH 3-1)	Rel-13	C218	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.2.7.2	LAA CQI Reporting under AWGN Conditions with Frame Structure Type 3 with TDD as Pcell (PUSCH 3-1)	Rel-13	C219	UE supporting E-UTRA TDD and downlink LAA and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.1.1.1	FDD CQI Reporting under fading conditions - PUSCH 3-0	Rel-8	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.1.1.2	TDD CQI Reporting under fading conditions - PUSCH 3-0	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.1.2.1_D	FDD CQI Reporting under fading conditions - PUSCH 3-1 for eDL-MIMO	Rel-10	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.1.2.2_D	TDD CQI Reporting under fading conditions - PUSCH 3-1 for eDL-MIMO	Rel-10	C25a	UE supporting E-UTRA TDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.1.2.3	FDD CQI Reporting under fading conditions - PUSCH 3-1 for 256QAM in DL	Rel-12	 C260	UE supporting E-UTRA FDD and 256QAM in DL(UE category 11-12 and UE DL category >=11) and Feature Group Indicator 103		2Rx, 4Rx	
+9.3.1.2.4	TDD CQI Reporting under fading conditions - PUSCH 3-1 for 256QAM in DL	Rel-12	 C261	UE supporting E-UTRA TDD and 256QAM in DL(UE category 11-12 and UE DL category >=11) and Feature Group Indicator 103		2Rx, 4Rx	
+9.3.1.3.1_E.1	FDD CQI Reporting under fading conditions - PUSCH 3-0 for feICIC (non-MBSFN ABS)	Rel-11	C79	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.1.3.2_E.1	TDD CQI Reporting under fading conditions - PUSCH 3-0 for feICIC (non-MBSFN ABS)	Rel-11	C80	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.2.1.1	FDD CQI Reporting under fading conditions - PUCCH 1-0	Rel-8	C13 b	UE supporting E-UTRA FDD (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.2.1.1_1	FDD CQI Reporting under fading conditions - PUCCH 1-0 (Release 9 and forward)	Rel-9	C15	UE supporting E-UTRA FDD (UE category 1)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.2.1.2	TDD CQI Reporting under fading conditions - PUCCH 1-0	Rel-8	C14	UE supporting E-UTRA TDD (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.2.1.2_1	TDD CQI Reporting under fading conditions - PUCCH 1-0 (Release 9 and forward)	Rel-9	C16	UE supporting E-UTRA TDD (UE category 1)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.2.2.1_D	FDD CQI Reporting under fading conditions - PUCCH 1-1 for eDL-MIMO	Rel-10	C25x	UE supporting E-UTRA FDD and Feature Group Indicator 103 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.2.2.2_D	TDD CQI Reporting under fading conditions - PUCCH 1-1 for eDL-MIMO	Rel-10	C28y	UE supporting E-UTRA TDD and Feature Group Indicators 104 and 110 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.3.1.1	FDD CQI Reporting under fading conditions and frequency-selective interference - PUSCH 3-0	Rel-8	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.3.1.2	TDD CQI Reporting under fading conditions and frequency-selective interference - PUSCH 3-0	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.4.1.1	FDD CQI Reporting under fading conditions - PUSCH 2-0	Rel-9	C32	UE supporting E-UTRA FDD and Feature Group Indicator 1	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.4.1.2	TDD CQI Reporting under fading conditions - PUSCH 2-0	Rel-9	C37	UE supporting E-UTRA TDD and Feature Group Indicator 1	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.4.2.1	FDD CQI Reporting under fading conditions - PUCCH 2-0	Rel-9	C36	UE supporting E-UTRA FDD and Feature Group Indicator 2	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.4.2.2	TDD CQI Reporting under fading conditions - PUCCH 2-0	Rel-9	C38	UE supporting E-UTRA TDD and Feature Group Indicator 2	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.5.1.1	FDD CQI Reporting under fading conditions - PUCCH 1-0 - Enhanced Performance Requirement Type A	Rel-11	C44	UE supporting E-UTRA FDD and the enhanced performance requirements type A for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.5.1.2	TDD CQI Reporting under fading conditions - PUCCH 1-0 - Enhanced Performance Requirement Type A	Rel-11	C45	UE supporting E-UTRA TDD and the enhanced performance requirements type A for LTE	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.5.2.1	FDD CQI Reporting under fading conditions - PUCCH 1-1 - Enhanced Performance Requirement Type A	Rel-11	C44z	UE supporting E-UTRA FDD and the enhanced performance requirements type A for LTE (UE Category >= 2) and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.5.2.2	TDD CQI Reporting under fading conditions - PUCCH 1-1 - Enhanced Performance Requirement Type A	Rel-11	C45i	UE supporting E-UTRA TDD and the enhanced performance requirements type A for LTE (UE Category >= 2) and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.6.1_F.1	FDD CQI Reporting under fading conditions with Single CSI process for CoMP	Rel-11	C50a	UE supporting E-UTRA FDD and Maximum CSI processes of One on a component carrier within a band with PDSCH transmission mode 10	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.6.1_F.2	FDD CQI Reporting under fading conditions with Three CSI processes for CoMP	Rel-11	C96	UE supporting E-UTRA FDD and Maximum CSI processes of Three on a component carrier within a band with PDSCH transmission mode 10	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.6.1_F.3	FDD CQI Reporting under fading conditions with Four CSI processes for CoMP	Rel-11	C97	UE supporting E-UTRA FDD and Maximum CSI processes of Four on a component carrier within a band with PDSCH transmission mode 10 	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.6.2_F.1	TDD CQI Reporting under fading conditions with Single CSI process for CoMP	Rel-11	C51a	UE supporting E-UTRA TDD and Maximum CSI processes of One on a component carrier within a band with PDSCH transmission mode 10	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.6.2_F.2	TDD CQI Reporting under fading conditions with Three CSI processes for CoMP	Rel-11	C98	UE supporting E-UTRA TDD and Maximum CSI processes of Three on a component carrier within a band with PDSCH transmission mode 10 	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.6.2_F.3	TDD CQI Reporting under fading conditions with Four CSI processes for CoMP	Rel-11	C99	UE supporting E-UTRA TDD and Maximum CSI processes of Four on a component carrier within a band with PDSCH transmission mode 10 	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.7.1	FDD CQI Reporting under fading conditions - PUSCH 3-2 for eDL MIMO Enhancement	Rel-12	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	9.3.7.1
+9.3.7.2	TDD CQI Reporting under fading conditions - PUSCH 3-2 for eDL MIMO Enhancement	Rel-12	C25a	UE supporting E-UTRA TDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.3.8.1.1	FDD CQI Reporting under fading conditions - PUCCH 1-1 (Cell-Specific Reference Symbols) TM4 - Enhanced Receiver Type B	Rel-12	C152	UE supporting E-UTRA FDD and the enhanced performance requirements type B for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.8.1.2	TDD CQI Reporting under fading conditions - PUCCH 1-1 (Cell-Specific Reference Symbols) TM4 - Enhanced Receiver Type B	Rel-12	C153	UE supporting E-UTRA TDD and the enhanced performance requirements type B for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.8.2.1	FDD CQI Reporting under fading conditions - PUCCH 1-1 (CSI Reference Symbol) TM9 - Enhanced Receiver Type B	Rel-12	C152	UE supporting E-UTRA FDD and the enhanced performance requirements type B for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.8.2.2	TDD CQI Reporting under fading conditions - PUCCH 1-1 (CSI Reference Symbol) TM9 - Enhanced Receiver Type B	Rel-12	C153	UE supporting E-UTRA TDD and the enhanced performance requirements type B for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.8.3.1	FDD CQI Reporting under fading conditions - PUCCH 1-1 (CSI Reference Symbol) TM10 with TM9 interference - Enhanced Receiver Type B	Rel-12	C152	UE supporting E-UTRA FDD and the enhanced performance requirements type B for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.3.8.3.2	TDD CQI Reporting under fading conditions - PUCCH 1-1 (CSI Reference Symbol) TM10 with TM9 interference - Enhanced Receiver Type B	Rel-12	C153	UE supporting E-UTRA TDD and the enhanced performance requirements type B for LTE (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.4.1.1.1	FDD PMI Reporting - PUSCH 3-1 (Single PMI)	Rel-8	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.1.1.2	TDD PMI Reporting - PUSCH 3-1 (Single PMI)	Rel-8	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.1.2.1	FDD PMI Reporting - PUCCH 2-1 (Single PMI)	Rel-9	C36	UE supporting E-UTRA FDD and Feature Group Indicator 2	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.1.2.2	TDD PMI Reporting - PUCCH 2-1 (Single PMI)	Rel-9	C38	UE supporting E-UTRA TDD and Feature Group Indicator 2	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.1.3.1_D	FDD PMI Reporting - PUSCH 3-1 (Single PMI) for eDL-MIMO	Rel-10	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.1.3.2_D	TDD PMI Reporting - PUSCH 3-1 (Single PMI) for eDL-MIMO	Rel-10	C26	UE supporting E-UTRA TDD and Feature Group Indicator 104	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.1.4.1	FDD PMI Reporting with 4Tx enhanced codebook - PUCCH 1-1 (Single PMI) for eDL MIMO Enhancement	Rel-12	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.1.4.2	TDD PMI Reporting with 4Tx enhanced codebook - PUCCH 1-1 (Single PMI) for eDL MIMO Enhancement	Rel-12	C25a	UE supporting E-UTRA TDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.2.1.1	FDD PMI Reporting - PUSCH 1-2 (Multiple PMI)	Rel-8 only	C11	UE supporting E-UTRA FDD and operating bands supporting 20 MHz Bandwidth (UE categories 2, 3, 4, 5)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.2.1.1_1	FDD PMI Reporting - PUSCH 1-2 (Multiple PMI) (Release 9 and forward)	Rel-9	C01	UE supporting E-UTRA FDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.2.1.2	TDD PMI Reporting - PUSCH 1-2 (Multiple PMI)	Rel-8 only	C12	UE supporting E-UTRA TDD and operating bands supporting 20 MHz Bandwidth (UE categories 2, 3, 4, 5)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.2.1.2_1	TDD PMI Reporting - PUSCH 1-2 (Multiple PMI) (Release 9 and forward)	Rel-9	C02	UE supporting E-UTRA TDD	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.2.2.1	FDD PMI Reporting - PUSCH 2-2 (Multiple PMI)	Rel-9	C32	UE supporting E-UTRA FDD and Feature Group Indicators 1	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.2.2.2	TDD PMI Reporting - PUSCH 2-2 (Multiple PMI)	Rel-9	C33	UE supporting E-UTRA TDD and Feature Group Indicators 1	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.2.3.1_D	FDD PMI Reporting - PUSCH 1-2 (Multiple PMI) for eDL-MIMO	Rel-10	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.2.3.2_D	TDD PMI Reporting - PUSCH 1-2 (Multiple PMI) for eDL-MIMO	Rel-10	C26	UE supporting E-UTRA TDD and Feature Group Indicator 104	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.4.2.3.3	FDD PMI Reporting with 4Tx enhanced codebook - PUSCH 1-2 (Multiple PMI) for eDL-MIMO Enhancement	Rel-12	C25	UE supporting E-UTRA FDD and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.4.2.3.4	TDD PMI Reporting with 4Tx enhanced codebook - PUSCH 1-2 (Multiple PMI) for eDL-MIMO Enhancement	Rel-12	C25a	UE supporting E-UTRA TDD and eDL-MIMO Enhancement and Feature Group Indicator 103	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.5.1.1	FDD RI Reporting - PUCCH 1-1	Rel-8 and Rel-9 only	C13a	UE supporting E-UTRA FDD (UE Category 2-5)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.1.1_1	FDD RI Reporting - PUCCH 1-1 (Release 10)	Rel-10 only	C13	UE supporting E-UTRA FDD (UE Category 2-8)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.1.1_2	FDD RI Reporting- PUCCH 1-1 (Release 11)	Rel-11	C13b	UE supporting E-UTRA FDD (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.1.2	TDD RI Reporting - PUSCH 3-1	Rel-8 and Rel-9 only	C14a	UE supporting E-UTRA TDD (UE Category 2-5)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.1.2_1	TDD RI Reporting - PUSCH 3-1 (Release 10)	Rel-10 only	C14	UE supporting E-UTRA TDD (UE Category 2-8)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.1.2_2	TDD RI Reporting- PUSCH 3-1 (Release 11)	Rel-11	C14b	UE supporting E-UTRA TDD (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.2.1_D	FDD RI Reporting - PUCCH 1-1 for eDL-MIMO	Rel-10	C25x	UE supporting E-UTRA FDD and Feature Group Indicators 103 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.2.2_D	TDD RI Reporting - PUCCH 1-1 for eDL-MIMO	Rel-10	C25y	UE supporting E-UTRA TDD and Feature Group Indicator 103 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.3.1_C.1	FDD RI Reporting - PUCCH 1-0 for eICIC (non-MBSFN ABS)	Rel-10	C29	UE supporting E-UTRA FDD and Feature Group Indicator 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.3.2_C.1	TDD RI Reporting - PUCCH 1-0 for eICIC (non-MBSFN ABS)	Rel-10	C30	UE supporting E-UTRA TDD and Feature Group Indicator 115	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.4.1_E.1	FDD RI Reporting - PUCCH 1-0 for feICIC (non-MBSFN ABS)	Rel-11	C77	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.4.2_E.1	TDD RI Reporting - PUCCH 1-0 for feICIC (non-MBSFN ABS)	Rel-11	C78	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115(UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.5.5.1_F.1	FDD RI Reporting with Single CSI processes for CoMP 	Rel-11	C50	UE supporting E-UTRA FDD and Maximum CSI processes of One on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.5.5.1_F.2	FDD RI Reporting with Multiple CSI processes for CoMP	Rel-11	C52	UE supporting E-UTRA FDD and Maximum CSI processes of Three or Four on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.5.5.2_F.1	TDD RI Reporting with Single CSI process for CoMP 	Rel-11	C51	UE supporting E-UTRA TDD and Maximum CSI processes of One on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.5.5.2_F.2	TDD RI Reporting with Multiple CSI processes for CoMP	Rel-11	C53	UE supporting E-UTRA TDD and Maximum CSI processes of Three or Four on a component carrier within a band with PDSCH transmission mode 10 (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW	2Rx, 4Rx	
+9.6.1.1_A.1	FDD CQI Reporting under AWGN conditions - PUCCH 1-0 for CA (2 DL CA)	Rel-10	C108	UE supporting E-UTRA FDD and intra-band contiguous DL CA or inter-band DL CA (UE Category >= 3)	Refer to 36.521-1 9.1.1.2	2Rx, 4Rx	Test execution not necessary if 9.6.1.1_A.2 is executed.
+		Rel-11	C103	UE supporting E-UTRA FDD and intra-band non-contiguous DL CA(UE Category >= 3)			
+9.6.1.1_A.2	FDD CQI Reporting under AWGN conditions - PUCCH 1-0 for CA (3 DL CA)	Rel-10	C124	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA (UE Category >= 5)	 Refer to 36.521-1 9.1.1.2	2Rx, 4Rx	Test execution not necessary if 9.6.1.1_A.3 is executed.
+		Rel-11	C125	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 5)	TBD	2Rx, 4Rx	Test execution not necessary if 9.6.1.1_A.3 is executed.
+9.6.1.1_A.3	FDD CQI Reporting under AWGN conditions - PUCCH 1-0 for CA (4DL CA)	Rel-11	C192	UE supporting E-UTRA FDD and 4DL with intra-band contiguous CA, or 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA (UE Category >= 8)		2Rx, 4Rx	
+		Rel-11	C193	UE supporting E-UTRA FDD and 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 8)			
+9.6.1.1_A.4	FDD CQI Reporting under AWGN conditions - PUCCH 1-0 for CA (5DL CA)	Rel-11	C192a	UE supporting E-UTRA FDD and 5DL with Intra-band contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Inter-band CA or 5DL with Intra-band non-contiguous and Intra-band contiguous CA (UE Category 8 and >==11)		2Rx, 4Rx	
+		Rel-12	C193a	UE supporting E-UTRA FDD and 5DL Inter-band CA (UE Category 8 and>= =11)			
+9.6.1.2_A.1	TDD CQI Reporting under AWGN conditions - PUCCH 1-0 for CA (2DL CA) 	Rel-10	C114	UE supporting E-UTRA TDD and intra-band contiguous DL CA (UE Category >=3)	Refer to 36.521-1 9.1.1.2	2Rx, 4Rx	Test execution not necessary if 9.6.1.2_A.2 is executed.
+9.6.1.2_A.2	TDD CQI Reporting under AWGN conditions - PUCCH 1-0 for CA (3 DL CA)	Rel-10	C128	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA (UE Category >= 5)	Refer to 36.521-1 9.1.1.2	2Rx, 4Rx	
+		Rel-11	C129	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 5)			
+9.6.1.2_A.3	TDD CQI Reporting under AWGN conditions - PUCCH 1-0 for CA (4 DL CA)	Rel-11	C270	UE supporting E-UTRA TDD and 4DL with intra-band contiguous CA, or 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA (UE Category >= 8)			
+		Rel-11	C271	UE supporting E-UTRA TDD and 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA (UE Category >= 8)			
+9.6.1.2_A.4	TDD CQI Reporting under AWGN conditions - PUCCH 1-0 for CA (5 DL CA)	Rel-11	C272	UE supporting E-UTRA TDD and 5DL with intra-band contiguous CA, or 5DL with inter-band CA, or 5DL with intra-band contiguous and inter-band CA (UE Category 8 and >=11)			
+		Rel-11	C273	UE supporting E-UTRA TDD and 5DL with intra-band non-contiguous and inter-band CA, or 5DL with intra-band non-contiguous and intra-band contiguous CA (UE Category 8 and >=11)			
+9.6.1.3.1	TDD FDD CA CQI Reporting under AWGN conditions - PUCCH 1-0 for FDD PCell (2DL CA)	Rel-12	C132	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell (UE Category >= 3)	TBD	2Rx, 4Rx	
+9.6.1.3.2	TDD FDD CA CQI Reporting under AWGN conditions - PUCCH 1-0 for FDD PCell (3DL CA)	Rel-12	C133	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+9.6.1.3.3	TDD FDD CA CQI Reporting under AWGN conditions - PUCCH 1-0 for FDD PCell (4DL CA)	Rel-12	C133a	UE supporting E-UTRA FDD and TDD and 4DL CA with FDD as PCell (UE Category >= 8)	TBD	2Rx, 4Rx	
+9.6.1.4.1	TDD FDD CA CQI Reporting under AWGN conditions - PUCCH 1-0 for TDD PCell (2DL CA)	Rel-12	C134	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD as PCell (UE Category >= 3)	TBD	2Rx, 4Rx	
+9.6.1.4.2	TDD FDD CA CQI Reporting under AWGN conditions - PUCCH 1-0 for TDD PCell (3DL CA)	Rel-12	C135	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD as PCell (UE Category >= 5)	TBD	2Rx, 4Rx	
+9.6.1.4.3	TDD FDD CA CQI Reporting under AWGN conditions - PUCCH 1-0 for TDD PCell (4DL CA)	Rel-12	C135a	UE supporting E-UTRA FDD and TDD and 4DL CA with TDD as PCell (UE Category >= 8)	TBD	2Rx, 4Rx	
+9.7.1.1	FDD and Half duplex FDD CQI reporting definition under AWGN conditions for UE category 0	Rel-12	 C145	UE supporting E-UTRA FDD (UE category 0)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.7.1.2	TDD CQI reporting definition under AWGN conditions for UE category 0	Rel-12	C119	UE supporting E-UTRA TDD (UE category 0)			
+9.7.2.1	FDD and Half duplex FDD CQI reporting definition under fading conditions for UE category 0	Rel-12	C145	UE supporting E-UTRA FDD (UE category 0)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.7.2.2	TDD CQI reporting definition under fading conditions for UE category 0	Rel-12	C156	UE supporting E-UTRA TDD (UE category 0)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.8.1.1	FDD and Half duplex FDD CQI reporting definition under AWGN conditions for UE category M1	Rel-13	C145a	UE supporting E-UTRA FDD and UE category M1	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.8.1.2	TDD CQI reporting definition under AWGN conditions for UE category M1	Rel-13	C156a	UE supporting E-UTRA TDD and UE category M1	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.8.2.1	FDD and Half-duplex FDD UE-selected subband CQI for UE category M1	Rel-13	C145a	UE supporting E-UTRA FDD and UE category M1	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.8.2.2	TDD UE-selected subband CQI for UE category M1	Rel-13	C156a	UE supporting E-UTRA TDD and UE category M1	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.9.1.1.1	FDD CQI Reporting under AWGN conditions - PUCCH 1-0 with Rank 1 1x4	Rel-10	C113b	UE supporting E-UTRA FDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.9.1.1.2	TDD CQI Reporting under AWGN conditions - PUCCH 1-0 with Rank 1 1x4	Rel-10	C177	UE supporting E-UTRA TDD with 4Rx antenna ports	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.9.1.2.1	FDD CQI Reporting under AWGN conditions - PUCCH 1-1 with rank 2 4x4	Rel-10	C178	UE supporting E-UTRA FDD and eDL-MIMO and Feature Group Indicator 103 with 4Rx antenna ports (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.9.1.2.2	TDD CQI Reporting under AWGN conditions - PUCCH 1-1 with rank 2 8x4	Rel-10	C179	UE supporting E-UTRA TDD and eDL-MIMO and Feature Group Indicator 104 with 4Rx antenna ports (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.9.1.3.1	FDD CQI Reporting under AWGN conditions - PUCCH 1-1 with rank 4 4x4	Rel-10	C180	UE supporting E-UTRA FDD with 4Rx antenna ports and 4-layer spatial multiplexing (UE Category >= 5)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.9.1.3.2	TDD CQI Reporting under AWGN conditions - PUCCH 1-1 with rank 4 4x4	Rel-10	C181	UE supporting E-UTRA TDD with 4Rx antenna ports and 4-layer spatial multiplexing (UE Category >= 5)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.9.1.4.1	FDD CQI Reporting under AWGN conditions - PUCCH 1-1 with rank 3 4x4	Rel-10	C182	UE supporting E-UTRA FDD and eDL-MIMO and Feature Group Indicator 103 with 4Rx antenna ports (UE Category >= 5)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.9.1.4.2	TDD CQI Reporting under AWGN conditions - PUCCH 1-1 with rank 3 4x4	Rel-10	C183	UE supporting E-UTRA TDD and Feature Group Indicator 103 with 4Rx antenna ports (UE Category >= 5)	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+9.9.2.1.1	FDD CQI Reporting under fading conditions - PUCCH 1-0 - Enhanced Performance Requirement Type A 1x4	Rel-11	C197	UE supporting E-UTRA FDD with 4Rx antenna ports and the enhanced performance requirements type A for LTE	Each" Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+9.9.2.1.2	TDD CQI Reporting under fading conditions - PUCCH 1-0 - Enhanced Performance Requirement Type A 1x4	Rel-11	C198	UE supporting E-UTRA TDD with 4Rx antenna ports and the enhanced performance requirements type A for LTE	Each" Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+9.9.2.2.1	FDD CQI Reporting under fading conditions - PUCCH 1-1 - Enhanced Performance Requirement Type A2 x4	Rel-11	C199	UE supporting E-UTRA FDD with 4Rx antenna ports and the enhanced performance requirements type A for LTE (UE Category >= 2) and Feature Group Indicator 103	Each" Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+9.9.2.2.2	TDD CQI Reporting under fading conditions - PUCCH 1-1 - Enhanced Performance Requirement Type A2 x4	Rel-11	C200	UE supporting E-UTRA TDD with 4Rx antenna ports and the enhanced performance requirements type A for LTE (UE Category >= 2) and Feature Group Indicator 103	Each" Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+9.9.3.1.1	TDD PMI Reporting - PUSCH 3-1 (Single PMI) 8x4	Rel-10	C179	UE supporting E-UTRA TDD and eDL-MIMO and Feature Group Indicator 104 with 4Rx antenna ports (UE Category >= 2)	Each" Test Number" to be performed once, in a chosen band supporting tested BW		
+9.9.4.1.1	FDD RI Reporting- PUCCH 1-1 4x4	Rel-10	C203	UE supporting E-UTRA FDD with 4Rx antenna ports (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+9.9.4.1.2	TDD RI Reporting- PUSCH 3-1 4x4	Rel-10	C204	UE supporting E-UTRA TDD with 4Rx antenna ports (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+9.9.4.2.1	FDD RI Reporting- PUCCH 1-1 for eDL-MIMO 4x4	Rel-10	C205	UE supporting E-UTRA FDD and eDL-MIMO and Feature Group Indicator 103 with 4Rx antenna ports (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+9.9.4.2.2	TDD RI Reporting- PUCCH 1-1 for eDL-MIMO 4x4	Rel-10	C206	UE supporting E-UTRA TDD and eDL-MIMO and Feature Group Indicator 103 with 4Rx antenna ports (UE Category >= 2)	Each "Test Number" to be performed once, in a chosen band supporting tested BW and 4Rx antenna ports		
+		MBMS Performance Testing
+10.1	FDD MBMS performance (Fixed Reference Channel)	Rel-9	C03	UE supporting E-UTRA FDD and MBMS	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+10.1_1	FDD MBMS performance (Fixed Reference Channel) (Release 13 and forward)	Rel-13	C03	UE supporting E-UTRA FDD and MBMS	Performed once		
+10.2	TDD MBMS performance (Fixed Reference Channel)	Rel-9	C04	UE supporting E-UTRA TDD and MBMS	Each "Test Number" to be performed once, in a chosen band supporting tested BW		
+10.2_1	TDD MBMS performance (Fixed Reference Channel) (Release 13 and forward)	Rel-13	C04	UE supporting E-UTRA TDD and MBMS	Performed once		

@@ -1,0 +1,141 @@
+C101	IF A.1/1 THEN M ELSE N/A	-- O_Cap_Conf
+C102	void	
+C103	void	
+C104	IF A.1/2 THEN M ELSE N/A	-- O_Sust_text
+C105	IF A.1/3 AND A.1/41 THEN M ELSE N/A	-- O_Ucs2_Entry AND O_UCS2_Cyrillic
+C106	IF A.1/4 THEN M ELSE N/A	-- O_Ext_Str
+C107	IF A.1/5 THEN M ELSE N/A	-- O_Help
+C108	IF A.1/6 THEN O.1 ELSE N/A	-- O_Icons
+C109	IF A.1/7 THEN M ELSE N/A	-- O_Dual_Slot
+C110	IF A.1/9 AND A.1/46 THEN M ELSE N/A	-- O_Run_At AND O_+CIMI
+C111	IF (A.1/10 OR E.1/71) THEN M ELSE N/A	-- O_LB
+C112	IF A.1/11 THEN M ELSE N/A	-- O_Soft_key
+C113	void	
+C114	IF C110 AND C108 THEN O.1 ELSE N/A	-- O_Run_At AND O_+CIMI AND O_Icons
+C115	IF C111 AND C108 THEN M ELSE N/A	-- O_LB AND O_Icons
+C116	IF A.1/7 AND A.1/8 THEN M ELSE N/A	-- O_Dual_Slot AND O_Detach_Rdr
+C117	void	
+C118	IF A.1/15 AND A.1/41 THEN M ELSE N/A 	-- O_Ucs2_Disp AND O_UCS2_Cyrillic
+C119	IF A.1/19 THEN M ELSE N/A 	-- O_Redial
+C120	IF A.1/20 THEN M ELSE N/A	-- O_D_NoResp
+C121	IF A.1/21 AND A.1/17 THEN M ELSE N/A	-- O_BIP_GPRS AND O_UDP
+C122	IF C111 AND A.1/16 THEN M ELSE N/A	-- O_LB AND O_GPRS
+C123	void	
+C124	IF A.1/22, test x.A M ELSE x.B M (where x is the expected sequence number value)	-- O_CP_Subaddr
+C125	IF A.1/23 THEN M ELSE N/A	-- O_Imm_Resp
+C126	IF A.1/24 THEN M ELSE N/A	-- O_Duration
+C127	void	
+C128	void	
+C129	void	
+C130	void	
+C131	void	
+C132	IF A.1/27 THEN M ELSE N/A	-- O_BIP_Local
+C133	void	
+C134	IF A.1/38 THEN M ELSE N/A	-- O_MMS
+C135	void	
+C136	void	
+C137	void	
+C138	void	
+C139	IF A.1/35 THEN M ELSE N/A	-- O_Batt
+C140	IF A.1/39 THEN M ELSE N/A	-- O_UC_Before_EnvCC
+C141	IF A.1/40 THEN M ELSE N/A	-- O_UC_After_EnvCC
+C142	IF A.1/3 AND A.1/42 THEN M ELSE N/A	-- O_UCS2_Entry AND O_UCS2_Chinese
+C143	IF A.1/15 AND A.1/42 THEN M ELSE N/A	-- O_UCS2_Disp AND O_UCS2_Chinese
+C144	IF A.1/3 AND A.1/43 THEN M ELSE N/A	-- O_UCS2_Entry AND O_UCS2_Katakana
+C145	IF A.1/15 AND A.1/43 THEN M ELSE N/A	-- O_UCS2_Disp AND O_UCS2_Katakana
+C146	IF A. 1/45 THEN M ELSE N/A	-- O_FDN
+C147	IF A. 1/44 THEN M ELSE N/A	-- O_BDN
+C148	IF (A.1/9 AND A.1/47) THEN M ELSE N/A	-- O_Run_At AND O_+CGMI
+C149	IF C148 AND C118 THEN M ELSE N/A	-- O_Run_At AND O_+CGMI AND O_ O_Ucs2_Disp AND O_Ucs2_ Cyrillic
+C150	IF C148 AND C143 THEN M ELSE N/A	-- O_Run_At AND O_+CGMI AND O_ O_Ucs2_Disp AND O_Ucs2_ Chinese
+C151	IF C148 AND C145 THEN M ELSE N/A	-- O_Run_At AND O_+CGMI AND O_ O_Ucs2_Disp AND O_Ucs2_ Katakana
+C152	IF C121 AND A.1/49 THEN M ELSE N/A	-- O_BIP_GPRS AND O_UDP AND O_BUFFER_SIZE
+C153	IF A.1/50 THEN M ELSE N/A	-- O_TAT_AL
+C154	IF A.1/51 THEN M ELSE N/A	-- O_TAT_AC
+C155	IF A.1/52 THEN M ELSE N/A	-- O_TAT_AR
+C156	IF A.1/53 THEN M ELSE N/A	-- O_TAT_FSN
+C157	IF A.1/54 THEN M ELSE N/A	-- O_TAT_FSL
+C158	IF A.1/55 THEN M ELSE N/A	-- O_TAT_FSS
+C159	IF A.1/56 THEN M ELSE N/A	-- O_TAT_SN
+C160	IF A.1/57 THEN M ELSE N/A	-- O_TAT_SB
+C161	IF A.1/58 THEN M ELSE N/A	-- O_TAT_SI
+C162	IF A.1/59 THEN M ELSE N/A	-- O_TAT_SU
+C163	IF A.1/60 THEN M ELSE N/A	-- O_TAT_SS
+C164	IF A.1/61 THEN M ELSE N/A	-- O_TAT_STFC
+C165	IF A.1/62 THEN M ELSE N/A	-- O_TAT_STBC
+C166	IF A.1/63 THEN test step option n.A M ELSE test step option n.B M	-- O_longFTN
+C167	IF A.1/64 THEN M ELSE N/A	-- O_GERAN
+C168	IF A.1/65 THEN M ELSE N/A	-- O_Global_PB
+C169	IF (C121 AND A.1/68 THEN test x.A M ELSE IF (C121 AND NOT A.1/68) test x.B M ELSE N/A	-- (O_BIP_GPRS AND O_UDP AND O_User_Confirm_Before_PDP_Context_Request) OR (O_BIP_GPRS      AND O_UDP AND NOT O_User_Confirm_Before_PDP_Context_Request)
+C170	IF A.1/69 THEN M ELSE N/A	-- O_Serv_SS_HOLD
+C171	IF A.1/6 THEN O.2 ELSE N/A	-- O_Icons
+C172	IF A.1/6 THEN O.4 ELSE N/A	-- O_Icons
+C173	IF C110 AND A.1/6 THEN O.2 ELSE N/A	-- O_Run_At AND O_+CIMI AND O_Icons
+C174	IF A.1/78 AND A.1/79 THEN M ELSE N/A 	-- O_AddInfo_SS AND_O_Serv_SS_CFU
+C175	IF A.1/78 AND A.1/80 THEN M ELSE N/A	-- O_AddInfo_SS AND O_Serv_SS_CLIR
+C176	IF A. 1/44 THEN N/A ELSE M	-- O_BDN
+C177	IF A.1/84 THEN M ELSE N/A	-- O_No_Type_ND
+C178	IF A.1/85 THEN M ELSE N/A	-- O_No_Type_NK
+C179	IF A.1/86 THEN M ELSE N/A	-- O_No_Type_NA
+C180	IF A.1/87 THEN M ELSE N/A	-- O_No_Type_NS
+C181	IF A.1/88 THEN M ELSE N/A	-- O_No_Type_NL
+C182	IF A.1/18 AND (A.1/132 OR A.1/133) THEN M ELSE N/A	-- O_TCP AND (pc_BIP_eFDD OR pc_BIP_eTDD)
+C183	IF (NOT A.1/135) AND (A.1/64 OR A.1/134) THEN M ELSE N/A	-- (NOT O_EUTRAN_NO_UTRAN_NO_GERAN) AND (O_GERAN OR O_UTRAN)
+C184	IF A.1/134 THEN M ELSE N/A	-- O_UTRAN
+C185	IF A.1/6 AND A.1/111 THEN M ELSE N/A	-- O_Icons AND O_Icon_Rec1_Send_SS
+C186	IF A.1/6 AND A.1/115 THEN M ELSE N/A	-- O_Icons AND O_Icon_Rec2_Send_USSD
+C187	IF A.1/6 AND A.1/114 THEN M ELSE N/A	-- O_Icons AND O_Icon_Rec1_Send_USSD
+C188	IF A.1/6 AND A.1/120 THEN M ELSE N/A	-- O_Icons AND O_Icon_Rec1_Set_Up_Idle_Mode_Text
+C189	IF C110 AND A.1/6 AND A.1/123 THEN M ELSE N/A	-- O_Run_At AND O_+CIMI AND O_Icons AND O_Icon_Rec1_Run_AT_Cmd
+C190	IF (A.1/139 OR A.1/140) THEN M ELSE N/A	-- pc_eTDD OR pc_eFDD
+C191	IF A.1/21 AND A.1/18 THEN M ELSE N/A	-- O_BIP_GPRS AND O_TCP
+C192	IF (A.1/21 AND A.1/18 AND A.1/72) THEN M ELSE N/A	-- O_BIP_GPRS AND O_TCP AND    O_BIP_UICCServer
+C193	IF (A.1/10 OR (E.1/71 AND E.1/42)) THEN M ELSE N/A	-- O_LB
+C194	IF A.1/138 THEN M ELSE N/A	-- O_Select_Item_Default_Item
+C195	IF A.1/137 THEN M ELSE N/A	-- O_CSG_Cell_Discovery
+C196	IF (A.1/142 AND (A.1/139 OR A.1/140) THEN M ELSE N/A	-- O_pc_MO_SM-over-IMS AND (pc_eFDD OR pc_eTDD)
+C197	IF (A.1/142 AND A.1/134) THEN M ELSE N/A	-- O_pc_MO_SM-over-IMS AND O_UTRAN
+C198	IF (A.1/141 AND (A.1/139 OR A.1/140) THEN M ELSE N/A	-- O_pc_SM-over-IP-receiver AND (pc_eFDD OR pc_eTDD)
+C199	IF (A.1/141 AND A.1/134) THEN M ELSE N/A	-- O_pc_SM-over-IP-receiver AND O_UTRAN
+C200	IF A.1/136 THEN M ELSE N/A	-- O_Event_CSG_Cell_Selection
+C201	IF (A.1/64 AND A.1/149) THEN M ELSE N/A	-- O_GERAN AND  O_SMS-CB_Data_Download
+C202	IF ((A.1/139 OR A.1/140) AND A.1/150) THEN M ELSE N/A	-- (pc_eFDD OR pc_eTDD) AND O_IMS
+C203	IF (A.1/134 AND A.1/150) THEN M ELSE N/A	-- O_UTRAN AND O_IMS
+C204	IF A.1/151 THEN N/A ELSE M	-- O_PS_OPMODE
+C205	IF ((A.1/139 OR A.1/140) AND A.1/152) THEN M ELSE N/A	-- (pc_eFDD OR pc_eTDD) AND O_SMS_SGs_MT
+C206	IF ((A.1/139 OR A.1/140) AND A.1/153) THEN M ELSE N/A	-- (pc_eFDD OR pc_eTDD) AND O_SMS_SGs_MO
+C207	IF (A.1/147 AND A.1/148 AND A.1/150) THEN M ELSE O	--  O_Event_IMS_Registration  AND O_UICC_ACCESS_IMS AND   O_IMS
+C208	IF (A.1/146 AND A.1/147 AND A.1/148 AND A.1/150) THEN M ELSE N/A	-- O_Event_Incoming_IMS_Data AND   O_Event_IMS_Registration AND  O_UICC_ACCESS_IMS AND  O_IMS AND 
+C209	IF (A.1/157 OR A.1/159) THEN M ELSE N/A	-- (pc_SMS_CS_MO OR pc_SMS_PS_MO)
+C210	IF ((NOT A.1/135) AND (A.1/64 OR A.1/134) AND (A.1/157 OR A.1/159)) THEN M ELSE N/A	-- (NOT (O_EUTRAN_NO_UTRAN NO_GERAN) AND (O_GERAN OR O_UTRAN)) AND (pc_SMS_CS_MO OR pc_SMS_PS_MO)
+C211	IF (A.1/156 OR A.1/158) THEN M ELSE N/A	-- (pc_SMS_CS_MT OR pc_SMS_PS_MT)
+C212	IF ((NOT A.1/135) AND (A.1/64 OR A.1/134) AND (A.1/156 OR A.1/158)) THEN M ELSE N/A	-- (NOT (O_EUTRAN_NO_UTRAN NO_GERAN) AND (O_GERAN OR O_UTRAN)) AND (pc_SMS_CS_MT OR pc_SMS_PS_MT)
+C213	IF (NOT A.1/160) THEN M ELSE N/A	-- NOT O_Rej_Launch_Browser_with DefURL
+C214	IF (A.1/160) THEN M ELSE N/A	-- O_Rej_Launch_Browser_with DefURL
+C215	IF (A.1/16) THEN M ELSE N/A	-- O_GPRS
+C216	IF (A.1/161) THEN M ELSE N/A	-- O_Lang_Select
+C217	IF (A.1/162) THEN M ELSE N/A	-- O_Provide_Local_LS
+C218	IF (A.1/163) THEN M ELSE N/A	-- O_Lang_Notif
+C219	IF (A.1/164) THEN M ELSE N/A	-- O_Refresh_AlphaIdentifier
+C220	IF ((A.1/139 OR A.1/140 OR A.1/173) AND A.1/153) THEN M ELSE N/A	-- (pc_eFDD OR pc_eTDD OR pc_NB) AND O_SMS_SGs_MO
+C221	IF ((A.1/139 OR A.1/140 OR A.1/173) AND A.1/152) THEN M ELSE N/A	-- (pc_eFDD OR pc_eTDD OR pc_NB) AND O_SMS_SGs_MT
+C222	IF (A.1/139 OR A.1/140 OR A.1/173) THEN M ELSE N/A	-- pc_eTDD OR pc_eFDD OR pc_NB
+C223	IF A.1/18 AND (A.1/132 OR A.1/133 OR A.1/177) THEN M ELSE N/A	-- O_TCP AND (pc_BIP_eFDD OR pc_BIP_eTDD OR pc_BIP_NB)
+C224	IF A.1/18 AND A.1/178 AND (A.1/132 OR A.1/133 OR A.1/177) THEN M ELSE N/A	-- O_TCP AND pc_Multiple_PDN AND (pc_BIP_eFDD OR pc_BIP_eTDD OR pc_BIP_NB)
+
+O.1	IF A.1/zz tests x.yA M ELSE tests x.yB M (where zz corresponds to the option relating to the command being tested (e.g. A.1/90 if Display Text supports icons as defined in record 1 of EF(IMG)) and x.y is the expected sequence number value)
+O.2	IF A.1/zz tests x.yA M ELSE tests x.yB M (where zz corresponds to the option relating to the command being tested (e.g. A.1/91 if Display Text supports icons as defined in record 2 of EF(IMG)) and x.y is the expected sequence number value)
+O.3	void
+O.4	IF A.1/zz AND A.1/ww tests x.yA M ELSE tests x.yB M (where zz and ww correspond to the option relating to the command being tested (e.g. A.1/90 if Display Text supports icons as defined in record 1 of EF(IMG) and A.1.92 if Display Text supports icons as defined in record 5 of EF(IMG) ) and x.y is the expected sequence number value)
+
+TCEP001	IF NOT A.1/84 THEN during the test execution, the display or the non-display of any alpha identifier, text string or icon shall be treated as successfully verified.
+TCEP002	IF NOT A.1/85 THEN the terminal may open the channel without explicit confirmation by the user.
+AER001	IF ((A.1/21 AND A.1/17) AND ((A.1/132 OR A.1/133) AND (A.1/134 OR A.1/64))) THEN R(27.22.4.27.6, Seq. 6.1) ELSE A	-- (O_BIP_GPRS AND O_UDP) AND (O_BIP_eFDD OR O_BIP_eTDD) AND (O_UTRAN OR O_GERAN)
+AER002	IF ( (A.1/132 OR A.1/133) AND (A.1/134 OR A.1/64))) THEN R(27.22.7.4 Seq. 1.1) ELSE A	-- (pc_ BIP_eFDD OR pc_BIP_eTDD) AND (O_UTRAN OR O_GERAN)
+AER003	IF ( (A.1/132 OR A.1/133) AND (A.1/134 OR A.1/64))) THEN R(27.22.4.15 Seq. 1.17) ELSE A	-- (pc_BIP_eFDD OR pc_BIP_eTDD) AND (O_UTRAN OR O_GERAN)
+AER004	IF ( (A.1/132 OR A.1/133) AND (A.1/134 OR A.1/64))) THEN R(27.22.4.15 Seq. 1.14) ELSE A	-- (pc_BIP_eFDD OR pc_BIP_eTDD) AND (O_UTRAN OR O_GERAN)
+AER005	IF ((A.1/21 AND A.1/17) AND ((A.1/132 OR A.1/133) AND (A.1/134 OR A.1/64))) THEN R(27.22.4.27.6, Seq. 6.4) ELSE A	-- (O_BIP_GPRS AND O_UDP) AND (O_BIP_eFDD OR O_BIP_eTDD) AND (O_UTRAN OR O_GERAN)
+AER006	IF ((A.1/21 AND A.1/17) AND ((A.1/132 OR A.1/133) AND (A.1/134 OR A.1/64))) THEN R(27.22.4.27.6, Seq. 6.3) ELSE A	-- (O_BIP_GPRS AND O_UDP) AND (O_BIP_eFDD OR O_BIP_eTDD) AND (O_UTRAN OR O_GERAN)
+AER007	IF ((A.1/21 AND A.1/17) AND ((A.1/132 OR A.1/133) AND (A.1/134 OR A.1/64))) THEN R(27.22.4.27.6, Seq. 6.5) ELSE A	-- (O_BIP_GPRS AND O_UDP) AND (O_BIP_eFDD OR O_BIP_eTDD) AND (O_UTRAN OR O_GERAN)
+AER008	IF ((A.1/21 AND A.1/17) AND ((A.1/132 OR A.1/133) AND (A.1/134 OR A.1/64))) THEN R(27.22.4.29, Seq. 1.2) ELSE A	-- (O_BIP_GPRS AND O_UDP) AND (O_BIP_eFDD OR O_BIP_eTDD) AND (O_UTRAN OR O_GERAN)
+		

@@ -1,0 +1,302 @@
+Item	Description	Release	Test sequence (s)	Rel 96 ME	Rel 97 ME	Rel 98  ME	Rel 99 ME	Rel-4 ME	Terminal  Profile	Network Dependency	Support	Recommendation for terminals also supporting USAT	Additional test case execution parameter
+1	PROFILE DOWNLOAD 27.22.1	R96	1	M	M	M	M	M	E.1/1	No			
+2	Contents of the TERMINAL PROFILE command 27.22.2	R96		M	M	M	M	M	E.1/1	No			
+3	Servicing of Proactive SIM Commands 27.22.3	R96		M	M	M	M	M		No			
+4	DISPLAY TEXT 27.22.4.1												
+	Unpacked	R96	1.1	C139	C139	C139	C139	C139	E.1/17 AND E.1/110	No		AER001	
+	Screen busy	R96	1.2	C139	C139	C139	C139	C139	E.1/17 AND E.1/110	No		AER001	
+	high priority	R96	1.3	C139	C139	C139	C139	C139	E.1/17 AND E.1/110	No		AER001	
+	Packed	R96	1.4	C139	C139	C139	C139	C139	E.1/17 AND E.1/110	No		AER001	
+	clear after delay	R96	1.5	C139	C139	C139	C139	C139	E.1/17 AND E.1/110	No		AER001	
+	long text up to 160 bytes	R96	1.6	C139	C139	C139	C139	C139	E.1/17 AND E.1/110	No		AER001	
+	Backwards move in SIM session	R96	1.7	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/17 AND E.1/110 AND E.1/111	No		AER001	
+	Session terminated by user	R96	1.8	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/17 AND E.1/110 AND E.1/111	No		AER001	
+	Command not understood by ME	R96	1.9	C139	C139	C139	C139	C139	E.1/17 AND E.1/110	No		AER001	
+	no response from user	R96	2.1	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	E.1/17 AND E.1/110 AND E.1/111	No		AER001	
+	Extension Text	R98	3.1			C106 AND C139	C106 AND C139	C106 AND C139	E.1/17 AND E.1/16 AND E.1/110	No		AER001	
+	sustained text	R98	4.1, 4.2			C104 AND C139	C104 AND C139	C104 AND C139	E.1/17 AND E.1/65 AND E.1/110	No			
+	sustained text	R98	4.3			C104 AND C139 AND C140	C104 AND C139 AND C140	C104 AND C139 AND C140	E.1/17 AND E.1/65	No			
+	sustained text	R98	4.4			C104 AND C139 AND C142	C104 AND C139 AND C142	C104 AND C139 AND C142	E.1/17 AND E.1/65	Yes			
+	Icons – basic icon	R98	5.1, 5.3			C108 AND C139	C108 AND C139	C108 AND C139	E.1/17 AND E.1/111	No			
+	Icons – colour icon	R98	5.2			C134 AND C139	C134 AND C139	C134 AND C139	E.1/17 AND E.1/111	No			
+	UCS2 display	R97	6.1		C118 AND C139	C118 AND C139	C118 AND C139	C118 AND C139	E.1/17 AND E.1/15 AND E.1/111	No			
+5	GET INKEY 27.22.4.2												
+	prompt unpacked	R96	1.1	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No		AER001	
+	prompt packed	R96	1.2	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No		AER001	
+	digits only	R96	1.1	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No		AER001	
+	Backwards move in SIM session	R96	1.3	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No		AER001	
+	Session terminated by user	R96	1.4	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No		AER001	
+	SMS alphabet	R96	1.5	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No		AER001	
+	Long text up to 160 bytes	R96	1.6	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No		AER001	
+	no response from user	R96	2.1	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No		AER001	
+	UCS2 display	R97	3.1		C118 AND C139 AND C140	C118 AND C139 AND C140	C118 AND C139 AND C140	C118 AND C139 AND C140	E.1/18 AND E.1/15 AND E.1/110 AND E.1/111	No			
+	UCS2 display, Long text up to 70 chars	R97	3.2		C118 AND C139 AND C140	C118 AND C139 AND C140	C118 AND C139 AND C140	C118 AND C139 AND C140	E.1/18 AND E.1/15 AND E.1/110 AND E.1/111	No			
+	UCS2 format of entry	R97	4.1		C105 AND C139 AND C140	C105 AND C139 AND C140	C105 AND C139 AND C140	C105 AND C139 AND C140	E.1/18 AND E.1/14 AND E.1/110 AND E.1/111	No			
+	"Yes/No" response	R98	5.1			C139 AND C140	C139 AND C140	C139 AND C140	E.1/18 AND E.1/60 AND E.1/110 AND E.1/111	No		AER001	
+	Icons  – basic icon	R98	6.1, 6.2			C108 AND C139 AND C140	C108 AND C139 AND C140	C108 AND C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No			
+	Icons  – colour icon	R98	6.3, 6.4			C134 AND C139 AND C140	C134 AND C139 AND C140	C134 AND C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No			
+	Help information	R97	7.1		C107 AND C139 AND C140	C107 AND C139 AND C140	C107 AND C139 AND C140	C107 AND C139 AND C140	E.1/18 AND E.1/110 AND E.1/111	No		AER001	
+6	GET INPUT 27.22.4.3												
+	input unpacked	R96	1.1	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	input packed	R96	1.2	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	digits only	R96	1.1	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	SMS alphabet	R96	1.3	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	hidden input	R96	1.4	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	min / max acceptable length	R96	1.5, 1.9	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	Backwards move in SIM session	R96	1.6	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	Session terminated by user	R96	1.7	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	Prompt text up to 160 bytes	R96	1.8	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	SMS default alphabet, ME to echo text, packing not required	R96	1.9	C139 AND C140M	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	Null length for the text string	R96	1.10	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	no response from user	R96	2.1	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	UCS2 display	R97	3.1, 3.2		C118 AND C139 AND C140	C118 AND C139 AND C140	C118 AND C139 AND C140	C118 AND C139 AND C140	E.1/19 AND E.1/15 AND E.1/110 AND E.1/111	No			
+	UCS2 entry	R97	4.1, 4.2		C105 AND C139 AND C140	C105 AND C139 AND C140	C105 AND C139 AND C140	C105 AND C139 AND C140	E.1/19 AND E.1/14 AND E.1/110 AND E.1/111	No			
+	default text for the input	R97	5.1, 5.2		C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No		AER001	
+	Icons – basic icon	R98	6.1, 6.2			C108 AND C139 AND C140	C108 AND C139 AND C140	C108 AND C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No			
+	Icons – colour icon	R98	6.3, 6.4			C134 AND C139 AND C140	C134 AND C139 AND C140	C134 AND C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No			
+	help information	R97	7.1		C107 AND C139 AND C140	C107 AND C139 AND C140	C107 AND C139 AND C140	C107 AND C139 AND C140	E.1/19 AND E.1/110 AND E.1/111	No			
+7	MORE TIME 27.22.4.4	R96	1.1	M	M	M	M	M	E.1/20	No			
+8	PLAY TONE 27.22.4.5												
+	play all tones	R96	1.1	C140 AND C141 AND C142	C140 AND C141 AND C142	C140 AND C141 AND C142	C140 AND C141 AND C142	C140 AND C141 AND C142	E.1/21 AND E.1/110 AND E.1/111	Yes			
+	UCS2 display	R97	TBD						E.1/21  AND E.1/15 AND E.1/110 AND E.1/111				
+	icons	R98	TBD						E.1/21 AND E.1/110 AND E.1/111				
+9	POLL INTERVAL 27.22.4.6												
+	duration	R96	1.1	M	M	M	M	M	E.1/22	No		AER001	
+10	REFRESH 27.22.4.7												
+	SIM initialization, enabling FDN mode	R96	1.1	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	E.1/24 AND E.1/110 AND E.1/111	Yes			
+	file change notification of FDN file	R96	1.2	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	E.1/24 AND E.1/110 AND E.1/111	Yes			
+	SIM initialization and file change notification of PLMN	R96	1.3	M	M	M	M	M	E.1/24	No			
+	SIM initialization and full file change notification, enabling FDN mode	R96	1.4	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	E.1/24 AND E.1/110 AND E.1/111	Yes			
+	SIM reset	R96	1.5	M	M	M	M	M	E.1/24	No			
+	SIM Initialization after SMS-PP data download	R96	1.6	 C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	C125 AND C139 AND C140 AND C142	E.1/24 AND E.1/110 AND E.1/111	Yes			
+	IMSI Changing procedure, SIM Initialization and File Change Notification)	R98	2.1			M	M	M	E.1/24	Yes			
+	IMSI Changing procedure, SIM Initialization and Full File Change Notification)	R98	2.2			M	M	M	E.1/24	Yes			
+	IMSI Changing procedure, SIM Reset	R98	2.3			M	M	M	E.1/24	Yes			
+11	SET UP MENU 27.22.4.8												
+	Set up, menu selection, replace and remove menu	R96	1.1	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/30 AND E.1/4 AND E.1/110 AND E.1/111	No		AER001	
+	Large menu	R96	1.2	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/30 AND E.1/4 AND E.1/110 AND E.1/111	No		AER001	
+	help information	R97	2.1		C107 AND C139 AND C140	C107 AND C139 AND C140	C107 AND C139 AND C140	C107 AND C139 AND C140	E.1/30 AND E.1/4 AND E.1/110 AND E.1/111	No		AER001	
+	next action indicator	R97	3.1		C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/30 AND E.1/110 AND E.1/111	No		AER001	
+	Icons – basic icon	R98	4.1, 4.2			C135 AND C139 AND C140	C135 AND C139 AND C140	C135 AND C139 AND C140	E.1/30  AND E.1/110 AND E.1/111	No			
+	soft key access 	R99	5.1				C112 AND C139 AND C140	C112 AND C139 AND C140	E.1/30 AND E.1/74 AND E.1/110 AND E.1/111	No			
+12	SELECT ITEM 27.22.4.9												
+	Mandatory features	R96	1.1	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/25 AND E.1/110 AND E.1/111	No		AER001	
+	Large menu	R96	1.2, 1.3, 1.5,1.6	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/25 AND E.1/110 AND E.1/111	No		AER001	
+	Backwards move	R96	1.4	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/25 AND E.1/110 AND E.1/111	No		AER001	
+	user termination	R96	1.5	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/25 AND E.1/110 AND E.1/111	No		AER001	
+	next action indicator	R97	2.1		C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/25 AND E.1/110 AND E.1/111	No			
+	default selected item	R97	3.1		C139 AND C140 AND C150	C139 AND C140 AND C150	C139 AND C140 AND C150	C139 AND C140 AND C150	E.1/25 AND E.1/110 AND E.1/111	No		AER001	
+	help information	R97	4.1		C107 AND C139 AND C140	C107 AND C139 AND C140	C107 AND C139 AND C140	C107 AND C139 AND C140	E.1/25 AND E.1/110 AND E.1/111	No			
+	Icons – basic icon	R98	5.1, 5.2			C135 AND C139 AND C140	C135 AND C139 AND C140	C135 AND C139 AND C140	E.1/25 AND E.1/110 AND E.1/111	No			
+	Presentation style	R98	6.1, 6.2			C139 AND C140	C139 AND C140	C139 AND C140	E.1/25 AND E.1/110 AND E.1/111	No			
+	Soft keys	R99	7.1				C112 AND C139 AND C140	C112 AND C139 AND C140	E.1/25 AND E.1/73 AND E.1/110 AND E.1/111	No			
+	no response from user	R96	8.1	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	C120 AND C139 AND C140	E.1/25 AND E.1/110 AND E.1/111	No		AER001	
+13	SEND SMS 27.22.4.10												
+	Packing not required, 8 bit data	R96	1.1	M	M	M	M	M	E.1/26 AND E.1/110	Yes			TCEP001
+	Packing required, 8 bit data	R96	1.2	M	M	M	M	M	E.1/26 AND E.1/110	Yes		AER002	TCEP001
+	Packing not required, SMS default alphabet	R96	1.3	M	M	M	M	M	E.1/26 AND E.1/110	Yes		AER002	TCEP001
+	Packing  required, 8 bit data, 160 bytes length	R96	1.4	M	M	M	M	M	E.1/26 AND E.1/110	Yes		AER002	TCEP001
+	Packing not required, SMS default alphabet, 160 bytes length	R96	1.5	M	M	M	M	M	E.1/26 AND E.1/110	Yes		AER002	TCEP001
+	Alpha identifier	R96	1.6, 1.8	M	M	M	M	M	E.1/26 AND E.1/110	Yes		AER002	TCEP001
+	Alpha identifier length "00"	R96	1.7	M	M	M	M	M	E.1/26	Yes		AER002	TCEP001
+	UCS2 SMS	R97	2.1		C118	C118	C118	C118	E.1/26  AND E.1/15 AND E.1/110	Yes			TCEP001
+	Icons  – basic icon	R98	3.1, 3.2			C108	C108	C108	E.1/26 AND E.1/110	Yes			TCEP001
+14	SEND SS 27.22.4.11												
+	call forward unconditional, all bearers, successful	R96	1.1	C129 AND C137 AND C153	C129 AND C137 AND C153	C129 AND C137 AND C153	C129 AND C137 AND C153	C129 AND C137 AND C153	E.1/27 AND E.1/110	Yes			TCEP001
+	call forward unconditional, all bearers, Return Error	R96	1.2	C137 AND C153	C137 AND C153	C137 AND C153	C137 AND C153	C137 AND C153	E.1/27 AND E.1/110	Yes		AER001	TCEP001
+	call forward unconditional, all bearers, Reject	R96	1.3	C137 AND C153	C137 AND C153	C137 AND C153	C137 AND C153	C137 AND C153	E.1/27 AND E.1/110	Yes		AER001	TCEP001
+	call forward unconditional, all bearers, successful, SS request size limit	R96	1.4	C129 AND C137 AND C153	C129 AND C137 AND C153	C129 AND C137 AND C153	C129 AND C137 AND C153	C129 AND C137 AND C153	E.1/27 AND E.1/110	Yes		AER001	TCEP001
+	interrogate CLIR status, successful, alpha identifier limits	R96	1.5	C138 AND C153	C138 AND C153	C138 AND C153	C138 AND C153	C138 AND C153	E.1/27 AND E.1/110	Yes		AER001	TCEP001
+	call forward unconditional, all bearers, successful, null data alpha identifier	R96	1.6	C129 AND C137 AND C153	C129 AND C137 AND C153	C129 AND C137 AND C153	C129 AND C137 AND C153	C129 AND C137 AND C153	E.1/27 AND E.1/110	Yes		AER001	TCEP001
+	call forward unconditional, all bearers, successful, basic icon support	R98	2.1, 2.3			C108 AND C137 AND C153	C108 AND C137 AND C153	C108 AND C137 AND C153	E.1/27 AND E.1/110	Yes		AER001	TCEP001
+	call forward unconditional, all bearers, successful, colour icon support	R98	2.2			C134 AND C137 AND C153	C134 AND C137 AND C153	C134 AND C137 AND C153	E.1/27 AND E.1/110	Yes		AER001	TCEP001
+	call forward unconditional, all bearers, successful, basic icon non self-explanatory, no alpha identifier presented	R98	2.4			C144 AND C137 AND C153	C144 AND C137 AND C153	C144 AND C137 AND C153	E.1/27 AND E.1/110	Yes		AER001	TCEP001
+	UCS2 display	R97	3.1		C118 AND C137 AND C153	C118 AND C137 AND C153	C118 AND C137 AND C153	C118 AND C137 AND C153	E.1/27  AND  E.1/15 AND E.1/110	Yes			TCEP001
+15	SEND USSD 27.22.4.12												
+	7-bit data, successful	R96	1.1			C153	C153	C153	E.1/28 AND E.1/110	Yes			TCEP001
+	8-bit data, successful	R96	1.2			C153	C153	C153	E.1/28 AND E.1/110	Yes		AER001	TCEP001
+	UCS2 data, successful	R96	1.3			C153	C153	C153	E.1/28 AND E.1/110	Yes		AER001	TCEP001
+	7-bit data, unsuccessful	R96	1.4			C153	C153	C153	E.1/28 AND E.1/110	Yes		AER001	TCEP001
+	7-bit data, unsuccessful	R96	1.5			C153	C153	C153	E.1/28 AND E.1/110	Yes		AER001	TCEP001
+	256 octets, 7-bit data, successful, long alpha identifier	R96	1.6			C153	C153	C153	E.1/28 AND E.1/110	Yes		AER001	TCEP001
+	7-bit data, successful, no alpha identifier	R96	1.7			C153	C153	C153	E.1/28 AND E.1/110	Yes		AER001	
+	7-bit data, successful, null length alpha identifier	R96	1.8			C153	C153	C153	E.1/28 AND E.1/110	Yes		AER001	TCEP001
+	Icons – basic icon	R98	2.1, 2.3			C108 AND C153	C108 AND C153	C108 AND C153	E.1/28 AND E.1/110	Yes			TCEP001
+	Icons – colour icon	R98	2.2			C145 AND C153	C145 AND C153	C145 AND C153	E.1/28 AND E.1/110	Yes			TCEP001
+	7-bit data, basic icon non self-explanatory, no alpha identifier presented	R98	2.4			C146 AND C153	C146 AND C153	C146 AND C153	E.1/28 AND E.1/110	Yes			TCEP001
+	UCS2	R97	3.1			C118 AND C153	C118 AND C153	C118 AND C153	E.1/28 AND E.1/15 AND E.1/110	Yes			TCEP001
+16	SET UP CALL 27.22.4.13												
+	Call confirmed by the user and connected 	R96	1.1	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes			
+	call rejected by the user	R96	1.2	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	Void												
+	putting all other calls on hold, ME busy	R96	1.4	C133 AND C139 AND C140 AND C142	C133 AND C139 AND C140 AND C142	C133 AND C139 AND C140 AND C142	C133 AND C139 AND C140 AND C142	C133 AND C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	disconnecting all other calls, ME busy	R96	1.5	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	only if not currently busy on another call, ME busy	R96	1.6	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	putting all other calls on hold, call hold is not allowed	R96	1.7	C133 AND C139 AND C140 AND C142	C133 AND C139 AND C140 AND C142	C133 AND C139 AND C140 AND C142	C133 AND C139 AND C140 AND C142	C133 AND C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	Capability configuration	R96	1.8	C101 AND C139 AND C140 AND C142	C101 AND C139 AND C140 AND C142	C101 AND C139 AND C140 AND C142	C101 AND C139 AND C140 AND C142	C101 AND C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	long dialling number string	R96	1.9	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	long first alpha identifier	R96	1.10	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	Called party subaddress	R96	1.11	C124 AND C139 AND C140 AND C142	C124 AND C139 AND C140 AND C142	C124 AND C139 AND C140 AND C142	C124 AND C139 AND C140 AND C142	C124 AND C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	maximum duration for the redial mechanism	R96	1.12	C119 AND C139 AND C140 AND C142	C119 AND C139 AND C140 AND C142	C119 AND C139 AND C140 AND C142	C119 AND C139 AND C140 AND C142	C119 AND C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	second alpha identifier	R98	2.1			C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	E.1/29 AND E.1/63 AND E.1/110 AND E.1/111	Yes			
+	UCS2 Display	R97	TBD						E.1/29 AND E.1/15	Yes			
+	Icons – basic icon	R98	3.1,3.2, 3.4			C108 AND C139 AND C140 AND C142	C108 AND C139 AND C140 AND C142	C108 AND C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes			
+	Icons – colour icon	R98	3.3			C134 AND C139 AND C140 AND C142	C134 AND C139 AND C140 AND C142	C134 AND C139 AND C140 AND C142	E.1/29 AND E.1/110 AND E.1/111	Yes			
+17	POLLING OFF 27.22.4.14	R96	1.1	C142	C142	C142	C142	C142	E.1/23	Yes			
+18	PROVIDE LOCAL INFO 27.22.4.15												
+	location information	R96	1.1	M	M	M	M	M	E.1/31	Yes			
+	IMEI	R96	1.2	M	M	M	M	M	E.1/31	Yes		AER001	
+	network measurement results and BCCH channel list	R98	1.3			M	M	M	E.1/32 AND E.1/67	Yes		AER001	
+	Date, time and time zone	R98	1.4			M	M	M	E.1/59	No		AER001	
+	language setting	R99	1.5				C157	C157	E.1/68	No		AER001	
+	Timing advance	R99	1.6				M	M	E.1/69	Yes		AER001	
+19	SET UP EVENT LIST 27.22.4.16												
+	Set up call connected event	R97	1.1		C142	C142	C142	C142	E.1/33 AND E.1/35	Yes		AER001	
+	Replace by new event list	R97	1.2		C142	C142	C142	C142	E.1/33 AND E.1/35 AND E.1/36	Yes		AER001	
+	Remove event	R97	1.3		C142	C142	C142	C142	E.1/33 AND E.1/35	Yes		AER001	
+	Remove Event on ME Power Cycle	R97	1.4		C142	C142	C142	C142	E.1/33 AND E.1/35	Yes		AER001	
+20	PERFORM CARD APDU 27.22.4.17												
+	Additional card inserted, Select MF and Get Response	R98	1.1			C109	C109	C109	E.1/51	No			
+	Additional card inserted, Select DF GSM, Select EF PLMN , Update Binary, Read Binary on EF PLMN	R98 	1.2			C109	C109	C109	E.1/51	No			
+	Additional card inserted, card powered off	R98 	1.3			C109	C109	C109	E.1/51	No			
+	No card inserted, card powered off	R98 	1.4			C109	C109	C109	E.1/51	No			
+	Invalid card reader identifier	R98 	1.5			C109	C109	C109	E.1/51	No			
+	Detachable reader	R98 	2.1			C116	C116	C116	E.1/51	No			
+21	POWER OFF CARD 27.22.4.18												
+	Additional card inserted	R98 	1.1			C109	C109	C109	E.1/50	No			
+	No card inserted	R98 	1.2			C109	C109	C109	E.1/50	No			
+	Detachable reader	R98 	2.1			C116	C116	C116	E.1/50	No			
+22	POWER ON CARD 27.22.4.19												
+	Additional card inserted	R98 	1.1			C109	C109	C109	E.1/49	No			
+	No ATR	R98 	1.2			C109	C109	C109	E.1/49	No			
+	No card inserted	R98 	1.3			C109	C109	C109	E.1/49	No			
+	Detachable reader	R98 	2.1			C116	C116	C116	E.1/49	No			
+23	GET READER STATUS 27.22.4.20												
+	Additional card inserted, card powered	R98 	1.1			C109	C109	C109	E.1/52	No			
+	Additional card inserted, card not powered	R98 	1.2			C109	C109	C109	E.1/52	No			
+	Additional card inserted, card not present	R98 	1.3			C109	C109	C109	E.1/52	No			
+	Detachable reader	R98 	2.1			C116	C116	C116	E.1/52	No			
+24	TIMER MANAGEMENT 27.22.4.21.1												
+	Start timer 1 several times, get the current value of the timer and deactivate the timer successfully	R98	1.1			M	M	M	E.1/57 AND E.1/58	No		AER001	
+	Start timer 2 several times, get the current value of the timer and deactivate the timer successfully	R98	1.2			M	M	M	E.1/57 AND E.1/58	No		AER001	
+	Start timer 8 several times, get the current value of the timer and deactivate the timer successfully	R98	1.3			M	M	M	E.1/57 AND E.1/58	No		AER001	
+	Try to get the current value of a timer which is not started: action in contradiction with the current timer state	R98	1.4			M	M	M	E.1/57 AND E.1/58	No		AER001	
+	Try to deactivate a timer which is not started: action in contradiction with the current timer state	R98	1.5			M	M	M	E.1/57 AND E.1/58	No		AER001	
+	Start 8 timers successfully	R98	1.6			M	M	M	E.1/57 AND E.1/58	No		AER001	
+25	ENVELOPE TIMER EXPIRATION 27.22.4.21.2												
+	Pending proactive SIM command	R98	2.1			M	M	M	E.1/6 AND E.1/57	No		AER001	
+	SIM application toolkit busy	R98	2.2			M	M	M	E.1/6 AND E.1/57  AND E.1/20	No		AER001	
+26	SET UP IDLE MODE TEXT 27.22.4.22												
+	Display idle mode text	R98	1.1			C139	C139	C139	E.1/61 AND E.1/33 AND E.1/39 AND E.1/110	Yes			
+	Replace idle mode text	R98	1.2			C139	C139	C139	E.1/61 AND E.1/33 AND E.1/39 AND E.1/110	Yes			
+	Remove idle mode test	R98	1.3			C139	C139	C139	E.1/61 AND E.1/33 AND E.1/39 AND E.1/110	Yes			
+	Competing information on ME display	R98	1.4			C139 AND C141	C139 AND C141	C139 AND C141	E.1/61 AND E.1/33 AND E.1/39 AND E.1/110	Yes			
+	ME powered cycled	R98	1.5			C139	C139	C139	E.1/61 AND E.1/33 AND E.1/39 AND E.1/110	Yes			
+	Refresh with SIM initialization	R98	1.6			C139	C139	C139	E.1/61 AND E.1/24 AND E.1/33 AND E.1/39 AND E.1/110	Yes			
+	Large text string	R98	1.7			C139	C139	C139	E.1/61 AND E.1/33 AND E.1/39 AND E.1/110	Yes			
+	Icons – basic icon	R98	2.1, 2.2			C108 AND C139	C108 AND C139	C108 AND C139	E.1/61 AND E.1/39 AND E.1/110	Yes			
+	Icons – colour icon	R98	2.3			C134 AND C139	C134 AND C139	C134 AND C139	E.1/61 AND E.1/39 AND E.1/110	Yes			
+	Icon is not self-explanatory, empty text string	R98	2.4			C147 AND C139	C147 AND C139	C147 AND C139	E.1/61 AND E.1/39 AND E.1/110	Yes			
+	UCS2 display	R98	3.1			C118 AND C139	C118 AND C139	C118 AND C139	E.1/61 AND E.1/15 AND E.1/39 AND E.1/110	Yes			
+27	RUN AT COMMAND 27.22.4.23												
+	No alpha Identifier	R98	1.1			C110	C110	C110	E.1/62	No			
+	null data alpha identifier presented	R98	1.2			C110	C110	C110	E.1/62	No			
+	alpha identifier presented	R98	1.3			C110	C110	C110	E.1/62 AND E.1/110	No			
+	Icons – basic icon	R98	2.1, 2.3			C114 AND C139	C114 AND C139	C114 AND C139	E.1/62 AND E.1/110	No			
+	Icons – colour icon	R98	2.2 2.4, 			C136 AND C139	C136 AND C139	C136 AND C139	E.1/62 AND E.1/110	No			
+	basic icon non self-explanatory, no alpha identifier presented	R98	2.5			C148 AND C139	C148 AND C139	C148 AND C139	E.1/62 AND E.1/110	No			
+28	SEND DTMF 27.22.4.24												
+	Normal	R98	1.1			C142	C142	C142	E.1/66	Yes		AER001	
+	alpha identifier	R98	1.2, 1.3			C142	C142	C142	E.1/66 AND E.1/110	Yes			TCEP001
+	Mobile is not in a speech call	R98	1.4			C142	C142	C142	E.1/66 AND E.1/110	Yes		AER001	TCEP001
+	Icons – basic icon	R98	2.1, 2.3			C108 AND C142	C108 AND C142	C108 AND C142	E.1/66 AND E.1/110	Yes			TCEP001
+	Icons – colour icon	R98	2.2			C134 AND C142	C134 AND C142	C134 AND C142	E.1/66 AND E.1/110	Yes			TCEP001
+	UCS2 display	R98	3.1			C118 AND C142	C118 AND C142	C118 AND C142	E.1/66 AND E.1/15 AND E.1/110	Yes			TCEP001
+29	LANGUAGE NOTIFICATION 27.22.4.25												
+	Specific language notification 	R99	1.1				C143 AND C158	C143 AND C158	E.1/70	No			
+	Non specific language notification	R99	1.2				C143 AND C158	C143 AND C158	E.1/70	No			
+30	LAUNCH BROWSER 27.22.4.26												
+	No session already launched: Connect to the default URL	R99 	1.1				C111 AND C139 AND C140 AND C154	C111 AND C139 AND C140 AND C154	E.1/71 AND E.1/110 AND E.1/111	Yes			
+	connect to the specified URL, alpha identifier length=0	R99 	1.2				C111 AND C139 AND C140	C111 AND C139 AND C140	E.1/71 AND E.1/110 AND E.1/111	Yes			
+	Browser identity, no alpha identifier	R99 	1.3				C111 AND C139 AND C140	C111 AND C139 AND C140	E.1/71 AND E.1/110 AND E.1/111	Yes			
+	one bearer specified and gateway/proxy identity	R99 	1.4				C122 AND C139 AND C140	C122 AND C139 AND C140	E.1/71 AND E.1/110 AND E.1/111	Yes			
+	void	R99 	1.5				Void	Void	Void				
+	ME does not support Launch Browser with Default URL	R99	1.6				C111 AND C139 AND C140 AND C155	C111 AND C139 AND C140 AND C155	E.1/71 AND E.1/110 AND E.1/111	Yes			
+	Interaction with current session	R99 	2.1, 2.2				C111 AND C139 AND C140	C111 AND C139 AND C140	E.1/71 AND E.1/110 AND E.1/111	Yes			
+	Interaction with current session	R99	2.3				C111 AND C139 AND C140	C111 AND C139 AND C140	E.1/71 AND E.1/110 AND E.1/111	Yes		AER001	
+	UCS2 display	R99 	3.1				C117 AND C139 AND C140	C117 AND C139 AND C140	E.1/71 AND E.1/15 AND E.1/110 AND E.1/111	Yes			
+	Icons – basic icon	R99 	4.1, 4.2				C115 AND C139 AND C140	C115 AND C139 AND C140	E.1/71 AND E.1/110 AND E.1/111	Yes			
+31	OPEN CHANNEL 27.22.4.27												
+	Void	R99	1.1 - 1.10				Void	Void	Void				
+	immediate link establishment, GPRS, no local address, no alpha identifier, no network access name	R99	2.1				C121	C121	E.1/89 AND E.1/98	Yes			
+	immediate link establishment GPRS, no alpha identifier, with network access name	R99	2.2				C121	C121	E.1/89 AND E.1/98	Yes			
+	immediate link establishment, GPRS, with alpha identifier	R99	2.3				C121	C121	E.1/89 AND E.1/98 AND E.1/110 AND E.1/111	Yes			TCEP001, TCEP002
+	immediate link establishment, GPRS, with null alpha identifier	R99	2.4				C121	C121	E.1/89 AND E.1/98	Yes			TCEP001
+	immediate link establishment, GPRS, command performed with modifications (buffer size)	R99	2.5				C127	C127	E.1/89 AND E.1/98	Yes			
+	Void	Void	2.6				Void	Void	Void				
+	immediate link establishment, GPRS, open command with alpha identifier, User did not accept the proactive command	R99	2.7				C130 AND C139	C130 AND C139	E.1/89 AND E.1/98 AND E.1/110 AND E.1/111	Yes			TCEP001, TCEP002
+	GPRS, ME busy on call	R99	2.8				C128	C128	E.1/89 AND E.1/98	Yes			
+32	CLOSE CHANNEL 27.22.4.28												
+	successful	R99 	1.1				C121	C121	E.1/89 AND E.1/90 	Yes			
+	with an invalid channel identifier	R99 	1.2				C121	C121	E.1/89 AND E.1/90	Yes		AER001	
+	on an already closed channel	R99	1.3				C121	C121	E.1/90	Yes		AER001	
+33	RECEIVE DATA 27.22.4.29												
+	already opened channel	R99	1.1				C121	C121	E.1/89 AND E.1/91 AND E.1/92	Yes			
+34	SEND DATA 27.22.4.30												
+	immediate mode	R99	1.1				C121	C121	E.1/89 AND E.1/92	Yes			
+	Store mode	R99	1.2				C121	C121	E.1/89 AND E.1/92	Yes		AER001	
+	Store mode, Tx buffer fully used	R99	1.3				C121	C121	E.1/89 AND E.1/92	Yes		AER001	
+	2 consecutive SEND DATA Store mode	R99	1.4				C121	C121	E.1/89 AND E.1/92	Yes		AER001	
+	immediate mode with a bad channel identifier	R99	1.5				C121	C121	E.1/89 AND E.1/92	Yes		AER001	
+	Void	Void	1.6				Void	Void	Void				
+35	GET CHANNEL STATUS 27.22.4.31												
+	without any BIP channel opened	R99	1.1				C121	C121	E.1/93	Yes		AER001	
+	with a BIP channel currently opened	R99	1.2				C121	C121	E.1/89 AND E.1/93	Yes			
+	after a link dropped	R99	1.3				C121	C121	E.1/89 AND E.1/93	Yes		AER001	
+36	DATA DOWNLOAD TO SIM 27.22.5												
+37	SMS-PP DATA DOWNLOAD 27.22.5.1									Yes			
+	[void]		1.1										
+	SIM responds with '91 XX'	R96	1.2	M	M	M	M	M	E.1/2	Yes			
+	More time	R96	1.3	M	M	M	M	M	E.1/2	Yes			
+	8 bit alphabet	R96	1.4	M	M	M	M	M	E.1/2	Yes			
+	[void]		1.5										
+	Data coding / message class	R96	1.6	M	M	M	M	M	E.1/2	Yes			
+38	SMS-CB DATA DOWNLOAD 27.22.5.2												
+	ME does not display message	R96	1.1	C151	C151	C151	C151	C151	E.1/3	Yes			
+	More time	R96	1.2	C151	C151	C151	C151	C151	E.1/3 AND E.1/20	Yes			
+	ME displays message	R96	1.3	C152	C152	C152	C152	C152	E.1/3 AND E.1/110	Yes			
+39	CALL CONTROL BY SIM 27.22.6												
+	Procedure for MO calls (Cell identity in envelope call control)	R97	1.1, 1.2, 1.4, 1.8 to 1.14		C142	C142	C142	C142	E.1/10 AND  E.1/11 AND E.1/13  AND E.1/29	Yes		AER001	
+	Procedure for MO calls (Cell identity in envelope call control)	R97	1.3 A,  1.5 A		C131 AND C139 AND C140 AND C142	C131 AND C139 AND C140 AND C142	C131 AND C139 AND C140 AND C142	C131 AND C139 AND C140 AND C142	E.1/10 AND  E.1/11 AND E.1/13  AND E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	Procedure for MO calls (Cell identity in envelope call control)	R97	1.3 B		C132 AND C139 AND C140 AND C142	C132 AND C139 AND C140 AND C142	C132 AND C139 AND C140 AND C142	C132 AND C139 AND C140 AND C142	E.1/10 AND  E.1/11 AND E.1/13  AND E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	Procedure for MO calls (Cell identity in envelope call control)	R97	1.5 B		C132 AND C142	C132 AND C142	C132 AND C142	C132 AND C142	E.1/10 AND  E.1/11 AND E.1/13  AND E.1/29 AND E.1/110 AND E.1/111	Yes		AER001	
+	Procedure for MO calls (Cell identity in envelope call control)	R97	1.6		C142	C142	C142	C142	E.1/10 AND  E.1/11 AND E.1/13  AND E.1/29	Yes			
+	Procedure for MO calls (Cell identity in envelope call control)	R97	1.7 A		C131 AND C139 AND C140 AND C142	C131 AND C139 AND C140 AND C142	C131 AND C139 AND C140 AND C142	C131 AND C139 AND C140 AND C142	E.1/10 AND  E.1/11 AND E.1/13  AND E.1/29 AND E.1/110 AND E.1/111	Yes			
+	Procedure for MO calls (Cell identity in envelope call control)	R97	1.7 B		C132 AND C139 AND C140 AND C142	C132 AND C139 AND C140 AND C142	C132 AND C139 AND C140 AND C142	C132 AND C139 AND C140 AND C142	E.1/10 AND  E.1/11 AND E.1/13  AND E.1/29 AND E.1/110 AND E.1/111	Yes			
+	Procedure for SS (Cell identity in envelope call control)	R97	2.1, 2.2, 2.3, 2.4		C137	C137	C137	C137	E.1/10 AND E.1/11	Yes			
+	Interaction with FDN (Cell identity in envelope call control)	R97	3.1, 3.2, 3.3, 3.4, 3.5		C125 AND C142	C125 AND C142	C125 AND C142	C125 AND C142	E.1/10 AND E.1/110 AND E.1/111	Yes			
+	Support of BDN service (Cell identity in envelope call control)	R97	4.1, 4.2, 4.3, 4.4		C126 AND C139 AND C140 AND C142	C126 AND C139 AND C140 AND C142	C126 AND C139 AND C140 AND C142	C126 AND C139 AND C140 AND C142	E.1/10 AND E.1/110 AND E.1/111	Yes			
+40	EVENT DOWNLOAD 27.22.7												
+	27.22.7.1: MT call event	R97	1.1		C142	C142	C142	C142	E.1/34 AND E.1/33	Yes		AER001	
+	27.22.7.2.1: call connected event	R97	1.1		C142	C142	C142	C142	E.1/35 AND E.1/33	Yes		AER001	
+	27.22.7.2.2: ME supporting SET UP CALL	R97	2.1		C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	C139 AND C140 AND C142	E.1/35 AND  E.1/29 AND E.1/33 AND E.1/110 AND E.1/111	Yes			
+	27.22.7.3: call disconnected event	R97	1.1		C142	C142	C142	C142	E.1/36 AND E.1/33	Yes		AER001	
+	27.22.7.4: location status event	R97	1.1		M	M	M	M	E.1/37 AND E.1/33	Yes			
+	27.22.7.5: user activity event	R97	1.1		C139	C139	C139	C139	E.1/38 AND E.1/33 AND E.1/111	No		AER001	
+	27.22.7.6: idle screen available event	R97	1.1		C139 AND C140	C139 AND C140	C139 AND C140	C139 AND C140	E.1/39 AND E.1/33 AND E.1/110 AND E.1/111	Yes		AER001	
+	27.22.7.7.1: Card reader status normal	R98	1.1			C109	C109	C109	E.1/40 AND E.1/33	No			
+	27.22.7.7.2: Detachable card reader	R98	2.1			C116	C116	C116	E.1/40 AND E.1/33	No			
+	27.22.7.8: language selection event	R99	1.1				C139 AND C140 AND C143 AND C156	C139 AND C140 AND C143 AND C156	E.1/41 AND E.1/33 AND E.1/110 AND E.1/111	No			
+	27.22.7.9: Browser termination event	R99	1.1				C149 AND C139 AND C140	C149 AND C139 AND C140	E.1/42 AND E.1/33 AND E.1/110 AND E.1/111	Yes		AER001	
+	27.22.7.10: Data available event	R99	1.1				C121	C121	E.1/43  AND E.1/89  AND E.1/33	Yes		AER001	
+	27.22.7.11: Channel status event	R99	1.1				C121	C121	E.1/44 AND E.1/89  AND E.1/33	Yes		AER001	
+41	MO SMS Control by SIM 27.22.8												
+	With proactive command, Allowed , no modification	R98	1.1			M	M	M	E1/12 AND E.1/26 AND E.1/110	Yes			TCEP001
+	With user SMS, Allowed , no modification	R98	1.2			M	M	M	E1/12	Yes			
+	With proactive command, Not allowed	R98	1.3			M	M	M	E1/12 AND E.1/26 AND E.1/110	Yes			TCEP001
+	With user SMS, Not allowed	R98	1.4			M	M	M	E1/12	Yes			
+	With proactive command, Allowed, with modifications	R98	1.5			M	M	M	E1/12 AND E.1/26 AND E.1/110	Yes			TCEP001
+	With user SMS, Allowed, with modifications	R98	1.6			M	M	M	E1/12	Yes			
+	With Proactive command, the SIM responds with '90 00',  Allowed, no modification	R98	1.7			M	M	M	E1/12 AND E.1/26 AND E.1/110	Yes			TCEP001
+	Send Short Message attempt by user, the SIM responds with '90 00', Allowed, no modification	R98	1.8			M	M	M	E1/12	Yes			
+	Void												

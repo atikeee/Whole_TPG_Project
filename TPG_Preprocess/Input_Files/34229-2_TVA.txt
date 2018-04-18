@@ -1,0 +1,290 @@
+Clause	Title	Release	Applicability	Comments
+PDP Context Activation
+6.2	General Purpose PDP Context Establishment (UE Requests for a Dedicated PDP Context)	Rel-8	C04	UE capable of being configured to initiate Dedicated PDP Context
+6.3	Dedicated PDP Context Establishment	Rel-8	C04	UE capable of being configured to initiate Dedicated PDP Context
+P-CSCF Discovery
+7.1	P-CSCF Discovery via PDP Context	Rel-8	C05	UE capable of being configured to initiate P-CSCF Discovery via PCO
+7.2	P-CSCF Discovery via DHCP - IPv4	Rel-8	C06	UE supports IPv4 and capable of being configured to initiate P-CSCF Discovery via DHCPv4
+7.3	P-CSCF Discovery via DHCP - IPv4 (UE Requests P-CSCF discovery via PCO)	Rel-8	C07	UE supports IPv4, supports P-CSCF Discovery via PCO and DHCPv4 and capable of being configured to initiate P-CSCF Discovery via PCO
+7.4	P-CSCF Discovery by DHCP - IPv6	Rel-8	C08	UE capable of being configured to initiate P-CSCF Discovery via DHCPv6
+7.5	P-CSCF Discovery by DHCP-IPv6 (UE Requests P-CSCF discovery by PCO)	Rel-8	C09	UE supports P-CSCF Discovery via PCO and DHCPv6 and capable of being configured to initiate P-CSCF Discovery via PCO
+7.6	P-CSCF Discovery by DHCP - IPv6 (UE does not Request P-CSCF discovery by PCO, SS includes P-CSCF Address(es) in PCO)	Rel-8	C10	UE supports P-CSCF Discovery via PCO and DHCPv6 and capable of being configured to initiate P-CSCF Discovery via DHCPv6
+7.7	Void			
+7.8	Void			
+7.9	Void			
+Registration
+8.1	Initial registration	Rel-8	C17	UE supports IMS security and E-UTRA and not UE category M1
+8.2	User Initiated Re-Registration	Rel-8	C17	UE supports IMS security and E-UTRA and not UE category M1
+8.3	Mobile Initiated Deregistration	Rel-8	C80	UE supports IMS security and IMS deregistration and E-UTRA and not UE category M1
+8.4	Invalid Behaviour - 423 Interval Too Brief	Rel-8	C17	UE supports IMS security and E-UTRA and not UE category M1
+8.5	Void			
+8.6	Void			
+8.7	Void			
+8.8	Void			
+8.9	Void			
+8.10	Initial registration using GIBA	Rel-8	C18	UE supports GIBA only and E-UTRA and not UE category M1
+8.11	Initial registration using IMS AKA and GIBA against a network with GIBA support only	Rel-8	C19	UE supports IMS security and GIBA and E-UTRA and not UE category M1
+8.12	User initiated re-registration using GIBA	Rel-8	C18	UE supports GIBA only and E-UTRA and not UE category M1
+8.13	User initiated de-registration using GIBA	Rel-8	C18	UE supports GIBA only and E-UTRA and not UE category M1
+8.14	Initial registration for three implicit registration sets	Rel-8	C85	UE supports IMS security and Multiple IMPU and E-UTRA and not UE category M1
+8.15	Refresh for ISIM parameters	Rel-10	C17	UE supports IMS security and E-UTRA and not UE category M1
+8.16	User initiated re-registration- 423 Interval Too Brief	Rel-9	C17	UE supports IMS security and E-UTRA and not UE category M1   
+Authentication
+9.1	Invalid Behaviour - MAC Parameter Invalid	Rel-8	C17	UE supports IMS security and E-UTRA and not UE category M1
+9.2	Invalid Behaviour - SQN out of range	Rel-8	C17	UE supports IMS security and E-UTRA and not UE category M1
+Subscription
+10.1	Invalid Behaviour - 503 Service Unavailable	Rel-8	C151	E-UTRA and not UE category M1
+Notification
+11.1	Network-initiated deregistration	Rel-8	C151	E-UTRA and not UE category M1
+11.2	Network initiated re-authentication	Rel-8	C17	UE supports IMS security and E-UTRA and not UE category M1
+Call Control
+12.1	Void			
+12.2	MO Call - 503 Service Unavailable	Rel-8	C22	UE supports MTSI and MTSI speech and initiating a session and E-UTRA and not UE category M1
+12.2a	MO Call - 504 Server Time-out	Rel-8	C22	UE supports MTSI and MTSI speech and initiating a session and E-UTRA and not UE category M1
+12.3	Void			
+12.4	Void			
+12.5	Void			
+12.6	Void			
+12.7	Void			
+12.8	Void			
+12.9	Void			
+12.10	Void			
+12.11	Void			
+12.12	MO MTSI Voice Call Successful with preconditions	Rel-8	C22	UE supports MTSI and MTSI speech and initiating a session and E-UTRA and not UE category M1
+12.13	MT MTSI Speech call	Rel-8	C27	UE supports MTSI and MTSI speech and E-UTRA and not UE category M1
+12.15	Void			
+12.16	MO MTSI Text call	Rel-8	C26	UE capable of initiating a session and supports preconditions and MTSI and MTSI text, RTP and E-UTRA and not UE category M1
+12.17	MT MTSI Text call	Rel-8	C37	UE supports MTSI and UE capable of initiating a session and MTSI text, RTP and E-UTRA and not UE category M1
+12.18	Void			
+12.18a	Void			
+12.18b	Void			
+12.19	Void			
+12.19a	Void			
+12.19b	Void			
+12.20	Void			
+12.20a	Void			
+12.21	MO MTSI Video call	Rel-8	C71	UE supports MTSI and initiating session and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and E-UTRA and not UE category M1
+12.22	MT MTSI Video call	Rel-8	C70	UE supports MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and E-UTRA and not UE category M1
+12.23	MO MTSI speech call / EVS	Rel-12	C83	UE supports MTSI and MTSI speech EVS (see NOTE 3 below) and E-UTRA and not UE category M1
+12.24	MT MTSI speech call / EVS	Rel-12	C83	UE supports MTSI and MTSI speech EVS (see NOTE 3 below) and E-UTRA and not UE category M1
+12.25	MO MTSI speech call / EVS / AMR-WB	Rel-12	C83	UE supports MTSI and MTSI speech EVS (see NOTE 3 below) and E-UTRA and not UE category M1
+12.26	MT MTSI speech call / EVS / AMR-WB IO mode	Rel-12	C83	UE supports MTSI and MTSI speech EVS (see NOTE 3 below) and E-UTRA and not UE category M1
+SIP Compression (SigComp)
+13.1	SigComp in the Initial registration	FFS	C58	UE supports IMS security and Indicate Sigcomp
+13.2	SigComp in the MO Call	FFS	FFS	FFS (see NOTE 1 below)
+13.3	SigComp in the MT Call	FFS	FFS	FFS (see NOTE 1 below)
+13.4	Void			
+Emergency Service
+14.1	Void			
+14.2	Void			
+Supplementary Services
+15.1	Originating Identification Presentation	Rel-8	C43	UE supports MTSI and MTSI Originating Identification Presentation and (GBA or HTTP Digest) for XCAP authentication (NOTE 4) and E-UTRA and not UE category M1
+15.2	Originating Identification Restriction	Rel-8	C88	UE supports MTSI and MTSI Originating Identification Restriction - Configuration and (GBA or HTTP Digest) (NOTE 5) and E-UTRA and not UE category M1
+15.2a	Originating Identification Restriction / Signalling	Rel-8	C44	UE supports MTSI and MTSI Originating Identification Restriction and E-UTRA and not UE category M1
+15.3	Terminating Identification Presentation	Rel-8	C48	UE supports MTSI and MTSI Terminating Identification Presentation and (GBA or HTTP Digest) (NOTE 5) and E-UTRA and not UE category M1
+15.4	Terminating Identification Restriction	Rel-8	C89	UE supports MTSI and MTSI Terminating Identification Restriction - Configuration and (GBA or HTTP Digest) (NOTE 4) and E-UTRA and not UE category M1
+15.4a	Terminating Identification Restriction / Signalling	Rel-8	C49	UE supports MTSI and MTSI Terminating Identification Restriction and E-UTRA and not UE category M1
+15.5	Communication Forwarding unconditional	Rel-8	C30	UE supports MTSI and MTSI Communication Diversion and (GBA or HTTP Digest) (NOTE 5) and E-UTRA and not UE category M1
+15.6	Void			
+15.7	Communication Forwarding on non Reply: activation	Rel-8	C30	UE supports MTSI and MTSI Communication Diversion and (GBA or HTTP Digest) (NOTE 5) and E-UTRA and not UE category M1
+15.8	Communication Forwarding on non reply: MO call initiation	Rel-8	C31	UE supports MTSI and MTSI speech and MTSI Communication Diversion and E-UTRA and not UE category M1
+15.9	Communication Forwarding on Busy	Rel-8	C30	UE supports MTSI and MTSI Communication Diversion and (GBA or HTTP Digest) (NOTE 5) and E-UTRA and not UE category M1
+15.10	Communication Forwarding on Not logged-in	Rel-8	C30	UE supports MTSI and MTSI Communication Diversion and (GBA or HTTP Digest) (NOTE 4) and E-UTRA and not UE category M1
+15.10a	Communication Forwarding on Not reachable	Rel-8	C30	UE supports MTSI and MTSI Communication Diversion and (GBA or HTTP Digest) (NOTE 5) and E-UTRA and not UE category M1
+15.11	MO Call Hold without announcement	Rel-8	C23	UE supports MTSI and MTSI speech and MTSI Communication Hold and E-UTRA and not UE category M1
+15.11a	MO Video Call Hold without announcement	Rel-8	C77	UE supports MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and MTSI Communication Hold and E-UTRA and not UE category M1
+15.12	MT Call Hold without announcement	Rel-8	C23	UE supports MTSI and MTSI speech and MTSI Communication Hold and E-UTRA and not UE category M1
+15.12a	MT Video Call Hold without announcement	Rel-8	C77	UE supports MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and MTSI Communication Hold and E-UTRA and not UE category M1
+15.13	Incoming Communication Barring except for a specific user	Rel-8	C24	UE supports MTSI and MTSI Communication Barring and (GBA or HTTP Digest) (NOTE 5) and E-UTRA and not UE category M1
+15.14	Incoming Communication Barring for anonymous users	Rel-8	C45	UE supports MTSI and MTSI Communication Barring and MTSI Anonymous Communication Rejection and (GBA or HTTP Digest) (NOTE 5) and E-UTRA and not UE category M1
+15.14a	Incoming Communication Barring while roaming	Rel-8	C24	UE supports MTSI and MTSI Incoming Communication Barring and (GBA or HTTP Digest) (NOTE 5) and E-UTRA and not UE category M1
+15.14b	Outgoing Communication Barring while roaming	Rel-8	C84	UE supports MTSI and MTSI Outgoing Communication Barring and (GBA or HTTP Digest) (NOTE 4) and E-UTRA and not UE category M1
+15.15	Subscription to the MWI event package	Rel-8	C50	UE supports MTSI and MTSI Message Waiting Indication and E-UTRA and not UE category M1
+15.17	Creating and leaving a conference	Rel-8	C32	UE supports MTSI and MTSI speech and MTSI Conference and E-UTRA and not UE category M1
+15.18	Inviting user to conference by sending a REFER request to the user	Rel-8	C32	UE supports MTSI and MTSI speech and MTSI Conference and E-UTRA and not UE category M1
+15.19	Inviting user to conference by sending a REFER request to the conference focus	Rel-8	C32	UE supports MTSI and MTSI speech and MTSI Conference and E-UTRA and not UE category M1
+15.19a	Inviting user to conference by sending a REFER request to the conference focus / Video	Rel-8	C78	UE supports MTSI and MTSI speech and MTSI video H.264 CBP Level 1.2 and MTSI Conference  and E-UTRA and not UE category M1
+15.21	Joining a conference after being invited to it	Rel-8	C86	UE supports MTSI and MTSI speech and MTSI Conference and MTSI Network Invitation to Conference and MTSI Out-of-Dialog REFER and E-UTRA and not UE category M1
+15.21a	Three way session creation	Rel-8	C61	UE supports MTSI and MTSI Conference and MTSI three way session and E-UTRA and not UE category M1
+15.21b	Joining a conference after being invited to it / Video	Rel-8	C87	UE supporting MTSI and MTSI speech and MTSI video H.264 CBP Level 1.2 and Conference and Network Invitation to Conference and Out-of-Dialog REFER
+15.21c	Three way session creation / Video	Rel-8	C79	UE supports MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and MTSI Conference and MTSI three way session and E-UTRA and not UE category M1
+15.23	Void			
+15.24	Void			
+15.25	MO Explicit Communication Transfer - Consultative Call Transfer	Rel-8	C29	UE supports MTSI and MTSI speech and MTSI Explicit Communication Transfer - consultative transfer and E-UTRA and not UE category M1
+15.26	Void			
+15.27	Communication Waiting and answering the call	Rel-8	C57	UE supports MTSI and MTSI speech and MTSI Communication Waiting and E-UTRA and not UE category M1
+15.28	Communication Waiting and cancelling the call	Rel-8	C57	UE supports MTSI and MTSI speech and MTSI Communication Waiting and E-UTRA and not UE category M1
+15.29	GBA authentication	Rel-8	C81	UE supports MTSI and MTSI Originating Identification Presentation and GBA for XCAP authentication.
+Codec selecting
+16.1	Void			
+16.2	Speech AMR, indicate selective codec modes	Rel-8	C27	UE supports MTSI and MTSI speech and E-UTRA and not UE category M1
+16.3	Speech AMR-WB, indicate all codec modes	Rel-8	C28	UE supports MTSI and MTSI speech and MTSI speech, AMR wideband and E-UTRA and not UE category M1
+16.4	Speech AMR-WB, indicate selective codec modes	Rel-8	C28	UE supports MTSI and MTSI speech and MTSI speech, AMR wideband and E-UTRA and not UE category M1
+16.5	Void			
+16.6	Void			
+16.7	Void			
+16.8	Void			
+16.10	Void			
+16.11	Void			
+16.12	Void			
+16.13	Void			
+Media use cases
+17.1	MO Speech, add video remove video	Rel-8	C71	UE supports MTSI and Initiating session and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and E-UTRA and not UE category M1
+17.2	MT Speech, add video remove video	Rel-8	C70	UE supports MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and E-UTRA and not UE category M1
+17.4	Void			
+17.5	Void			
+17.6	Void			
+17.8	Void			
+17.10	Void			
+17.12	Void			
+17.14	Void			
+17.16	Void			
+17.17	Void			
+17.18	Void			
+SMS over IMS
+18.1	Mobile Originating SMS	Rel-8	C55	UE supports MO SMS over IMS and E-UTRA and not UE category M1
+18.2	Mobile Terminating SMS	Rel-8	C56	UE supports SM-over-IP receiver and E-UTRA and not UE category M1
+Emergency Service
+19.1.1	Emergency call with emergency registration / Success / Location information available	Rel-9	C76	UE supports IMS emergency services and is capable of obtaining location information and E-UTRA and not UE category M1
+19.1.2	Emergency call with emergency registration / Success / Location information not available	Rel-9	C59	UE supports IMS emergency services and E-UTRA and not UE category M1
+19.1.3	Emergency call with emergency registration / Abnormal case / IM CN sends a 380 / UE performs emergency call via CS domain / UTRAN or GERAN	Rel-9	C62	UE supports IMS emergency services and Emergency speech call and (UTRAN or GERAN) (NOTE 2, 6)
+19.1.3a	Emergency call with emergency registration / Abnormal case / IM CN sends a 380 / UE performs emergency call via CS domain / CDMA 2000 1xRTT	Rel-9	C74	UE supports IMS emergency services and Emergency speech call and 1XRTT (NOTE 2)
+19.1.3b	Void			
+19.1.4	Void			
+19.1.5	Emergency call with emergency registration / Emergency SIP signalling and media in parallel with an other ongoing IM CN subsystem signalling and media	Rel-9	C72	UE supports MTSI and MTSI speech and IMS emergency services and  Communication Hold during emergency call and E-UTRA and not UE category M1
+19.1.6	Emergency call with emergency registration / Success / GIBA against a network with GIBA support only	Rel-9	C124	UE supports IMS security and GIBA and IMS emergency service and E-UTRA and not UE category M1
+19.3.1	Non-UE detectable emergency call / IM CN sends a 1xx response / UE geographical location information available or not	Rel-9	C73	UE supports IMS emergency services and MTSI and MTSI speech and E-UTRA and not UE category M1
+19.3.2	Non-UE detectable emergency call / IM CN sends 380 Alternative Service including emergency service URN and no emergency subservice type / Non-emergency IMS registration / UTRAN or GERAN	Rel-9	C66	UE supports MTSI and MTSI Speech and IMS emergency call and emergency call and (UTRAN or GERAN) (NOTE 2, 6)
+19.3.2a	Non-UE detectable emergency call / IM CN sends 380 Alternative Service / Non-emergency IMS registration / CDMA 2000 1xRTT	Rel-9	C75	UE supports initiating bidirectional voice session over IMS and MTSI Speech and IMS emergency call and emergency call over 1XRTT (NOTE 2)
+19.3.2b	Non-UE detectable emergency call / IM CN sends a 380 with unavailable emergency service URN / UE performs normal call via CS domain / UTRAN or GERAN	Rel-9	C66	UE supports MTSI and MTSI Speech and IMS emergency services and emergency call and (UTRAN or GERAN) (NOTE 6)
+19.3.2c	Non-UE detectable emergency call / IM CN sends a 380 with available emergency service URN / UE performs CS Emergency call via CS domain / UTRAN or GERAN	Rel-9	C66	UE supports MTSI and MTSI Speech and IMS emergency services and emergency call and (UTRAN or GERAN) (NOTE 6)
+19.3.3	Non-UE detectable emergency call / IM CN sends 380 Alternative Service / Emergency IMS registration	Rel-9	C73	UE supports IMS emergency services and MTSI and MTSI speech and E-UTRA and not UE category M1
+19.3.4	Non-UE detectable emergency call / IM CN sends 380 with an Alternative Service / Previous emergency IMS registration not expired	Rel-9	C73	UE supports IMS emergency services and MTSI and MTSI speech and E-UTRA and not UE category M1
+19.4.1	Emergency call without emergency registration / EPS / UE does not contain an ISIM or USIM	Rel-9	C59	UE supports IMS emergency services and E-UTRA and not UE category M1
+19.4.2	Emergency call without emergency registration / EPS / UE contains an ISIM or USIM / UE is in state EMM-REGISTERED.LIMITED-SERVICE	Rel-9	C64	UE supports IMS emergency services and E-UTRA and not UE category M1
+19.4.3	Void			
+19.4.4	Void			
+19.4.5	Emergency call without emergency registration / UE credentials are not accepted	Rel-9	C59	UE supports IMS emergency services and E-UTRA and not UE category M1
+19.4.6	Emergency call without emergency registration / Failure of registration / Rejected by 403 (Forbidden)	Rel-9	C125	UE supports IMS emergency service and IMS emergency call without registration after rejection of emergency registration and E-UTRA and not UE category M1
+19.4.7	Emergency call without emergency registration / Failure of registration / against a network with GIBA support only	Rel-9	C134	UE supports IMS emergency service and IMS emergency call without registration after rejection of emergency registration that used IMS security. The UE does not support GIBA. UE supports IMS security and E-UTRA and not UE category M1
+19.5.1	New initial emergency registration / UE obtains from the serving IP-CAN an IP address different than the IP address used for the emergency registration	Rel-9	C59	UE supports IMS emergency services and E-UTRA and not UE category M1
+19.5.6	User-initiated emergency reregistration / UE has emergency related ongoing dialog	Rel-9	C59	UE supports IMS emergency services and E-UTRA and not UE category M1
+19.5.7	User-initiated emergency reregistration / The user initiates an emergency call	Rel-9	C59	UE supports IMS emergency services and E-UTRA and not UE category M1
+19.5.8	Void			
+19.5.9	In parallel emergency and non-emergency registrations	Rel-9	C59	UE supports IMS emergency services and E-UTRA and not UE category M1
+19.5.10	Deregistration upon emergency registration expiration	Rel-9	C59	UE supports IMS emergency services and E-UTRA and not UE category M1
+Customized Alerting Tones (CAT)
+20.1	Mobile Originating CAT - Forking Model	Rel-8	C82	UE supports MTSI and MTSI speech and early media and E-UTRA and not UE category M1
+eCall over IMS (eCall)
+21.1	eCall over IMS / Manual initiation / Normal registration / Emergency registration / Success / 200 OK with ACK	Rel-14	C147	UE supports IMS eCall and eCallCapable and Manual type of eCall
+21.2	eCall over IMS / Automatic initiation / Normal registration / Emergency registration / Success / 200 OK with ACK	Rel-14	C148	UE supports IMS eCall and eCallCapable and Automatic type of eCall
+21.3	eCall over IMS / Manual initiation / MSD transfer Failure / UE performs eCall in CS domain after Timer expiry / UTRAN or GERAN	Rel-14	C147	UE supports IMS eCall and eCallCapable and manual type of eCall
+21.4	eCall over IMS / Manual initiation / MSD transfer and 200 OK with ACK / SIP INFO request for MSD Update / Success	Rel-14	C147	UE supports IMS eCall and eCallCapable and Manual type of eCall
+21.5	eCall over IMS / Automatic initiation / MSD transfer and 200 OK with ACK / SIP INFO request for MSD Update / Success	Rel-14	C148	UE supports IMS eCall and eCallCapable and Automatic type of eCall
+21.6	eCall over IMS / Automatic initiation / MSD transfer and 200 OK with ACK / SIP INFO request for MSD Update / Failure	Rel-14	C148	UE supports IMS eCall and eCallCapable and Automatic type of eCall
+21.13	eCall only mode / Manual initiation / Emergency registration / Abnormal case / IM CN sends a 486 (Busy Here) / UE performs eCall in CS domain / UTRAN or GERAN	Rel-14	C149	UE supports IMS eCall and eCallOnly and manual type of call
+21.14	eCall only mode / Automatic initiation / Emergency registration / Abnormal case / IM CN sends a 486 (Busy Here) / UE performs eCall in CS domain / UTRAN or GERAN	Rel-14	C150	UE supports IMS eCall and eCallOnly and Automatic type of eCall
+21.15	eCall only mode / Manual initiation / Emergency registration / Abnormal case / IM CN sends a 600 (Busy Everywhere) / UE performs eCall in CS domain / UTRAN or GERAN	Rel-14	C149	UE supports IMS eCall and eCallOnly and manual type of call
+21.16	eCall only mode / Automatic initiation / Emergency registration / Abnormal case / IM CN sends a 600 (Busy Everywhere) / UE performs eCall in CS domain / UTRAN or GERAN	Rel-14	C150	UE supports IMS eCall and eCallOnly and Automatic type of eCall
+21.17	eCall only mode / Manual initiation / Emergency registration / Abnormal case / IM CN sends a 603 (Decline) / UE performs eCall in CS domain / UTRAN or GERAN	Rel-14	C149	UE supports IMS eCall and eCallOnly and manual type of call
+21.18	eCall only mode / Automatic initiation / Emergency registration / Abnormal case / IM CN sends a 603 (Decline) / UE performs eCall in CS domain / UTRAN or GERAN	Rel-14	C150	UE supports IMS eCall and eCallOnly and Automatic type of eCall
+Registration / WLAN
+G.8.1	Initial Registration / WLAN	Rel-11	C108	UE supports MTSI and WLAN
+Call Control / WLAN
+G.12.1	MO MTSI speech call / WLAN	Rel-11	C152	UE supports MTSI and MTSI speech and WLAN
+G.12.2	MT MTSI speech call / WLAN	Rel-11	C152	UE supports MTSI and MTSI speech and WLAN
+G.12.3	MO MTSI video call / WLAN	Rel-11	C153	UE supports MTSI and MTSI speech and MTSI video and WLAN
+G.12.4	MT MTSI video call / WLAN	Rel-11	C153	UE supports MTSI and MTSI speech and MTSI video and WLAN
+Supplementary Services / WLAN
+G.15.1	Originating Identification Presentation / WLAN	Rel-11	C92	UE supports MTSI and MTSI Originating Identification Presentation and WLAN
+G.15.2	Originating Identification Restriction / WLAN	Rel-11	C93	UE supports MTSI and MTSI Originating Identification Restriction and WLAN
+G.15.3	Terminating Identification Presentation / WLAN	Rel-11	C94	UE supports MTSI and MTSI Terminating Identification Presentation and WLAN
+G.15.4	Terminating Identification Restriction / WLAN	Rel-11	C95	UE supports MTSI and MTSI Terminating Identification Restriction and WLAN
+G.15.5	Communication Forwarding unconditional / WLAN	Rel-11	C101	UE supports MTSI and MTSI Communication Diversion and WLAN
+G.15.6	Communication Forwarding on non Reply: activation / WLAN	Rel-11	C101	UE supports MTSI and MTSI Communication Diversion and WLAN
+G.15.7	Communication Forwarding on non reply: MO call initiation / WLAN	Rel-11	C102	UE supports MTSI and MTSI speech andMTSI  Communication Diversion and WLAN
+G.15.8	Communication Forwarding on Busy / WLAN	Rel-11	C101	UE supports MTSI and MTSI Communication Diversion and WLAN
+G.15.9	Communication Forwarding on Not logged-in / WLAN	Rel-11	C101	UE supports MTSI and MTSI Communication Diversion and WLAN
+G.15.10	Communication Forwarding on Not reachable /	Rel-11	C101	UE supports MTSI and MTSI Communication Diversion and WLAN
+G.15.11	MO Call Hold without announcement / WLAN	Rel-11	C109	UE supports MTSI and MTSI speech and MTSI Communication Hold and WLAN
+G.15.12	MT Call Hold without announcement / WLAN	Rel-11	C109	UE supports MTSI and MTSI speech and Communication Hold and WLAN
+G.15.13	MO video Call Hold without announcement / WLAN	Rel-11	C110	UE supports MTSI and MTSI speech and MTSI video and MTSI Communication Hold and WLAN
+G.15.14	MT video Call Hold without announcement / WLAN	Rel-11	C110	UE supports MTSI and MTSI speech and MTSI video and MTSI Communication Hold and WLAN
+G.15.15	Incoming Communication Barring while roaming / WLAN	Rel-11	C111	UE supports MTSI and MTSI Incoming Communication Barring and WLAN and (GBA or HTTP Digest) (NOTE 4)
+G.15.16	Outgoing Communication Barring while roaming / WLAN	Rel-11	C112	UE supports MTSI and Outgoing Communication Barring and WLAN and (GBA or HTTP Digest) (NOTE 4)
+G.15.17	Subscription to the MWI event package / WLAN	Rel-11	C113	UE supports MTSI and MTSI Message Waiting Indication and WLAN
+G.15.18	Inviting user to conference by sending a REFER request to the conference focus / WLAN	Rel-11	C114	UE supports MTSI and MTSI speech and MTSI Conference and WLAN
+G.15.19	Joining a conference after being invited to it / WLAN	Rel-11	C115	UE supports MTSI and MTSI speech and MTSI Conference and MTSI Network Invitation to Conference and WLAN
+G.15.20	Three way session creation / WLAN	Rel-11	C116	UE supports MTSI and MTSI speech and MTSI Conference and MTSI three way session and WLAN
+G.15.21	Inviting user to conference by sending a REFER request to the conference focus for video / WLAN	Rel-11	C117	UE supports MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and MTSI Conference and WLAN
+G.15.22	Joining a conference after being invited to it with video / WLAN	Rel-11	C118	UE supports MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and MTSI Conference and MTSI Network Invitation to Conference and WLAN
+G.15.23	Three way session creation for video / WLAN	Rel-11	C119	UE supports MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and MTSI Conference and MTSI three way session and WLAN
+G.15.24	Communication Waiting and answering the call / WLAN	Rel-11	C120	UE supports MTSI and MTSI speech and MTSI Communication Waiting and WLAN
+G.15.25	Communication Waiting and cancelling the call / WLAN	Rel-11	C120	UE supports MTSI and MTSI speech and MTSI Communication Waiting and WLAN
+Media use cases / WLAN
+G.17.1	MO Speech, add video remove video / WLAN	Rel-11	C106	UE supports MTSI and Initiating session and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and WLAN
+G.17.2	MT Speech, add video remove video / WLAN	Rel-11	C107	UE supports MTSI and MTSI speech and MTSI video and MTSI video H.264 CBP Level 1.2 and WLAN
+Emergency Service over IMS / WLAN
+G.19.1	Emergency call with emergency registration / WLAN	Rel-11	C121	UE supports IMS emergency services and WLAN
+Registration / Fixed Broadband Access
+H.8.1	Initial registration / Fixed Broadband Access	Rel-12	C90	UE supports SIP Digest without TLS and Fixed Broadband
+H.8.2	User Initiated Re-Registration / Fixed Broadband Access	Rel-12	C90	UE supports SIP Digest without TLS and Fixed Broadband
+H.8.3	User  Initiated Deregistration / Fixed Broadband Access	Rel-12	C100	UE supports SIP Digest without TLS and Fixed Broadband and IMS deregistration
+H.8.4	Invalid behaviour- 423 Interval too brief / Fixed Broadband Access	Rel-12	C90	UE supports SIP Digest without TLS and Fixed Broadband
+H.8.5	User initiated re-registration - 423 Interval Too Brief / Fixed Broadband Access	Rel-12	C90	UE supports SIP Digest without TLS and Fixed Broadband
+Authentication / Fixed Broadband Access
+H.9.1	SIP digest without TLS - abnormal procedures - 403 Forbidden / Fixed Broadband Access	Rel-12	C90	UE supports SIP Digest without TLS and Fixed Broadband
+Notification / Fixed Broadband Access
+H.11.2	Network initiated re-authentication / Fixed Broadband Access	Rel-12	C90	UE supports SIP Digest without TLS and Fixed Broadband
+Call Control / Fixed Broadband Access
+H.12.1	Originating - 503 Service Unavailable / Fixed Broadband Access	Rel-12	C91	UE supports MTSI and MTSI speech and SIP Digest without TLS and Fixed Broadband
+H.12.2	Originating - 504 Server Time-out / Fixed Broadband Access	Rel-12	C91	UE supports MTSI and MTSI speech and SIP Digest without TLS and Fixed Broadband
+H.12.3	Originating MTSI Voice Call Successful with preconditions / Fixed Broadband Access	Rel-12	C91	UE supports MTSI and MTSI speech and SIP Digest without TLS and Fixed Broadband
+H.12.4	Originating MTSI Voice Call Successful without preconditions / Fixed Broadband Access	Rel-12	C105	UE supports MTSI and MTSI speech and SIP Digest without TLS and Fixed Broadband and no preconditions
+H.12.5	Terminating MTSI Voice call with preconditions / Fixed Broadband Access	Rel-12	C91	UE supports MTSI and MTSI speech and SIP Digest without TLS and Fixed Broadband
+H.12.6	Terminating MTSI voice call without preconditions / Fixed Broadband Access	Rel-12	C105	UE supports MTSI and MTSI speech and SIP Digest without TLS and Fixed Broadband and no preconditions
+H.12.7	Originating MTSI Video call without preconditions / Fixed Broadband Access	Rel-12	C122	UE supports MTSI and MTSI speech and video and SIP Digest without TLS and Fixed Broadband  and no preconditions
+H.12.8	Terminating MTSI Video call without preconditions / Fixed Broadband Access	Rel-12	C122	UE supports MTSI and MTSI speech and video and SIP Digest without TLS and Fixed Broadband  and no preconditions
+Supplementary Services / Fixed Broadband Access
+H.15.1	Originating Identification Presentation / Fixed Broadband Access	Rel-12	C96	UE supports MTSI and MTSI Originating Identification Presentation and Fixed Broadband
+H.15.2	Originating Identification Restriction / Fixed Broadband Access	Rel-12	C97	UE supports MTSI and MTSI Originating Identification Restriction and Fixed Broadband
+H.15.3	Terminating Identification Presentation / Fixed Broadband Access	Rel-12	C98	UE supports MTSI and MTSI Terminating Identification Presentation and Fixed Broadband
+H.15.4	Terminating Identification Restriction / Fixed Broadband Access	Rel-12	C99	UE supports MTSI and MTSI Terminating Identification Restriction and Fixed Broadband
+H.15.5	Communication Forwarding unconditional / Fixed Broadband Access	Rel-12	C103	UE supports MTSI and MTSI Communication Diversion and Fixed Broadband
+H.15.6	Communication Forwarding on non Reply: activation / Fixed Broadband Access	Rel-12	C103	UE supports MTSI and MTSI Communication Diversion and Fixed Broadband
+H.15.7	Communication Forwarding on non reply: Originating call initiation / Fixed Broadband Access	Rel-12	C104	UE supports MTSI and MTSI speech and MTSI Communication Diversion and Fixed Broadband and no preconditions
+H.15.8	Communication Forwarding on Busy / Fixed Broadband Access	Rel-12	C103	UE supports MTSI and MTSI Communication Diversion and Fixed Broadband
+H.15.9	Communication Forwarding on Not logged-in / Fixed Broadband	Rel-12	C103	UE supports MTSI and MTSI Communication Diversion and Fixed Broadband
+H.15.10	Communication Forwarding on Not reachable / Fixed Broadband	Rel-12	C103	UE supports MTSI and MTSI Communication Diversion and Fixed Broadband
+H.15.11	Self-Configuration via SIP based procedure / Fixed Broadband Access	Rel-12	C123	UE supports MTSI and MTSI Communication Diversion and SIP-based configuration and Fixed Broadband
+Media use cases / Fixed Broadband Access
+H.17.1	Originating Voice, add video remove video / Fixed Broadband Access	Rel-12	C122	UE supports MTSI and MTSI speech and MTSI video and SIP Digest without TLS and Fixed Broadband  and no preconditions
+H.17.2	Terminating Voice, add video remove video / Fixed Broadband Access	Rel-12	C122	UE supports MTSI and MTSI speech and MTSI video and SIP Digest without TLS and Fixed Broadband  and no preconditions
+RCS				
+I.8.1a	Initial Registration / single / E-UTRA	n/a	C135	UE supports combined registration over E-UTRA
+I.8.1b	Initial Registration / dual / E-UTRA	n/a	C136	UE supports registration to two IMS core networks over E-UTRA
+I.8.1c	Initial Registration / single / WLAN	n/a	C137	UE supports combined registration over WLAN
+I.8.1d	Initial Registration / dual / WLAN	n/a	C138	UE supports registration to two IMS core networks over WLAN
+I.12.1a	MO voice call / single / E-UTRA	n/a	C139	UE supports voice call after combined registration over E-UTRA
+I.12.1b	MO voice call / dual / E-UTRA	n/a	C140	UE supports voice call after dual registration over E-UTRA
+I.12.1c	MO voice call / single / WLAN	n/a	C141	UE supports voice call after combined registration over WLAN
+I.12.1d	MO voice call / dual / WLAN	n/a	C142	UE supports voice call after dual registration over WLAN
+I.12.2a	RCS chat / single / E-UTRA	n/a	C143	UE supports RCS chat after combined registration over E-UTRA
+I.12.2b	RCS chat / dual / E-UTRA	n/a	C144	UE supports RCS chat after dual registration over E-UTRA
+I.12.2c	RCS chat / single / WLAN	n/a	C145	UE supports RCS chat after combined registration over WLAN
+I.12.2d	RCS chat / dual / WLAN	n/a	C146	UE supports RCS chat after combined registration over E-UTRA
+Registration / UE category M1
+J.8.1	Initial Registration / UE category M1	Rel-13	C126	UE supports MTSI and UE category M1
+Call control / UE category M1
+J.12.1	MO MTSI speech call / UE category M1	Rel-13	C126	UE supports MTSI and UE category M1
+J.12.2	MT MTSI speech call / UE category M1	Rel-13	C126	UE supports MTSI and UE category M1
+Supplementary Services / UE category M1
+J.15.1	Communication Waiting and answering the call / UE category M1	Rel-13	C127	UE supports MTSI and MTSI Communication Waiting and UE category M1
+J.15.2	Communication Waiting and cancelling the call / UE category M1	Rel-13	C127	UE supports MTSI and MTSI Communication Waiting and UE category M1
+J.15.3	Subscription to the MWI event package / UE category M1	Rel-13	C128	UE supports MTSI and MTSI Message Waiting Indication and UE category M1
+J.15.4	Originating Identification Restriction / UE category M1	Rel-13	C129	UE supports MTSI and MTSI Originating Identification Restriction and UE category M1
+J.15.5	Terminating Identification Restriction / UE category M1	Rel-13 	C130	UE supports MTSI and MTSI Terminating Identification Restriction and UE category M1
+J.15.6	Communication forwarding on non reply: MO call initiation / UE category M1	Rel-13	C131	UE supports MTSI and MTSI Communication Diversion and UE category M1
+Emergency Service over IMS / UE category M1
+J.19.1	Emergency call with emergency registration / Success / Location information available / UE category M1	Rel-13	C132	UE supports IMS emergency services and is capable of obtaining location information and UE category M1
+J.19.2	Emergency call with emergency registration / Success / Location information not available / UE category M1	Rel-13	C133	UE supports IMS emergency services and UE category M1

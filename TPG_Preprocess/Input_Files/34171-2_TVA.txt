@@ -1,0 +1,6 @@
+5.3		Rel-6	C_RF1	
+5.4		Rel-6	C_RF1	
+5.5		Rel-6	C_RF1	
+5.6		Rel-6	C_RF1	
+5.2.2		Rel-6	C_RF2	
+5.2.1		Rel-6	C_RF1	

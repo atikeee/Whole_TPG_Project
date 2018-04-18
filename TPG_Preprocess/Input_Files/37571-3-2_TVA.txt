@@ -1,0 +1,288 @@
+Clause	Title	Release	Applicability	Comments	Number of TC Executions (informative)
+6.1.1.1	LCS Network Induced location request / UE-Based GPS / Emergency Call / with USIM 	R99	C01us	UEs supporting FDD, emergency speech call and UE based Network Assisted GPS L1 C/A only	1 Execution: CS
+6.1.1.2	LCS Network induced location request / UE-Based GPS / Emergency call / Without USIM	R99	C01us	UEs supporting FDD, emergency speech call and UE based Network Assisted GPS L1 C/A only	1 Execution: CS
+6.1.1.3	LCS Network induced location request / UE-Assisted GPS / Emergency call / With USIM	R99	C03us	UEs supporting FDD, emergency speech call and UE assisted Network Assisted GPS L1 C/A only	1 Execution: CS
+6.1.1.4	LCS Network induced location request / UE-Assisted GPS / Emergency call / Without USIM	R99	C03us	UEs supporting FDD, emergency speech call and UE assisted Network Assisted GPS L1 C/A only	1 Execution: CS
+6.1.2.1	LCS Mobile originated location request / UE-Based GPS / Position estimate request / Success	R99	C09us	UEs supporting FDD and UE based Network Assisted GPS L1 C/A only and MO-LR request for a position estimate	1 Execution: CS
+6.1.2.2	LCS Mobile originated location request UE-Based or UE-Assisted GPS / Assistance data request / Success	R99	C05us	UEs supporting FDD and (UE based or UE assisted Network Assisted GPS L1 C/A only) and MO-LR request for assistance data	1 Execution: CS
+6.1.2.3	LCS Mobile originated location request / UE-Assisted GPS / Position Estimate / Success	R99	C10us	UEs supporting FDD and UE assisted Network Assisted GPS L1 C/A only and MO-LR request for a position estimate	1 Execution: CS
+6.1.2.4	LCS Mobile originated location request / UE-Based GPS / Transfer to third party / Success	R99	C07us	UEs supporting FDD and UE based Network Assisted GPS L1 C/A only and MO-LR request for transfer to 3rd party	1 Execution: CS
+6.1.2.5	LCS Mobile originated location request / UE-Assisted GPS / Transfer to third party / Success	R99	C08us	UEs supporting FDD and UE assisted Network Assisted GPS L1 C/A only and MO-LR request for transfer to 3rd party	1 Execution: CS
+6.1.2.6	LCS Mobile originated location request / UE-Based or UE-Assisted GPS / Assistance data request / Failure	R99	C05us	UEs supporting FDD and (either UE based or UE assisted Network Assisted GPS L1 C/A only) and MO-LR request for assistance data	1 Execution: CS
+6.1.2.7	LCS Mobile originated location request / UE-Based GPS / Position estimate request / Failure	R99	C09us	UEs supporting FDD and UE based Network Assisted GPS L1 C/A only and MO-LR request for position estimate	1 Execution: CS
+6.1.3.1	LCS Mobile terminated location request / UE-Based GPS	R99	C02us	UEs supporting FDD and UE based Network Assisted GPS L1 C/A only and MT-LR LCS location request notification capability	1 Execution: CS
+6.1.3.2	LCS Mobile terminated location request / UE-Based GPS / Request of additional assistance data / Success	R99	C02us	UEs supporting FDD and UE based Network Assisted GPS L1 C/A only and MT-LR LCS location request notification capability	1 Execution: CS
+6.1.3.3	LCS Mobile-terminated location request / UE-Based GPS / Failure - Not Enough Satellites	R99	C02us	UEs supporting FDD and UE based Network Assisted GPS L1 C/A only and MT-LR LCS location request notification capability	1 Execution: CS
+6.1.3.4	LCS Mobile terminated location request / UE-Assisted GPS / Success	R99	C04us	UEs supporting FDD and UE assisted Network Assisted GPS L1 C/A only and MT-LR LCS location request notification capability	1 Execution: CS
+6.1.3.5	LCS Mobile terminated location request / UE-Assisted GPS / Request for additional assistance data / Success	R99	C04us	UEs supporting FDD and UE assisted Network Assisted GPS L1 C/A only and MT-LR LCS location request notification capability	1 Execution: CS
+6.1.3.6	LCS Mobile terminated location request / UE-Based GPS / Privacy Verification / Location Allowed if No Response	R99	C02us	UEs supporting FDD and UE based Network Assisted GPS L1 C/A only and MT-LR LCS location request notification capability	1 Execution: CS
+6.1.3.7	LCS Mobile terminated location request / UE-Based GPS / Privacy Verification / Location Not Allowed if No Response	R99	C02us	UEs supporting FDD and UE based Network Assisted GPS L1 C/A only and MT-LR LCS location request notification capability	1 Execution: CS
+6.1.3.8	LCS Mobile terminated location request / UE-Assisted GPS / Privacy Verification / Location Allowed if No Response	R99	C04us	UEs supporting FDD and UE assisted Network Assisted GPS L1 C/A only and MT-LR LCS location request notification capability	1 Execution: CS
+6.1.3.9	LCS Mobile terminated location request / UE-Assisted GPS / Privacy Verification / Location Not Allowed if No Response	R99	C04us	UEs supporting FDD and UE assisted Network Assisted GPS L1 C/A only and MT-LR LCS location request notification capability	1 Execution: CS
+6.1.3.10	LCS Mobile terminated location request / UE-Based or UE-Assisted GPS / Configuration incomplete	R99	C06us	UEs supporting FDD and UE based and/or UE assisted Network Assisted GPS L1 C/A only and MT-LR LCS location request notification capability, but not UE-based OTDOA	1 Execution: CS
+6.2.1.1_1s	NI-LR Emergency Call: UE-Based A-GNSS: Sub-test 1	Rel-8	C11us	UEs supporting FDD, emergency speech call and UE based Network Assisted GANSS with GLONASS only	1 Execution: CS
+6.2.1.1_2s	NI-LR Emergency Call: UE-Based A-GNSS: Sub-test 2	Rel-12	C12us	UEs supporting FDD, emergency speech call and UE based Network Assisted GANSS with Galileo only	1 Execution: CS
+6.2.1.1_3s	NI-LR Emergency Call: UE-Based A-GNSS: Sub-test 3	Rel-8	C13us	UEs supporting FDD, emergency speech call and UE based Network Assisted GPS and GANSS with Modernized GPS only	1 Execution: CS
+6.2.1.1_4s	NI-LR Emergency Call: UE-Based A-GNSS: Sub-test 4	Rel-8	C14us	UEs supporting FDD, emergency speech call and UE based Network Assisted GPS and GANSS with GLONASS only	1 Execution: CS
+6.2.1.1_8s	NI-LR Emergency Call: UE-Based A-GNSS: Sub-test 8	Rel-12	C54us	UEs supporting FDD, emergency speech call and UE based Network Assisted GPS and GANSS with Galileo only	1 Execution: CS
+6.2.1.1_9s	NI-LR Emergency Call: UE-Based A-GNSS: Sub-test 9	Rel-12	C40us	UEs supporting -emergency speech call and UE based Network Assisted GANSS with BDS only	1 Execution: CS
+6.2.1.1_10s	NI-LR Emergency Call: UE-Based A-GNSS: Sub-test 10	Rel-12	C41us	UEs supporting emergency speech call and UE based Network Assisted GPS and GANSS with BDS only	1 Execution: CS
+6.2.1.2_1s	NI-LR Emergency Call: UE-Assisted A-GNSS: Sub-test 1	Rel-8	C15us	UEs supporting FDD, emergency speech call and UE assisted Network Assisted GANSS with GLONASS only	1 Execution: CS
+6.2.1.2_2s	NI-LR Emergency Call: UE-Assisted A-GNSS: Sub-test 2	Rel-12	C16us	UEs supporting FDD, emergency speech call and UE assisted Network Assisted GANSS with Galileo only	1 Execution: CS
+6.2.1.2_3s	NI-LR Emergency Call: UE-Assisted A-GNSS: Sub-test 3	Rel-8	C17us	UEs supporting FDD, emergency speech call and UE assisted Network Assisted GPS and GANSS with Modernized GPS only	1 Execution: CS
+6.2.1.2_4s	NI-LR Emergency Call: UE-Assisted A-GNSS: Sub-test 4	Rel-8	C18us	UEs supporting FDD, emergency speech call and UE assisted Network Assisted GPS and GANSS with GLONASS only	1 Execution: CS
+6.2.1.2_8s	NI-LR Emergency Call: UE-Assisted A-GNSS: Sub-test 8	Rel-12	C55us	UEs supporting FDD, emergency speech call and UE assisted Network Assisted GPS and GANSS with Galileo only	1 Execution: CS
+6.2.1.2_9s	NI-LR Emergency Call: UE-Assisted A-GNSS: Sub-test 9	Rel-12	C42us	UEs supporting emergency speech call and UE assisted Network Assisted GANSS with BDS only	1 Execution: CS
+6.2.1.2_10s	NI-LR Emergency Call: UE-Assisted A-GNSS: Sub-test 10	Rel-12	C43us	UEs supporting emergency speech call and UE assisted Network Assisted GPS and GANSS with BDS only	1 Execution: CS
+6.2.2.1_1s	MO-LR Position Estimate: UE-Based A-GNSS: Sub-test 1	Rel-8	C19us	UEs supporting FDD and UE based Network Assisted GANSS with GLONASS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.1_2s	MO-LR Position Estimate: UE-Based A-GNSS: Sub-test 2	Rel-12	C20us	UEs supporting FDD and UE based Network Assisted GANSS with Galileo only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.1_3s	MO-LR Position Estimate: UE-Based A-GNSS: Sub-test 3	Rel-8	C21us	UEs supporting FDD and UE based Network Assisted GPS and GANSS with Modernized GPS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.1_4s	MO-LR Position Estimate: UE-Based A-GNSS: Sub-test 4	Rel-8	C22us	UEs supporting FDD and UE based Network Assisted GPS and GANSS with GLONASS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.1_8s	MO-LR Position Estimate: UE-Based A-GNSS: Sub-test 8	Rel-12	C56us	UEs supporting FDD and UE based Network Assisted GPS and GANSS with Galileo only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.1_9s	MO-LR Position Estimate: UE-Based A-GNSS: Sub-test 9	Rel-12	C44us	UEs supporting UE based Network Assisted GANSS with BDS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.1_10s	MO-LR Position Estimate: UE-Based A-GNSS: Sub-test 10	Rel-12	C45us	UEs supporting UE based Network Assisted GPS and GANSS with BDS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.2_1s	MO-LR Position Estimate: UE-Assisted A-GNSS: Sub-test 1	Rel-8	C23us	UEs supporting FDD and UE assisted Network Assisted GANSS with GLONASS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.2_2s	MO-LR Position Estimate: UE-Assisted A-GNSS: Sub-test 2	Rel-12	C24us	UEs supporting FDD and UE assisted Network Assisted GANSS with Galileo only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.2_3s	MO-LR Position Estimate: UE-Assisted A-GNSS: Sub-test 3	Rel-8	C25us	UEs supporting FDD and UE assisted Network Assisted GPS and GANSS with Modernized GPS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.2_4s	MO-LR Position Estimate: UE-Assisted A-GNSS: Sub-test 4	Rel-8	C26us	UEs supporting FDD and UE assisted Network Assisted GPS and GANSS with GLONASS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.2_8s	MO-LR Position Estimate: UE-Assisted A-GNSS: Sub-test 8	Rel-12	C57us	UEs supporting FDD and UE assisted Network Assisted GPS and GANSS with Galileo only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.2_9s	MO-LR Position Estimate: UE-Assisted A-GNSS: Sub-test 9	Rel-12	C46us	UEs supporting UE assisted Network Assisted GANSS with BDS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.2_10s	MO-LR Position Estimate: UE-Assisted A-GNSS: Sub-test 10	Rel-12	C47us	UEs supporting UE assisted Network Assisted GPS and GANSS with BDS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.3_1s	MO-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 1	Rel-8	C19us	UEs supporting FDD and UE based Network Assisted GANSS with GLONASS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.3_2s	MO-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 2	Rel-12	C20us	UEs supporting FDD and UE based Network Assisted GANSS with Galileo only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.3_3s	MO-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 3	Rel-8	C21us	UEs supporting FDD and UE based Network Assisted GPS and GANSS with Modernized GPS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.3_4s	MO-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 4	Rel-8	C22us	UEs supporting FDD and UE based Network Assisted GPS and GANSS with GLONASS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.3_8s	MO-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 8	Rel-12	C56us	UEs supporting FDD and UE based Network Assisted GPS and GANSS with Galileo only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.3_9s	MO-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 9	Rel-12	C44us	UEs supporting UE based Network Assisted GANSS with BDS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.3_10s	MO-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 10	Rel-12	C45us	UEs supporting UE based Network Assisted GPS and GANSS with BDS only and MO-LR request for a position estimate	1 Execution: CS
+6.2.2.4_1s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Success: Sub-test 1	Rel-8	C27us	UEs supporting FDD and (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) with GLONASS only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.4_2s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Success: Sub-test 2	Rel-12	C28us	UEs supporting FDD and (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) with Galileo only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.4_3s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Success: Sub-test 3	Rel-8	C29us	UEs supporting FDD and ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with Modernized GPS only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.4_4s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Success: Sub-test 4	Rel-8	C30us	UEs supporting FDD and ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with GLONASS only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.4_8s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Success: Sub-test 8	Rel-12	C58us	UEs supporting FDD and ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with Galileo only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.4_9s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Success: Sub-test 9	Rel-12	C48us	UEs supporting (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) with BDS only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.4_10s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Success: Sub-test 10	Rel-12	C49us	UEs supporting ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with BDS only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.5_1s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Failure: Sub-test 1	Rel-8	C27us	UEs supporting FDD and (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) with GLONASS only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.5_2s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Failure: Sub-test 2	Rel-12	C28us	UEs supporting FDD and (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) with Galileo only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.5_3s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Failure: Sub-test 3	Rel-8	C29us	UEs supporting FDD and ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with Modernized GPS only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.5_4s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Failure: Sub-test 4	Rel-8	C30us	UEs supporting FDD and ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with GLONASS only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.5_8s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Failure: Sub-test 8	Rel-12	C58us	UEs supporting FDD and ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with Galileo only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.5_9s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Failure: Sub-test 9	Rel-12	C48us	UEs supporting (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) with BDS only and MO-LR request for assistance data	1 Execution: CS
+6.2.2.5_10s	MO-LR Assistance Data: UE-Based or UE-Assisted A-GNSS - Failure: Sub-test 10	Rel-12	C49us	UEs supporting ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with BDS only and MO-LR request for assistance data	1 Execution: CS
+6.2.3.1_1s	MT-LR UE Based or UE-Assisted A-GNSS - Request for additional assistance data/Success: Sub-test 1	Rel-8	C35us	UEs supporting FDD and (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) with GLONASS only	1 Execution: CS
+6.2.3.1_2s	MT-LR UE Based or UE-Assisted A-GNSS - Request for additional assistance data/Success: Sub-test 2	Rel-12	C36us	UEs supporting FDD and (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) with Galileo only	1 Execution: CS
+6.2.3.1_3s	MT-LR UE Based or UE-Assisted A-GNSS - Request for additional assistance data/Success: Sub-test 3	Rel-8	C37us	UEs supporting FDD and ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with Modernized GPS only	1 Execution: CS
+6.2.3.1_4s	MT-LR UE Based or UE-Assisted A-GNSS - Request for additional assistance data/Success: Sub-test 4	Rel-8	C38us	UEs supporting FDD and ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with GLONASS only	1 Execution: CS
+6.2.3.1_8s	MT-LR UE Based or UE-Assisted A-GNSS - Request for additional assistance data/Success: Sub-test 8	Rel-12	C59us	UEs supporting FDD and ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with Galileo only	1 Execution: CS
+6.2.3.1_9s	MT-LR UE Based or UE-Assisted A-GNSS - Request for additional assistance data/Success: Sub-test 9	Rel-12	C52us	UEs supporting (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) with BDS only	1 Execution: CS
+6.2.3.1_10s	MT-LR UE Based or UE-Assisted A-GNSS - Request for additional assistance data/Success: Sub-test 10	Rel-12	C53us	UEs supporting ((UE assisted Network Assisted GPS and GANSS) or (UE based Network Assisted GPS and GANSS)) with BDS only	1 Execution: CS
+6.2.3.2_1s	MT-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 1	Rel-8	C31us	UEs supporting FDD and UE based Network Assisted GANSS with GLONASS only	1 Execution: CS
+6.2.3.2_2s	MT-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 2	Rel-12	C32us	UEs supporting FDD and UE based Network Assisted GANSS with Galileo only	1 Execution: CS
+6.2.3.2_3s	MT-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 3	Rel-8	C33us	UEs supporting FDD and UE based Network Assisted GPS and GANSS with Modernized GPS only	1 Execution: CS
+6.2.3.2_4s	MT-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 4	Rel-8	C34us	UEs supporting FDD and UE based Network Assisted GPS and GANSS with GLONASS only	1 Execution: CS
+6.2.3.2_8s	MT-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 8	Rel-12	C60us	UEs supporting FDD and UE based Network Assisted GPS and GANSS with Galileo only	1 Execution: CS
+6.2.3.2_9s	MT-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 9	Rel-12	C50us	UEs supporting UE based Network Assisted GANSS with BDS only	1 Execution: CS
+6.2.3.2_10s	MT-LR Position Estimate: UE-Based A-GNSS - Failure Not Enough Satellites: Sub-test 10	Rel-12	C51us	UEs supporting UE based Network Assisted GPS and GANSS with BDS only	1 Execution: CS
+6.2.3.3	Location Notification	Rel-8	C39us	UEs supporting FDD and (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) and MT-LR LCS location request notification capability	1 Execution: CS
+6.2.3.4	Privacy Verification - Location Allowed if No Response	Rel-8	C39us	UEs supporting FDD and (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) and MT-LR LCS location request notification capability	1 Execution: CS
+6.2.3.5	Privacy Verification - Location Not Allowed if No Response	Rel-8	C39us	UEs supporting FDD and (UE assisted Network Assisted GANSS or UE based Network Assisted GANSS) and MT-LR LCS location request notification capability	1 Execution: CS
+Clause	TC Title	Release of LPP	Applicability		Additional Information 			
+			Condition	Comment	Specific ICS	Specific IXIT	Number of TC Executions	Release RAT
+7.1	NAS Protocol Procedures							
+7.1.1	UE Network Capability	Rel-9	C11es	All UEs supporting LPP	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2	LCS Procedures							
+7.2.1.1	Location Notification	Rel-9	C14es	All UEs supporting EPC-MT-LR Location Notification	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2.1.2	Privacy Verification – Location Allowed if no Response	Rel-9	C14es	All UEs supporting EPC-MT-LR Location Notification	pc_eFDD	px_UeLcsNotification: value for UE LCS Notification timeout timer.		Rel-9
+					pc_eTDD			Rel-9
+7.2.1.3	Privacy Verification – Location not Allowed if No Response	Rel-9	C14es	All UEs supporting EPC-MT-LR Location Notification	pc_eFDD	px_UeLcsNotification: value for UE LCS Notification timeout timer.		Rel-9
+					pc_eTDD			Rel-9
+7.2.2.1_1s	Void							
+								
+7.2.2.1_2s	Void							
+								
+7.2.2.1_3s	Void							
+								
+7.2.2.1_4s	Void							
+								
+7.2.2.1_8s	Void							
+								
+7.2.2.1_9s	Void							
+								
+7.2.2.1_10s	Void							
+								
+7.2.2.1_15s	Autonomous Self Location: UE-based: Subtest 15	Rel-9	C64es	All UEs supporting UE-Based GNSS(1) and MO-LR request for assistance data.	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2.2.1_16s	Autonomous Self Location: UE-based: Subtest 16 UE supporting MBS (Rel-14 onwards)	Rel-14	C69es	All UEs supporting UE-Based MBS and MO-LR request for assistance data	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2.2.2_1s	Void							
+								
+7.2.2.2_2s	Void							
+								
+7.2.2.2_3s	Void							
+								
+7.2.2.2_4s	Void							
+								
+7.2.2.2_5s	Basic Self Location: UE-assisted: Subtest 5	Rel-9	C09es	All UEs supporting UE-assisted OTDOA and MO-LR request for location estimate	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2.2.2_6FDDs	Basic Self Location: UE-assisted: Subtest 6 (FDD)	Rel-9	C10es	All FDD UEs supporting UE-assisted ECID and MO-LR request for location estimate	pc_eFDD			Rel-9
+7.2.2.2_6TDDs	Basic Self Location: UE-assisted: Subtest 6 (TDD)	Rel-13	C56es	All TDD UEs supporting UE-assisted ECID and MO-LR request for location estimate	pc_eTDD			Rel-9
+7.2.2.2_8s	Void							
+								
+7.2.2.2_9s	Void							
+								
+7.2.2.2_10s	Void							
+								
+7.2.2.2_11s	Basic Self Location: UE-assisted: Subtest 11	Rel-13	C58es	All UEs supporting UE-assisted WLAN and MO-LR request for location estimate	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2.2.2_12s	Basic Self Location: UE-assisted: Subtest 12 UE supporting MBS  (Rel-13 only)	Rel-13 only	C53es	All UEs supporting UE-assisted MBS and MO-LR request for location estimate	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2.2.2_13s	Basic Self Location: UE-assisted: Subtest 13	Rel-13	C60es	All UEs supporting UE-assisted Bluetooth and MO-LR request for location estimate	pc_eFDD			Rel-9
+					Pc_eTDD			Rel-9
+7.2.2.2_14s	Basic Self Location: UE-assisted: Subtest 14	Rel-13	C62es	All UEs supporting UE-assisted Sensor and MO-LR request for location estimate	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2.2.2_15s	Basic Self Location: UE-assisted: Subtest 15	Rel-9(2)	C65es	All UEs supporting UE-assisted GNSS(1) and MO-LR request for location estimate	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.2.2.2_16s	Basic Self Location: UE-assisted: Subtest 16 UE supporting MBS (Rel-14 onwards)	Rel-14	C53es	All UEs supporting UE-assisted MBS and MO-LR request for location estimate	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3	LPP Procedures							
+7.3.1.1	Position Capability Transfer	Rel-9	C11es	All UEs supporting LPP	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.2.1	LPP Duplicated Message	Rel-9	C11es	All UEs supporting LPP	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.2.2	LPP Acknowledgment	Rel-9	C11es	All UEs supporting LPP	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.2.3	LPP Retransmission	Rel-9	C36es	All UEs supporting LPP and support of sending of acknowledgement request in LPP Provide Capabilities message.	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.3.1	LPP Requested Method not Supported - UE-Assisted (Rel 9 to Rel 12)	Rel-9, Rel-10, Rel-11, Rel-12	C15es	All UEs supporting at least one of UE-assisted GNSS, UE-assisted OTDOA or UE-assisted ECID but not all of them.	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.3.1A	LPP Requested Method not Supported - UE-Assisted (Rel 13 only)	Rel-13 only	C54es	All UEs supporting at least one of UE-assisted GNSS, UE-assisted OTDOA, or UE-assisted ECID or UE-assisted WLAN or UE-assisted MBS or UE-assisted Bluetooth or UE-assisted Sensor but not all of them.	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.3.1B	LPP Requested Method not Supported - UE-Assisted (Rel 14 onwards)	Rel-14	C54es	All UEs supporting at least one of UE-assisted GNSS, UE-assisted OTDOA, or UE-assisted ECID or UE-assisted WLAN or UE-assisted MBS or UE-assisted Bluetooth or UE-assisted Sensor but not all of them.	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.1_1s	Void							
+								
+7.3.4.1_2s	Void							
+								
+7.3.4.1_3s	Void							
+								
+7.3.4.1_4s	Void							
+								
+7.3.4.1_8s	Void							
+								
+7.3.4.1_9s	Void							
+								
+7.3.4.1_10s	Void							
+								
+7.3.4.1_15s	E-SMLC Initiated Assistance Data Delivery followed by Location Information Transfer: UE-Based: Subtest 15	Rel-9(2)	C66es	All UEs supporting UE-based GNSS(1)	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.1_16s	E-SMLC Initiated Assistance Data Delivery followed by Location Information Transfer: UE-Based: Subtest 16 UE supporting MBS (Rel-14 onwards)	Rel-14	C70es	All UEs supporting UE-based MBS 	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.2_1s	Void							
+								
+7.3.4.2_2s	Void							
+								
+7.3.4.2_3s	Void							
+								
+7.3.4.2_4s	Void							
+								
+7.3.4.2_5s	E-SMLC Initiated Assistance Data Delivery followed by Location Information Transfer: UE-assisted: Subtest 5	Rel-9	C26es	All UEs supporting UE-Assisted OTDOA	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.2_6FDDs	E-SMLC Initiated Assistance Data Delivery followed by Location Information Transfer: UE-assisted: Subtest 6 (FDD)	Rel-9	C27es	All FDD UEs supporting UE-Assisted ECID	pc_eFDD			Rel-9
+7.3.4.2_6TDDs	E-SMLC Initiated Assistance Data Delivery followed by Location Information Transfer: UE-assisted: Subtest 6 (TDD)	Rel-13	C57es	All TDD UEs supporting UE-Assisted ECID	pc_eTDD			Rel-9
+7.3.4.2_7s	E-SMLC Initiated Assistance Data Delivery followed by Location Information Transfer: UE-assisted: Subtest 7	Rel-9	C21es	All UEs supporting UE-assisted GNSS and UE-assisted OTDOA	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.2_8s	Void							
+								
+7.3.4.2_9s	Void							
+								
+7.3.4.2_10s	Void							
+								
+7.3.4.2_11s	E-SMLC Initiated Location Information Transfer: UE-assisted: Subtest 11	Rel-13	C59es	All UEs supporting UE-assisted WLAN	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.2_12s	E-SMLC Initiated Location Information Transfer: UE-assisted: Subtest 12 UE supporting MBS (Rel-13 only)	Rel-13 only	C55es	All UEs supporting UE-assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.2_13s	E-SMLC Initiated Location Information Transfer: UE-assisted: Subtest 13	Rel-13	C61es	All UEs supporting UE-assisted Bluetooth	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.2_14s	E-SMLC Initiated Location Information Transfer: UE-assisted: Subtest 14	Rel-13	C63es	All UEs supporting UE-assisted Sensor	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.2_15s	E-SMLC Initiated Assistance Data Delivery followed by Location Information Transfer: UE-assisted: Subtest 15	Rel-9(2)	C67es	All UEs supporting UE-assisted GNSS(1)	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.2_16s	E-SMLC Initiated Location Information Transfer: UE-assisted: Subtest 16 UE supporting MBS (Rel-14 onwards)	Rel-14	C55es	All UEs supporting UE-assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.3_1s	Void							
+								
+7.3.4.3_2s	Void							
+								
+7.3.4.3_3s	Void							
+								
+7.3.4.3_4s	Void							
+								
+7.3.4.3_8s	Void							
+								
+7.3.4.3_9s	Void							
+								
+7.3.4.3_10s	Void							
+								
+7.3.4.3_15s	E-SMLC Initiated Position Measurement without assistance data: UE-Based: Subtest 15	Rel-9(2)	C66es	All UEs supporting UE-based GNSS(1) 	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.3_16s	E-SMLC Initiated Position Measurement without assistance data: UE-Based: Subtest 16 UE supporting MBS (Rel-14 onwards)	Rel-14	C70es	All UEs supporting UE-based MBS	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.4_1s	Void							
+								
+7.3.4.4_2s	Void							
+								
+7.3.4.4_3s	Void							
+								
+7.3.4.4_4s	Void							
+								
+7.3.4.4_5s	E-SMLC Initiated Position Measurement without assistance data: UE-assisted: Subtest 5	Rel-9	C26es	All UEs supporting UE-Assisted OTDOA	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.4_7s	E-SMLC Initiated Position Measurement without assistance data: UE-assisted: Subtest 7	Rel-9	C21es	All UEs supporting UE-assisted GNSS and UE-assisted OTDOA	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.4_8s	Void							
+								
+7.3.4.4_9s	Void							
+								
+7.3.4.4_10s	Void							
+								
+7.3.4.4_15s	E-SMLC Initiated Position Measurement without assistance data: UE-assisted: Subtest 15	Rel-9(2)	C67es	All UEs supporting UE-assisted GNSS(1)	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.4.4_16s	E-SMLC Initiated Position Measurement without assistance data: UE-assisted: Subtest 16 UE supporting MBS (Rel-14 onwards)	Rel-14	C55es	All UEs supporting UE-assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.5.1_1s	Void							
+								
+7.3.5.1_2s	Void							
+								
+7.3.5.1_3s	Void							
+								
+7.3.5.1_4s	Void							
+								
+7.3.5.1_5s	E-SMLC initiated Abort: Subtest 5	Rel-9	C26es	All UEs supporting UE-assisted OTDOA	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.5.1_8s	Void							
+								
+7.3.5.1_9s	Void							
+								
+7.3.5.1_10s	Void							
+								
+7.3.5.1_11s	E-SMLC initiated Abort: Subtest 11	Rel-13	C59es	All UEs supporting UE-assisted WLAN	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.5.1_12s	E-SMLC initiated Abort: Subtest 12 UE supporting MBS (Rel-13 only)	Rel-13 only	C55es	All UEs supporting UE-assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.5.1_13s	E-SMLC initiated Abort: Subtest 13	Rel-13	C61es	All UEs supporting UE-assisted Bluetooth	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.5.1_15s	E-SMLC initiated Abort: Subtest 15	Rel-9(2)	C68es	All UEs supporting UE-based or UE-assisted GNSS(1)	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.3.5.1_16s	E-SMLC initiated Abort: Subtest 16 UE supporting MBS (Rel-14 onwards)	Rel-14	C55es	All UEs supporting UE-assisted MBS	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4	Circuit Switched (CS) Fallback							
+7.4.1.1	CS fallback: Network does not support EPC-MO-LR	Rel-9	C12es	All UEs supporting MO-LR procedure for location estimate in the CS fallback in EPS.	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.4.1.2	CS fallback: UE does not support EPC-MO-LR	Rel-9	C13es	All UEs not supporting EPC-MO-LR and supporting MO-LR procedure for location estimate in the CS fallback in EPS.	pc_eFDD			Rel-9
+					pc_eTDD			Rel-9
+7.5	RRC Protocol Procedures							
+7.5.1	Inter-Frequency RSTD measurement indication	Rel-10	C37es	All UEs supporting inter-frequency RSTD measurements for OTDOA that require measurement gaps.	pc_eFDD			Rel-10
+					pc_eTDD			Rel-10
+NOTE 1: The GNSS combination of GPS, GLONASS, Galileo, BDS supported by the UE NOTE 2: If the GNSS combination supported by the UE includes Galileo and/or BDS then Rel-12 of LPP is required

@@ -1,0 +1,675 @@
+Clause	Title	Release	Applicability	Additional Information
+			Condition	Comments	Number of TC Executions	Release on other RAT	Branch
+E-UTRAN RRC_IDLE State Mobility	
+4.2.1	E-UTRAN FDD - FDD cell re-selection intra frequency case	Rel-8	C01	UE supporting E-UTRA FDD			2Rx, 4Rx
+4.2.2	E-UTRAN TDD - TDD cell re-selection intra frequency case	Rel-8	C02	UE supporting E-UTRA TDD			2Rx, 4Rx
+4.2.3	E-UTRAN FDD - FDD cell re-selection inter frequency case	Rel-8	C01	UE supporting E-UTRA FDD			2Rx, 4Rx
+4.2.4	E-UTRAN FDD - TDD cell re-selection inter frequency case	Rel-9	C03	UE supporting E-UTRA FDD and E-UTRA TDD			2Rx, 4Rx
+4.2.5	E-UTRAN TDD - FDD cell re-selection inter frequency case	Rel-9	C03	UE supporting E-UTRA FDD and E-UTRA TDD			2Rx, 4Rx
+4.2.6	E-UTRAN TDD - TDD cell re-selection inter frequency case	Rel-8	C02	UE supporting E-UTRA TDD			2Rx, 4Rx
+4.2.7	E-UTRAN FDD - FDD Inter frequency case in the existence of non-allowed CSG cell	Rel-9	C01	UE supporting E-UTRA FDD			2Rx, 4Rx
+4.2.8	E-UTRAN TDD - TDD Inter frequency case in the existence of non-allowed CSG cell	Rel-9	C02	UE supporting E-UTRA TDD			2Rx, 4Rx
+4.2.9	E-UTRAN FDD-FDD intra-frequency Cell Re-selection case for 5MHz bandwidth	Rel-8	C49	UE supporting E-UTRA FDD and only E-UTRA Band 31			
+4.2.12	E-UTRAN FDD - FDD Intra frequency case for Cat-M1 UE in normal coverage	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE category M1			
+4.2.13	E-UTRAN HD - FDD Intra frequency case for Cat-M1 UE in normal coverage	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE category M1			
+4.2.14	E-UTRAN TDD - TDD Intra frequency case for Cat-M1 UE in normal coverage	Rel-13	C93a	UE supporting E-UTRA TDD and UE category M1			
+4.2.15	E-UTRAN FDD - FDD Intra frequency case for Cat-M1 UE in enhanced coverage	Rel-13	C94e	UE supporting E-UTRA FD-FDD and (UE category M1 and CE Mode B)			
+4.2.16	E-UTRAN HD - FDD Intra frequency case for Cat-M1 UE in enhanced coverage	Rel-13	C94f	UE supporting E-UTRA HD-FDD and (UE category M1 and CE Mode B)			
+4.2.17	E-UTRAN TDD - TDD Intra frequency case for Cat-M1 UE in enhanced coverage	Rel-13	C93e	UE supporting E-UTRA TDD and (UE category M1 and CE Mode B)			
+4.2.18	HD-FDD Cell Re-selection Intra frequency case for Category NB1 UE In-Band mode under Normal Coverage	Rel-13	C154	UE supporting category NB1			
+4.2.19	HD – FDD Intra frequency case for UE Category NB1 In-Band mode in enhanced coverage	Rel-13	C154	UE supporting category NB1			
+4.2.20	E-UTRAN FDD – FDD Intra frequency case for UE Category 1bis	Rel-13	C194	UE supporting E-UTRA FDD and UE Category 1bis			
+4.2.21	E-UTRAN TDD – TDD Intra frequency case for UE Category 1bis	Rel-13	C195	UE supporting E-UTRA TDD and UE Category 1bis			
+4.2.22	E-UTRAN FDD - FDD cell re-selection intra frequency case for UE configured with highSpeedEnhancedMeasFlag	Rel-14	C196	UEs supporting E-UTRA FDD and high speed enhancement for measurement			
+4.2.23	E-UTRAN TDD - TDD cell re-selection intra frequency case for UE configured with highSpeedEnhancedMeasFlag	Rel-14	C197	UEs supporting E-UTRA TDD and high speed enhancement for measurement			
+4.2.24	HD – FDD Inter frequency case for UE Category NB1 In-Band mode in normal coverage	Rel-13	C154	UE supporting category NB1			
+4.3.1.1	E-UTRA FDD - UTRAN FDD cell re-selection	Rel-8	C04	UE supporting E-UTRA FDD and UTRA FDD			2Rx, 4Rx
+4.3.1.2	E-UTRA FDD - UTRAN FDD cell re-selection: UTRA FDD is of lower priority	Rel-8	C04	UE supporting E-UTRA FDD and UTRA FDD			2Rx, 4Rx
+4.3.1.3	E-UTRAN FDD - UTRAN FDD cell re-selection in fading propagation conditions: UTRA FDD is of lower priority	Rel-8	C04	UE supporting E-UTRA FDD and UTRA FDD			2Rx, 4Rx
+4.3.1.4	E-UTRAN FDD - UTRAN FDD cell re-selection: UTRA FDD is of lower priority for 5MHz bandwidth	Rel-8	C53	UE supporting E-UTRA FDD and only E-UTRA Band 31 and UTRA FDD			
+4.3.2	E-UTRAN FDD - UTRAN TDD cell re-selection	Rel-8	C06	UE supporting E-UTRA FDD and UTRA TDD		Rel-9 UTRA TDD	2Rx, 4Rx
+4.3.3	E-UTRAN TDD - UTRAN FDD cell re-selection	Rel-8	C07	UE supporting E-UTRA TDD and UTRA FDD			2Rx, 4Rx
+4.3.4.1	E-UTRA TDD - UTRAN TDD cell re-selection	Rel-8	C05	UE supporting E-UTRA TDD and UTRA TDD		Rel-9 UTRA TDD	2Rx, 4Rx
+4.3.4.2	E-UTRAN TDD - UTRAN TDD cell re-selection: UTRA is of lower priority	Rel-8	C05	UE supporting E-UTRA TDD and UTRA TDD		Rel-9 UTRA TDD	2Rx, 4Rx
+4.3.4.3	EUTRA TDD-UTRA TDD cell reselection in fading propagation conditions: UTRA TDD is of lower priority	Rel-8	C05	UE supporting E-UTRA TDD and UTRA TDD		Rel-9 UTRA TDD	2Rx, 4Rx
+4.4.1	E-UTRAN FDD - GSM cell re-selection	Rel-8	C08	UE supporting E-UTRA FDD and GSM 			2Rx, 4Rx
+4.4.2	E-UTRAN TDD - GSM cell re-selection	Rel-8	C09	UE supporting E-UTRA TDD and GSM			2Rx, 4Rx
+4.5.1.1	E-UTRAN FDD - HRPD Cell re-selection: HRPD is of lower priority	Rel-8	C10	UE supporting E-UTRA FDD and cdma2000 HRPD			2Rx, 4Rx
+4.5.2.1	E-UTRAN TDD - HRPD Cell Reselection: HRPD is of Lower Priority	Rel-9	C34	UE supporting E-UTRA TDD and cdma2000 HRPD			2Rx, 4Rx
+4.6.1.1	E-UTRAN FDD - cdma2000 1xRTT Cell re-selection: cdma2000 1x is of lower priority	Rel-8	C11	UE supporting E-UTRA FDD and cdma2000 1xRTT 			2Rx, 4Rx
+4.6.2.1	E-UTRAN TDD-cdma2000 1X Cell Reselection: cdma2000 1X is of Lower Priority	Rel-9	C35	UE supporting E-UTRA TDD and cdma2000 1xRTT 			2Rx, 4Rx
+E-UTRAN RRC_CONNECTED State Mobility	
+5.1.1	E-UTRAN FDD - FDD Handover intra frequency case	Rel-8	C01	UE supporting E-UTRA FDD			2Rx, 4Rx
+5.1.2	E-UTRAN TDD - TDD Handover intra frequency case	Rel-8	C02	UE supporting E-UTRA TDD			2Rx, 4Rx
+5.1.3	E-UTRAN FDD - FDD Handover inter frequency case	Rel-8	C01d	UE supporting E-UTRA FDD and Feature Group Indicators 5, 13 and 25			2Rx, 4Rx
+5.1.4	E-UTRAN TDD - TDD Handover inter frequency case	Rel-8	C02d	UE supporting E-UTRA TDD and Feature Group Indicators 5, 13 and 25			2Rx, 4Rx
+5.1.5	E-UTRAN FDD - FDD inter frequency handover: unknown target cell	Rel-8	C01a	UE supporting E-UTRA FDD and Feature Group Indicators 13 and 25			2Rx, 4Rx
+5.1.6	E-UTRAN TDD-TDD inter frequency handover: unknown target cell	Rel-8	C02a	UE supporting E-UTRA TDD and Feature Group Indicators 13 and 25			2Rx, 4Rx
+5.1.7	E-UTRAN FDD - TDD handover inter frequency case	Rel-9	C21	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicators 5, 25 and 30			2Rx, 4Rx
+5.1.8	E-UTRAN TDD - FDD handover inter frequency case	Rel-9	C21	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicators 5, 25 and 30			2Rx, 4Rx
+5.1.9	E-UTRAN FDD-FDD Intra frequency handover for 5MHz bandwidth	Rel-8	C49	UE supporting E-UTRA FDD and only E-UTRA Band 31			
+5.1.10	E-UTRAN FDD-FDD Handover intra frequency handover for UE category 0	Rel-12	C94	UE supporting E-UTRA FD-FDD and UE Category 0			
+5.1.11	E-UTRAN HD-FDD Handover intra frequency handover for UE category 0	Rel-12	C110	UE supporting E-UTRA HD-FDD and UE Category 0			
+5.1.12	E-UTRAN TDD-TDD Handover intra frequency handover for UE category 0	Rel-12	C93	UE supporting E-UTRA TDD and UE Category 0			
+5.1.13	E-UTRAN FDD-FDD Intra frequency handover for Cat-M1 UEs in CEModeA	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE Category M1			
+5.1.14	E-UTRAN HD-FDD Intra frequency handover for Cat-M1 UEs in CEModeA	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+5.1.15	E-UTRAN TDD Intra frequency handover for Cat-M1 UEs in CEModeA	Rel-13	C93a	UE supporting E-UTRA TDD and UE Category M1			
+5.1.16	E-UTRAN FDD-FDD Intra frequency handover for Cat-M1 UEs in CEModeB	Rel-13	C94e	UE supporting E-UTRA FD-FDD and (UE Category M1 and CE Mode B)			
+5.1.17	E-UTRAN HD-FDD Intra frequency handover for Cat-M1 UEs in CEModeB	Rel-13	C94f	UE supporting E-UTRA HD-FDD and (UE Category M1 and CE Mode B)			
+5.1.18	E-UTRAN TDD Intra frequency handover for Cat-M1 UEs in CEModeB	Rel-13	C93e	UE supporting E-UTRA TDD and (UE Category M1 and CE Mode B)			
+5.1.19	E-UTRAN FDD – FDD Intra frequency case for UE Category 1bis	Rel-13	C194	UE supporting E-UTRA FDD and UE Category 1bis			
+5.1.20	E-UTRAN FDD – FDD Intra frequency case for UE Category 1bis	Rel-13	C195	UE supporting E-UTRA TDD and UE Category 1bis			
+5.2.1	E-UTRAN FDD - UTRAN FDD handover	Rel-8	C04a	UE supporting E-UTRA FDD and UTRA FDD and Feature Group Indicators 8 and 22			2Rx, 4Rx
+5.2.2	E-UTRAN TDD - UTRAN FDD handover	Rel-8	C07a	UE supporting E-UTRA TDD and UTRA FDD and Feature Group Indicators 8 and 22			2Rx, 4Rx
+5.2.3	E-UTRAN FDD - GSM handover	Rel-8	C08e	UE supporting E-UTRA FDD and GSM and inter-RAT PS handover to GERAN and Feature Group Indicators 9, 15 and 23			2Rx, 4Rx
+5.2.4	E-UTRAN TDD - UTRAN TDD handover	Rel-8	C05a	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 8 and 22		Rel-9 UTRA TDD	2Rx, 4Rx
+5.2.5	E-UTRAN FDD - UTRAN TDD handover	Rel-8	C06a	UE supporting E-UTRA FDD and UTRA TDD and Feature Group Indicators 8 and 22		Rel-9 UTRA TDD	2Rx, 4Rx
+5.2.6	E-UTRA TDD - GSM handover	Rel-8	C09f	UE supporting E-UTRA TDD and GSM and inter-RAT PS handover to GERAN and Feature Group Indicators 9, 15 and 23			2Rx, 4Rx
+5.2.7	E-UTRAN FDD - UTRAN FDD handover: unknown target cell	Rel-8	C04a	UE supporting E-UTRA FDD and UTRA FDD and Feature Group Indicators 8 and 22			2Rx, 4Rx
+5.2.8	E-UTRAN FDD - GSM handover: unknown target cell	Rel-8	C08a	UE supporting E-UTRA FDD and GSM and inter-RAT PS handover to GERAN and inter-RAT PS handover to GERAN and Feature Group Indicators 9 and 23			2Rx, 4Rx
+5.2.9	E-UTRAN TDD - GSM handover: unknown target cell	Rel-8	C09b	UE supporting E-UTRA TDD and GSM and Feature Group Indicators 9 and 23			2Rx, 4Rx
+5.2.10	E-UTRAN TDD - UTRAN TDD handover: unknown target cell	Rel-8	C05a	UE supporting E-UTRA FDD and UTRA TDD and Feature Group Indicators 8 and 22		Rel-9 UTRA TDD	2Rx, 4Rx
+5.2.11	E-UTRAN FDD - UTRAN FDD handover for 5MHz Bandwidth	Rel-8	C54	UE supporting E-UTRA FDD and only E-UTRA Band 31 and UTRA FDD and Feature Group Indicators 8 and 22			
+5.3.1	E-UTRAN FDD - HRPD Handover	Rel-8	C10a	UE supporting E-UTRA FDD and cdma2000 HRPD and Feature Group Indicators 12 and 26			2Rx, 4Rx
+5.3.2	E-UTRAN FDD - cdma2000 1xRTT handover	Rel-8	C11a	UE supporting E-UTRA FDD and cdma2000 1xRTT and Feature Group Indicators 11 and 24			2Rx, 4Rx
+5.3.3	E-UTRAN FDD - HRPD handover: unknown target cell	Rel-8	C10a	UE supporting E-UTRA FDD and cdma2000 HRPD and Feature Group Indicators 12 and 26			2Rx, 4Rx
+5.3.4	E-UTRAN FDD - cdma2000 1xRTT handover: unknown target cell	Rel-8	C11a	UE supporting E-UTRA FDD and cdma2000 1xRTT and Feature Group Indicators 11 and 24			2Rx, 4Rx
+5.3.5	E-UTRAN TDD-HRPD Handover	Rel-9	C36	UE supporting E-UTRA TDD and cdma2000 HRPD and Feature Group Indicators 12 and 26.			2Rx, 4Rx
+5.3.6	E-UTRAN TDD-cdma2000 1X Handover	Rel-9	C37	UE supporting E-UTRA TDD and cdma2000 1xRTT and Feature Group Indicators 11 and 24.			2Rx, 4Rx
+RRC Connection Mobility Control	
+6.1.1	E-UTRAN FDD Intra-frequency RRC Re-establishment	Rel-8	C01	UE supporting E-UTRA FDD			2Rx, 4Rx
+6.1.2	E-UTRAN FDD Inter-frequency RRC Re-establishment	Rel-8	C01b	UE supporting E-UTRA FDD and Feature Group Indicator 25			2Rx, 4Rx
+6.1.3	E-UTRAN TDD Intra-frequency RRC Re-establishment	Rel-8	C02	UE supporting E-UTRA TDD			2Rx, 4Rx
+6.1.4	E-UTRAN TDD Inter-frequency RRC Re-establishment	Rel-8	C02b	UE supporting E-UTRA TDD and Feature Group Indicator 25			2Rx, 4Rx
+6.1.5	E-UTRAN FDD Intra-frequency RRC Re-establishment for 5MHz Bandwidth	Rel-8	C49	UE supporting E-UTRA FDD and only E-UTRA Band 31			
+6.1.6	E-UTRAN FD-FDD Intra-frequency RRC Re-establishment for UE category 0	Rel-12	C94	UE supporting E-UTRA FD-FDD and UE Category 0			
+6.1.7	E-UTRAN HD-FDD Intra-frequency RRC Re-establishment for UE category 0	Rel-12	C107	UE supporting E-UTRA HD-FDD and UE Category 0			
+6.1.8	E-UTRAN TDD Intra-frequency RRC Re-establishment for UE category 0	Rel-12	C93	UE supporting E-UTRA TDD and UE Category 0			
+6.1.9	E-UTRAN FD-FDD Intra-frequency RRC Re-establishment for Cat-M1 UE in CEModeA	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE Category M1			
+6.1.10	E-UTRAN HD-FDD Intra-frequency RRC Re-establishment for Cat-M1 UE in CEModeA	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+6.1.11	E-UTRAN TDD Intra-frequency RRC Re-establishment for Cat-M1 UE in CEModeA	Rel-13	C93a	UE supporting E-UTRA TDD and UE Category M1			
+6.1.15	HD-FDD Intra-frequency RRC Re-establishment for category NB1 UE in In-Band mode under normal coverage	Rel-13	C162	UE supporting category NB1 and User plane CIoT			
+6.1.16	HD-FDD Inter-frequency RRC Re-establishment for category NB1 UE in In-Band mode under Enhanced Coverage	Rel-13	C162	UE supporting category NB1 and User plane CIoT			
+6.2.1	E-UTRAN FDD - Contention Based Random Access Test	Rel-8	C01	UE supporting E-UTRA FDD			2Rx, 4Rx
+6.2.2	E-UTRAN FDD - Non-Contention Based Random Access Test	Rel-8	C01	UE supporting E-UTRA FDD			2Rx, 4Rx
+6.2.3	E-UTRAN TDD - Contention Based Random Access Test	Rel-8	C02	UE supporting E-UTRA TDD			2Rx, 4Rx
+6.2.4	E-UTRAN TDD - Non-Contention Based Random Access Test	Rel-8	C02	UE supporting E-UTRA TDD			2Rx, 4Rx
+6.2.5	E-UTRAN FDD - Contention Based Random Access Test for 5MHz Bandwidth	Rel-8	C49	UE supporting E-UTRA FDD and only E-UTRA Band 31			2Rx, 4Rx
+6.2.6	E-UTRAN FDD - Non-Contention Based Random Access Test for 5MHz Bandwidth	Rel-8	C49	UE supporting E-UTRA FDD and only E-UTRA Band 31			2Rx, 4Rx
+6.2.7	E-UTRAN FDD - Non-Contention Based Random Access Test For SCell in sTAG	Rel-12	C61	UE supporting E-UTRA FDD and Uplink Carrier Aggregation and multiple timing advances			2Rx, 4Rx
+6.2.8	E-UTRAN TDD - Non-Contention Based Random Access Test For SCell in sTAG	Rel-12	C62	UE supporting E-UTRA TDD and Uplink Carrier Aggregation and multiple timing advances			2Rx, 4Rx
+6.2.10	E-UTRAN FDD Contention Based Random Access Test for Cat-M1 UEs in Normal Coverage	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE Category M1			
+6.2.11	E-UTRAN HD-FDD Contention Based Random Access Test for Cat-M1 UEs in Normal Coverage	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+6.2.12	E-UTRAN TDD Contention Based Random Access Test for Cat-M1 UEs in Normal Coverage	Rel-13	C93a	UE supporting E-UTRA TDD and UE category M1			
+6.2.13	E-UTRAN FDD - Contention Based Random Access Test for Cat-M1 UEs in Enhanced Coverage	Rel-13	C94e	U supporting E-UTRA FD-FDD and( UE Category M1 and CE Mode B)			
+6.2.14	E-UTRAN HD-FDD - Contention Based Random Access Test for Cat-M1 UEs in Enhanced Coverage	Rel-13	C94f	UE supporting E-UTRA HD-FDD and( UE Category M1 and CE Mode B)			
+6.2.15	E-UTRAN TDD - Contention Based Random Access Test for Cat-M1 UEs in Enhanced Coverage	Rel-13	C93e	UE supporting E-UTRA TDD and( UE Category M1 and CE Mode B)			
+6.2.16	Contention Based Random Access Test for UE category NB1 UEs In-band mode in normal coverage	Rel-13	C154	UE supporting category NB1			
+6.2.17	Contention Based Random Access Test for UE category NB1 UEs In-band mode in Enhanced Coverage	Rel-13	C154	UE supporting category NB1			
+6.3.1	Redirection from E-UTRAN FDD to UTRAN FDD	Rel-9	C04	UE supporting E-UTRA FDD and UTRA FDD			2Rx, 4Rx
+6.3.2	Redirection from E-UTRAN TDD to UTRAN FDD	Rel-9	C07	UE supporting E-UTRA TDD and UTRA FDD			2Rx, 4Rx
+6.3.3	Redirection from E-UTRAN FDD to GERAN when System Information is provided	Rel-9	C27	UE supporting E-UTRA FDD and GERAN			2Rx, 4Rx
+6.3.4	Redirection from E-UTRAN TDD to GERAN when System Information is provided	Rel-9	C28	UE supporting E-UTRA TDD and GERAN			2Rx, 4Rx
+6.3.5	E-UTRA TDD RRC connection release redirection to UTRA TDD	Rel-9	C26	UE supporting E-UTRA TDD and UTRA TDD			2Rx, 4Rx
+6.3.6	E-UTRA FDD RRC connection release redirection to UTRA TDD	Rel-9	C25	UE supporting E-UTRA FDD and UTRA TDD			2Rx, 4Rx
+6.3.7	E-UTRA TDD RRC connection release redirection to UTRA TDD without SI provided	Rel-9	C26	UE supporting E-UTRA TDD and UTRA TDD			2Rx, 4Rx
+6.3.8	E-UTRA FDD RRC connection release redirection to UTRA TDD without SI provided	Rel-9	C25	UE supporting E-UTRA FDD and UTRA TDD			2Rx, 4Rx
+6.3.9	Redirection from E-UTRAN FDD to UTRAN FDD without System Information	Rel-9	C04	UE supporting E-UTRA FDD and UTRA FDD			2Rx, 4Rx
+6.3.10	Redirection from E-UTRAN FDD to GERAN when System Information is not provided	Rel-9	C27	UE supporting E-UTRA FDD and GERAN			2Rx, 4Rx
+6.3.11	Redirection from E-UTRAN TDD to GERAN when System Information is not provided	Rel-9	C28	UE supporting E-UTRA TDD and GERAN			2Rx, 4Rx
+6.3.12	E-UTRAN TDD RRC connection release redirection to UTRAN FDD without SI provided	Rel-9	C07	UE supporting E-UTRA TDD and UTRA FDD			2Rx, 4Rx
+Timing and Signalling Characteristics	
+7.1.1	E-UTRAN FDD - UE Transmit Timing Accuracy	Rel-8	C01c	UE supporting E-UTRA FDD and Feature Group Indicator 5			2Rx, 4Rx
+7.1.1_1	E-UTRAN FDD - UE Transmit Timing Accuracy (Non DRx UE)	Rel-8 only	C23	UE supporting E-UTRA FDD but not supporting Feature Group Indicator 5			
+7.1.2	E-UTRAN TDD - UE Transmit Timing Accuracy	Rel-8	C02c	UE supporting E-UTRA TDD and Feature Group Indicator 5			2Rx, 4Rx
+7.1.2_1	E-UTRAN TDD - UE Transmit Timing Accuracy (Non DRx UE)	Rel-8 only	C24	UE supporting E-UTRA TDD but not supporting Feature Group Indicator 5			
+7.1.3	E-UTRAN FDD - UE Transmit Timing Accuracy Tests for SCell	Rel-11	C57	UE supporting E-UTRA FDD and Uplink Carrier Aggregation and Feature Group Indicator 5			
+7.1.3_1	E-UTRAN FDD - UE Transmit Timing Accuracy Tests for SCell (Release 12 and forward)	Rel-12	C57	UE supporting E-UTRA FDD and Uplink Carrier Aggregation and Feature Group Indicator 5			
+7.1.4	E-UTRAN TDD - UE Transmit Timing Accuracy Tests for SCell	Rel-11	C58	UE supporting E-UTRA TDD and Uplink Carrier Aggregation and Feature Group Indicator 5	Either TC 7.1.4 or TC 7.1.4A shall be executed. (Note 1)		
+7.1.4A	E-UTRAN TDD - UE Transmit Timing Accuracy Tests for SCell for 20 MHz +10 MHz bandwidth	Rel-11	C58a	UE supporting E-UTRA TDD and Uplink Carrier Aggregation and Feature Group Indicator 5	Either TC 7.1.4 or TC 7.1.4A shall be executed. (Note 1)		
+7.1.4_1	E-UTRAN TDD - UE Transmit Timing Accuracy Tests for SCell (Release 12 and forward)	Rel-12	C58	UE supporting E-UTRA TDD and Uplink Carrier Aggregation and Feature Group Indicator 5			
+7.1.5	E-UTRAN FDD - UE Transmit Timing Accuracy Tests for 5MHz Bandwidth	Rel-8	C56	UE supporting E-UTRA FDD and only E-UTRA Band 31 and Feature Group Indicator 5			
+7.1.6	E-UTRAN FDD - UE Transmit Timing Accuracy Tests for SCell in sTAG	Rel-11	C63	UE supporting E-UTRA FDD and Uplink Carrier Aggregation and multiple timing advances and Feature Group Indicator 5			
+7.1.7	E-UTRAN TDD - UE Transmit Timing Accuracy Tests for SCell in sTAG	Rel-11	C64	UE supporting E-UTRA TDD and Uplink Carrier Aggregation and multiple timing advance and Feature Group Indicator 5	Either TC 7.1.7 or TC 7.1.7A or TC 7.1.7B shall be executed. (Note 1)		
+7.1.7A	E-UTRAN TDD - UE Transmit Timing Accuracy Tests for SCell in sTAG for 20MHz +20MHz bandwidth	Rel-11	C64a	UE supporting E-UTRA TDD and Uplink Carrier Aggregation and multiple timing advance and Feature Group Indicator 5	Either TC 7.1.7 or TC 7.1.7A or TC 7.1.7B shall be executed. (Note 1)		
+7.1.7B	E-UTRAN TDD - UE Transmit Timing Accuracy Tests for SCell in sTAG for 20MHz +10MHz bandwidth	Rel-11	C64b	UE supporting E-UTRA TDD and Uplink Carrier Aggregation and multiple timing advance and Feature Group Indicator 5	Either TC 7.1.7 or TC 7.1.7A or TC 7.1.7B shall be executed. (Note 1)		
+7.1.10	E-UTRAN FDD - UE Transmit Timing Accuracy Tests for Cat-M1 UE in CEModeA	Rel-13	C94b	UE supporting E-UTRA FD-FDD and UE Category M1 and Feature Group Indicator 5			
+7.1.11	E-UTRAN HD-FDD - UE Transmit Timing Accuracy Tests for Cat-M1 UE in CEModeA	Rel-13	C107c	UE supporting E-UTRA HD-FDD and UE Category M1 and Feature Group Indicator 5			
+7.1.12	E-UTRAN TDD – UE Transmit Timing Accuracy Tests for Cat-M1 UE in CEModeA	Rel-13	C93c	UE supporting E-UTRA TDD and UE Category M1 and Feature Group Indicator 5			
+7.1.14	E-UTRAN FDD – UE Transmit Timing Accuracy Tests for Cat-M1 UE in CEModeB	Rel-13	C94h	UE supporting E-UTRA FD-FDD and (UE category M1 and CE Mode B) and Feature Group Indicator 5			
+7.1.15	E-UTRAN HD-FDD – UE Transmit Timing Accuracy Tests for Cat-M1 UE in CEModeB	Rel-13	C94i	UE supporting E-UTRA HD-FDD and (UE category M1 and CE Mode B) and Feature Group Indicator 5			
+7.1.16	E-UTRAN TDD – UE Transmit Timing Accuracy Tests for Cat-M1 UE in CEModeB	Rel-13	C93k	UE supporting E-UTRA TDD and (UE category M1 and CE Mode B) and Feature Group Indicator 5			
+7.1.17	HD-FDD Transmit Timing Accuracy Test for Category NB1 UE In-Band mode under Normal Coverage	Rel-13	C154	UE supporting category NB1			
+7.1.18	HD-FDD Transmit Timing Accuracy Test for Category NB1 UE In-band mode under Enhanced Coverage	Rel-13	C155	UE supporting category NB1 and Feature Group Indicators 5			
+7.2.1	E-UTRAN FDD - UE Timing Advance Adjustment Accuracy	Rel-8	C01	UE supporting E-UTRA FDD			2Rx, 4Rx
+7.2.2	E-UTRAN TDD - UE Timing Advance Adjustment Accuracy	Rel-8	C02	UE supporting E-UTRA TDD			2Rx, 4Rx
+7.2.3	E-UTRAN FDD - UE Timing Advance Adjustment Accuracy Test for 5MHz Bandwidth	Rel-8	C49	UE supporting E-UTRA FDD and only E-UTRA Band 31			
+7.2.4	E-UTRAN FDD - UE Timing Advance Adjustment Accuracy Test For SCell in sTAG	Rel-12	C61	UE supporting E-UTRA FDD and Uplink Carrier Aggregation and multiple timing advances			
+7.2.5	E-UTRAN TDD - UE Timing Advance Adjustment Accuracy Test For SCell in sTAG	Rel-11	C62	UE supporting E-UTRA TDD and Uplink Carrier Aggregation and multiple timing advances	Either TC 7.2.5 or TC 7.2.5A or TC 7.2.5B shall be executed. (Note 1)		
+7.2.5A	E-UTRAN TDD - UE Timing Advance Adjustment Accuracy Test for SCell in sTAG for 20MHz +20MHz bandwidth	Rel-11	C62a	UE supporting E-UTRA TDD and Uplink Carrier Aggregation and multiple timing advances	Either TC 7.2.5 or TC 7.2.5A or TC 7.2.5B shall be executed. (Note 1)		
+7.2.5B	E-UTRAN TDD - UE Timing Advance Adjustment Accuracy Test for SCell in sTAG for 20MHz +10MHz bandwidth	Rel-11	C62b	UE supporting E-UTRA TDD and Uplink Carrier Aggregation and multiple timing advances	Either TC 7.2.5 or TC 7.2.5A or TC 7.2.5B shall be executed. (Note 1)		
+7.2.6	E-UTRAN FDD Timing Advance Adjustment Accuracy Test for Cat-M1 UE in CEModeA	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE Category M1			
+7.2.7	E-UTRAN HD-FDD UE Timing Advance Adjustment Accuracy Test for Cat-M1 UE in CEModeA	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+7.2.8	E-UTRAN TDD Timing Advance Adjustment Accuracy Test for Cat-M1 UE in CEModeA	Rel-13	C93a	UE supporting E-UTRA TDD and UE Category M1			
+7.2.9	HD-FDD UE Timing Advance Adjustment Accuracy Test for Category NB1 UE in Standalone Mode under Enhance Coverage	Rel-13	C154	UE supporting category NB1			
+7.2.10	E-UTRAN FDD UE Timing Advance Adjustment Accuracy Test in CEModeB	Rel-13	C94e	U supporting E-UTRA FD-FDD and (UE Category M1 and CE Mode B)			
+7.2.11	E-UTRAN HD-FDD UE Timing Advance Adjustment Accuracy Test in CEModeB	Rel-13	C94f	UE supporting E-UTRA HD-FDD and (UE Category M1 and CE Mode B)			
+7.2.12	E-UTRAN TDD UE Timing Advance Adjustment Accuracy Test in CEModeB	Rel-13	C93e	UE supporting E-UTRA TDD and (UE Category M1 and CE Mode B)			
+7.3.1	E-UTRAN FDD Radio Link Monitoring Test for Out-of-Sync	Rel-8	C01i	UE supporting E-UTRA FDD but not 4Rx antenna ports on all supported FDD operating bands			
+7.3.1_1	E-UTRAN FDD Radio Link Monitoring Test for Out-of-sync with 4 Rx antenna ports	Rel-10	C140	UE supporting E-UTRA FDD and 4Rx antenna ports on all supported FDD operating bands			
+7.3.2	E-UTRAN FDD Radio Link Monitoring Test for In-Sync	Rel-8	C01i	UE supporting E-UTRA FDD but not 4Rx antenna ports on all supported FDD operating bands			
+7.3.2_1	E-UTRAN FDD Radio Link Monitoring Test for In-Sync with 4 Rx antenna ports	Rel-10	C140	UE supporting E-UTRA FDD and 4Rx antenna ports on all supported FDD operating bands			
+7.3.3	E-UTRAN TDD Radio Link Monitoring Test for Out-of-Sync	Rel-8	C02a	UE supporting E-UTRA TDD but not 4Rx antenna ports on all supported TDD operating bands			
+7.3.3_1	E-UTRAN TDD Radio Link Monitoring Test for Out-of-sync with 4 Rx antenna ports	Rel-10	C143	UE supporting E-UTRA TDD and 4Rx antenna ports on all supported TDD operating bands			
+7.3.4	E-UTRAN TDD Radio Link Monitoring Test for In-Sync	Rel-8	C02i	UE supporting E-UTRA TDD but not 4Rx antenna ports on all supported TDD operating bands			
+7.3.4_1	E-UTRAN TDD Radio Link Monitoring Test for In-sync with 4 Rx antenna ports	Rel-10	C143	UE supporting E-UTRA TDD and 4Rx antenna ports on all supported TDD operating bands			
+7.3.5	E-UTRAN FDD Radio Link Monitoring Test for Out-of-sync in DRX	Rel-8	C01j	UE supporting E-UTRA FDD but not 4Rx antenna ports on all supported FDD operating bands and Feature Group Indicator 5			
+7.3.5_1	E-UTRAN FDD Radio Link Monitoring Test for Out-of-sync in DRX with 4 Rx antenna ports	Rel-10	C181	UE supporting E-UTRA FDD and Feature Group Indicator 5 and 4Rx antenna ports on all supported FDD operating bands			
+7.3.6	E-UTRAN FDD Radio Link Monitoring Test for In-sync in DRX	Rel-8	C01j	UE supporting E-UTRA FDD but not 4Rx antenna ports on all supported FDD operating bands and Feature Group Indicator 5			
+7.3.6_1	E-UTRAN FDD Radio Link Monitoring Test for In-sync in DRX with 4 Rx antenna ports	Rel-10	C181	UE supporting E-UTRA FDD and 4Rx antenna ports on all supported FDD operating bands and Feature Group Indicator 5 			
+7.3.7	E-UTRAN TDD Radio Link Monitoring Test for Out-of-sync in DRX	Rel-8	C02j	UE supporting E-UTRA TDD but not 4Rx antenna ports on all supported TDD operating bands and Feature Group Indicator 5			
+7.3.7_1	E-UTRAN TDD Radio Link Monitoring Test for Out-of-sync in DRX with 4 Rx antenna ports	Rel-10	C182	UE supporting E-UTRA TDD and 4Rx antenna ports on all supported TDD operating bands and Feature Group Indicator 5			
+7.3.8	E-UTRAN TDD Radio Link Monitoring Test for In-sync in DRX	Rel-8	C02j	UE supporting E-UTRA TDD but not 4Rx antenna ports on all supported TDD operating bands and Feature Group Indicator 5			
+7.3.8_1	E-UTRAN TDD Radio Link Monitoring Test for In-sync in DRX with 4 Rx antenna ports	Rel-10	C182	UE supporting E-UTRA TDD and 4Rx antenna ports on all supported TDD operating bands and Feature Group Indicator 5			
+7.3.9	E-UTRAN FDD Radio Link Monitoring Test for Out-of-sync under Time Domain Measurement Resource Restriction with Non MBSFN ABS (eICIC)	Rel-10	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+7.3.10	E-UTRAN TDD Radio Link Monitoring Test for Out-of-sync under Time Domain Measurement Resource Restriction with Non MBSFN ABS (eICIC)	Rel-10	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+7.3.11	E-UTRAN FDD Radio Link Monitoring Test for In-sync under Time Domain Measurement Resource Restriction with Non MBSFN ABS (eICIC)	Rel-10	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+7.3.12	E-UTRAN TDD Radio Link Monitoring Test for In-sync under Time Domain Measurement Resource Restriction with Non MBSFN ABS (eICIC)	Rel-10	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+7.3.13	E-UTRAN FDD Radio Link Monitoring Test for Out-of-sync under Time Domain Measurement Resource Restriction with MBSFN ABS (eICIC)	Rel-10	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+7.3.14	E-UTRAN TDD Radio Link Monitoring Test for Out-of-sync under Time Domain Measurement Resource Restriction with MBSFN ABS (eICIC)	Rel-10	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+7.3.15	E-UTRAN FDD Radio Link Monitoring Test for In-sync under Time Domain Measurement Resource Restriction with MBSFN ABS (eICIC)	Rel-10	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+7.3.16	E-UTRAN TDD Radio Link Monitoring Test for In-sync under Time Domain Measurement Resource Restriction with MBSFN ABS (eICIC)	Rel-10	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+7.3.17	E-UTRAN FDD Radio Link Monitoring Test for Out-of-sync under Time Domain Measurement Resource Restriction with CRS assistance information and Non MBSFN ABS (feICIC)	Rel-11	C59	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115			
+7.3.18	E-UTRAN TDD Radio Link Monitoring Test for Out-of-sync under Time Domain Measurement Resource Restriction with CRS assistance information and Non MBSFN ABS (feICIC)	Rel-11	C60	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115			
+7.3.19	E-UTRAN FDD Radio Link Monitoring Test for In-sync under Time Domain Measurement Resource Restriction with CRS assistance information and Non-MBSFN ABS (feICIC)	Rel-11	C59	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115			
+7.3.20	E-UTRAN TDD Radio Link Monitoring Test for In-sync under Time Domain Measurement Resource Restriction with CRS assistance information and Non-MBSFN ABS (feICIC)	Rel-11	C60	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115			
+7.3.21	E-UTRAN FDD Radio Link Monitoring Test for In-sync under Time Domain Measurement Resource Restriction with CRS assistance information and MBSFN ABS (feICIC)	Rel-11	C59	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115			
+7.3.22	E-UTRAN TDD Radio Link Monitoring Test for In-sync under Time Domain Measurement Resource Restriction with CRS assistance information and MBSFN ABS (feICIC)	Rel-11	C60	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115			
+7.3.23	E-UTRAN FDD Radio Link Monitoring Test for Out-of-sync for 5MHz Bandwidth	Rel-8	C49	UE supporting E-UTRA FDD and only E-UTRA Band 31			
+7.3.24	E-UTRAN FDD Radio Link Monitoring Test for In-sync for 5MHz Bandwidth	Rel-8	C49	UE supporting E-UTRA FDD and only E-UTRA Band 31			
+7.3.25	E-UTRAN FDD Radio Link Monitoring Test for In-sync in DRX for 5MHz Bandwidth	Rel-8	C56	UE supporting E-UTRA FDD and only E-UTRA Band 31 and Feature Group Indicator 5			
+7.3.26	E-UTRAN FD-FDD Radio Link Monitoring Test for Out-of-sync for UE category 0	Rel-12	C94	UE supporting E-UTRA FD-FDD and UE Category 0			
+7.3.27	E-UTRAN FD-FDD Radio Link Monitoring Test for In-sync for UE category 0	Rel-12	C94	UE supporting E-UTRA FD-FDD and UE Category 0			
+7.3.28	E-UTRAN FD-FDD Radio Link Monitoring Test for Out-of-sync in DRX for UE category 0	Rel-12	C95	UE supporting E-UTRA FD-FDD and Feature Group Indicator 5 and UE Category 0			
+7.3.29	E-UTRAN FD-FDD Radio Link Monitoring Test for In-sync in DRX for UE category 0	Rel-12	C95	UE supporting E-UTRA FD-FDD and Feature Group Indicator 5 and UE Category 0			
+7.3.30	E-UTRAN HD-FDD Radio Link Monitoring Test for Out-of-sync for UE category 0	Rel-12	C110	UE supporting E-UTRA HD-FDD and UE Category 0			
+7.3.31	E-UTRAN HD-FDD Radio Link Monitoring Test for In-sync for UE category 0	Rel-12	C110	UE supporting E-UTRA HD-FDD and UE Category 0			
+7.3.32	E-UTRAN HD-FDD Radio Link Monitoring Test for Out-of-sync in DRX for UE category 0	Rel-12	C111	UE supporting E-UTRA HD-FDD and Feature Group Indicator 5 and UE Category 0			
+7.3.33	E-UTRAN HD-FDD Radio Link Monitoring Test for In-sync in DRX for UE category 0	Rel-12	C111	UE supporting E-UTRA HD-FDD and Feature Group Indicator 5 and UE Category 0			
+7.3.34	E-UTRAN TDD Radio Link Monitoring Test for Out-of-sync for UE category 0	Rel-12	C93	UE supporting E-UTRA TDD and UE Category 0			
+7.3.35	E-UTRAN TDD Radio Link Monitoring Test for In-sync for UE category 0	Rel-12	C93	UE supporting E-UTRA TDD and UE Category 0			
+7.3.36	E-UTRAN TDD Radio Link Monitoring Test for Out-of-sync in DRX for UE category 0	Rel-12	C96	UE supporting E-UTRA TDD and Feature Group Indicator 5 and UE Category 0			
+7.3.37	E-UTRAN TDD Radio Link Monitoring Test for In-sync in DRX for UE category 0	Rel-12	C96	UE supporting E-UTRA TDD and Feature Group Indicator 5 and UE Category 0			
+7.3.38	E-UTRAN FDD-FDD DC Radio Link Monitoring Test for Out-of-sync in DRX in synchronous DC	Rel-12	C123b	UE supporting E-UTRA FDD and Dual Connectivity but not 4Rx antenna ports on all supported FDD operating bands			
+7.3.38_1	E-UTRAN FDD-FDD DC Radio Link Monitoring Test for Out-of-sync in DRX in synchronous DC with 4 Rx antenna ports	Rel-12	C185	UE supporting E-UTRA FDD and Dual Connectivity and 4Rx antenna ports on all supported FDD operating bands			
+7.3.39	E-UTRAN FDD-FDD DC Radio Link Monitoring Test for Out-of-sync in DRX in asynchronous DC	Rel-12	C125a	UE supporting E-UTRA FDD and asynchronous Dual Connectivity but not 4Rx antenna ports on all supported FDD operating bands			
+7.3.39_1	E-UTRAN FDD-FDD DC Radio Link Monitoring Test for Out-of-sync in DRX in asynchronous DC with 4 Rx antenna ports	Rel-12	C186	UE supporting E-UTRA FDD and asynchronous Dual Connectivity and 4Rx antenna ports on all supported FDD operating bands			
+7.3.40	E-UTRAN TDD-TDD DC Radio Link Monitoring Test for Out-of-sync in DRX in synchronous DC	Rel-12	C124	UE supporting E-UTRA TDD and Dual Connectivity			
+7.3.41	E-UTRAN FDD-FDD Radio Link Monitoring Test for In-sync in DRX in synchronous dual connectivity	Rel-12	C123	UE supporting E-UTRA FDD and Dual Connectivity			
+7.3.42	E-UTRAN FDD-FDD DC Radio Link Monitoring Test for In-sync in DRX in asynchronous DC	Rel-12	C125	UE supporting E-UTRA FDD and asynchronous Dual Connectivity			
+7.3.43	E-UTRAN TDD-TDD Radio Link Monitoring Test for In-sync in DRX in synchronous dual connectivity	Rel-12	C124	UE supporting E-UTRA TDD and Dual Connectivity			
+7.3.44	E-UTRAN TDD-FDD DC Radio Link Monitoring Test for Out-of-sync in DRX in synchronous DC with PCell in FDD	Rel-12	C123a	UE supporting E-UTRA FDD and E-UTRA TDD and Dual Connectivity			
+7.3.45	E-UTRAN TDD-FDD DC Radio Link Monitoring Test for Out-of-sync in DRX in synchronous DC with PCell in TDD	Rel-12	C123a	UE supporting E-UTRA FDD and E-UTRA TDD and Dual Connectivity			
+7.3.46	E-UTRAN TDD-FDD Radio Link Monitoring Test for In-sync in DRX for PSCell in synchronous DC with PCell in FDD	Rel-12	C123a	UE supporting E-UTRA FDD and E-UTRA TDD and Dual Connectivity			
+7.3.47	E-UTRAN TDD-FDD Radio Link Monitoring Test for In-sync in DRX for PSCell in synchronous DC with PCell in TDD	Rel-12	C123a	UE supporting E-UTRA FDD and E-UTRA TDD and Dual Connectivity			
+7.3.48	E-UTRAN FD-FDD Radio Link Monitoring Test for Out-of-sync for Cat-M1 UE in CEMode A	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE Category M1			
+7.3.49	E-UTRAN FD-FDD Radio Link Monitoring Test for In-Sync for Cat-M1 UE in CEMode A	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE Category M1			
+7.3.50	E-UTRAN FD-FDD Radio Link Monitoring Test for Out-of-sync in DRX for UE category M1 configured in CEMode A	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE Category M1			
+7.3.51	E-UTRAN FD-FDD Radio Link Monitoring Test for In-sync in DRX for UE Category M1 configured in CEMode A	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE Category M1			
+7.3.52	E-UTRAN HD-FDD Radio Link Monitoring Test for Out-of-sync in DRX for UE category CAT-M1	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+7.3.53	E-UTRAN HD-FDD Radio Link Monitoring Test for In-sync for UE category CAT-M1	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+7.3.54	E-UTRAN HD-FDD Radio Link Monitoring Test for Out-of-sync in DRX for UE category M1 configured in CEMode A	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+7.3.55	E-UTRAN HD-FDD Radio Link Monitoring Test for In-sync in DRX for UE Category M1 configured in CEMode A	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+7.3.56	E-UTRAN TDD Radio Link Monitoring Test for Out-of-sync for Cat-M1 UE in CEMode A	Rel-13	C93a	UE supporting E-UTRA TDD and UE Category M1			
+7.3.57	E-UTRAN TDD Radio Link Monitoring Test for In-Sync for Cat-M1 UE in CEMode A	Rel-13	C93a	UE supporting E-UTRA TDD and UE Category M1			
+7.3.58	E- UTRAN TDD Radio Link Monitoring Test for Out-of-sync in DRX for UE category M1 configured in CEMode A	Rel-13	C93c	UE supporting E-UTRA TDD and UE Category M1 and Feature Group Indicator 5			
+7.3.59	E- UTRAN TDD Radio Link Monitoring Test for In-sync in DRX for UE category M1 configured in CEMode A	Rel-13	C93c	UE supporting E-UTRA TDD and UE Category M1 and Feature Group Indicator 5			
+7.3.60	HD-FDD Radio Link Monitoring Test for Out-of-sync in DRX for UE category NB1 In-band mode in normal coverage	Rel-13	C155	UE supporting category NB1 and Feature Group Indicators 5			
+7.3.61	HD-FDD Radio Link Monitoring Test for Out-of-sync in DRX for UE category NB1 In-band mode in Enhanced Coverage	Rel-13	C155	UE supporting category NB1 and Feature Group Indicators 5			
+7.3.62	HD-FDD Radio Link Monitoring Test for In-sync with DRX for UE Category NB1 In-Band mode in Enhanced Coverage	Rel-13	C155	UE supporting category NB1 and Feature Group Indicators 5			
+7.3.63	HD-FDD Radio Link Monitoring Test for In-sync with DRX for UE Category NB1 In-Band mode in Normal Coverage	Rel-13	C155	UE supporting category NB1 and Feature Group Indicators 5			
+7.3.64	HD-FDD Radio Link Monitoring Test for In-sync without DRX for UE Category NB1 In-Band mode in Normal Coverage	Rel-13	C154	UE supporting category NB1			
+7.3.65	HD-FDD Radio Link Monitoring Test for In-sync without DRX for UE Category NB1 In-Band mode in Enhanced Coverage	Rel-13	C154	UE supporting category NB1			
+7.3.66	HD-FDD Radio Link Monitoring Test for Out-of-sync without DRX for UE Category NB1 Standalone mode in Normal Coverage	Rel-13	C154	UE supporting category NB1			
+7.3.67	HD-FDD Radio Link Monitoring Test for Out-of-sync without DRX for UE Category NB1 guard band mode in Enhanced Coverage	Rel-13	C154	UE supporting category NB1			
+7.4.1	E-UTRAN FDD-FDD DC interruption at transitions between active and non-active during DRX in synchronous DC	Rel-12	C175	UE supporting E-UTRA FDD, Dual Connectivity and Feature Group Indicator 5 	It is not necessary for DC ASYNCH UEs to be tested in this test if 7.4.3 case is executed. (Note 2)		
+7.4.2	E-UTRAN TDD-TDD DC interruption at transitions between active and non-active during DRX in synchronous DC	Rel-12	C136	UE supporting E-UTRA TDD, Dual Connectivity and Feature Group Indicator 5	It is not necessary for DC ASYNCH UEs to be tested in this test if 7.4.4 case is executed. (Note 2)		
+7.4.3	E-UTRAN FDD-FDD Interruption at transitions between active and non-active during DRX in asynchronous dual connectivity	Rel-12	C135	UE supporting E-UTRA FDD, Dual Connectivity Asynch and Feature Group Indicator 5			
+UE Measurements Procedures	
+8.1.1	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in asynchronous cells	Rel-8	C01	UE supporting E-UTRA FDD			2Rx, 4Rx
+8.1.2	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells	Rel-8	C01c	UE supporting E-UTRA FDD and Feature Group Indicator 5			2Rx, 4Rx
+8.1.3	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells with DRX	Rel-8	C01c	UE supporting E-UTRA FDD and Feature Group Indicator 5			2Rx, 4Rx
+8.1.4	Void						
+8.1.5	E-UTRAN FDD - FDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps	Rel-9	C13	UE supporting E-UTRA FDD and intra-frequency SI acquisition in FDD for HO			2Rx, 4Rx
+8.1.6	E-UTRAN FDD - FDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps with DRX	Rel-9	C13	UE supporting E-UTRA FDD and intra-frequency SI acquisition in FDD for HO			2Rx, 4Rx
+8.1.7	E-UTRAN FDD-FDD Intra-Frequency Event-Triggered Reporting under Time Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC)	Rel-10	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+8.1.8	E-UTRAN FDD-FDD Intra-Frequency Event-Triggered Reporting under Time Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC)	Rel-11	C59	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115			
+8.1.9	E-UTRAN FDD-FDD intra frequency event triggered reporting under fading propagation conditions in asynchronous cells for 5MHz bandwidth	Rel-8	C49	UE supporting E-UTRA FDD and only E-UTRA Band 31			
+8.1.10	E-UTRAN FDD-FDD intra frequency event triggered reporting under fading propagation conditions in synchronous cells with DRX for 5MHz bandwidth	Rel-8	C56	UE supporting E-UTRA FDD and only E-UTRA Band 31 and Feature Group Indicator 5			
+8.1.11	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in asynchronous cells for UE category 0	Rel-12	C94	UE supporting E-UTRA FD-FDD and UE Category 0			
+8.1.12	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for UE category 0	Rel-12	C95	UE supporting E-UTRA FD-FDD and Feature Group Indicator 5 and UE Category 0			
+8.1.13	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells with DRX for UE category 0	Rel-12	C95	UE supporting E-UTRA FD-FDD and Feature Group Indicator 5 and UE Category 0			
+8.1.14	E-UTRAN HD-FDD intra-frequency event triggered reporting under fading propagation conditions in asynchronous cells for UE category 0	Rel-12	C112	UE supporting E-UTRA HD-FDD and Feature Group Indicator 5 and UE Category 0			
+8.1.15	E-UTRAN HD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for UE category 0	Rel-12	C112	UE supporting E-UTRA HD-FDD and Feature Group Indicator 5 and UE Category 0			
+8.1.16	E-UTRAN HD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells with DRX for UE category 0	Rel-12	C112	UE supporting E-UTRA HD-FDD and Feature Group Indicator 5 and UE Category 0			
+8.1.17	E-UTRAN TDD-TDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for UE category 0	Rel-12	C96	UE supporting E-UTRA TDD and Feature Group Indicator 5 and UE Category 0			
+8.1.18	E-UTRAN TDD-TDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells with DRX for UE category 0	Rel-12	C96	UE supporting E-UTRA TDD and Feature Group Indicator 5 and UE Category 0			
+8.1.19	E-UTRAN FD - FDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps for UE category 0	Rel-12	C108	UE supporting E-UTRA FD-FDD, CSG and intra-frequency SI acquisition in FDD for HO and Category 0			
+8.1.20	E-UTRAN FDD - FDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps with DRX for UE category 0	Rel-12	C108	UE supporting E-UTRA FD-FDD, CSG and intra-frequency SI acquisition in FDD for HO and Category 0			
+8.1.21	E-UTRAN HD - FDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps for UE category 0	Rel-12	C109	UE supporting E-UTRA HD-FDD, CSG and intra-frequency SI acquisition in FDD for HO and Category 0			
+8.1.22	E-UTRAN HD- FDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps with DRX for UE category 0	Rel-12	C109	UE supporting E-UTRA HD-FDD, CSG and intra-frequency SI acquisition in FDD for HO and Category 0			
+8.1.23	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in asynchronous cells for Cat-M1 UE in CEModeA	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE Category M1			
+8.1.24	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in asynchronous cells for Cat-M1 UE in CEModeA	Rel-13	C94a	UE supporting E-UTRA FD-FDD and UE Category M1			
+8.1.25	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for Cat-M1 UE in CEModeA in DRX	Rel-13	C94b	UE supporting E-UTRA FD-FDD and UE Category M1 and Feature Group Indicator 5			
+8.1.26	E-UTRAN HD-FDD intra-frequency event triggered reporting under fading propagation conditions in asynchronous cells for Cat-M1 UE in CEModeA	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+8.1.27	E-UTRAN HD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for Cat-M1 UE in CEModeA	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+8.1.28	E-UTRAN HD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for Cat-M1 UE in CEModeA in DRX	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+8.1.29	E-UTRAN TDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for Cat-M1 UE in CEModeA	Rel-13	C93a	UE supporting E-UTRA TDD and UE Category M1			
+8.1.30	E-UTRAN TDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for Cat-M1 UE in CEModeA in DRX	Rel-13	C93c	UE supporting E-UTRA TDD and UE Category M1 and Feature Group Indicator 5			
+8.1.31	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in asynchronous cells for Cat-M1 UE in CEModeB	Rel-13	C94e	UE supporting E-UTRA FD-FDD and (UE category M1 and CE Mode B)			
+8.1.32	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for Cat-M1 UE in CEModeB	Rel-13	C94e	UE supporting E-UTRA FD-FDD and (UE category M1 and CE Mode B)			
+8.1.33	E-UTRAN HD-FDD Intra-frequency event triggered reporting under fading propagation conditions in asynchronous cells for Cat-M1 UE in CEModeB	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+8.1.34	E-UTRAN HD-FDD Intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for Cat-M1 UE in CEModeB	Rel-13	C107a	UE supporting E-UTRA HD-FDD and UE Category M1			
+8.1.35	E-UTRAN TDD Intra-frequency event triggered reporting under fading propagation conditions in synchronous cells for Cat-M1 UE in CEModeB	Rel-13	C93a	UE supporting E-UTRA TDD and UE Category M1			
+8.1.36	E-UTRAN FDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps for Cat-M1 UE in CEModeB	Rel-13	C94g	UE supporting E-UTRA FD- FDD and (UE Category M1 and CE Mode B) and intra-frequency SI acquisition for HO			
+8.1.37	E-UTRAN FDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps with DRX for Cat-M1 UE in CEModeB	Rel-13	C94g	UE supporting E-UTRA FD-FDD and (UE Category M1 and CE Mode B) and intra-frequency SI acquisition for HO			
+8.2.1	E-UTRAN TDD-TDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells	Rel-8	C02c	UE supporting E-UTRA TDD and Feature Group Indicator 5			2Rx, 4Rx
+8.2.2	E-UTRAN TDD-TDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells with DRX	Rel-8	C02c	UE supporting E-UTRA TDD and Feature Group Indicator 5			2Rx, 4Rx
+8.2.3	E-UTRAN TDD - TDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps	Rel-9	C15	UE supporting E-UTRA TDD and intra-frequency SI acquisition in TDD for HO.			2Rx, 4Rx
+8.2.4	E-UTRAN TDD - TDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps with DRX	Rel-9	C15	UE supporting E-UTRA TDD and intra-frequency SI acquisition in TDD for HO			2Rx, 4Rx
+8.2.5	E-UTRAN TDD-TDD Intra-Frequency Event-Triggered Reporting under Time Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC)	Rel-10	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+8.2.6	E-UTRAN TDD-TDD Intra-Frequency Event-Triggered Reporting under Time Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC)	Rel-11	C60	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115			
+8.2.7	E-UTRAN TDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps for UE category 0	Rel-12	C113	UE supporting E-UTRA TDD, CSG. inter-frequency SI acquisition in TDD for HO and Feature Group Indicator 5 and UE Category 0			
+8.2.8	E-UTRAN TDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps with DRX for UE category 0	Rel-12	C113	UE supporting E-UTRA TDD, CSG. inter-frequency SI acquisition in TDD for HO and Feature Group Indicator 5 and UE Category 0			
+8.2.9	E-UTRAN TDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps for Cat-M1 UE in CEModeB	Rel-13	C93f	UE supporting E-UTRA TDD and (UE Category M1 and CE Mode B) and intra-frequency SI acquisition for HO			
+8.2.10	E-UTRAN TDD Intra-frequency identification of a new CGI of E-UTRA cell using autonomous gaps with DRX for Cat-M1 UE in CEModeB	Rel-13	C93f	UE supporting E-UTRA TDD and (UE Category M1 and CE Mode B) and intra-frequency SI acquisition for HO			
+8.3.1	E-UTRAN FDD-FDD inter-frequency event triggered reporting under fading propagation conditions in asynchronous cells	Rel-8	C01b	UE supporting E-UTRA FDD and Feature Group Indicator 25	It is not necessary for CA UEs to be tested in this test if 8.20.1 case is executed.		2Rx, 4Rx
+8.3.2	E-UTRAN FDD-FDD inter-frequency event triggered reporting when DRX is used under fading propagation conditions in asynchronous cells	Rel-8	C01e	UE supporting E-UTRA FDD and Feature Group Indicators 5 and 25			2Rx, 4Rx
+8.3.3	E-UTRAN FDD-FDD inter frequency event triggered reporting under AWGN propagation conditions in asynchronous cells with DRX when L3 filtering is used	Rel-8	C01e	UE supporting E-UTRA FDD and Feature Group Indicators 5 and 25			2Rx, 4Rx
+8.3.4	E-UTRAN FDD - FDD Inter-frequency identification of a new CGI of E-UTRA cell using autonomous gaps	Rel-9	C14	UE supporting E-UTRA FDD and inter-frequency SI acquisition in FDD for HO			2Rx, 4Rx
+8.3.5	E-UTRAN FDD - FDD Inter-frequency identification of a new CGI of E-UTRA cell using autonomous gaps with DRX	Rel-9	C14	UE supporting E-UTRA FDD and inter-frequency SI acquisition in FDD for HO			2Rx, 4Rx
+8.3.6	E-UTRAN FDD-FDD Inter-frequency event triggered reporting without measurement gaps under AWGN propagation conditions in asynchronous cells	Rel-10	C47	UE supporting E-UTRA FDD and Feature Group Indicator 25 and Measurement without gaps			2Rx, 4Rx
+8.4.1	E-UTRAN TDD-TDD inter-frequency event triggered reporting under fading propagation conditions in synchronous cells	Rel-8	C02b	UE supporting E-UTRA TDD and Feature Group Indicator 25	It is not necessary for CA UEs to be tested in this test if 8.20.2 case is executed.		2Rx, 4Rx
+8.4.2	E-UTRAN TDD-TDD inter-frequency event triggered reporting when DRX is used under fading propagation conditions in synchronous cells	Rel-8	C02e	UE supporting E-UTRA TDD and Feature Group Indicators 5 and 25			2Rx, 4Rx
+8.4.3	E-UTRAN TDD-TDD inter-frequency event triggered reporting under AWGN propagation conditions in synchronous cells with DRX when L3 filtering is used	Rel-8	C02e	UE supporting E-UTRA TDD and Feature Group Indicators 5 and 25			2Rx, 4Rx
+8.4.4	E-UTRAN TDD - TDD Inter-frequency identification of a new CGI of E-UTRA cell using autonomous gaps	Rel-9	C16	UE supporting E-UTRA TDD and inter-frequency SI acquisition in TDD for HO			2Rx, 4Rx
+8.4.5	E-UTRAN TDD - TDD Inter-frequency identification of a new CGI of E-UTRA cell using autonomous gaps with DRX	Rel-9	C16	UE supporting E-UTRA TDD and inter-frequency SI acquisition in TDD for HO			2Rx, 4Rx
+8.4.6	E-UTRAN TDD-TDD Inter-frequency event triggered reporting for TDD UL/DL configuration 0	Rel-12	C02b	UE supporting E-UTRA TDD and Feature Group Indicator 25			2Rx, 4Rx
+8.5.1	E-UTRAN FDD-UTRAN FDD event triggered reporting under fading propagation conditions	Rel-8	C04g	UE supporting E-UTRA FDD and UTRA FDD and Feature Group Indicators 15 and 22	It is not necessary for CA UEs to be tested in this test if 8.20.3 case is executed.		2Rx, 4Rx
+8.5.2	E-UTRAN FDD-UTRAN FDD SON ANR cell search reporting under AWGN propagation conditions	Rel-8	C04f	UE supporting E-UTRA FDD and UTRA FDD and Feature Group Indicators 5, 19 and 22			2Rx, 4Rx
+8.5.3	E-UTRAN FDD - UTRAN FDD event triggered reporting when DRX is used under fading propagation conditions	Rel-8	C04d	UE supporting E-UTRA FDD and UTRA FDD and Feature Group Indicators 5, 15 and 22			2Rx, 4Rx
+8.5.4	E-UTRAN FDD - UTRAN FDD enhanced cell identification under AWGN propagation conditions	Rel-9	C29	UE supporting E-UTRA FDD and UTRA FDD and Feature Group Indicator 15			2Rx, 4Rx
+8.5.6	E-UTRAN FDD - UTRAN FDD event triggered reporting without measurement gaps under AWGN propagation conditions	Rel-10	C48	UE supporting E-UTRA FDD and UTRA FDD and Feature Group Indicator 15 and 22 and Measurement without gaps			2Rx, 4Rx
+8.5.7	E-UTRAN FDD - UTRAN FDD event triggered reporting under fading propagation conditions for 5MHz bandwidth	Rel-8	C55	UE supporting E-UTRA FDD and only E-UTRA Band 31 and UTRA FDD and Feature Group Indicators 15 and 22			
+8.6.1	E-UTRAN TDD-UTRAN FDD event triggered reporting under fading propagation conditions	Rel-8	C07b	UE supporting E-UTRA TDD and UTRA FDD and Feature Group Indicators 15 and 22			2Rx, 4Rx
+8.7.1	E-UTRAN TDD-UTRAN TDD event triggered reporting under fading propagation conditions	Rel-8 Only	C05b	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 15 and 22	It is not necessary for CA UEs to be tested in this test if 8.20.4 case is executed.		2Rx, 4Rx
+		Rel-9	C83	UE supporting E-UTRA TDD and UTRA TDD and not supporting UTRA FDD Feature Group Indicators 15 and 22	It is not necessary for CA UEs to be tested in this test if 8.20.4 case is executed.		2Rx, 4Rx
+		Rel-9	C79	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 15 and 39	It is not necessary for CA UEs to be tested in this test if 8.20.4 case is executed		2Rx, 4Rx
+8.7.2	E-UTRAN TDD - UTRAN TDD cell search when DRX is used under fading propagation conditions	Rel-8 Only	C05d	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 5, 15 and 22		Rel-9 UTRA TDD	2Rx, 4Rx
+		Rel-9	C84	UE supporting E-UTRA TDD and UTRA TDD and not supporting UTRA FDD and Feature Group Indicators 5, 15 and 22		Rel-9 UTRA TDD	2Rx, 4Rx
+		Rel-9	C80	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 5, 15 and 39		Rel-9 UTRA TDD	2Rx, 4Rx
+8.7.3	E-UTRAN TDD - UTRAN TDD SON ANR cell search reporting under AWGN propagation conditions	Rel-8 Only	C120	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 19 and 22 		Rel-9 UTRA TDD	2Rx, 4Rx
+		Rel-9	C121	UE supporting E-UTRA TDD and UTRA TDD and not supporting UTRA FDD and Feature Group Indicators 22 and 37		Rel-9 UTRA TDD	2Rx, 4Rx
+		Rel-9	C122	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 37 and 39		Rel-9 UTRA TDD	2Rx, 4Rx
+8.7.4	E-UTRAN TDD - UTRAN TDD enhanced cell identification under AWGN propagation conditions	Rel-9	C79	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicator 15 and 39			2Rx, 4Rx
+		Rel-9	C31	UE supporting E-UTRA TDD and UTRA TDD and not supporting UTRA FDD and Feature Group Indicator 15 and 22			2Rx, 4Rx
+8.8.1	E-UTRAN FDD-GSM event triggered reporting in AWGN	Rel-8	C08f	UE supporting E-UTRA FDD and GSM and Feature Group Indicator s 15 and 23			2Rx, 4Rx
+8.8.2	E-UTRAN FDD - GSM event triggered reporting when DRX is used in AWGN	Rel-8	C08d	UE supporting E-UTRA FDD and GSM and Feature Group Indicators 5, 15 and 23			2Rx, 4Rx
+8.9.1	E-UTRAN FDD-UTRAN TDD event triggered reporting in fading propagation conditions	Rel-8 Only	C06b	UE supporting E-UTRA FDD and UTRA TDD and Feature Group Indicators 15 and 22		Rel-9 UTRA TDD	2Rx, 4Rx
+		Rel-9 	C85	UE supporting E-UTRA FDD and UTRA TDD and not supporting UTRA FDD and Feature Group Indicators 15 and 22		Rel-9 UTRA TDD	2Rx, 4Rx
+		Rel-9	C77	UE supporting E-UTRA FDD and UTRA TDD and Feature Group Indicators 15 and 39		Rel-9 UTRA TDD	2Rx, 4Rx
+8.9.2	E-UTRAN FDD - UTRAN TDD enhanced cell identification under AWGN propagation conditions	Rel-9	C78	UE supporting E-UTRA FDD and UTRA TDD and not supporting UTRA FDD and Feature Group Indicator 15 and 22 			2Rx, 4Rx
+		Rel-9	C77	UE supporting E-UTRA FDD and UTRA TDD and Feature Group Indicators 15 and 39			2Rx, 4Rx
+8.10.1	E-UTRAN TDD-GSM event triggered reporting in AWGN	Rel-8	C09g	UE supporting E-UTRA TDD and GSM and Feature Group Indicators 15 and 23			2Rx, 4Rx
+8.10.2	E-UTRAN TDD - GSM event triggered reporting when DRX is used in AWGN	Rel-8	C09e	UE supporting E-UTRA TDD and GSM and Feature Group Indicators 5, 15 and 23			2Rx, 4Rx
+8.2.11	E-UTRAN TDD-TDD intra-frequency event triggered reporting for UE configured with highSpeedEnhancedMeasFlag in synchronous cells	Rel-14	C190	UEs supporting E-UTRA TDD and high speed enhancement for measurement			
+8.11.1	Multiple E-UTRAN FDD-FDD Inter-frequency event triggered reporting under fading propagation conditions	Rel-8	C01b	UE supporting E-UTRA FDD and Feature Group Indicator 25			2Rx, 4Rx
+8.11.2	E-UTRAN TDD - E-UTRAN TDD and E-UTRAN TDD Inter-frequency event triggered reporting under fading propagation conditions	Rel-8	C02b	UE supporting E-UTRA TDD and Feature Group Indicator 25			2Rx, 4Rx
+8.11.3	E-UTRAN FDD-FDD Inter-frequency and UTRAN FDD event triggered reporting under fading propagation conditions	Rel-8	C04e	UE supporting E-UTRA FDD and UTRA FDD and Feature Group Indicators 22 and 25			2Rx, 4Rx
+8.11.4	InterRAT E-UTRA TDD to E-UTRA TDD and UTRA TDD cell search	Rel-8 Only	C05e	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 22 and 25			2Rx, 4Rx
+		Rel-9	C86	UE supporting E-UTRA TDD and UTRA TDD and not supporting UTRA FDD and Feature Group Indicators 22 and 25			2Rx, 4Rx
+		Rel-9	C82	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 25 and 39			2Rx, 4Rx
+8.11.5	Combined E-UTRAN FDD - E-UTRA FDD and GSM cell search; E-UTRA cells in fading; GSM cell in static propagation conditions	Rel-8	C08b	UE supporting E-UTRA FDD and GSM and Feature Group Indicator 23 and 25			2Rx, 4Rx
+8.11.6	Combined E-UTRAN TDD - E-UTRA TDD and GSM cell search; E-UTRA cells in fading; GSM cell in static propagation conditions	Rel-8	C09a	UE supporting E-UTRA TDD and GSM and Feature Group Indicator 23 and 25			2Rx, 4Rx
+8.12.1	Void						
+8.13.1	Void						
+8.14.1	E-UTRAN TDD-FDD Inter-frequency event triggered reporting under fading propagation conditions in asynchronous cells	Rel-9	C22	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicator 25			2Rx, 4Rx
+8.14.2	E-UTRAN TDD-FDD Inter-frequency event triggered reporting when DRX is used under fading propagation conditions in synchronous cells	Rel-9	C38	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicators 4 and 25			
+8.14.3	E-UTRAN TDD - FDD Inter-frequency identification of a new CGI of E-UTRA cell using autonomous gaps	Rel-9	C39a	UE supporting E-UTRA FDD and E-UTRA TDD and inter-frequency SI acquisition in TDD for HO and Feature Group Indicator 25			2Rx, 4Rx
+8.15.1	E-UTRAN FDD-TDD Inter-frequency event triggered reporting under fading propagation conditions in asynchronous cells	Rel-9	C22	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicator 25			2Rx, 4Rx
+8.15.2	E-UTRAN FDD-TDD Inter-frequency event triggered reporting when DRX is used under fading propagation conditions in asynchronous cells	Rel-9	C38	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicators 4 and 25			2Rx, 4Rx
+8.15.3	E-UTRAN FDD - TDD Inter-frequency identification of a new CGI of E-UTRA cell using autonomous gaps	Rel-9	C39	UE supporting E-UTRA FDD and E-UTRA TDD and inter-frequency SI acquisition in FDD for HO and Feature Group Indicator 25			2Rx, 4Rx
+8.16.1	E-UTRAN FDD event triggered reporting under deactivated SCell in non-DRX	Rel-10	C32	UE supporting E-UTRA FDD and CA and Feature Group Indicator 111	Either TC 8.16.1 or TC 8.16.5 or TC 8.16.9 or TC 8.16.13 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.2	E-UTRAN TDD event triggered reporting under deactivated SCell in non-DRX	Rel-10	C33	UE supporting E-UTRA TDD and CA and Feature Group Indicator 111	Either TC 8.16.2 or TC 8.16.6 or TC 8.16.10 or TC 8.16.14 or TC 8.16.21 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.3	E-UTRAN FDD-FDD Event triggered reporting on deactivated SCell with PCell interruption in non-DRX	Rel-10	C32	UE supporting E-UTRA FDD and CA and Feature Group Indicator 111	Either TC 8.16.3 or TC 8.16.7 or TC 8.16.11 or TC 8.16.15 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.4	E-UTRANTDD-TDD Event triggered reporting on deactivated SCell with PCell interruption in non-DRX	Rel-10	C33	UE supporting E-UTRA TDD and CA and Feature Group Indicator 111	Either TC 8.16.4 or TC 8.16.8 or TC 8.16.12 or TC 8.16.16 or TC 8.16.22 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.5	E-UTRAN FDD event triggered reporting under deactivated SCell in non-DRX for 20 MHz bandwidth	Rel-10	C32c	UE supporting E-UTRA FDD and CA and Feature Group Indicator 111	Either TC 8.16.1 or TC 8.16.5 or TC 8.16.9 or TC 8.16.13 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.6	E-UTRAN TDD event triggered reporting under deactivated SCell in non-DRX for 20 MHz bandwidth	Rel-10	C33c	UE supporting E-UTRA TDD and CA and Feature Group Indicator 111	Either TC 8.16.2 or TC 8.16.6 or TC 8.16.10 or TC 8.16.14 or TC 8.16.21 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.7	E-UTRA FDD event triggered reporting on deactivated SCell with PCell interruption in non-DRX for 20 MHz bandwidth	Rel-10	C32c	UE supporting E-UTRA FDD and CA and Feature Group Indicator 111	Either TC 8.16.3 or TC 8.16.7 or TC 8.16.11 or TC 8.16.15 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.8	E-UTRAN TDD Event triggered reporting on deactivated SCell with PCell interruption in non-DRX for 20 MHz bandwidth	Rel-10	C33c	UE supporting E-UTRA TDD and CA and Feature Group Indicator 111	Either TC 8.16.4 or TC 8.16.8 or TC 8.16.12 or TC 8.16.16 or TC 8.16.22 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.9	E-UTRAN FDD event triggered reporting under deactivated SCell in non-DRX for 10MHz+5MHz	Rel-11	C32	UE supporting E-UTRA FDD and CA and Feature Group Indicator 111	Either TC 8.16.1 or TC 8.16.5 or TC 8.16.9 or TC 8.16.13 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.10	E-UTRAN TDD event triggered reporting under deactivated SCell in non-DRX for 10MHz+5MHz	Rel-11	C33	UE supporting E-UTRA TDD and CA and Feature Group Indicator 111	Either TC 8.16.2 or TC 8.16.6 or TC 8.16.10 or TC 8.16.14 or TC 8.16.21 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.11	E-UTRAN FDD event triggered reporting on deactivating SCell with PCell interruption in non-DRX for 10MHz+5MHz	Rel-11	C32	UE supporting E-UTRA FDD and CA and Feature Group Indicator 111	Either TC 8.16.3 or TC 8.16.7 or TC 8.16.11 or TC 8.16.15 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.12	E-UTRAN TDD event triggered reporting on deactivating SCell with PCell interruption in non-DRX for 10MHz+5MHz	Rel-11	C33	UE supporting E-UTRA TDD and CA and Feature Group Indicator 111	Either TC 8.16.4 or TC 8.16.8 or TC 8.16.12 or TC 8.16.16 or TC 8.16.22 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.13	E-UTRAN FDD event triggered reporting under deactivated SCell in non-DRX for 5 MHz+5MHz	Rel-10	C32	UE supporting E-UTRA FDD and CA and Feature Group Indicator 111	Either TC 8.16.1 or TC 8.16.5 or TC 8.16.9 or TC 8.16.13 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.14	E-UTRAN TDD event triggered reporting under deactivated SCell in non-DRX for 5 MHz+5MHz	Rel-10	C33	UE supporting E-UTRA TDD and CA and Feature Group Indicator 111	Either TC 8.16.2 or TC 8.16.6 or TC 8.16.10 or TC 8.16.14 or TC 8.16.21 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.15	E-UTRA FDD event triggered reporting on deactivated SCell with PCell interruption in non-DRX for 5MHz+5MHz bandwidth	Rel-10	C32	UE supporting E-UTRA FDD and CA and Feature Group Indicator 111	Either TC 8.16.3 or TC 8.16.7 or TC 8.16.11 or TC 8.16.15 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.16	E-UTRA TDD event triggered reporting on deactivated SCell with PCell interruption in non-DRX for 5MHz+5MHz bandwidth	Rel-10	C33	UE supporting E-UTRA TDD and CA and Feature Group Indicator 111	Either TC 8.16.4 or TC 8.16.8 or TC 8.16.12 or TC 8.16.16 or TC 8.16.22 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.17	E-UTRAN FDD activation and deactivation of known SCell in non-DRX	Rel-10	C32b	UE supporting E-UTRA FDD and CA and Feature Group Indicator 25	Either TC 8.16.17 or TC 8.16.17A shall be executed. (Note 1)		2Rx, 4Rx
+8.16.17A	E-UTRAN FDD activation and deactivation of known SCell in non-DRX for 20MHz +20MHz bandwidth	Rel-10	C32a	UE supporting E-UTRA FDD and CA and Feature Group Indicator 25	Either TC 8.16.17 or TC 8.16.17A shall be executed. (Note 1)		
+8.16.18	E-UTRAN TDD activation and deactivation of known SCell in non-DRX	Rel-10	C33b	UE supporting E-UTRA TDD and CA and Feature Group Indicator 25	Either TC 8.16.18 or TC 8.16.18A shall be executed. (Note 1)		2Rx, 4Rx
+8.16.18A	E-UTRAN TDD activation and deactivation of known SCell in non-DRX for 20MHz +20MHz bandwidth	Rel-10	C33a	UE supporting E-UTRA TDD and CA and Feature Group Indicator 25	Either TC 8.16.18 or TC 8.16.18A shall be executed. (Note 1)		2Rx, 4Rx
+8.16.21	E-UTRAN TDD event triggered reporting under deactivated SCell in non-DRX for 20MHz+10MHz	Rel-10	C33d	UE supporting E-UTRA TDD and CA and Feature Group Indicator 111	Either TC 8.16.2 or TC 8.16.6 or TC 8.16.10 or TC 8.16.14 or TC 8.16.21 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.22	E-UTRAN TDD event triggered reporting on deactivating SCell with PCell interruption in non-DRX for 20MHz+10MHz	Rel-10	C33d	UE supporting E-UTRA TDD and CA and Feature Group Indicator 111	Either TC 8.16.4 or TC 8.16.8 or TC 8.16.12 or TC 8.16.16 or TC 8.16.22 shall be executed. (Note 1)		2Rx, 4Rx
+8.16.23	E-UTRAN TDD-FDD CA event triggered reporting under deactivated SCell in non-DRX with PCell in FDD	Rel-12	C67	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell and Feature Group Indicator 111			2Rx, 4Rx
+8.16.24	E-UTRAN TDD-FDD CA event triggered reporting under deactivated SCell in non-DRX with PCell in TDD	Rel-12	C68	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD as PCell and Feature Group Indicator 111			2Rx, 4Rx
+8.16.25	E-UTRAN TDD-FDD CA event triggered reporting on deactivated SCell with PCell interruption in non-DRX with PCell in FDD	Rel-12	C67	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell and Feature Group Indicator 111			2Rx, 4Rx
+8.16.26	E-UTRAN TDD-FDD CA event triggered reporting on deactivated SCell with PCell interruption in non-DRX with PCell in TDD	Rel-12	C68	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD as PCell and Feature Group Indicator 111			2Rx, 4Rx
+8.16.27	E-UTRAN TDD-FDD 3 DL CA Event Triggered Reporting under Deactivated SCells in Non-DRX with PCell in FDD	Rel-12	 C167	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell and Feature Group Indicator 111			2Rx, 4Rx
+8.16.28	E-UTRAN TDD-FDD 3DL CA Event Triggered Reporting under Deactivated SCells in Non-DRX with PCell in TDD	Rel-12	 C168	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD as PCell and Feature Group Indicator 111			2Rx, 4Rx
+8.16.29	3DL FDD CA Event Triggered Reporting under Deactivated SCells in Non-DRX	Rel-10	 C163	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA			2Rx, 4Rx
+		Rel-11	 C164	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA			2Rx, 4Rx
+8.16.30	3DL TDD CA Event Triggered Reporting under Deactivated SCells in Non-DRX	Rel-10	 C165	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA			2Rx, 4Rx
+		Rel-11	 C166	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA			2Rx, 4Rx
+8.16.31	E-UTRAN TDD-FDD 3DL CA Event Triggered Reporting on Deactivated SCell with PCell and SCell Interruptions in Non-DRX and with PCell in FDD	Rel-12	 C167	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell and Feature Group Indicator 111			2Rx, 4Rx
+8.16.32	E-UTRAN TDD-FDD 3DL CA Event Triggered Reporting on Deactivated SCell with PCell and SCell Interruptions in Non-DRX and with PCell in TDD	Rel-12	 C168	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD as PCell and Feature Group Indicator 111			2Rx, 4Rx
+8.16.33	E-UTRAN FDD 3DL CA Event Triggered Reporting on Deactivated SCell with PCell and SCell Interruptions in Non-DRX	Rel-10	 C163	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA			2Rx, 4Rx
+		Rel-11	 C164	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA			2Rx, 4Rx
+8.16.34	E-UTRAN TDD 3 DL CA Event Triggered Reporting on Deactivated SCell with PCell and SCell Interruptions in Non-DRX	Rel-10	 C165	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA			2Rx, 4Rx
+		Rel-11	 C166	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA			2Rx, 4Rx
+8.16.35	E-UTRAN TDD-FDD 3 DL CA activation and deactivation of known SCell in non-DRX with PCell in FDD	Rel-12	C130	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell and Feature Group Indicator 25			2Rx, 4Rx
+8.16.36	E-UTRAN TDD-FDD 3 DL CA activation and deactivation of known SCell in non-DRX with PCell in TDD	Rel-12	C131	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD as PCell and Feature Group Indicator 25			2Rx, 4Rx
+8.16.37	3DL FDD CA activation and deactivation of known SCell in non-DRX	Rel-10	C91	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA and Feature Group Indicator 25			2Rx, 4Rx
+		Rel-11	C92	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA and Feature Group Indicator 25			2Rx, 4Rx
+8.16.38	3DL TDD CA activation and deactivation of known SCell in non-DRX	Rel-10	C132	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA and Feature Group Indicator 25			2Rx, 4Rx
+		Rel-11	C133	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA and Feature Group Indicator 25			2Rx, 4Rx
+8.16.39	E-UTRA TDD-FDD 3DL CA Activation and Deactivation of Unknown SCell in Non-DRX with PCell in FDD	Rel-12	C130	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell and Feature Group Indicator 25			2Rx, 4Rx
+8.16.40	E-UTRA TDD-FDD 3DL CA Activation and Deactivation of Unknown SCell in Non-DRX with PCell in TDD	Rel-12	C131	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD as PCell and Feature Group Indicator 25			2Rx, 4Rx
+8.16.41	3DL FDD CA activation and deactivation of unknown SCell in non-DRX	Rel-10	C91	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA and Feature Group Indicator 25			2Rx, 4Rx
+		Rel-11	C92	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA and Feature Group Indicator 25			2Rx, 4Rx
+8.16.42	3DL TDD CA activation and deactivation of unknown SCell in non-DRX	Rel-10	C132	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA and Feature Group Indicator 25			2Rx, 4Rx
+		Rel-11	C133	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA and Feature Group Indicator 25			2Rx, 4Rx
+8.16.51	4DL FDD CA Event Triggered Reporting with 3 deactivated SCells in Non-DRX	Rel-11	C156	UE supporting E-UTRA FDD and 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA, or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA and Feature Group Indicator 111			2Rx, 4Rx
+8.16.52	4DL TDD CA Event Triggered Reporting with 3 deactivated SCells in Non-DRX	Rel-11	C161	UE supporting E-UTRA TDD and 4DL intra-band contiguous CA, or 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA. and Feature Group Indicator 111.			2Rx, 4Rx
+8.16.53	4DL PCell in FDD CA Event Triggered Reporting with 3 Deactivated SCells in Non-DRX	Rel-12	C187	UE supporting E-UTRA FDD and TDD and 4DL CA with FDD as PCell and Feature Group Indicator 111			2Rx, 4Rx
+8.16.54	4DL PCell in TDD CA Event Triggered Reporting with 3 Deactivated SCells in Non-DRX	Rel-12	C188	UE supporting E-UTRA FDD and TDD and 4DL CA with TDD as PCell and Feature Group Indicator 111			2Rx, 4Rx
+8.16.55	4 DLFDD CA Event Triggered Reporting on Deactivated SCell with PCell and SCell Interruptions in Non-DRX	Rel-12	C156	UE supporting E-UTRA FDD and 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA, or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA and Feature Group Indicator 111		2Rx, 4Rx	2Rx, 4Rx
+8.16.56	4DL TDD CA Event Triggered Reporting on Deactivated SCell with PCell and SCell Interruptions in Non-DRX	Rel-12	C189	UE supporting E-UTRA TDD and 4DL CA and Feature Group Indicator 111			2Rx, 4Rx
+8.16.57	4DL FDD CA activation and deactivation of know SCell in non-DRX	Rel-11	C192	UE supporting E-UTRA FDD and 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA, or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA and Feature Group Indicator 25			2Rx, 4Rx
+8.16.58	4DL TDD CA activation and deactivation of know SCell in non-DRX	Rel-11	C193	UE supporting E-UTRA TDD and 4DL with intra-band contiguous CA, or 4DL with inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA, or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA, or 4DL with intra-band contiguous and inter-band CA and Feature Group Indicator 25			2Rx, 4Rx
+8.16.59	4DL PCell in FDD CA Activation and Deactivation of Known SCell in Non-DRX	Rel-12	C190	UE supporting E-UTRA FDD and TDD and 4DL CA with FDD as PCell and Feature Group Indicator 25			2Rx, 4Rx
+8.16.60	4DL PCell in TDD CA activation and deactivation of known SCell in non-DRX	Rel-12	C191	UE supporting E-UTRA FDD and TDD and 4DL CA with TDD as PCell and Feature Group Indicator 25			2Rx, 4Rx
+8.16.61	4DL FDD CA activation and deactivation of unknown SCell in non-DRX	Rel-11	C192	UE supporting E-UTRA FDD and 4DL with inter-band CA, or 4DL with intra-band contiguous and inter-band CA, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA, or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA and Feature Group Indicator 25			2Rx, 4Rx
+8.16.62	4DL TDD CA activation and deactivation of unknown SCell in non-DRX	Rel-11	C193	UE supporting E-UTRA TDD and 4DL with intra-band contiguous CA, or 4DL with inter-band CA, or 4DL with intra-band contiguous, or 4DL with intra-band non-contiguous and inter-band CA, or 4DL with intra-band non-contiguous and intra-band contiguous CA, or 4DL with Intra-band non-contiguous and Intra-band non-contiguous CA and inter-band CA and Feature Group Indicator 25			2Rx, 4Rx
+8.16.63	4 DL PCell in FDD CA Activation and Deactivation of Unknown SCell in Non-DRX	Rel-12	C190	UE supporting E-UTRA FDD and TDD and 4DL CA with FDD as PCell and Feature Group Indicator 25			2Rx, 4Rx
+8.16.64	4DL Pcell in TDD CA activation and deactivation of unknown SCell in non-DRX	Rel-12	C191	UE supporting E-UTRA FDD and TDD and 4DL CA with TDD as PCell and Feature Group Indicator 25			2Rx, 4Rx
+8.16.65	5DL PCell in FDD CA Event Triggered Reporting with 4 Deactivated SCells in Non-DRX	Rel-11	C169	UE supporting E-UTRA FDD and TDD with FDD as PCell and 5DL with Intra-band contiguous and Inter-band CA, or 5DL with Intra-band non-contiguous and Inter-band CA and Feature Group Indicator 111			2Rx, 4Rx
+		Rel-12	C170	UE supporting E-UTRA FDD and TDD with FDD as PCell and 5DL with Inter-band CA and Feature Group Indicator 111			2Rx, 4Rx
+8.16.66	5DL PCell in TDD CA Event Triggered Reporting with 4 Deactivated SCells in Non-DRX	Rel-11	C169	UE supporting E-UTRA FDD and TDD with TDD as PCell and 5DL with Intra-band contiguous and Inter-band CA, or 5DL with Intra-band non-contiguous and Inter-band CA and Feature Group Indicator 111			2Rx, 4Rx
+		Rel-12	C170	UE supporting E-UTRA FDD and TDD with TDD as PCell and 5DL with Inter-band CA and Feature Group Indicator 111			2Rx, 4Rx
+8.16.71	5DL FDD CA Event Triggered Reporting with Deactivated SCells in Non-DRX	Rel-11	C171	UE supporting E-UTRA FDD and 5DL with Intra-band contiguous and Inter-band CA, or 5DL with Intra-band non-contiguous and Inter-band CA, or 5DL with Intra-band non-contiguous and Intra-band contiguous CA and Feature Group Indicator 111			2Rx, 4Rx
+		Rel-12	C172	UE supporting E-UTRA FDD and 5DL with Inter-band CA and Feature Group Indicator 111			2Rx, 4Rx
+8.16.72	5DL TDD CA Event Triggered Reporting with Deactivated SCells in Non-DRX	Rel-11	C173	UE supporting E-UTRA TDD and 5DL with Intra-band contiguous and Inter-band CA, or 5DL with Intra-band non-contiguous and Inter-band CA, or 5DL with Intra-band non-contiguous and Intra-band contiguous CA and Feature Group Indicator 111			2Rx, 4Rx
+		Rel-12	C174	UE supporting E-UTRA TDD and 5DL with Intra-band contiguous CA, or 5DL with Inter-band CA and Feature Group Indicator 111			2Rx, 4Rx
+8.18.1	E-UTRAN TDD-HRPD event triggered reporting under fading propagation conditions	Rel-9	C40	UE supporting E-UTRA TDD and cdma2000 HRPD and Feature Group Indicator 15			2Rx, 4Rx
+8.19.1	E-UTRAN TDD-CDMA2000 1X event triggered reporting under fading propagation conditions	Rel-9	C41	UE supporting E-UTRA TDD and cdma2000 1xRTT and Feature Group Indicator 15			2Rx, 4Rx
+8.20.1	E-UTRAN FDD-FDD Inter-frequency event triggered reporting under fading propagation conditions in asynchronous cells	Rel-10	C18	UE supporting E-UTRA FDD and CA			2Rx, 4Rx
+8.20.2	E-UTRAN TDD-TDD Inter-frequency event triggered reporting under fading propagation conditions in synchronous cells	Rel-10	C19	UE supporting E-UTRA TDD and CA	Either TC 8.20.2 or TC 8.20.2A or TC 8.20.2B shall be executed. (Note 1)		2Rx, 4Rx
+8.20.2A	E-UTRAN TDD-TDD Inter-frequency event triggered reporting under fading propagation conditions in synchronous cells for 20 MHz +20 MHz bandwidth	Rel-10	C19a	UE supporting E-UTRA TDD and CA	Either TC 8.20.2 or TC 8.20.2A or TC 8.20.2B shall be executed. (Note 1)		2Rx, 4Rx
+8.20.2B	E-UTRAN TDD-TDD Inter-frequency event triggered reporting under fading propagation conditions in synchronous cells for 20 MHz +10 MHz bandwidth	Rel-10	C19b	UE supporting E-UTRA TDD and CA	Either TC 8.20.2 or TC 8.20.2A or TC 8.20.2B shall be executed. (Note 1)		2Rx, 4Rx
+8.20.3	E-UTRAN FDD - UTRAN FDD event triggered reporting under fading propagation conditions	Rel-10	C43	UE supporting E-UTRA FDD, CA and UTRA FDD and Feature Group Indicator 15			2Rx, 4Rx
+8.20.4	E-UTRAN TDD to UTRAN TDD cell search under fading propagation conditions	Rel-10	C44	UE supporting E-UTRA TDD, CA and UTRA TDD and Feature Group Indicator 15	Either TC 8.20.4 or TC 8.20.4A or TC 8.20.4B shall be executed. (Note 1)		2Rx, 4Rx
+8.20.4A	E-UTRAN TDD to UTRAN TDD cell search under fading propagation conditions for 20 MHz + 20 MHz bandwidth	Rel-10	C44a	UE supporting E-UTRA TDD, CA and UTRA TDD and Feature Group Indicator 15	Either TC 8.20.4 or TC 8.20.4A or TC 8.20.4B shall be executed. (Note 1)		2Rx, 4Rx
+8.20.4B	E-UTRAN TDD to UTRAN TDD cell search under fading propagation conditions for 20 MHz + 10 MHz bandwidth	Rel-10	C44b	UE supporting E-UTRA TDD, CA and UTRA TDD and Feature Group Indicator 15	Either TC 8.20.4 or TC 8.20.4A or TC 8.20.4B shall be executed. (Note 1)		2Rx, 4Rx
+8.22.1	E-UTRAN FDD-FDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells in DRX based on CRS based discovery signal	Rel-12	C01ch	UE supporting E-UTRA FDD and CRS based discovery signals measurement and Feature Group Indicator 5			
+8.22.2	E-UTRAN TDD-TDD intra-frequency event triggered reporting under fading propagation conditions in synchronous cells with DRX	Rel-12	C02ch	UE supporting E-UTRA TDD and CRS based discovery signals measurement and Feature Group Indicator 5			
+8.22.3	E-UTRAN FDD-FDD inter-frequency event triggered reporting under fading propagation conditions in DRX based on CRS based discovery signal	Rel-12	C01eh	UE supporting E-UTRA FDD and CRS based discovery signals measurement and Feature Group Indicators 5 and 25			
+8.22.4	E-UTRAN TDD-TDD inter-frequency event triggered reporting under fading propagation conditions in DRX based on CRS based discovery signal	Rel-12	C02eh	UE supporting E-UTRA TDD and CRS based discovery signals measurement and Feature Group Indicators 5 and 25			
+8.22.5	E-UTRAN FDD-FDD intra-frequency event triggered reporting in DRX based on CSI-RS based discovery signal	Rel-12	C97	UE supporting E-UTRA FDD and CSI-RS based discovery signals measurement and Feature Group Indicator 5			
+8.22.6	E-UTRAN TDD-TDD intra-frequency event triggered reporting in DRX based on CSI-RS based discovery signal	Rel-12	C98	UE supporting E-UTRA TDD and CSI-RS based discovery signals measurement and Feature Group Indicator 5			
+8.22.7	E-UTRAN FDD-FDD Inter-frequency event triggered reporting in DRX based on CSI-RS based discovery signal	Rel-12	C99	UE supporting E-UTRA FDD and CSI-RS based discovery signals measurement and Feature Group Indicators 5 and 25			
+8.22.8	E-UTRAN TDD-TDD inter-frequency event triggered reporting under fading propagation condition in DRX based on CSI-RS based discovery signal	Rel-12	C100	UE supporting E-UTRA TDD and CSI-RS based discovery signals measurement and Feature Group Indicators 5 and 25			
+8.22.9	E-UTRAN FDD event triggered reporting under deactivated SCell in non-DRX based on CRS based discovery signal	Rel-12	C126	UE supporting E-UTRA FDD and CA and CRS based discovery signal measurement and Feature Group Indicators 111			
+8.22.10	E-UTRAN TDD event triggered reporting under deactivated SCell in non-DRX based on CRS based discovery signal	Rel-12	C126	UE supporting E-UTRA TDD and CA and CRS based discovery signal measurement and Feature Group Indicators 111			
+8.22.11	E-UTRAN FDD event triggered reporting under deactivated SCell in non-DRX based on CSI-RS based discovery signal	Rel-12	C118	UE supporting E-UTRA FDD and CA and CSI-RS based discovery signal measurement			
+8.22.12	E-UTRAN TDD event triggered reporting under deactivated SCell in non-DRX based on CSI-RS based discovery signal	Rel-12	C119	UE supporting E-UTRA TDD and CA and CSI-RS based discovery signal measurement			
+8.23.1	E-UTRAN FDD-FDD DC intra-frequency event triggered reporting with DRX in synchronous DC	Rel-12	C134	UE supporting E-UTRA FDD, Dual Connectivity and Feature Group Indicator 5	It is not necessary for DC ASYNCH UEs to be tested in this test if 8.23.2 case is executed. (Note 2)		
+8.23.2	E-UTRAN FDD-FDD DC intra-frequency event triggered reporting with DRX in asynchronous DC	Rel-12	C135	UE supporting E-UTRA FDD, Dual Connectivity Asynch and Feature Group Indicator 5			
+8.23.3	E-UTRAN TDD-TDD DC intra-frequency event triggered reporting with DRX in synchronous DC	Rel-12	C136	UE supporting E-UTRA TDD, Dual Connectivity and Feature Group Indicator 5			
+8.23.4	E-UTRAN FDD-FDD DC inter-frequency event triggered reporting with DRX in synchronous DC	Rel-12	C137	UE supporting E-UTRA FDD, Dual Connectivity and Feature Group Indicator 5 and 25	It is not necessary for DC ASYNCH UEs to be tested in this test if 8.23.5 case is executed. (Note 2)		
+8.23.5	E-UTRAN FDD-FDD DC inter-frequency event triggered reporting with DRX in asynchronous DC	Rel-12	C138	UE supporting E-UTRA FDD, Dual Connectivity Asynch and Feature Group Indicator 5 and 25			
+8.23.6	E-UTRAN TDD-TDD DC inter-frequency event triggered reporting with DRX in synchronous DC	Rel-12	C139	UE supporting E-UTRA TDD, Dual Connectivity and Feature Group Indicator 5 and 25			
+8.23.7	E-UTRAN FDD-FDD Addition and Release Delay of known PSCell in Synchronous DC	Rel-12	C176	UE supporting E-UTRA FDD, Dual Connectivity	It is not necessary for DC ASYNCH UEs to be tested in this test if 8.23.2 case is executed. (Note 2)		
+8.23.8	E-UTRAN FDD-FDD Addition and Release Delay of known PSCell in Asynchronous DC	Rel-12	C177	UE supporting E-UTRA FDD, Dual Connectivity Asynch			
+8.23.9	E-UTRAN TDD Addition and Release Delay of known PSCell in Synchronous DC	Rel-12	C178	UE supporting E-UTRA TDD, Dual Connectivity			
+8.25.1	E-UTRAN FDD-WLAN Event Triggered Reporting in non-DRX under AWGN	Rel-13	C179	UE supporting E-UTRA FDD and WLAN Aggregation 			
+8.25.2	E-UTRAN TDD-WLAN Event Triggered Reporting in non-DRX under AWGN	Rel-13	C180	UE supporting E-UTRA TDD and WLAN Aggregation			
+8.26.1	E-UTRAN FDD-FS3 Activation and deactivation of known FS3 SCell with FDD PCell in non-DRX	Rel-13	C144	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell and Feature Group Indicator 25			
+8.26.2	E-UTRAN TDD-FS3 Activation and deactivation of known FS3 SCell with TDD PCell in non-DRX	Rel-13	C159	UE supporting E-UTRA TDD and downlink LAA and Feature Group Indicator 25			
+8.26.3	 E-UTRAN FDD-FS3 Event triggered reporting on deactivated FS3 SCell and FDD PCell interruption in non-DRX 	Rel-13	C145	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell and Feature Group Indicator 111	It is not necessary for LAA UEs to execute this test if 8.26.3A case is executed (Note 3)		
+8.26.3A	E-UTRAN FDD-FS3 3DL Event triggered reporting on deactivated FS3 SCell and FDD PCell interruption in non-DRX	Rel-13	C144a	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell and Feature Group Indicator 111			
+8.26.4	E-UTRAN TDD-FS3 Event triggered reporting on deactivated FS3 SCell and TDD PCell interruption in non-DRX	Rel-13	C160	UE supporting E-UTRA TDD and downlink LAA and Feature Group Indicator 111	It is not necessary for LAA UEs to execute this test if 8.26.4X case is executed (Note 3)		
+8.26.5	E-UTRAN FDD-FS3 Intra-frequency event triggered reporting in non-DRX for CRS based discovery signal	Rel-13	C153	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell and CRS based discovery signals Feature Group Indicator 111	It is not necessary for LAA UEs to execute this test if 8.26.5A case is executed (Note 3)		
+8.26.5A	E-UTRAN FDD-FS3 Intra-frequency event triggered reporting in non-DRX for CRS based discovery signal with 2 SCells	Rel-13	C153a	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell and CRS based discovery signals Feature Group Indicator 111			
+8.26.6	E-UTRAN TDD-FS3 Intra-frequency event triggered reporting in non-DRX for CRS based discovery signal	Rel-13	C146	UE supporting E-UTRA TDD and downlink LAA and CRS based discovery signals and Feature Group Indicator 111	It is not necessary for LAA UEs to execute this test if 8.26.6A case is executed (Note 3)		
+8.26.6A	E-UTRAN TDD-FS3 Intra-frequency event triggered reporting in non-DRX for CRS based discovery signal with 2 SCells	Rel-13	C146a	UE supporting E-UTRA TDD and downlink LAA CRS based discovery signals and Feature Group Indicator 111			
+8.26.9	E-UTRAN FDD-FS3 Inter-frequency event triggered reporting under fading propagation conditions in synchronous cells	Rel-13	C147	UE supporting E-UTRA FDD and downlink LAA with FDD as Pcell and Feature Group Indicator 5			
+8.26.10	E-UTRAN TDD-FS3 Inter-frequency event triggered reporting under fading propagation conditions in synchronous cells	Rel-13	C148	UE supporting E-UTRA TDD and downlink LAA and Feature Group Indicator 5			
+Measurement Performance Requirements	
+9.1.1.1	FDD Intra Frequency Absolute RSRP Accuracy	Rel-8 to Rel-11	C01f	UE supporting E-UTRA FDD and Feature Group Indicator 16			2Rx, 4Rx
+9.1.1.1_1	FDD Intra Frequency Absolute RSRP Accuracy (Rel-12 and forward)	Rel-12	C01f	UE supporting E-UTRA FDD and Feature Group Indicator 16			2Rx, 4Rx
+9.1.1.1_2	FDD Intra frequency Absolute RSRP accuracy for UE category 1bis	Rel-13	C01k	UE supporting E-UTRA FDD and UE Category 1bis and Feature Group Indicator 16			
+9.1.1.2	FDD Intra Frequency Relative Accuracy of RSRP	Rel-8	C01f	UE supporting E-UTRA FDD and Feature Group Indicator 16			2Rx, 4Rx
+9.1.1.2_2	FDD Intra Frequency Relative Accuracy of RSRP for UE category 1bis	Rel-13	C01k	UE supporting E-UTRA FDD and UE Category 1bis and Feature Group Indicator 16			
+9.1.2.1	TDD Intra Frequency Absolute RSRP Accuracy	Rel-8 to Rel-11	C02f	UE supporting E-UTRA TDD and Feature Group Indicator 16			2Rx, 4Rx
+9.1.2.1_1	TDD Intra Frequency Absolute RSRP Accuracy (Rel-12 and forward)	Rel-12	C02f	UE supporting E-UTRA TDD and Feature Group Indicator 16			2Rx, 4Rx
+9.1.2.1_2	TDD Intra Frequency Absolute RSRP Accuracy for UE category 1bis	Rel-13	C02k	UE supporting E-UTRA TDD and UE Category 1bis and Feature Group Indicator 16			
+9.1.2.2	TDD Intra Frequency Relative Accuracy of RSRP	Rel-8	C02f	UE supporting E-UTRA TDD and Feature Group Indicator 16			2Rx, 4Rx
+9.1.2.2_2	TDD Intra Frequency Relative Accuracy of RSRP for UE category 1bis	Rel-13	C02k	UE supporting E-UTRA TDD and UE Category 1bis and Feature Group Indicator 16			
+9.1.3.1	FDD - FDD Inter Frequency Absolute RSRP Accuracy	Rel-8 to Rel-11	C01g	UE supporting E-UTRA FDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.3.1_1	FDD - FDD Inter Frequency Absolute RSRP Accuracy (Rel-12 and forward)	Rel-12	C01g	UE supporting E-UTRA FDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.3.1_2	FDD - FDD Inter Frequency Absolute RSRP Accuracy for UE category 1bis	Rel-13	C01l	UE supporting E-UTRA FDD and UE category 1bis and Feature Group Indicators 16 and 25			
+9.1.3.2	FDD - FDD Inter Frequency Relative Accuracy of RSRP	Rel-8 to Rel-11	C01g	UE supporting E-UTRA FDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.3.2_1	FDD - FDD Inter Frequency Relative Accuracy of RSRP (Rel-12 and forward)	Rel-12	C01g	UE supporting E-UTRA FDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.3.2_2	FDD - FDD Inter Frequency Relative Accuracy of RSRP for UE category 1bis 	Rel-13	C01l	UE supporting E-UTRA FDD and UE category 1bis and Feature Group Indicators 16 and 25			
+9.1.4.1	TDD - TDD Inter Frequency Absolute RSRP Accuracy	Rel-8 to Rel-11	C02g	UE supporting E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.4.1_1	TDD - TDD Inter Frequency Absolute RSRP Accuracy (Rel-12 and forward)	Rel-12	C02g	UE supporting E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.4.1_2	TDD - TDD Inter Frequency Absolute RSRP Accuracy for UE category 1bis	Rel-13	C02l	UE supporting E-UTRA TDD and UE category 1bis and Feature Group Indicators 16 and 25			
+9.1.4.2	TDD - TDD Inter Frequency Relative Accuracy of RSRP	Rel-8 to Rel-11	C02g	UE supporting E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.4.2_1	TDD - TDD Inter Frequency Relative Accuracy of RSRP (Rel-12 and forward)	Rel-12	C02g	UE supporting E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.4.2_2	TDD - TDD Inter Frequency Relative Accuracy of RSRP for UE category 1bis	Rel-13	C02l	UE supporting E-UTRA TDD and UE category 1bis and Feature Group Indicators 16 and 25			
+9.1.5.1	FDD - TDD Inter Frequency Absolute RSRP Accuracy	Rel-9 to Rel-11	C42	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.5.1_1	FDD - TDD Inter Frequency Absolute RSRP Accuracy (Rel-12 and forward)	Rel-12	C42	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.5.1_2	FDD - TDD Inter Frequency Absolute RSRP Accuracy for UE category 1bis	Rel-13	C42a	UE supporting E-UTRA FDD and E-UTRA TDD and UE category 1bis and Feature Group Indicators 16 and 25			
+9.1.5.2	FDD - TDD Inter Frequency Relative Accuracy of RSRP	Rel-9 to Rel-11	C42	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.5.2_1	FDD - TDD Inter Frequency Relative Accuracy of RSRP (Rel-12 and forward)	Rel-12	C42	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.1.5.2_2	FDD - TDD Inter Frequency Relative Accuracy of RSRP for UE category 1bis	Rel-13	C42a	UE supporting E-UTRA FDD and E-UTRA TDD and UE category 1bis and Feature Group Indicators 16 and 25			
+9.1.6.1	FDD Absolute RSRP Accuracy E-UTRA for Carrier Aggregation	Rel-10 and Rel-11 only	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.1 or TC 9.1.12.1 or TC 9.1.18.1 or TC 9.1.20.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.6.1_1	FDD Absolute RSRP Accuracy E-UTRA for Carrier Aggregation (Rel-12 and forward)	Rel-12	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.1_1 or TC 9.1.12.1_1 or TC 9.1.18.1_1 or TC 9.1.20.1_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.6.2	FDD Relative RSRP Accuracy E-UTRA for Carrier Aggregation	Rel-10 and Rel-11 only	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.2 or TC 9.1.12.2 or TC 9.1.18.2 or TC 9.1.20.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.6.2_1	FDD Relative RSRP Accuracy E-UTRA for Carrier Aggregation (Rel-12 and forward)	Rel-12	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.2_1 or TC 9.1.12.2_1 or TC 9.1.18.2_1 or TC 9.1.20.2_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.7.1	TDD Absolute RSRP Accuracy E-UTRA for Carrier Aggregation	Rel-10 and Rel-11 only	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.1 or TC 9.1.13.1 or TC 9.1.19.1 or TC 9.1.21.1 or TC 9.1.24.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.7.1_1	TDD Absolute RSRP Accuracy E-UTRA for Carrier Aggregation (Rel-12 and forward)	Rel-12	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.1_1 or TC 9.1.13.1_1 or TC 9.1.19.1_1 or TC 9.1.21.1_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.7.2	TDD Relative RSRP Accuracy E-UTRA for Carrier Aggregation	Rel-10 and Rel-11 only	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.2 or TC 9.1.13.2 or TC 9.1.19.2 or TC 9.1.21.2 or TC 9.1.24.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.7.2_1	TDD Relative RSRP Accuracy E-UTRA for Carrier Aggregation (Rel-12 and forward)	Rel-12	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.2_1 or TC 9.1.13.2_1 or TC 9.1.19.2_1 or TC 9.1.21.2_1 or TC 9.1.24.2_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.8.1	FDD Absolute RSRP Accuracy under Time-Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC)	Rel-10 and Rel-11 only	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+9.1.8.1_1	FDD Absolute RSRP Accuracy under Time-Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC) (Rel-12 and forward)	Rel-12	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+9.1.8.2	FDD Relative RSRP under Time-Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC)	Rel-10	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+9.1.9.1	TDD Absolute RSRP Accuracy under Time-Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC)	Rel-10 and Rel-11 only	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+9.1.9.1_1	TDD Absolute RSRP Accuracy under Time-Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC) (Rel-12 and forward)	Rel-12	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+9.1.9.2	TDD Relative RSRP under Time-Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC)	Rel-10	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+9.1.10.1	FDD Absolute RSRP under Time-Domain Measurement Resource Restriction with MBSFN ABS (eICIC)	Rel-10 and Rel-11 only	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+9.1.10.1_1	FDD Absolute RSRP under Time-Domain Measurement Resource Restriction with MBSFN ABS (eICIC) (Rel-12 and forward)	Rel-12	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+9.1.10.2	FDD Relative RSRP under Time-Domain Measurement Resource Restriction with MBSFN ABS (eICIC)	Rel-10	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+9.1.11.1	TDD Absolute RSRP under Time-Domain Measurement Resource Restriction with MBSFN ABS (eICIC)	Rel-10 and Rel-11 only	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+9.1.11.1_1	TDD Absolute RSRP under Time-Domain Measurement Resource Restriction with MBSFN ABS (eICIC) (Rel-12 and forward)	Rel-12	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+9.1.11.2	TDD Relative RSRP under Time-Domain Measurement Resource Restriction with MBSFN ABS (eICIC)	Rel-10	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+9.1.12.1	FDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 20 MHz	Rel-10 and Rel-11 only	C18a	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.1 or TC 9.1.12.1 or TC 9.1.18.1 or TC 9.1.20.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.12.1_1	FDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 20 MHz (Rel-12 and forward)	Rel-12	C18a	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.1_1 or TC 9.1.12.1_1 or TC 9.1.18.1_1 or TC 9.1.20.1_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.12.2	FDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 20 MHz	Rel-10 and Rel-11 only	C18a	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.2 or TC 9.1.12.2 or TC 9.1.18.2 or TC 9.1.20.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.12.2_1	FDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 20 MHz (Rel 12 and forward)	Rel-12	C18a	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.2_1 or TC 9.1.12.2_1 or TC 9.1.18.2_1 or TC 9.1.20.2_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.13.1	TDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 20 MHz	Rel-10 and Rel-11 only	C19a	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.1 or TC 9.1.13.1 or TC 9.1.19.1 or TC 9.1.21.1 or TC 9.1.24.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.13.1_1	TDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 20 MHz (Rel-12 and forward)	Rel-12	C19a	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.1_1 or TC 9.1.13.1_1 or TC 9.1.19.1_1 or TC 9.1.21.1_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.13.2	TDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 20 MHz	Rel-10 and Rel-11 only	C19a	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.2 or TC 9.1.13.2 or TC 9.1.19.2 or TC 9.1.21.2 or TC 9.1.24.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.13.2_1	TDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 20 MHz (Rel-12 and forward)	Rel-12	C19a	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.2_1 or TC 9.1.13.2_1 or TC 9.1.19.2_1 or TC 9.1.21.2_1 or TC 9.1.24.2_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.14.1	FDD Intra Frequency Absolute RSRP Accuracy under Time-Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC)	Rel-11 only	C59	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115			
+9.1.14.1_1	FDD Intra Frequency Absolute RSRP Accuracy under Time-Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC) (Rel-12 and forward)	Rel-12	C59	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115			
+9.1.14.2	FDD Intra Frequency Relative RSRP Accuracy under Time-Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC)	Rel-11	C59	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115			
+9.1.15.1	TDD Intra Frequency Absolute RSRP Accuracy under Time-Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC)	Rel-11 only	C60	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115			
+9.1.15.1_1	TDD Intra Frequency Absolute RSRP Accuracy under Time-Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC) (Rel-12 and forward)	Rel-12	C60	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115			
+9.1.15.2	TDD Intra Frequency Relative RSRP Accuracy under Time-Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS	Rel-11	C60	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115			
+9.1.16.1	FDD Intra Frequency Absolute RSRP Accuracy for 5MHz Bandwidth	Rel-8 to Rel-11	C50	UE supporting E-UTRA FDD and E-UTRA Band 31 and Feature Group Indicator 16			
+9.1.16.1_1	FDD Intra Frequency Absolute RSRP Accuracy for 5MHz Bandwidth (Rel-12 and forward)	Rel-12	C50	UE supporting E-UTRA FDD and E-UTRA Band 31 and Feature Group Indicator 16			
+9.1.16.2	FDD Intra Frequency Relative Accuracy of RSRP for 5MHz Bandwidth	Rel-8	C50	UE supporting E-UTRA FDD and E-UTRA Band 31 and Feature Group Indicator 16			
+9.1.17.1	FDD - FDD Inter Frequency Absolute RSRP Accuracy for 5MHz Bandwidth	Rel-8 to Rel-11	C51	UE supporting E-UTRA FDD and E-UTRA Band 31 and Feature Group Indicators 16 and 25			
+9.1.17.1_1	FDD - FDD Inter Frequency Absolute RSRP Accuracy for 5MHz Bandwidth (Rel-12 and forward)	Rel-12	C51	UE supporting E-UTRA FDD and E-UTRA Band 31 and Feature Group Indicators 16 and 25			
+9.1.17.2	FDD - FDD Inter Frequency Relative Accuracy of RSRP for 5MHz Bandwidth	Rel-8 to Rel-11	C51	UE supporting E-UTRA FDD and E-UTRA Band 31 and Feature Group Indicators 16 and 25			
+9.1.17.2_1	FDD - FDD Inter Frequency Relative Accuracy of RSRP for 5MHz Bandwidth (Rel-12 and forward)	Rel-12	C51	UE supporting E-UTRA FDD and E-UTRA Band 31 and Feature Group Indicators 16 and 25			
+9.1.18.1	FDD Absolute RSRP Accuracy for E-UTRA for Carrier Aggregation for 10MHz + 5MHz	Rel-11 only	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.1 or TC 9.1.12.1 or TC 9.1.18.1 or TC 9.1.20.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.18.1_1	FDD Absolute RSRP Accuracy for E-UTRA for Carrier Aggregation for 10MHz + 5MHz (Rel-12 and forward)	Rel-12	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.1_1 or TC 9.1.12.1_1 or TC 9.1.18.1_1 or TC 9.1.20.1_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.18.2	FDD Relative RSRP Accuracy E-UTRA for Carrier Aggregation for 10MHz + 5MHz	Rel-11 only	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.2 or TC 9.1.12.2 or TC 9.1.18.2 or TC 9.1.20.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.18.2_1	FDD Relative RSRP Accuracy E-UTRA for Carrier Aggregation for 10MHz + 5MHz (Rel-12 and forward)	Rel-12	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.2_1 or TC 9.1.12.2_1 or TC 9.1.18.2_1 or TC 9.1.20.2_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.19.1	TDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 10MHz + 5MHz	Rel-11 only	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.1 or TC 9.1.13.1 or TC 9.1.19.1 or TC 9.1.21.1 or TC 9.1.24.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.19.1_1	TDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 10MHz + 5MHz (Rel-12 and forward)	Rel-12	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.1_1 or TC 9.1.13.1_1 or TC 9.1.19.1_1 or TC 9.1.21.1_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.19.2	TDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 10MHz + 5MHz	Rel-11 only	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.2 or TC 9.1.13.2 or TC 9.1.19.2 or TC 9.1.21.2 or TC 9.1.24.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.19.2_1	TDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 10MHz + 5MHz (Rel-12 and forward)	Rel-12	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.2_1 or TC 9.1.13.2_1 or TC 9.1.19.2_1 or TC 9.1.21.2_1 or TC 9.1.24.2_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.20.1	FDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 5MHz + 5MHz bandwidth	Rel-10 and Rel-11 only	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.1 or TC 9.1.12.1 or TC 9.1.18.1 or TC 9.1.20.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.20.1_1	FDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 5MHz + 5MHz bandwidth (Rel-12 and forward)	Rel-12	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.1_1 or TC 9.1.12.1_1 or TC 9.1.18.1_1 or TC 9.1.20.1_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.20.2	FDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 5MHz + 5MHz bandwidth	Rel-10 and Rel-11 only	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.2 or TC 9.1.12.2 or TC 9.1.18.2 or TC 9.1.20.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.20.2_1	FDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 5MHz + 5MHz bandwidth (Rel-12 and forward)	Rel-12	C18	UE supporting E-UTRA FDD and CA	Either TC 9.1.6.2_1 or TC 9.1.12.2_1 or TC 9.1.18.2_1 or TC 9.1.20.2_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.21.1	TDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 5MHz + 5MHz	Rel-10 and Rel-11 only	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.1 or TC 9.1.13.1 or TC 9.1.19.1 or TC 9.1.21.1 or TC 9.1.24.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.21.1_1	TDD Absolute RSRP Accuracy for E-UTRAN Carrier Aggregation for 5MHz + 5MHz (Rel-12 and forward)	Rel-12	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.1_1 or TC 9.1.13.1_1 or TC 9.1.19.1_1 or TC 9.1.21.1_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.21.2	TDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 5MHz + 5MHz	Rel-10 and Rel-11 only	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.2 or TC 9.1.13.2 or TC 9.1.19.2 or TC 9.1.21.2 or TC 9.1.24.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.21.2_1	TDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 5MHz + 5MHz (Rel-12 and forward)	Rel-12	C19	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.2_1 or TC 9.1.13.2_1 or TC 9.1.19.2_1 or TC 9.1.21.2_1 or TC 9.1.24.2_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.22	FDD-TDD RSRP Accuracy E-UTRA for Carrier Aggregation with PCell in FDD	Rel-12	C141	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell			2Rx, 4Rx
+9.1.23	FDD-TDD RSRP Accuracy E-UTRA for Carrier Aggregation with PCell in TDD	Rel-12	C142	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD as PCell			2Rx, 4Rx
+9.1.24.1	TDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 20MHz + 10MHz	Rel-10 and Rel-11 only	C19b	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.1 or TC 9.1.13.1 or TC 9.1.19.1 or TC 9.1.21.1 or TC 9.1.24.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.24.1_1	TDD Absolute RSRP Accuracy for E-UTRA Carrier Aggregation for 20MHz + 10MHz (Rel-12 and forward)	Rel-12	C19b	UE supporting E-UTRA TDD and CA			2Rx, 4Rx
+9.1.24.2	TDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 20MHz + 10MHz	Rel-10 and Rel-11 only	C19b	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.2 or TC 9.1.13.2 or TC 9.1.19.2 or TC 9.1.21.2 or TC 9.1.24.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.24.2_1	TDD Relative RSRP Accuracy for E-UTRA Carrier Aggregation for 20MHz + 10MHz (Rel-12 and forward)	Rel-12	C19b	UE supporting E-UTRA TDD and CA	Either TC 9.1.7.2_1 or TC 9.1.13.2_1 or TC 9.1.19.2_1 or TC 9.1.21.2_1 or TC 9.1.24.2_1 shall be executed. (Note 1)		2Rx, 4Rx
+9.1.25	FDD intra-frequency absolute and relative RSRP accuracies in CRS based discovery signal	Rel-12	C101	UE supporting E-UTRA FDD and CRS based discovery signals measurement and Feature Group Indicator 16			2Rx, 4Rx
+9.1.26	TDD intra-frequency absolute and relative RSRP accuracies in CRS based discovery signal	Rel-12	C102	UE supporting E-UTRA TDD and CRS based discovery signals measurement and Feature Group Indicator 16			2Rx, 4Rx
+9.1.27	FDD-FDD inter-frequency absolute and relative RSRP accuracies in CRS based discovery signal	Rel-12	C103	UE supporting E-UTRA FDD and CRS based discovery signals measurement and Feature Group Indicator 16 and 25			2Rx, 4Rx
+9.1.28	TDD-TDD inter-frequency absolute and relative RSRP accuracies in CRS based discovery signal	Rel-12	C104	UE supporting E-UTRA TDD and CRS based discovery signals measurement and Feature Group Indicator 16 and 25			2Rx, 4Rx
+9.1.29	FDD intra frequency absolute and relative CSI-RSRP accuracies in CSI-RS based discovery signal	Rel-12	C114	UE supporting E-UTRA FDD and CSI-RS based discovery signal measurement and Feature Group Indicator 16			2Rx, 4Rx
+9.1.30	TDD intra frequency absolute and relative CSI-RSRP accuracies in CSI-RS based discovery signal	Rel-12	C115	UE supporting E-UTRA TDD and CSI-RS based discovery signal measurement and Feature Group Indicator 16			2Rx, 4Rx
+9.1.31	FDD-FDD inter-frequency absolute and relative CSI-RSRP accuracies in CSI-RS based discovery signal	Rel-12	C116	UE supporting E-UTRA FDD and CSI-RS based discovery signal measurement and Feature Group Indicator 16 and 25			2Rx, 4Rx
+9.1.32	TDD-TDD inter-frequency absolute and relative CSI-RSRP accuracies in CSI-RS based discovery signal	Rel-12	C117	UE supporting E-UTRA TDD and CSI-RS based discovery signal measurement and Feature Group Indicator 16 and 25			2Rx, 4Rx
+9.1.33	FDD absolute and relative RSRP accuracies for E-UTRAN Carrier Aggregation in CRS based discovery signal	Rel-12	C128	UE supporting E-UTRA FDD and CA and CRS based discovery signal measurement			2Rx, 4Rx
+9.1.34	TDD absolute and relative RSRP accuracies for E-UTRAN Carrier Aggregation in CRS based discovery signal	Rel-12	C129	UE supporting E-UTRA TDD and CA and CRS based discovery signal measurement			2Rx, 4Rx
+9.1.35	FDD absolute and relative CSI-RSRP accuracies for E-UTRAN Carrier Aggregation in CSI-RS based discovery signal	Rel-12	C118	UE supporting E-UTRA FDD and CA and CSI-RS based discovery signal measurement			2Rx, 4Rx
+9.1.36	TDD absolute and relative CSI-RSRP accuracies for E-UTRAN Carrier Aggregation in CSI-RS based discovery signal	Rel-12	C119	UE supporting E-UTRA TDD and CA and CSI-RS based discovery signal measurement			2Rx, 4Rx
+9.1.37	3DL PCell in FDD RSRP for E-UTRAN in Carrier Aggregation	Rel-12	C69	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell			2Rx, 4Rx
+9.1.38	3DL PCell in TDD RSRP for E-UTRAN in Carrier Aggregation	Rel-12	C70	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD as PCell			2Rx, 4Rx
+9.1.39	3DL FDD RSRP for E-UTRAN in Carrier Aggregation	Rel-10 and Rel-11 only	C71	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA			2Rx, 4Rx
+		Rel-11 only	C72	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA			2Rx, 4Rx
+9.1.39_1	3DL FDD RSRP for E-UTRAN in Carrier Aggregation(Rel-12 and forward)	Rel-12	C75	UE supporting E-UTRA FDD and 3DL CA			2Rx, 4Rx
+9.1.40	3DL TDD RSRP for E-UTRAN in Carrier Aggregation	Rel-10 and Rel-11 only	C73	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DLwith intra-band contiguous and inter-band CA			2Rx, 4Rx
+		Rel-11 only	C74	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA			2Rx, 4Rx
+9.1.40_1	3DL TDD RSRP for E-UTRAN in Carrier Aggregation (Rel-12 and forward)	Rel-12	C76	UE supporting E-UTRA TDD and 3DL CA			2Rx, 4Rx
+9.1.41.1	FD-FDD Intra Frequency Absolute RSRP Accuracy for UE category 0	Rel-12	C88	UE supporting E-UTRA FD-FDD (UE Category 0) and Feature Group Indicator 16			
+9.1.41.2	FD-FDD Intra Frequency Relative RSRP Accuracy for UE category 0	Rel-12	C88	UE supporting E-UTRA FD-FDD (UE Category 0) and Feature Group Indicator 16			
+9.1.42.1	HD-FDD Intra Frequency Absolute RSRP Accuracy for UE category 0	Rel-12	C89	UE supporting E-UTRA HD-FDD (UE category 0) and Feature Group Indicator 16			
+9.1.42.2	HD-FDD Intra Frequency Relative RSRP Accuracy for UE category 0	Rel-12	C89	UE supporting E-UTRA HD-FDD (UE category 0) and Feature Group Indicator 16			
+9.1.43.1	TDD Intra Frequency Absolute RSRP Accuracy for UE category 0	Rel-12	C90	UE supporting E-UTRA TDD (UE Category 0) and Feature Group Indicator 16			
+9.1.43.2	TDD Intra Frequency Relative RSRP Accuracy for UE category 0	Rel-12	C90	UE supporting E-UTRA TDD (UE Category 0) and Feature Group Indicator 16			
+9.1.44	4 DL CA PCell in FDD FDD-TDD RSRP for E-UTRAN in Carrier Aggregation	Rel-12	C69a	UE supporting E-UTRA FDD and TDD and 4DL CA with FDD as PCell			2Rx, 4Rx
+9.1.45	4 DL CA PCell in TDD FDD-TDD RSRP for E-UTRAN in Carrier Aggregation	Rel-12	C70a	UE supporting E-UTRA FDD and TDD and 4DL CA with TDD as PCell			2Rx, 4Rx
+9.1.46	4DL FDD RSRP for E-UTRAN in Carrier Aggregation	Rel-12	C75a	UE supporting E-UTRA FDD and 4DL CA			2Rx, 4Rx
+9.1.47	4DL TDD RSRP for E-UTRAN in Carrier Aggregation	Rel-12	C76a	UE supporting E-UTRA TDD and 4DL CA			2Rx, 4Rx
+9.1.48	5 DL PCell in FDD RSRP for E-UTRAN in Carrier Aggregation	Rel-12	C69b	UE supporting E-UTRA FDD and TDD and 5DL CA with FDD as PCell			2Rx, 4Rx
+9.1.49	5 DL PCell in TDD RSRP for E-UTRAN in Carrier Aggregation	Rel-12	C70b	UE supporting E-UTRA FDD and TDD and 5DL CA with TDD as PCell			2Rx, 4Rx
+9.1.52	FD-FDD RSRP Intra frequency case for Cat-M1 UE in CEModeA	Rel-13	C94c	UE supporting E-UTRA FD-FDD and UE Category M1 and Feature Group Indicator 16			
+9.1.53	HD-FDD RSRP Intra frequency case for Cat-M1 UE in CEModeA	Rel-13	C107d	UE supporting E-UTRA HD-FDD and UE Category M1 and Feature Group Indicator 16			
+9.1.54	TDD RSRP Intra frequency case for Cat-M1 UE in CEModeA	Rel-13	C93b	UE supporting E-UTRA TDD and UE Category M1 and Feature Group Indicator 16			
+9.1.55	FS3 Intra frequency absolute and relative RSRP accuracies with FDD PCell	Rel-13	C149	UE supporting E-UTRA FDD and Downlink LAA with FDD as Pcell and Feature Group Indicator 16			2Rx, 4Rx
+9.1.56	FS3 Intra frequency absolute and relative RSRP accuracies with TDD PCell	Rel-13	C152	UE supporting E-UTRA TDD and Downlink LAA and Feature Group Indicator 16			2Rx, 4Rx
+9.1.57	FD-FDD RSRP Intra frequency case for Cat-M1 UE in CEModeB	Rel-13	C107f	UE supporting E-UTRA FD-FDD and UE Category M1 and CE Mode B and Feature Group Indicator 16			
+9.1.58	HD-FDD RSRP Intra frequency case for Cat-M1 UE in CEModeB	Rel-13	C107e	UE supporting E-UTRA HD-FDD and UE Category M1 and CE Mode B and Feature Group Indicator 16			
+9.1.59	TDD RSRP Intra frequency case for Cat-M1 UE in CEModeB	Rel-13	C93d	UE supporting E-UTRA TDD and UE Category M1 and CE Mode B and Feature Group Indicator 16			
+9.1.60	FS3 absolute and relative CSI-RSRP accuracies for E-UTRAN Carrier Aggregation in CSI-RS based discovery signal with FDD PCell	Rel-13	C150	UE supporting E-UTRA FDD and Downlink LAA with FDD as Pcell and CSI-RS based discovery signals and Feature Group Indicator 16			2Rx, 4Rx
+9.1.61	FS3 absolute and relative CSI-RSRP accuracies for E-UTRAN Carrier Aggregation in CSI-RS based discovery signal with TDD PCell	Rel-13	C151	UE supporting E-UTRA TDD and Downlink LAA and CSI-RS based discovery signals and Feature Group Indicator 16			2Rx, 4Rx
+9.2.1.1	FDD Intra Frequency Absolute RSRQ Accuracy	Rel-8	C01f	UE supporting E-UTRA FDD and Feature Group Indicator 16			2Rx, 4Rx
+9.2.2.1	TDD Intra Frequency Absolute RSRQ Accuracy	Rel-8	C02f	UE supporting E-UTRA TDD and Feature Group Indicator 16			2Rx, 4Rx
+9.2.3.1	FDD - FDD Inter Frequency Absolute RSRQ Accuracy	Rel-8	C01g	UE supporting E-UTRA FDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.2.3.2	FDD - FDD Inter Frequency Relative Accuracy of RSRQ	Rel-8	C01g	UE supporting E-UTRA FDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.2.4.1	TDD - TDD Inter Frequency Absolute RSRQ Accuracy	Rel-8	C02g	UE supporting E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.2.4.2	TDD -TDD Inter Frequency Relative Accuracy of RSRQ	Rel-8	C02g	UE supporting E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.2.4A.1	FDD - TDD Inter Frequency Absolute RSRQ Accuracy	Rel-9	C42	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.2.4A.2	FDD - TDD Inter Frequency Relative Accuracy of RSRQ	Rel-9	C42	UE supporting E-UTRA FDD and E-UTRA TDD and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.2.5.1	FDD Absolute RSRQ Accuracy for E-UTRA Carrier Aggregation	Rel-10	C18	UE supporting E-UTRA FDD and CA	Either TC 9.2.5.1 or TC 9.2.11.1 or TC 9.2.21.1 or TC 9.2.23.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.5.2	FDD Relative RSRQ Accuracy E-UTRA for Carrier Aggregation	Rel-10	C18	UE supporting E-UTRA FDD and CA	Either TC 9.2.5.2 or TC 9.2.11.2 or TC 9.2.21.2 or TC 9.2.23.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.6.1	TDD Absolute RSRQ Accuracy for E-UTRA Carrier Aggregation	Rel-10	C19	UE supporting E-UTRA TDD and CA	Either TC 9.2.6.1 or TC 9.2.12.1 or TC 9.2.22.1 or TC 9.2.24.1 or TC 9.2.27.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.6.2	TDD Relative RSRQ Accuracy for E-UTRA Carrier Aggregation	Rel-10	C19	UE supporting E-UTRA TDD and CA	Either TC 9.2.6.2 or TC 9.2.12.2 or TC 9.2.22.2 or TC 9.2.24.2 or TC 9.2.27.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.7.1	FDD RSRQ under Time Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC)	Rel-10	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+9.2.8.1	TDD RSRQ under Time Domain Measurement Resource Restriction with Non-MBSFN ABS (eICIC)	Rel-10	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+9.2.9.1	FDD Absolute RSRQ under Time Domain Measurement Resource Restriction with MBSFN ABS (eICIC)	Rel-10	C45	UE supporting E-UTRA FDD and Feature Group Indicator 115			
+9.2.10.1	TDD Absolute RSRQ under Time Domain Measurement Resource Restriction with MBSFN ABS (eICIC)	Rel-10	C46	UE supporting E-UTRA TDD and Feature Group Indicator 115			
+9.2.11.1	FDD Absolute RSRQ Accuracy for E-UTRA Carrier Aggregation for 20MHz	Rel-10	C18	UE supporting E-UTRA FDD and CA	Either TC 9.2.5.1 or TC 9.2.11.1 or TC 9.2.21.1 or TC 9.2.23.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.11.2	FDD Relative RSRQ Accuracy for E-UTRA Carrier Aggregation for 20MHz	Rel-10	C18	UE supporting E-UTRA FDD and CA	Either TC 9.2.5.2 or TC 9.2.11.2 or TC 9.2.21.2 or TC 9.2.23.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.12.1	TDD Absolute RSRQ Accuracy for E-UTRA Carrier Aggregation for 20MHz	Rel-10	C19	UE supporting E-UTRA TDD and CA	Either TC 9.2.6.1 or TC 9.2.12.1 or TC 9.2.22.1 or TC 9.2.24.1 or TC 9.2.27.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.12.2	TDD Relative RSRQ Accuracy for E-UTRA Carrier Aggregation for 20MHz	Rel-10	C19	UE supporting E-UTRA TDD and CA	Either TC 9.2.6.2 or TC 9.2.12.2 or TC 9.2.22.2 or TC 9.2.24.2 or TC 9.2.27.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.15.1	FDD RSRQ Accuracy under Time Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC)	Rel-11	C59	UE supporting E-UTRA FDD and CRS interference handling and Feature Group Indicator 115			
+9.2.16.1	TDD RSRQ Accuracy under Time Domain Measurement Resource Restriction with CRS Assistance Information and Non-MBSFN ABS (feICIC)	Rel-11	C60	UE supporting E-UTRA TDD and CRS interference handling and ss-CCH interference handling and Feature Group Indicator 115			
+9.2.17.1	FDD Intra Frequency Absolute RSRQ Accuracy for 5MHz Bandwidth	Rel-8	C50	UE supporting E-UTRA FDD and E-UTRA Band 31 and Feature Group Indicator 16			
+9.2.18.1	FDD - FDD Inter Frequency Absolute RSRQ Accuracy for 5MHz Bandwidth	Rel-8	C51	UE supporting E-UTRA FDD and E-UTRA Band 31 and Feature Group Indicators 16 and 25			
+9.2.18.2	FDD - FDD Inter Frequency Relative Accuracy of RSRQ for 5MHz Bandwidth	Rel-8	C51	UE supporting E-UTRA FDD and E-UTRA Band 31 and Feature Group Indicators 16 and 25			
+9.2.19.1	FDD-FDD Inter Frequency absolute WB-RSRQ	Rel-11	C01h	UE supporting E-UTRA FDD and WB-RSRQ measurement and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.2.20.1	TDD-TDD Inter Frequency absolute WB-RSRQ	Rel-11	C02h	UE supporting E-UTRA TDD and WB-RSRQ measurement and Feature Group Indicators 16 and 25			2Rx, 4Rx
+9.2.21.1	FDD Absolute RSRQ Accuracy for E-UTRA Carrier Aggregation for 10MHz+5MHz	Rel-11	C18	UE supporting E-UTRA FDD and CA	Either TC 9.2.5.1 or TC 9.2.11.1 or TC 9.2.21.1 or TC 9.2.23.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.21.2	FDD Relative RSRQ Accuracy for E-UTRA Carrier Aggregation for 10MHz+5MHz	Rel-11	C18	UE supporting E-UTRA FDD and CA	Either TC 9.2.5.2 or TC 9.2.11.2 or TC 9.2.21.2 or TC 9.2.23.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.22.1	TDD Absolute RSRQ Accuracy for E-UTRA Carrier Aggregation for 10MHz+5MHz	Rel-11	C19	UE supporting E-UTRA TDD and CA	Either TC 9.2.6.1 or TC 9.2.12.1 or TC 9.2.22.1 or TC 9.2.24.1 or TC 9.2.27.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.22.2	TDD Absolute RSRQ Accuracy for E-UTRA Carrier Aggregation for 10MHz+5MHz	Rel-11	C19	UE supporting E-UTRA TDD and CA	Either TC 9.2.6.2 or TC 9.2.12.2 or TC 9.2.22.2 or TC 9.2.24.2 or TC 9.2.27.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.23.1	FDD Absolute RSRQ Accuracy for E-UTRA Carrier Aggregation for 5MHz+5MHz	Rel-10	C18	UE supporting E-UTRA FDD and CA	Either TC 9.2.5.1 or TC 9.2.11.1 or TC 9.2.21.1 or TC 9.2.23.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.23.2	FDD Relative RSRQ Accuracy for E-UTRA Carrier Aggregation for 5MHz+5MHz	Rel-10	C18	UE supporting E-UTRA FDD and CA	Either TC 9.2.5.2 or TC 9.2.11.2 or TC 9.2.21.2 or TC 9.2.23.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.24.1	TDD Absolute RSRQ Accuracy for E-UTRA Carrier Aggregation for 5MHz+5MHz	Rel-10	C19	UE supporting E-UTRA TDD and CA	Either TC 9.2.6.1 or TC 9.2.12.1 or TC 9.2.22.1 or TC 9.2.24.1 or TC 9.2.27.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.24.2	TDD Relative RSRQ Accuracy for E-UTRA Carrier Aggregation for 5MHz+5MHz	Rel-10	C19	UE supporting E-UTRA TDD and CA	Either TC 9.2.6.2 or TC 9.2.12.2 or TC 9.2.22.2 or TC 9.2.24.2 or TC 9.2.27.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.25.1	Absolute RSRQ Accuracy for E-UTRAN TDD-FDD Carrier Aggregation with PCell in FDD	Rel-12	C67	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell			2Rx, 4Rx
+9.2.25.2	Relative RSRQ Accuracy for E-UTRAN TDD-FDD Carrier Aggregation with PCell in FDD	Rel-12	C67	UE supporting E-UTRA FDD and TDD and 2DL CA with FDD as PCell			2Rx, 4Rx
+9.2.26.1	Absolute RSRQ Accuracy for E-UTRAN TDD-FDD Carrier Aggregation with PCell in TDD	Rel-12	C142	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD as PCell			2Rx, 4Rx
+9.2.26.2	Relative RSRQ Accuracy for E-UTRAN TDD-FDD Carrier Aggregation with PCell in TDD	Rel-12	C142	UE supporting E-UTRA FDD and TDD and 2DL CA with TDD as PCell			2Rx, 4Rx
+9.2.27.1	TDD Absolute RSRQ Accuracy for E-UTRA Carrier Aggregation for 20MHz+10MHz	Rel-10	C19b	UE supporting E-UTRA TDD and CA	Either TC 9.2.6.1 or TC 9.2.12.1 or TC 9.2.22.1 or TC 9.2.24.1 or TC 9.2.27.1 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.27.2	TDD Relative RSRQ Accuracy for E-UTRA Carrier Aggregation for 20MHz+10MHz	Rel-10	C19b	UE supporting E-UTRA TDD and CA	Either TC 9.2.6.2 or TC 9.2.12.2 or TC 9.2.22.2 or TC 9.2.24.2 or TC 9.2.27.2 shall be executed. (Note 1)		2Rx, 4Rx
+9.2.28	FDD intra-frequency absolute RSRQ accuracy with CRS based discovery signal	Rel-12	C101	UE supporting E-UTRA FDD and CRS based discovery signals measurement and Feature Group Indicator 16			2Rx, 4Rx
+9.2.29	TDD intra-frequency absolute RSRQ accuracy with CRS based discovery signal	Rel-12	C102	UE supporting E-UTRA TDD and CRS based discovery signals measurement and Feature Group Indicator 16			2Rx, 4Rx
+9.2.30	FDD-FDD inter-frequency absolute and relative RSRQ accuracies with CRS based discovery signal	Rel-12	C103	UE supporting E-UTRA FDD and CRS based discovery signals measurement and Feature Group Indicator 16 and 25			2Rx, 4Rx
+9.2.31	TDD-TDD inter-frequency absolute and relative RSRQ accuracies with CRS based discovery signal	Rel-12	C104	UE supporting E-UTRA TDD and CRS based discovery signals measurement and Feature Group Indicator 16 and 25			2Rx, 4Rx
+9.2.32	FDD absolute and relative RSRQ accuracy for E-UTRAN Carrier Aggregation in CRS based discovery signal	Rel-12	C128	UE supporting E-UTRA FDD and CA and CRS based discovery signal measurement			2Rx, 4Rx
+9.2.33	TDD absolute and relative RSRQ accuracy for E-UTRAN Carrier Aggregation in CRS based discovery signal	Rel-12	C129	UE supporting E-UTRA TDD and CA and CRS based discovery signal measurement			2Rx, 4Rx
+9.2.38	3DL PCell in FDD RSRQ for E-UTRAN in Carrier Aggregation	Rel-12	C69	UE supporting E-UTRA FDD and TDD and 3DL CA with FDD as PCell			2Rx, 4Rx
+9.2.39	3 DL PCell in TDD RSRQ for E-UTRAN in Carrier Aggregation	Rel-12	C70	UE supporting E-UTRA FDD and TDD and 3DL CA with TDD as PCell			2Rx, 4Rx
+9.2.40	3 DL FDD RSRQ for E-UTRAN in Carrier Aggregation	Rel-10	C71	UE supporting E-UTRA FDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA			2Rx, 4Rx
+		Rel-11	C72	UE supporting E-UTRA FDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA			2Rx, 4Rx
+9.2.41	3DL TDD RSRQ for E-UTRAN in Carrier Aggregation	Rel-10	C73	UE supporting E-UTRA TDD and 3DL with intra-band contiguous CA, or 3DL with inter-band CA, or 3DL with intra-band contiguous and inter-band CA			2Rx, 4Rx
+		Rel-11	C74	UE supporting E-UTRA TDD and 3DL with intra-band non-contiguous and inter-band CA, or 3DL with intra-band non-contiguous and intra-band contiguous CA			2Rx, 4Rx
+9.2.42.1	FD-FDD Intra Frequency Absolute RSRQ Accuracy for UE category 0	Rel-12	C88	UE supporting E-UTRA FD-FDD (UE Category 0) and Feature Group Indicator 16			
+9.2.43.1	HD-FDD Intra Frequency Absolute RSRQ Accuracy for UE category 0	Rel-12	C89	UE supporting E-UTRA HD-FDD (UE Category 0) and Feature Group Indicator 16			
+9.2.44.1	TDD Intra Frequency Absolute RSRQ Accuracy for UE category 0	Rel-12	C90	UE supporting E-UTRA TDD (UE Category 0) and Feature Group Indicator 16			
+9.2.45	4 DL CA PCell in FDD FDD-TDD RSRQ for E-UTRAN in Carrier Aggregation	Rel-12	C69a	UE supporting E-UTRA FDD and TDD and 4DL CA with FDD as PCell			
+9.2.46	4DL PCell in TDD RSRQ for E-UTRAN in Carrier Aggregation	Rel-12	C70a	UE supporting E-UTRA FDD and TDD and 4DL CA with TDD as PCell			
+9.2.47	5 DL PCell in FDD RSRQ for E-UTRAN in Carrier Aggregation	Rel-12	C69b	UE supporting E-UTRA FDD and TDD and 5DL CA with FDD as PCell			
+9.2.48	5 DL PCell in TDD RSRQ for E-UTRAN in Carrier Aggregation	Rel-12	C70b	UE supporting E-UTRA FDD and TDD and 5DL CA with TDD as PCell			
+9.2.51	FS3 Intra frequency absolute and relative RSRQ accuracies with FDD PCell	Rel-13	C149	UE supporting E-UTRA FDD and Downlink LAA with FDD as Pcell and Feature Group Indicator 16			2Rx, 4Rx
+9.2.52	FS3 Intra frequency absolute and relative RSRQ accuracies with TDD PCell	Rel-13	C152	UE supporting E-UTRA TDD and Downlink LAA and Feature Group Indicator 16			2Rx, 4Rx
+9.3.1	E-UTRAN FDD - UTRA FDD CPICH RSCP absolute accuracy	Rel-9	C04	UE supporting E-UTRA FDD and UTRA FDD			2Rx, 4Rx
+9.3.2	E-UTRAN TDD - UTRA FDD CPICH RSCP absolute accuracy	Rel-9	C07	UE supporting E-UTRA TDD and UTRA FDD			2Rx, 4Rx
+9.3.3	E-UTRAN FDD - UTRA FDD CPICH RSCP absolute accuracy for 5MHz bandwidth	Rel-9	C52	UE supporting E-UTRA FDD and E-UTRA Band 31 and UTRA FDD			
+9.4.1	E-UTRAN FDD - UTRA FDD CPICH Ec/No absolute accuracy	Rel-9	C04	UE supporting E-UTRA FDD and UTRA FDD			2Rx, 4Rx
+9.4.2	E-UTRAN TDD - UTRA FDD CPICH Ec/No absolute accuracy	Rel-9	C07	UE supporting E-UTRA TDD and UTRA FDD			2Rx, 4Rx
+9.4.3	E-UTRAN FDD - UTRA FDD CPICH Ec/No absolute accuracy for 5MHz bandwidth	Rel-9	C52	UE supporting E-UTRA FDD and E-UTRA Band 31 and UTRA FDD			
+9.5.1	E-UTRAN FDD - UTRA TDD PCCPCH RSCP absolute accuracy	Rel-9	C65	UE supporting E-UTRA FDD and UTRA TDD and Feature Group Indicators 39			2Rx, 4Rx
+		Rel-9	C105	UE supporting E-UTRA FDD and UTRA TDD and Feature Group Indicators 22 and not supporting UTRA FDD			2Rx, 4Rx
+9.5.2	E-UTRAN TDD - UTRA TDD PCCPCH RSCP absolute accuracy	Rel-9	C66	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 39			2Rx, 4Rx
+		Rel-9	C106	UE supporting E-UTRA TDD and UTRA TDD and Feature Group Indicators 22 and not supporting UTRA FDD			2Rx, 4Rx
+9.6.1	GSM RSSI accuracy for E-UTRAN FDD	Rel-9	C08g	UE supporting E-UTRA FDD and GSM and Feature Group Indicator 16 and 23			2Rx, 4Rx
+9.6.2	GSM RSSI accuracy for E-UTRAN TDD	Rel-9	C09h	UE supporting E-UTRA TDD and GSM and Feature Group Indicator 16 and 23			2Rx, 4Rx
+9.9.1.1	FDD Intra Frequency Serving Cell Absolute RSRP Accuracy	Rel-10 and Rel-11 only	C01f	UE supporting E-UTRA FDD and Feature Group Indicator 16			2Rx, 4Rx
+9.9.1.1_1	FDD Intra Frequency Serving Cell Absolute RSRP Accuracy (Rel-12 and forward)	Rel-12	C01f	UE supporting E-UTRA FDD and Feature Group Indicator 16			2Rx, 4Rx
+9.9.1.2	FDD Intra Frequency Serving Cell Absolute RSRQ Accuracy	Rel-10	C01f	UE supporting E-UTRA FDD and Feature Group Indicator 16			2Rx, 4Rx
+9.9.2.1	TDD Intra Frequency Serving Cell Absolute RSRP Accuracy	Rel-10 and Rel-11 only	C02f	UE supporting E-UTRA TDD and Feature Group Indicator 16			2Rx, 4Rx
+9.9.2.1_1	TDD Intra Frequency Serving Cell Absolute RSRP Accuracy (Rel-12 and forward)	Rel-12	C02f	UE supporting E-UTRA TDD and Feature Group Indicator 16			2Rx, 4Rx
+9.9.2.2	TDD Intra Frequency Serving Cell Absolute RSRQ Accuracy	Rel-10	C02f	UE supporting E-UTRA TDD and Feature Group Indicator 16			2Rx, 4Rx
+9.11.1	FS3 average RSSI accuracy case (PCell using FDD)	Rel-13	 C157	UE supporting E-UTRA FDD and Downlink LAA with FDD as Pcell and Feature Group Indicator 16 and channel occupancy measurement			2Rx, 4Rx
+9.11.2	FS3 average RSSI accuracy case (PCell using TDD)	Rel-13	C158	UE supporting E-UTRA TDD and Downlink LAA with TDD as Pcell and Feature Group Indicator 16 and channel occupancy measurement			2Rx, 4Rx
+9.12.1	FS3 channel occupancy test (PCell using FDD)	Rel-13	C157	UE supporting E-UTRA FDD and Downlink LAA with FDD as Pcell and Feature Group Indicator 16 and channel occupancy measurement			2Rx, 4Rx
+9.12.2	FS3 channel occupancy test (PCell using TDD)	Rel-13	C158	UE supporting E-UTRA TDD and Downlink LAA with TDD as Pcell and Feature Group Indicator 16 and channel occupancy measurement			2Rx, 4Rx

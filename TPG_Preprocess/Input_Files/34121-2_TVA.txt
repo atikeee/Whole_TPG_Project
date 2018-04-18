@@ -1,0 +1,533 @@
+Clause	Title	Release	Applicability	Release Applicability	Comments
+	RF Test cases
+5.2	Maximum Output Power	R99	R	RA99	UEs supporting FDD
+5.2A	Maximum Output Power with HS-DPCCH	Rel-5 only	C_RF02	RF_RO_04	UEs supporting FDD and HS-PDSCH
+5.2AA	Maximum Output Power with HS-DPCCH (Release 6 and later)	Rel-6	C_RF24	RA6	UEs supporting FDD and HS-PDSCH and not E-DPDCH
+5.2AB	UE Maximum output power for UL OLTD	Rel-11	C_RF123	RA11	UEs supporting FDD and UL OLTD and HS-PDSCH and not E-DPDCH
+5.2AC	Maximum Output Power for UL CLTD activation state 1	Rel-11	C_RF129	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and not E-DPDCH
+5.2AD	Maximum Output Power for UL CLTD activation state 2 and 3	Rel-11	C_RF129	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and not E-DPDCH
+5.2B	Maximum Output Power with HS-DPCCH and E-DCH	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+5.2BA	UE Maximum Output Power for DC-HSUPA (QPSK)	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.2BB	UE Maximum Output Power for DC-HSUPA (16QAM)	Rel-9	C_RF111	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 9)
+5.2BC	UE maximum output power with HS-DPCCH and E-DCH for OLTD	Rel-11	C_RF124	RA11	UEs supporting FDD and UL OLTD and HS-PDSCH and E-DPDCH
+5.2BD	Maximum Output Power with HS-DPCCH and E-DCH for UL CLTD activation state 1	Rel-11	C_RF130	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and E-DPDCH
+5.2BE	Maximum Output Power with HS-DPCCH and E-DCH for UL CLTD activation state 2 and 3.	Rel-11	C_RF130	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and E-DPDCH
+5.2C	UE relative code domain power accuracy	Rel-6	C_RF24	RA6	UEs supporting FDD and HS-PDSCH and not E-DPDCH
+5.2CA	UE Relative code domain power accuracy for OLTD	Rel-11	C_RF123	RA11	UEs supporting FDD and UL OLTD and HS-PDSCH and not E-DPDCH
+5.2CB	UE relative code domain power accuracy for UL CLTD activation state 1	Rel-11	C_RF129	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and not E-DPDCH
+5.2CC	UE relative code domain power accuracy for UL CLTD activation state 2 and 3	Rel-11	C_RF129	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and not E-DPDCH
+5.2D	UE relative code domain power accuracy for HS-DPCCH and E-DCH	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+5.2DA	UE Relative Code Domain Power Accuracy for DC-HSUPA with QPSK	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.2DB	UE Relative code domain power accuracy for HS-DPCCH and E-DCH for OLTD	Rel-11	C_RF124	RA11	UEs supporting FDD and UL OLTD and HS-PDSCH and E-DPDCH
+5.2DC	UE Relative Code Domain Power Accuracy for HS-DPCCH and E-DCH for UL CLTD activation state 1	Rel-11	C_RF130	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and E-DPDCH
+5.2DD	UE Relative Code Domain Power Accuracy for HS-DPCCH and E-DCH for UL CLTD activation state 2 and 3	Rel-11	C_RF130	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and E-DPDCH
+5.2E	UE Relative Code Domain Power Accuracy for HS-DPCCH and E-DCH with 16QAM	Rel-7	C_RF43	RA7	UEs supporting FDD and HS-PDSCH, E-DPDCH and supporting 16QAM (E-DCH Category 7)
+5.2EA	UE relative code domain power accuracy for DC-HSUPA using HS-DPCCH and E-DCH with 16QAM	Rel-9	C_RF111	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 9)
+5.2EB	UE Relative code domain power accuracy for HS-DPCCH and E-DCH with 16-QAM for OLTD	Rel-11	C_RF126	R11	UEs supporting FDD and UL OLTD and HS-PDSCH, E-DPDCH and supporting 16QAM (E-DCH Category 7)
+5.2EC	UE Relative Code Domain Power Accuracy for HS-DPCCH and E-DCH with 16QAM for UL CLTD activation state 1	Rel-11	C_RF127	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and E-DPDCH and 16QAM
+5.2ED	UE Relative Code Domain Power Accuracy for HS-DPCCH and E-DCH with 16QAM for UL CLTD activation state 2 and 3	Rel-11	C_RF127	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and E-DPDCH and 16QAM
+5.3	Frequency Error	R99	R	RA99	UEs supporting FDD
+5.3A	Frequency Error for DC-HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.3B	Frequency error for UL OLTD	Rel-11	C_RF123	RA11	UEs supporting FDD and UL OLTD and HS-PDSCH and not E-DPDCH
+5.3C	Frequency error for UL CLTD Activation state 1	Rel-11	C_RF129	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and not E-DPDCH
+5.3D	Frequency error for UL CLTD Activation state 2 and 3	Rel-11	C_RF129	RA11	UEs supporting FDD and UL CLTD and HS-PDSCH and not E-DPDCH
+5.4.1	Output Power Dynamics in the Uplink / Power control is used to limit the interference level / Open Loop Power Control in the Uplink	R99	R	RA99	UEs supporting FDD
+5.4.1A	Open Loop Power Control in the Uplink for DC-HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.4.2	Output Power Dynamics in the Uplink / Power control is used to limit the interference level / Inner Loop Power Control in the Uplink	R99	R	RA99	UEs supporting FDD
+5.4.2A	Inner Loop Power Control in the Uplink for DC-HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.4.2B	Inner loop power control in the uplink for OLTD	Rel-11	C_RF122	RA11	UEs supporting FDD and UL OLTD
+5.4.2C	Inner Loop Power Control in the Uplink for UL CLTD activation state 1	Rel-11	C_RF121	RA11	UEs supporting FDD and UL CLTD
+5.4.2D	Inner Loop Power Control in the Uplink for UL CLTD activation state 2 and 3	Rel-11	C_RF121	RA11	UEs supporting FDD and UL CLTD
+5.4.3	Output Power Dynamics in the Uplink / Power control is used to limit the interference level / Minimum Output Power	R99	R	RA99	UEs supporting FDD
+5.4.3A	Minimum Output Power for DC-HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.4.3B	Minimum Output Power for OLTD	Rel-11	C_RF122	RA11	UEs supporting FDD and UL OLTD
+5.4.3C	Minimum Output Power for UL CLTD activation state 1	Rel-11	C_RF121	RA11	UEs supporting FDD and UL CLTD
+5.4.3D	Minimum Output Power for UL CLTD activation state 2 and 3	Rel-11	C_RF121	RA11	UEs supporting FDD and UL CLTD
+5.4.4	Output Power Dynamics in the Uplink / Power control is used to limit the interference level / Out-of-synchronisation handling of output power	R99	C_RF75	RA99	UEs supporting FDD and not supporting type 1 for DCH
+5.4.4A	Out-of-synchronization handling of output power for a UE which supports the optional enhanced performance requirements type1 for DCH	R7	C_RF76	RA7	UEs supporting FDD and type 1 for DCH
+5.4.4B	Out-of-synchronization handling of output power for OLTD	Rel-11	C_RF122	RA11	UEs supporting FDD and UL OLTD
+5.4.4C	Out-of-synchronisation handling of output power for UL CLTD activation state 1	Rel-11	C_RF121	RA11	UEs supporting FDD and UL CLTD
+5.4.4D	Out-of-synchronisation handling of output power for UL CLTD activation state 2 and 3	Rel-11	C_RF121	RA11	UEs supporting FDD and UL CLTD
+5.4.5	Out of quality handling of TPI for UL CLTD activation state 1	Rel-11	C_RF121	RA11	UEs supporting FDD and UL CLTD
+5.5.1	Transmit ON/OFF Power / Transmit OFF Power	R99	R	RA99	UEs supporting FDD
+5.5.2	Transmit ON/OFF Power / Transmit ON/OFF Time mask	R99	R	RA99	UEs supporting FDD
+5.6	Change of TFC	R99	R	RA99	UEs supporting FDD
+5.6AA	Change of TFC for OLTD	Rel-11	C_RF122	RA11	UEs supporting FDD and UL OLTD
+5.6AB	Change of TFC for UL CLTD activation state 1	Rel-11	C_RF121	RA11	UE supporting UL CLTD
+5.6AC	Change of TFC for UL CLTD activation state 2 and 3	Rel-11	C_RF121	RA11	UE supporting UL CLTD
+5.7	Power setting in uplink compressed mode	R99	C_RF01	RA99	UEs supporting FDD and uplink compressed mode.
+5.7A	HS-DPCCH	Rel-5	C_RF02	RA5	UEs supporting FDD and HS-PDSCH
+5.7BA	HS-DPCCH power control for UL OLTD 	Rel-11	C_RF123	RA11	UEs supporting FDD, UL OLTD and HS-PDSCH and not E-DPDCH
+5.7BB	HS-DPCCH power control for UL CLTD activation state 1	Rel-11	C_RF128	RA11	UEs supporting FDD, UL CLTD and HS-PDSCH 
+5.7BC	HS-DPCCH power control for UL CLTD activation state 2 and 3	Rel-11	C_RF128	RA11	UEs supporting FDD, UL CLTD and HS-PDSCH 
+5.8	Occupied Bandwidth (OBW)	R99	R	RA99	UEs supporting FDD
+5.8A	Occupied Bandwidth (OBW) for DC-HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.8B	Occupied bandwidth (OBW) for OLTD	Rel-11	C_RF122	RA11	UEs supporting FDD and UL OLTD
+5.8C	Occupied bandwidth (OBW)  for UL CLTD Activation state 1	Rel-11	C_RF121	RA11	UEs supporting FDD and UL CLTD
+5.9	Spectrum emission mask	R99	R	RA99	UEs supporting FDD
+5.9A	Spectrum Emission Mask with HS-DPCCH	Rel-5	C_RF02	RA5	UEs supporting FDD and HS-PDSCH
+5.9AA	Spectrum Emission Mask with HS-DPCCH for OLTD	Rel-11	C_RF125	RA11	UEs supporting FDD and UL OLTD and HS-PDSCH
+5.9AB	Spectrum Emission Mask with HS-DPCCH for UL CLTD activation state 1	Rel-11	C_RF128	RA11	UEs supporting FDD, UL CLTD and HS-PDSCH 
+5.9AC	Spectrum Emission Mask with HS-DPCCH for UL CLTD activation state 2 and 3	Rel-11	C_RF128	RA11	UEs supporting FDD, UL CLTD and HS-PDSCH 
+5.9B	Spectrum Emission Mask with E-DCH	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+5.9BA	Spectrum Emission Mask with E-DCH for OLTD	Rel-11	C_RF124	RA11	UEs supporting FDD and UL OLTD and HS-PDSCH and E-DPDCH
+5.9BB	Spectrum Emission Mask with E-DCH for UL CLTD activation state 1	Rel-11	C_RF130	RA11	UEs supporting FDD, UL CLTD, HS-PDSCH and E-DPDCH
+5.9BC	Spectrum Emission Mask with E-DCH for UL CLTD activation state 2 and 3	Rel-11	C_RF130	RA11	UEs supporting FDD, UL CLTD, HS-PDSCH and E-DPDCH
+5.9C	Additional Spectrum Emission Mask for DC-HSUPA (QPSK)	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.9D	Additional Spectrum Emission Mask for DC-HSUPA (16QAM)	Rel-9	C_RF111	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 9)
+5.10	Adjacent Channel Leakage Power Ratio (ACLR)	R99	R	RA99	UEs supporting FDD
+5.10A	Adjacent Channel Leakage Power Ratio (ACLR) with HS-DPCCH	Rel-5	C_RF02	RA5	UEs supporting FDD and HS-PDSCH
+5.10AA	Adjacent Channel Leakage Power Ratio (ACLR) with HS-DPCCH for OLTD	Rel-11	C_RF125	RA11	UEs supporting FDD and UL OLTD and HS-PDSCH
+5.10AB	Adjacent Channel Leakage Power Ratio (ACLR) with HS-DPCCH for UL CLTD Activation state 1	Rel-11	C_RF128	RA11	UEs supporting FDD, UL CLTD and HS-PDSCH 
+5.10AC	Adjacent Channel Leakage Power Ratio (ACLR) with HS-DPCCH for UL CLTD Activation state 2 and 3	Rel-11	C_RF128	RA11	UEs supporting FDD, UL CLTD and HS-PDSCH 
+5.10B	Adjacent Channel Leakage Power Ratio (ACLR) with E-DCH	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+5.10BA	Adjacent Channel Leakage Power Ratio (ACLR) with E-DCH for OLTD	Rel-11	C_RF124	RA11	UEs supporting FDD and UL OLTD and HS-PDSCH and E-DPDCH
+5.10BB	Adjacent Channel Leakage Power Ratio (ACLR) with E-DCH for UL CLTD Activation state 1	Rel-11	C_RF130	RA11	UEs supporting FDD, UL CLTD, HS-PDSCH and E-DPDCH
+5.10BC	Adjacent Channel Leakage Power Ratio (ACLR) with E-DCH for UL CLTD Activation state 2 and 3	Rel-11	C_RF130	RA11	UEs supporting FDD, UL CLTD, HS-PDSCH and E-DPDCH
+5.10C	Adjacent Channel Leakage Power Ratio (ACLR) with E-DCH for DC-HSUPA (QPSK)	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.10D	Adjacent Channel Leakage Power Ratio (ACLR) with E-DCH for DC-HSUPA (16QAM)	Rel-9	C_RF111	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 9)
+5.11	Spurious Emissions	R99	R	RA99	UEs supporting FDD
+5.11A	Spurious Emissions for DC-HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.11B	Spurious Emissions for UL OLTD	Rel-11	C_RF122	RA11	UEs supporting FDD and UL OLTD
+5.11C	Spurious Emissions for UL CLTD Activation state 1	Rel-11	C_RF121	RA11	UEs supporting FDD and UL CLTD
+5.11D	Spurious Emissions for UL CLTD Activation state 2 and 3	Rel-11	C_RF121	RA11	UEs supporting FDD and UL CLTD
+5.12	Transmit Intermodulation	R99	R	RA99	UEs supporting FDD
+5.12A	Transmit Intermodulation for DC HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.13.1	Transmit Modulation / Error Vector Magnitude (EVM)	R99	R	RA99	UEs supporting FDD
+5.13.1A	Error Vector Magnitude (EVM) with HS-DPCCH	Rel-5 only	C_RF02	RF_RO_04	UEs supporting FDD and HS-PDSCH
+5.13.1AA	Error Vector Magnitude (EVM) and phase discontinuity with HS-DPCCH	Rel-6	C_RF02	RA6	UEs supporting FDD and HS-PDSCH
+5.13.1AB	Error Vector Magnitude (EVM) and phase discontinuity with HS-DPCCH for UL OLTD	Rel-11	C_RF125	RA11	UEs supporting FDD, UL OLTD and HS-PDSCH
+5.13.1AC	Error Vector Magnitude (EVM) and phase discontinuity with HS-DPCCH for UL CLTD Activation state 1	Rel-11	C_RF128	RA11	UEs supporting FDD, UL CLTD and HS-PDSCH
+5.13.1AD	Error Vector Magnitude (EVM) and phase discontinuity with HS-DPCCH for UL CLTD Activation state 2 and 3	Rel-11	C_RF128	RA11	UEs supporting FDD, UL CLTD and HS-PDSCH
+5.13.1AAA	EVM and IQ origin offset for HS-DPCH and E-DCH with 16 QAM	Rel-7	C_RF43	RA7	UEs supporting FDD and HS-PDSCH, E-DPDCH and supporting 16QAM (E-DCH Category 7)
+5.13.2	Transmit Modulation / Peak code domain error	R99	C_RF11	RA99	UEs supporting FDD and uplink RMC 768 kbps
+5.13.2A	Relative Code Domain Error with HS-DPCCH	Rel-6	C_RF24	RA6	UEs supporting FDD and HS-PDSCH and not E-DPDCH
+5.13.2B	Relative Code Domain Error with HS-DPCCH and E-DCH	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+5.13.2BA	Relative Code Domain Error with HS-DPCCH and E-DCH for DC-HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+5.13.2C	Relative Code Domain Error for HS-DPCCH and E-DCH with 16QAM	Rel-7	C_RF43	RA7	UEs supporting FDD and HS-PDSCH, E-DPDCH and supporting 16QAM (E-DCH Category 7)
+5.13.2CA	Relative Code Domain Error for HS-DPCCH and E-DCH with 16QAM for DC-HSUPA	Rel-9	C_RF111	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 9)
+5.13.3	Transmit Modulation / UE phase discontinuity	Rel-5	R	RA5	UEs supporting FDD
+5.13.4	Transmit Modulation PRACH preamble quality	Rel-5	R	RA5	UEs supporting FDD
+5.13.5	In-band emission for DC-HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+6.2	Receiver Characteristics / Reference Sensitivity Level	R99	R	RA99	UEs supporting FDD
+6.2A	Reference sensitivity level for DC-HSDPA	Rel-8	C_RF66	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24
+		Rel-9	C_RF80	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28
+6.2B	Reference Sensitivity Level for DB-DC-HSDPA	Rel-9	C_RF84	RA9	UEs supporting FDD and dual band operation
+6.2C	Reference sensitivity level for single band 4C-HSDPA	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.2D	Reference sensitivity level for Dual band 4C-HSDPA	Rel-10	C_RF120	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 31-32
+6.2DA	Reference sensitivity level for Dual band 4C-HSDPA(3 carrier)	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.3	Receiver Characteristics / Maximum Input Level	R99	R	RA99	UEs supporting FDD
+6.3A	Maximum Input Level for HS-PDSCH Reception (16QAM)	Rel-5	C_RF26	RA5	UEs supporting FDD and HS-PDSCH and supporting 16QAM (HS-DSCH Categories 1-10)
+		Rel-7	C_RF89	RA7	UEs supporting FDD and HS-PDSCH and supporting 16QAM (HS-DSCH Categories 13-18)
+		Rel-8	C_RF45	RA8	UEs supporting FDD and HS-PDSCH and supporting 16QAM (HS-DSCH Categories 19-20)
+6.3B	Maximum Input Level for HS-PDSCH Reception (64QAM)	Rel-7	C_RF35	RA7	UEs supporting FDD and HS-PDSCH and supporting 64QAM (HS-DSCH Categories 13, 14, 17, 18)
+		Rel-8	C_RF45	RA8	UEs supporting FDD and HS-PDSCH and supporting 64QAM (HS-DSCH Categories 19-20)
+6.3C	Maximum Input Level for DC-HSDPA Reception (16QAM)	Rel-8	C_RF66	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24
+		Rel-9	C_RF80	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28
+6.3D	Maximum Input Level for DC-HSDPA Reception (64QAM)	Rel-8	C_RF67	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 23-24
+		Rel-9	C_RF78	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 27-28
+6.3E	Maximum Input Level for DB-DC-HSDPA Reception (16QAM)	Rel-9	C_RF84	RA9	UEs supporting FDD and dual band operation
+6.3F	Maximum Input Level for DB-DC-HSDPA Reception (64QAM)	Rel-9	C_RF85	RA9	UEs supporting FDD and HSDPA UE capability categories 23-24and dual band operation
+6.3G	Maximum Input Level for 4C-HSDPA Reception (16QAM)	Rel-10	C_RF120	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 31-32
+6.3GA	Maximum Input Level for 4C-HSDPA Reception (16QAM) (3 carrier)	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.3H	Maximum Input Level for 4C-HSDPA Reception (64QAM)	Rel-10	C_RF120	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 31-32
+6.3HA	Maximum Input Level for 4C-HSDPA Reception (64QAM) (3 carrier)	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.4	Receiver Characteristics Adjacent Channel Selectivity (ACS) (Rel-99 and Rel-4)	R99 and Rel-4 only	R	RF_RO_02	UEs supporting FDD
+6.4A	Receiver Characteristics Adjacent Channel Selectivity (ACS) (Rel-5 and later releases)	Rel-5	R	RA5	UEs supporting FDD
+6.4B	Adjacent channel selectivity (ACS) for DC-HSDPA	Rel-8	C_RF66	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24
+		Rel-9	C_RF80	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28
+6.4C	Adjacent Channel Selectivity (ACS) for DB-DC-HSDPA	Rel-9	C_RF84	RA9	UEs supporting FDD and dual band operation
+6.5.2.1	Blocking Characteristics / In-band blocking	R99	R	RA99	UEs supporting FDD
+6.5.2.2	Blocking Characteristics / Out of-band blocking	R99	R	RA99	UEs supporting FDD
+6.5.2.3	Blocking Characteristics / Narrow band blocking	R99	C_RF03	RA99	UEs supporting FDD and Band II or Band III or Band IV or Band V or Band VIII or Band X or Band XII or Band XIII or Band XIV
+6.5A	Blocking characteristics for DC-HSDPA	Rel-8	C_RF66	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24
+		Rel-9	C_RF80	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28
+6.5B	Blocking Characteristics for DB-DC-HSDPA	Rel-9	C_RF84	RA9	UEs supporting FDD and dual band operation
+6.5C	Blocking characteristics for DC-HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+6.5D	Blocking Characteristics for single Uplink Single band 4C-HSDPA	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.5E	Blocking Characteristics for dual Uplink Single band 4C-HSDPA	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.5F	Blocking Characteristics for single Uplink Dual band 4C-HSDPA	Rel-10	C_RF120	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 31-32
+6.5FA	Blocking Characteristics for single Uplink Dual band 4C-HSDPA(3 carrier)	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.5G	Blocking Characteristics for dual Uplink Dual band 4C-HSDPA	Rel-10	C_RF120	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 31-32
+6.5GA	Blocking Characteristics for dual Uplink Dual band 4C-HSDPA(3 carrier)	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.6	Spurious Response	R99	R	RA99	UEs supporting FDD
+6.6A	Spurious Response for DC-HSDPA	Rel-8	C_RF66	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24
+		Rel-9	C_RF80	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28
+6.6B	Spurious Response for DB-DC-HSDPA	Rel-9	C_RF84	RA9	UEs supporting FDD and dual band operation
+6.6C	Spurious Response for single band 4C-HSDPA	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.6D	Spurious Response for dual band 4C-HSDPA	Rel-10	C_RF120	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 31-32
+6.6DA	Spurious Response for dual band 4C-HSDPA(3 carrier)	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.7	Intermodulation Characteristics / Intermodulation	R99	R	RA99	UEs supporting FDD
+	Intermodulation Characteristics / Narrow band intermodulation	R99	C_RF03	RA99	UEs supporting FDD and Band II or Band III or Band IV or Band V or Band VIII or Band X or Band XII or Band XIII or Band XIV
+6.7A	Intermodulation Characteristics for DC-HSDPA	Rel-8	C_RF66	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24
+		Rel-9	C_RF80	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28
+6.7B	Intermodulation Characteristics for DB-DC-HSDPA	Rel-9	C_RF84	RA9	UEs supporting FDD and dual band operation
+6.7C	Intermodulation Characteristics for DC-HSUPA	Rel-9	C_RF86	RA9	UEs supporting FDD and HS-PDSCH and Dual Cell E-DCH (E-DCH Category 8 or 9)
+6.7D	Intermodulation Characteristics for single uplink single band 4C-HSDPA	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.7E	Intermodulation Characteristics for single uplink dual band 4C-HSDPA	Rel-10	C_RF120	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 31-32
+6.7EA	Intermodulation Characteristics for single uplink dual band 4C-HSDPA(3 carrier)	Rel-10	C_RF118	RA10	UEs supporting HS-PDSCH and HS-DSCH categories 29-32
+6.8	Spurious Emissions	R99	R	RA99	UEs supporting FDD
+6.8A	Spurious Emissions for DB-DC-HSDPA	Rel-9	C_RF144	RA9	UEs supporting FDD and dual band operation with DB-DC-HSDPA Configuration 6
+7.2.1	Demodulation in Static Propagation conditions / Demodulation of Dedicated Channel (DCH) / Test 1	R99	R	RA99	UEs supporting FDD 
+	Demodulation in Static Propagation conditions / Demodulation of Dedicated Channel (DCH) / Test 2	R99	C_RF08	RA99	UEs supporting FDD and downlink RMC 64 kbps
+	Demodulation in Static Propagation conditions / Demodulation of Dedicated Channel (DCH) / Test 3	R99	C_RF09	RA99	UEs supporting FDD and downlink RMC 144 kbps
+	Demodulation in Static Propagation conditions / Demodulation of Dedicated Channel (DCH) / Test 4	R99	C_RF10	RA99	UEs supporting FDD and downlink RMC 384 kbps
+7.2.2	Demodulation in Static Propagation conditions / Demodulation of Dedicated Channel (DCH) when (DL_DCH_FET_Config) is configured by higher layers / Test 1	Rel-12	C_RF145	RA12	UEs supporting FDD and DCH Enhancements
+7.3.1	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 1	R99	R	RA99	UEs supporting FDD 
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 2	R99	C_RF08	RA99	UEs supporting FDD and downlink RMC 64 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 3	R99	C_RF09	RA99	UEs supporting FDD and downlink RMC 144 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 4	R99	C_RF10	RA99	UEs supporting FDD and downlink RMC 384 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 5	R99	R	RA99	UEs supporting FDD 
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 6	R99	C_RF08	RA99	UEs supporting FDD and downlink RMC 64 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 7	R99	C_RF09	RA99	UEs supporting FDD and downlink RMC 144 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 8	R99	C_RF10	RA99	UEs supporting FDD and downlink RMC 384 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 9	R99	R	RA99	UEs supporting FDD 
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 10	R99	C_RF08	RA99	UEs supporting FDD and downlink RMC 64 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 11	R99	C_RF09	RA99	UEs supporting FDD and downlink RMC 144 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 12	R99	C_RF10	RA99	UEs supporting FDD and downlink RMC 384 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 13	R99	R	RA99	UEs supporting FDD
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 14	R99	C_RF08	RA99	UEs supporting FDD and downlink RMC 64 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 15	R99	C_RF09	RA99	UEs supporting FDD and downlink RMC 144 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 16	R99	C_RF10	RA99	UEs supporting FDD and downlink RMC 384 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 17	R99	R	RA99	UEs supporting FDD 
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 18	R99	C_RF08	RA99	UEs supporting FDD and downlink RMC 64 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 19	R99	C_RF09	RA99	UEs supporting FDD and downlink RMC 144 kbps
+	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance / Test 20	R99	C_RF10	RA99	UEs supporting FDD and downlink RMC 384 kbps
+7.3.2	Demodulation of DCH in Multi-path Fading Propagation conditions / Single Link Performance when (DL_DCH_FET_Config) is configured by higher layers / Test 1	Rel-12	C_RF145	RA12	UEs supporting FDD and DCH Enhancements
+7.4.1	Demodulation of DCH in Moving Propagation conditions / Single Link Performance / Test 1	R99	R	RA99	UEs supporting FDD
+	Demodulation of DCH in Moving Propagation conditions / Single Link Performance / Test 2	R99	C_RF08	RA99	UEs supporting FDD and downlink RMC 64 kbps
+7.5.1	Demodulation of DCH in Birth-Death Propagation conditions / Single Link Performance / Test 1	R99	R	RA99	UEs supporting FDD
+	Demodulation of DCH in Birth-Death Propagation conditions / Single Link Performance / Test 2	R99	C_RF08	RA99	UEs supporting FDD and downlink RMC 64 kbps
+7.5A.1	Demodulation of DCH in high speed train condition/ Single Link Performance/ Test1	Rel-7	R	RA7	UEs supporting FDD
+7.6.1	Demodulation of DCH in downlink Transmit diversity modes / Demodulation of DCH in open-loop transmit diversity mode / Test 1	R99	R	RA99	UEs supporting FDD
+7.6.2	Demodulation of DCH in downlink Transmit diversity modes / Demodulation of DCH in closed loop transmit diversity mode / Test 1	R99	R	RA99	UEs supporting FDD
+	Demodulation of DCH in downlink Transmit diversity modes / Demodulation of DCH in closed loop transmit diversity mode / Test 2	R99 and Rel-4 only	R	RF_RO_02	UEs supporting FDD
+7.6.3	Demodulation of DCH in downlink Transmit diversity modes / Demodulation of DCH in site selection diversity transmission power control mode / Test 1	R99 and Rel-4 only	R	RF_RO_02	UEs supporting FDD
+	Demodulation of DCH in downlink Transmit diversity modes / Demodulation of DCH in site selection diversity transmission power control mode / Test 2	R99 and Rel-4 only	R	RF_RO_02	UEs supporting FDD
+	Demodulation of DCH in downlink Transmit diversity modes / Demodulation of DCH in site selection diversity transmission power control mode / Test 3	R99 and Rel-4 only	R	RF_RO_02	UEs supporting FDD
+	Demodulation of DCH in downlink Transmit diversity modes / Demodulation of DCH in site selection diversity transmission power control mode / Test 4	R99 and Rel-4 only	R	RF_RO_02	UEs supporting FDD
+7.7.1	Demodulation in Handover conditions / Demodulation of DCH in Inter-Cell Soft Handover / Test 1 (Release 5 and earlier)	R99, Rel-4 and Rel-5 only	R	RF_RO_03	UEs supporting FDD
+	Demodulation in Handover conditions / Demodulation of DCH in Inter-Cell Soft Handover / Test 2 (Release 5 and earlier)	R99, Rel-4 and Rel-5 only	C_RF08	RF_RO_03	UEs supporting FDD and downlink RMC 64 kbps
+	Demodulation in Handover conditions / Demodulation of DCH in Inter-Cell Soft Handover) / Test 3 (Release 5 and earlier)	R99, Rel-4 and Rel-5 only	C_RF09	RF_RO_03	UEs supporting FDD and downlink RMC 144 kbps
+	Demodulation in Handover conditions / Demodulation of DCH in Inter-Cell Soft Handover) / Test 4 (Release 5 and earlier)	R99, Rel-4 and Rel-5 only	C_RF10	RF_RO_03	UEs supporting FDD and downlink RMC 384 kbps
+7.7.1A	Demodulation in Handover conditions / Demodulation of DCH in Inter-Cell Soft Handover / Test 1 (Release 6 and later)	Rel-6	R	RA6	UEs supporting FDD
+	Demodulation in Handover conditions / Demodulation of DCH in Inter-Cell Soft Handover / Test 2 (Release 6 and later)	Rel-6	C_RF08	RA6	UEs supporting FDD and downlink RMC 64 kbps
+	Demodulation in Handover conditions / Demodulation of DCH in Inter-Cell Soft Handover) / Test 3 (Release 6 and later)	Rel-6	C_RF09	RA6	UEs supporting FDD and downlink RMC 144 kbps
+	Demodulation in Handover conditions / Demodulation of DCH in Inter-Cell Soft Handover) / Test 4 (Release 6 and later)	Rel-6	C_RF10	RA6	UEs supporting FDD and downlink RMC 384 kbps
+7.7.1B	Demodulation in Handover conditions / Demodulation of DCH in Inter-Cell soft handover (DL_DCH_FET_Config) / Test1	Rel-12	C_RF145	RA12	UEs supporting FDD and DCH Enhancements
+7.7.2	Demodulation in Handover conditions / Combining of TPC commands from radio links of different radio link sets / Test 1	R99	R	R199	UEs supporting FDD
+	Demodulation in Handover conditions / Combining of TPC commands from radio links of different radio link sets / Test 2	R99	R	RA99	UEs supporting FDD
+7.7.2A	Demodulation in Handover conditions / Combining of TPC commands from radio links of different radio link sets (DL_DCH_FET_Config) / Test1	Rel-12	C_RF145	RA12	UEs supporting FDD and DCH Enhancements
+7.7.3	Demodulation in Handover conditions / Combining of reliable TPC commands from radio links of different radio link sets / Test 1	R99	R	RA99	UEs supporting FDD
+	Demodulation in Handover conditions / Combining of reliable TPC commands from radio links of different radio link sets / Test 2	R99	R	RA99	UEs supporting FDD
+7.7.3A	Combining of reliable TPC commands from radio links of different radio link sets when DL_DCH_FET_Config [10] is configured by higher layers	Rel-12	C_RF145	RA12	UEs supporting FDD and DCH Enhancements
+7.8.1	Power control in downlink / Power control in the downlink, constant BLER target (Release 5 and earlier)	R99, Rel-4 and Rel-5 only	R	RF_RO_03	UEs supporting FDD
+7.8.1A	Power control in downlink / Power control in the downlink, constant BLER target / Test 1 (Release 6 and later)	Rel-6	R	RA6	UEs supporting FDD
+	Power control in downlink / Power control in the downlink, constant BLER target / Test 2 (Release 6 and later)	Rel-6	R	RA6	UEs supporting FDD
+	Power control in downlink / Power control in the downlink, constant BLER target / Test 3 (Release 6 and later)	Rel-6	C_RF34	RA6	UEs supporting FDD and downlink RMC2 64 kbps
+	Power control in downlink / Power control in the downlink, constant BLER target / Test 4 (Release 6 and later)	Rel-6	C_RF34	RA6	UEs supporting FDD and downlink RMC2 64 kbps
+7.8.1B	Power control in the downlink, constant BLER target when DL_DCH_FET_Config is configured by higher layers	Rel-12	C_RF145	RA12	UEs supporting FDD and DCH Enhancements
+7.8.2	Power control in downlink / Power control in the downlink, initial convergence / Test 1	R99	R	RA99	UEs supporting FDD 
+	Power control in downlink / Power control in the downlink, initial convergence / Test 2	R99	R	RA99	UEs supporting FDD 
+	Power control in downlink / Power control in the downlink, initial convergence / Test 3	R99	C_RF08	RA99	UEs supporting FDD and downlink RMC 64 kbps
+	Power control in downlink / Power control in the downlink, initial convergence / Test 4	R99	C_RF08	RA99	UEs supporting FDD and downlink RMC 64 kbps
+7.8.2A	Power control in the downlink, initial convergence when DL_DCH_FET_Config is configured by higher layers	Rel-12	C_RF145	RA12	UEs supporting FDD and DCH Enhancements
+7.8.3	Power control in downlink Power control in the downlink, wind up effects / Test 1 (Release 5 and earlier)	R99, Rel-4 and Rel-5 only	R	RF_RO_03	UEs supporting FDD 
+7.8.3A	Power control in downlink Power control in the downlink, wind up effects / Test 1 (Release 6 and later)	Rel-6	R	RA6	UEs supporting FDD
+7.8.3B	Power control in the downlink, wind up effects (Release 6 and later) when DL_DCH_FET_Config is configured by higher layers	Rel-12	C_RF145	RA12	UEs supporting FDD and DCH Enhancements
+7.8.4	Power control in the downlink, different transport formats	Rel-5	R	RA5	UEs supporting FDD
+7.8.4A	Power control in the downlink, different transport formats when DL_DCH_FET_Config is configured by higher layers	Rel-12	C_RF145	RA12	UEs supporting FDD and DCH Enhancements
+7.8.5	Power control in the downlink for F-DPCH	Rel-6	C_RF39	RA6	UEs supporting FDD and HS-PDSCH and F-DPCH
+7.9.1	Downlink compressed mode / Single link performance / Test 1 (Release 5 and earlier)	R99, Rel-4 and Rel-5 only	C_RF04	RF_RO_03	UEs supporting FDD and downlink compressed mode
+	Downlink compressed mode / Single link performance / Test 2 (Release 5 and earlier)	R99, Rel-4 and Rel-5 only	C_RF04	RF_RO_03	UEs supporting FDD and downlink compressed mode
+	Downlink compressed mode / Single link performance / Test 3 (Release 4 and earlier)	R99 and Rel-4 only	C_RF04	RF_RO_02	UEs supporting FDD and downlink compressed mode
+	Downlink compressed mode / Single link performance / Test 4 (Release 4 and earlier)	R99 and Rel-4 only	C_RF04	RF_RO_02	UEs supporting FDD and downlink compressed mode
+7.9.1A	Downlink compressed mode / Single link performance / Test 1 (Release 6 and later)	Rel-6	C_RF04	RA6	UEs supporting FDD and downlink compressed mode
+	Downlink compressed mode / Single link performance / Test 2 (Release 6 and later)	Rel-6	C_RF04	RA6	UEs supporting FDD and downlink compressed mode
+7.10	Blind transport format detection / Test 1	R99	R	RA99	UEs supporting FDD
+	Blind transport format detection / Test 2	R99	R	RA99	UEs supporting FDD
+	Blind transport format detection / Test 3	R99	R	RA99	UEs supporting FDD
+	Blind transport format detection /  Test 4	R99	R	RA99	UEs supporting FDD
+	Blind transport format detection /  Test 5	R99	R	RA99	UEs supporting FDD
+	Blind transport format detection /  Test 6	R99	R	RA99	UEs supporting FDD
+7.11	Demodulation of Paging Channel (PCH)	Rel-4	C_RF12 	RA4	UEs supporting FDD Packet Switched Data
+7.12	Detection of Acquisition Indicator (AI)	Rel-4	R	RA4	UEs supporting FDD
+7.12A	Detection of E-DCH Acquisition Indicator (E-AI)	Rel-8	C_RF71	RA8	UEs supporting Enhanced Uplink on CELL_FACH state
+7.13	UE UL power control operation with discontinuous UL DPCCH transmission operation	Rel-7	C_RF54	RA7	UE supporting FDD and DPCCH Discontinuous Transmission
+8.2.2.1	Cell Re-Selection - Scenario 1: Single carrier case	R99	R	RA99	UEs supporting FDD
+8.2.2.2	Cell Re-Selection - Scenario 2: Multi carrier case	R99	R	RA99	UEs supporting FDD
+8.2.3.1	UTRAN to GSM Cell Re-Selection - Scenario 1: Both UTRA and GSM level changed	R99	C_RF05	RA99	UEs supporting FDD and GSM
+8.2.3.2	UTRAN to GSM Cell Re-Selection - Scenario 2: Only UTRA level changed	R99	C_RF05	RA99	UEs supporting FDD and GSM
+8.2.3.3	UTRAN to GSM Cell Re-Selection - Scenario 3: HCS with only UTRA level changed	Rel-6	C_RF05	RA6	UEs supporting FDD and GSM
+8.2.4	FDD/TDD Cell Re-selection	R99	C_RF06	RA99	UE supporting FDD and TDD
+8.2.5.1	UTRAN to E-UTRA Cell Re-Selection / E-UTRA is of higher priority	Rel-8	C_RF73	RA8	UE supporting FDD and E-UTRAN FDD
+8.2.5.2	UTRAN to E-UTRA Cell Re-Selection / E-UTRA is of lower priority	Rel-8	C_RF73	RA8	UE supporting FDD and E-UTRAN FDD
+8.2.5.3	RSRQ based reselection when E-UTRA FDD is of higher priority	Rel-11	C_RF73	RA11	UE supporting FDD and E-UTRAN FDD
+8.3.1	UTRAN Connected Mode Mobility FDD/FDD Soft Handover	R99	R	RA99	UEs supporting FDD
+8.3.2.1	UTRAN Connected Mode Mobility - FDD/FDD Hard Handover to intra-frequency cell	R99	R	RA99	UEs supporting FDD
+8.3.2.2	FDD/FDD Hard Handover to inter-frequency cell	R99	R	RA99	UEs supporting FDD
+8.3.3	FDD/TDD Handover	R99 and Rel-4 only	C_RF06	RF_RO_02	UEs supporting FDD and TDD
+8.3.4	Inter-system Handover from UTRAN FDD to GSM	R99	C_RF27	RA99	UEs supporting FDD and GSM and supporting speech.
+8.3.4a	Inter-system Handover from UTRAN FDD to E-UTRAN FDD	Rel-8	C_RF107	RA8	UE supporting FDD and E-UTRAN FDD and inter-RAT PS handover to E-UTRA(FDD) from UTRA and EUTRA Feature Group Indicator 2
+8.3.4b	Inter-system Handover from UTRAN FDD to E-UTRAN TDD	Rel-8	C_RF108	RA8	UE supporting FDD and E-UTRAN TDD and inter-RAT PS handover to E-UTRA(TDD) from EUTRA and UTRA Feature Group Indicator 2
+8.3.4c	Inter-system Handover from UTRAN FDD to E-UTRAN FDD: Unknown Target Cell	Rel-8	C_RF107	RA8	UE supporting FDD and E-UTRAN FDD and inter-RAT PS handover to E-UTRA(FDD) from UTRA and EUTRA Feature Group Indicator 2
+8.3.4d	Inter-system Handover from UTRAN FDD to E-UTRAN TDD; Unknown Target Cell	Rel-8	C_RF108	RA8	UE supporting FDD and E-UTRAN TDD and inter-RAT PS handover to E-UTRA(TDD) from UTRA and EUTRA Feature Group Indicator 2
+8.3.5.1	Cell Re-selection in CELL_FACH - One frequency present in neighbour list and FACH measurement occasions configured	R99	R	RA99	UEs supporting FDD
+8.3.5.1a	Cell Re-selection in CELL_FACH - One frequency present in neighbour list and HS-DSCH DRX configured	Rel-11	C_RF131	RA11	UEs supporting FDD and HS-DSCH DRX operation in CELL_FACH state
+8.3.5.2	Cell Re-selection in CELL_FACH - Two frequencies present in the neighbour list and FACH measurement occasions configured	R99	R	RA99	UEs supporting FDD
+8.3.5.2a	Cell Re-selection in CELL_FACH - Two frequencies present in the neighbour list and HS-DSCH DRX configured (Absolute priority levels not configured)	Rel-11	C_RF131	RA11	UEs supporting FDD and HS-DSCH DRX operation in CELL_FACH state
+8.3.5.2b	Cell Re-selection in CELL_FACH - Two frequencies present in the neighbour list and HS-DSCH DRX configured (Absolute priority levels configured)	Rel-11	C_RF131	RA11	UEs supporting FDD and HS-DSCH DRX operation in CELL_FACH state
+8.3.5.2c	Cell Re-selection in CELL_FACH - Two frequencies present in the neighbour list and HS-DSCH 2nd DRX configured (Absolute priority levels not configured)	Rel-11	C_RF132	RA11	UEs supporting FDD and HS-DSCH DRX operation with second DRX cycle in CELL_FACH state
+8.3.5.2d	Cell Re-selection in CELL_FACH - Two frequencies present in the neighbour list and HS-DSCH 2nd DRX configured (Absolute priority levels configured)	Rel-11	C_RF132	RA11	UEs supporting FDD and HS-DSCH DRX operation with second DRX cycle in CELL_FACH state
+8.3.5.3	Cell Re-selection in CELL_FACH - Cell Reselection to GSM	R99	C_RF07	RA99	UEs supporting FDD Packet Switched Data and GPRS
+8.3.5.4	Cell Reselection during an MBMS session, two frequencies present in neighbour list	Rel-6	C_RF29	RA6	UEs supporting FDD and MBMS
+8.3.5.5.1	UTRAN to E-UTRA Cell Reselection - Reselection to E-UTRA FDD when HS-DSCH DRX is configured (E-UTRA has higher priority)	Rel-11	C_RF133	RA11	UEs supporting FDD and E-UTRAN FDD and HS-DSCH DRX operation in CELL_FACH state
+8.3.5.5.2	UTRAN to E-UTRA Cell Reselection - Reselection to E-UTRA FDD when HS-DSCH DRX is configured (E-UTRA has lower priority)	Rel-11	C_RF133	RA11	UEs supporting FDD and E-UTRAN FDD and HS-DSCH DRX operation in CELL_FACH state
+8.3.5.5.3	UTRAN to E-UTRA Cell Reselection - Reselection to E-UTRA FDD when HS-DSCH 2nd DRX is configured (E-UTRA has higher priority)	Rel-11	C_RF134	RA11	UEs supporting FDD and E-UTRAN FDD  and HS-DSCH DRX operation with second DRX cycle in CELL_FACH state
+8.3.5.5.4	UTRAN to E-UTRA Cell Reselection - Reselection to E-UTRA TDD when HS-DSCH DRX is configured (E-UTRA has higher priority)	Rel-11	C_RF135	RA11	UEs supporting FDD and E-UTRAN TDD and HS-DSCH DRX operation in CELL_FACH state
+8.3.5.5.5	UTRAN to E-UTRA Cell Reselection - Reselection to E-UTRA TDD when HS-DSCH DRX is configured (E-UTRA has lower priority)	Rel-11	C_RF135	RA11	UEs supporting FDD and E-UTRAN TDD and HS-DSCH DRX operation in CELL_FACH state
+8.3.5.5.6	UTRAN to E-UTRA Cell Reselection - Reselection to E-UTRA TDD when HS-DSCH 2nd DRX is configured (E-UTRA has higher priority)	Rel-11	C_RF136	RA11	UEs supporting FDD and E-UTRAN TDD and HS-DSCH DRX operation with second DRX cycle in CELL_FACH state
+8.3.6.1	Cell Re-selection in CELL_PCH - One frequency present in the neighbour list	R99	C_RF12	RA99	UEs supporting FDD Packet Switched Data
+8.3.6.2	Cell Re-selection in CELL_PCH - Two frequencies present in the neighbour list	R99	C_RF12	RA99	UEs supporting FDD Packet Switched Data
+8.3.6.3	Cell re-selection during an MBMS session, one UTRAN inter-frequency and 2 GSM cells present in the neighbour list	Rel-6	C_RF30	RA6	UEs supporting FDD and MBMS and GSM
+8.3.7.1	Cell Re-selection in URA_PCH - One frequency present in the neighbour list	R99	C_RF12	RA99	UEs supporting FDD Packet Switched Data
+8.3.7.2	Cell Re-selection in URA_PCH - Two frequencies present in the neighbour list	R99	C_RF12	RA99	UEs supporting FDD Packet Switched Data
+8.3.8	Serving HS-DSCH cell change	Rel-6	C_RF02	RA6	UEs supporting FDD and HS-PDSCH
+8.3.9	Enhanced Serving HS-DSCH cell change	Rel-8	C_RF68	RA8	UEs supporting FDD and HS-PDSCH and additionally supporting Target Cell Pre-Configuration
+8.3.10.1	Intrafrequency System Information Acquisition for CSG cell	Rel-9	C_RF87	RA9	UEs supporting FDD, CSG and intra-frequency SI acquisition for HO.
+8.3.10.2	Interfrequency System Information Acquisition for CSG cell	Rel-9	C_RF88	RA9	UEs supporting FDD, CSG and inter-frequency SI acquisition for HO.
+8.4.1.1	RRC Connection Control / RRC Re-establishment delay - Test 1	R99	R	RA99	UEs supporting FDD
+8.4.1.2	RRC Connection Control / RRC Re-establishment delay - Test 2	R99	R	RA99	UEs supporting FDD
+8.4.2.1	Random Access - Correct behaviour when receiving an ACK	R99, Rel-4 and Rel-5 only	R	RF_RO_03	UEs supporting FDD
+8.4.2.1A	Random Access - Correct behaviour when receiving an ACK - Release 6	Rel-6	R	RA6	UEs supporting FDD
+8.4.2.2	Random Access - Correct behaviour when receiving an NACK	R99	R	RA99	UEs supporting FDD
+8.4.2.3	Random Access - Correct behaviour at Time-out	R99	R	RA99	UEs supporting FDD
+8.4.2.4	Random Access - Correct behaviour when reaching maximum transmit power	R99	R	RA99	UEs supporting FDD
+8.4.3.1	Transport format combination selection in UE - Interactive or Background, PS, UL: 64 kbps	R99	C_RF13	RA99	UEs supporting FDD and downlink RMC 64 kbps and uplink RMC 64 kbps
+8.4.3.1A	Transport format combination selection in UE-Interactive or Background, PS, UL: 64 kbps + Conversational / speech, CS, UL: 12.2kbps	Rel-10	C_RF13	RA10	UEs supporting FDD and downlink RMC 64 kbps and uplink RMC 64 kbps
+8.4.4.1	E-TFC restriction in UE - 10ms TTI E-DCH E-TFC restriction	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+8.4.4.2	E-TFC restriction in UE - 2ms TTI E-DCH E-TFC restriction	Rel-6	C_RF28	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH with 2 ms TTI
+8.5.1	Timing and Signalling Characteristics - UE Transmit Timing	R99	R	RA99	UEs supporting FDD
+8.6.1.1	UE Measurements Procedures / FDD intra frequency measurements - Event triggered reporting in AWGN propagation conditions	R99 only	R	RF_RO_01	UEs supporting FDD
+8.6.1.1A	UE Measurements Procedures / FDD intra frequency measurements - Event triggered reporting in AWGN propagation conditions	Rel-4	R	RA4	UEs supporting FDD
+8.6.1.2	UE Measurements Procedures / FDD intra frequency measurements - Event triggered reporting of multiple neighbours in AWGN propagation condition	R99 only	R	RF_RO_01	UEs supporting FDD
+8.6.1.2A	UE Measurements Procedures / FDD intra frequency measurements - Event triggered reporting of multiple neighbours in AWGN propagation condition	Rel-4	R	RA4	UEs supporting FDD
+8.6.1.3	UE Measurements Procedures / FDD intra frequency measurements - Event triggered reporting of two detectable neighbours in AWGN propagation condition	R99 only	R	RF_RO_01	UEs supporting FDD
+8.6.1.3A	UE Measurements Procedures / FDD intra frequency measurements - Event triggered reporting of two detectable neighbours in AWGN propagation condition	Rel-4	R	RA4	UEs supporting FDD
+8.6.1.4	Void				
+8.6.1.4A	UE Measurements Procedures / FDD intra frequency measurements - Correct reporting of neighbours in fading propagation condition	Rel-4	R	RA4	UEs supporting FDD
+8.6.1.5	UE Measurements Procedures / FDD intra frequency measurements - Event triggered reporting of multiple neighbour cells in Case 1 fading condition	Rel-5	R	RA5	UEs supporting FDD
+8.6.1.6	UE Measurements Procedures / FDD intra frequency measurements - Event triggered reporting of multiple neighbour cells in Case 3 fading condition	Rel-5	R	RA5	UEs supporting FDD
+8.6.2.1	FDD inter frequency measurements - Correct reporting of neighbours in AWGN propagation condition (Release 5 and earlier)	R99, Rel-4 and Rel-5 only	R	RF_RO_003	UEs supporting FDD
+8.6.2.1A	FDD inter frequency measurements - Correct reporting of neighbours in AWGN propagation condition (Release 6 and later)	Rel-6	R	RA6	UEs supporting FDD
+8.6.2.2	FDD inter frequency measurements - Correct reporting of neighbours in fading propagation condition (Release 5 only)	Rel-5 only	R	RF_RO_04	UEs supporting FDD
+8.6.2.2A	FDD inter frequency measurements - Correct reporting of neighbours in fading propagation condition (Release 6 and later)	Rel-6	R	RA6	UEs supporting FDD
+8.6.2.3	FDD inter frequency measurements - Correct reporting of neighbours in fading propagation condition using TGL1= 14	Rel-6	R	RA6	UEs supporting FDD
+8.6.3.1	TDD measurements - Correct reporting of TDD neighbours in AWGN propagation condition	R99 and Rel-4 only	C_RF06	RF_RO_02	UEs supporting FDD and TDD
+8.6.4.1	GSM measurements - Correct reporting of GSM neighbours in AWGN propagation condition	R99	C_RF05	RA99	UEs supporting FDD and GSM
+8.6.5.1	Combined Interfrequency and GSM measurements - Correct reporting of neighbours in AWGN propagation condition	Rel-6	C_RF05	RA6	UEs supporting FDD and GSM
+8.6.6.1	Correct reporting of E-UTRAN FDD neighbour in fading propagation condition in CELL_DCH	Rel-8	C_RF109	RA8	UE supporting FDD and E-UTRAN FDD and EUTRA Feature Group Indicator 2
+8.6.6.2	Correct reporting of E-UTRAN TDD neighbour in fading propagation condition in CELL_DCH	Rel-8	C_RF110	RA8	UE supporting FDD and E-UTRAN TDD and EUTRA Feature Group Indicator 2
+8.6.7.1	Correct reporting of E-UTRA FDD neighbours in fading propagation condition	Rel-8	C_RF109	RA8	UE supporting FDD and E-UTRAN FDD and EUTRA Feature Group Indicator 2
+8.6.7.2	Correct reporting of E-UTRA TDD neighbours in Fading propagation condition	Rel-8	C_RF110	RA8	UE supporting FDD and E-UTRAN TDD and EUTRA Feature Group Indicator 2
+8.7.1.1.1	Measurements Performance Requirements / CPICH RSCP / Intra frequency measurements accuracy - Absolute accuracy requirement	R99	R	RA99	UEs supporting FDD
+8.7.1.1.2	Measurements Performance Requirements / CPICH RSCP / Intra frequency measurements accuracy - Relative accuracy requirement	R99	R	RA99	UEs supporting FDD
+8.7.1.2.1	Inter frequency measurement accuracy - Relative accuracy requirement	R99	R	RA99	UEs supporting FDD
+8.7.2.1.1	CPICH Ec/Io / Intra frequency measurements accuracy - Absolute accuracy requirement	R99	R	RA99	UEs supporting FDD
+8.7.2.1.2	CPICH Ec/Io / Intra frequency measurements accuracy - Relative accuracy requirement	R99	R	RA99	UEs supporting FDD
+8.7.2.2.1	Inter frequency measurement accuracy / Absolute accuracy requirement		Void	Void	
+8.7.2.2.2	Inter frequency measurement accuracy / Relative accuracy requirement	R99	R	RA99	UEs supporting FDD
+8.7.3.1	UTRA Carrier RSSI - Absolute measurement accuracy requirement	R99	R	RA99	UEs supporting FDD
+8.7.3.2	UTRA Carrier RSSI - Relative measurement accuracy requirement	Rel-6	R	RA6	UEs supporting FDD
+8.7.3A	GSM Carrier RSSI	R99	C_RF05	RA99	UE supporting FDD and GSM
+8.7.3B	Transport channel BLER		Void		
+8.7.3C	UE transmitted power (R99 and Rel-4 only)	R99 and Rel-4 only	R	RF_RO_02	UEs supporting FDD
+8.7.3D	UE transmitted power (Rel-5 and later)	Rel-5	R	RA5	UEs supporting FDD
+8.7.4.1	SFN-CFN observed time difference - Intra frequency measurement requirement	R99	R	RA99	UEs supporting FDD
+8.7.4.2	SFN-CFN observed time difference - Inter frequency measurement requirement	R99	R	RA99	UEs supporting FDD
+8.7.5.1	SFN-SFN observed time difference type 1	R99	R	RA99	UEs supporting FDD
+8.7.5.2	SFN-SFN observed time difference type 2		Void	Void	
+8.7.6.1	UE Rx-Tx time difference type 1 (Release 5 and earlier)	R99, Rel-4 and Rel-5 only	R	RF_RO_03	UEs supporting FDD
+8.7.6.1A	UE Rx-Tx time difference type 1 (Release 6 and later)	Rel-6	R	RA6	UEs supporting FDD
+8.7.6.2	UE Rx-Tx time difference type 2		Void	Void	
+8.7.7	Observed time difference to GSM cell	R99 and Rel-4 only	Void	Void	
+8.7.8.1	P-CCPCH RSCP Absolute measurement accuracy	R99 and Rel-4 only	C_RF06	RF_RO_02	UEs supporting FDD and TDD
+8.7.9	UE Transmission Power Headroom	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+8.7.10	E-UTRAN FDD RSRP absolute accuracy (CELL_DCH)	Rel-9	C_RF73	RA9	UE supporting FDD and E-UTRAN FDD
+8.7.11	E-UTRAN TDD RSRP absolute accuracy (CELL_DCH)	Rel-9	C_RF74	RA9	UE supporting FDD and E-UTRAN TDD
+8.7.12	E-UTRAN FDD RSRQ absolute accuracy (CELL_DCH)	Rel-9	C_RF73	RA9	UE supporting FDD and E-UTRAN FDD
+8.7.13	E-UTRAN TDD RSRQ absolute accuracy (CELL_DCH)	Rel-9	C_RF74	RA9	UE supporting FDD and E-UTRAN TDD
+9.2.1A	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 1/2/3	Rel-5	C_RF14	RA5	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 1-6
+9.2.1B	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - QPSK, Fixed Reference Channel (FRC) H-Set 4/5	Rel-5	C_RF15	RA5	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 11-12
+9.2.1C	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6/3	Rel-6	C_RF16	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10, but not supporting the optional enhanced performance requirements types 1, 2, 3 or 3i.
+9.2.1D	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 1 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 1/2/3	Rel-6	C_RF17	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 1-6 and Enhanced performance requirements type 1.
+9.2.1E	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 1 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6/3	Rel-6	C_RF18	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10 and Enhanced performance requirements type 1.
+9.2.1F	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6/3	Rel-6	C_RF112	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10 and Enhanced performance requirements type 2 or Enhanced performance requirements type 3 or Enhanced performance requirements type 3i (Note 4)
+		Rel-7	C_RF41	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 13-14.(Note 4)
+9.2.1FA	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6A/3A	Rel-8	C_RF62	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24 but not supporting dual band operation
+9.2.1FB	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6A/3A for DB-DC-HSDPA	Rel-9	C_RF92	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24 and dual band operation
+9.2.1FC	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6B/3B 	Rel-10	C_RF95	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability category 29
+9.2.1FD	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6C/3C 	Rel-10	C_RF96	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability category 31
+9.2.1G	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6/3	Rel-7	C_RF47	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10, 13-14 and Enhanced performance requirements type 3. (Note 4)
+		Rel-7	C_RF38	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-18. (Note 4)
+		Rel-8	C_RF59	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10, 13-14 and Enhanced performance requirements type 3i (Note 4)
+		Rel-8	C_RF45	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19-20. (Note 4)
+9.2.1GA	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6A/3A	Rel-8	C_RF63	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i but not supporting dual band operation
+		Rel-9	C_RF81	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i but not supporting dual band operation
+9.2.1GB	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6A/3A for DB-DC-HSDPA	Rel-9	C_RF139	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-28 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i and dual band operation
+9.2.1GC	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6C/3C	Rel-10	C_RF105	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 29-30 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i 
+9.2.1GD	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6D/3D	Rel-10	C_RF106	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 31-32 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i 
+9.2.1H	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - 64QAM, Fixed Reference Channel (FRC) H-Set 8	Rel-7	C_RF113	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 13, 14 and not supporting the optional enhanced performance requirements Type 3 or Type 3i. (Note 4)
+9.2.1HA	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - 64QAM, Fixed Reference Channel (FRC) H-Set 8 A	Rel-8	C_RF64	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 23-24 and not supporting the optional enhanced performance requirements Type 3 or Type 3i and not supporting dual band operation
+9.2.1HB	Demodulation of HS-DSCH (Fixed Reference Channel) Single Link Performance - Enhanced Performance Requirements Type 2 - 64QAM, Fixed Reference Channel (FRC) H-Set 8 A for DB-DC-HSDPA	Rel-9	C_RF141	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 23-24 and not supporting the optional enhanced performance requirements Type 3 or Type 3i and supporting dual band operation
+9.2.1HC	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 8B	Rel-10	C_RF114	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability category 29 and not supporting the optional enhanced performance requirements Type 3 or Type 3i.
+9.2.1HD	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 8C	Rel-10	C_RF115	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability category 31 and not supporting the optional enhanced performance requirements Type 3 or Type 3i.
+9.2.1I	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - 64QAM, Fixed Reference Channel (FRC) H-Set 8	Rel-7	C_RF42	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 13, 14 and Enhanced performance requirements type 3 (Note 4)
+		Rel-7	C_RF44	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 17, 18. (Note 4)
+		Rel-8	C_RF58	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 13, 14 and Enhanced performance requirements type 3i (Note 4)
+		Rel-8	C_RF45	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19-20. (Note 4)
+9.2.1IA	Demodulation of HS-DSCH (Fixed Reference Channel) Single Link Performance - Enhanced Performance Requirements Type 3 - 64QAM, Fixed Reference Channel (FRC) H-Set 8A	Rel-8	C_RF65	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 23-24 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i but not supporting dual band operation
+		Rel-9	C_RF81	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 27-28 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i but not supporting dual band operation
+9.2.1IB	Demodulation of HS-DSCH (Fixed Reference Channel) S ingle Link Performance - Enhanced Performance Requirements Type 3 - 64QAM, Fixed Reference Channel (FRC) H-Set 8A for DB-DC-HSDPA	Rel-9	C_RF140	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 23, 24, 27 or 28 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i and dual band operation
+9.2.1IC	Demodulation of HS-DSCH (Fixed Reference Channel) Single Link Performance - Enhanced Performance Requirements Type 3 - 64QAM, Fixed Reference Channel (FRC) H-Set 8B	Rel-10	C_RF105	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 29-30 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i.
+9.2.1ID	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - 64QAM, Fixed Reference Channel (FRC) H-Set 8C	Rel-10	C_RF106	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 31-32 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i.
+9.2.1J	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 10	Rel-8	C_RF77	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 9-10 and Enhanced performance requirements type 2 and not supporting the optional enhanced performance requirements Type3 or Type 3i (Note 4)
+		Rel-8	C_RF113	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 13-14 and not supporting the optional enhanced performance requirements Type 3 or Type 3i. (Note 4)
+9.2.1JA	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 10A	Rel-8	C_RF116	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24 and not supporting the optional enhanced performance requirements Type 3 or Type 3i and not supporting dual band operation
+9.2.1JB	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 10A for DB-DC-HSDPA	Rel-9	C_RF143	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24 and not supporting the optional enhanced performance requirements Type 3 or Type 3i and supporting Dual band operation
+9.2.1JC	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 10B	Rel-10	C_RF95	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability category 29 and not supporting the optional enhanced performance requirements Type 3 or Type 3i.
+9.2.1JD	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 10C	Rel-10	C_RF96	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability category 31 and not supporting the optional enhanced performance requirements Type 3 or Type 3i.
+9.2.1K	Single Link Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 10	Rel-8	C_RF50	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 9-10, 13-14 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i (Note 4)
+		Rel-8	C_RF38	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-18. (Note 4)
+		Rel-8	C_RF45	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19-20. (Note 4)
+9.2.1KA	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 10A	Rel-8	C_RF63	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i but not supporting dual band operation
+		Rel-9	C_RF81	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i but not supporting dual band operation
+9.2.1KB	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 10A for DB-DC-HSDPA	Rel-9	C_RF139	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-28 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i and dual band operation
+9.2.1KC	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 10B	Rel-10	C_RF105	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 29-30 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i.
+9.2.1KD	Demodulation of HS-DSCH (Fixed Reference Channel) - Single Link Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 10C	Rel-10	C_RF106	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 31-32 and Enhanced performance requirements type 3 or Enhanced performance requirements type 3i.
+9.2.1L	Single Link Performance - Enhanced Performance Requirements Type 3i - QPSK, Fixed Reference Channel (FRC) H-Set 6	Rel-8	C_RF57	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10, 13-20 and Enhanced performance requirements type 3i (Note 4)
+9.2.1LA	Enhanced Performance Requirements Type 3i - QPSK, Fixed Reference Channel (FRC) H-Set 6A	Rel-8	C_RF69	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24 and Enhanced performance requirements type 3i
+		Rel-9	C_RF79	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28 and Enhanced performance requirements type 3i
+9.2.1LB	Enhanced Performance Requirements Type 3i - QPSK, Fixed Reference Channel (FRC) H-Set 6A for DB-DC-HSDPA	Rel-9	C_RF142	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-28 and Enhanced performance requirements type 3i and dual band operation
+9.2.1LC	Single Link Performance - Enhanced Performance Requirements Type 3i -QPSK, Fixed Reference Channel (FRC) H-Set 6B	Rel-10	C_RF103	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability category 29-30 and Enhanced performance requirements type 3i
+9.2.1LD	Single Link Performance - Enhanced Performance Requirements Type 3i -QPSK, Fixed Reference Channel (FRC) H-Set 6C	Rel-10	C_RF104	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability category 31-32 and Enhanced performance requirements type 3i
+9.2.1M	Single Link Performance - Enhanced Performance Requirements Type 3i - 16QAM/QPSK, Fixed Reference Channel (FRC) H-Set 6 for Multiflow HSDPA (2 cells)	Rel-11	C_RF137	RA11	UEs supporting FDD and support Multi flow and with HS DSCH categories 21-38. 
+9.2.1MA	Single Link Performance - Enhanced Performance Requirements Type 3i - 16QAM/QPSK, Fixed Reference Channel (FRC) H-Set 6 for Multiflow HSDPA (3 cells)	Rel-11	C_RF138	RA11	UEs supporting FDD and support Multi flow and with HS DSCH categories 29-36 or 38. 
+9.2.2A	Demodulation of HS-DSCH (Fixed Reference Channel) - Open Loop Diversity Performance - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 1/2/3	Rel-5	C_RF14a	RA5	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 1-6, but not supporting the optional enhanced performance requirements types 1, 2, 3 or 3i.
+		Rel-6	C_RF16	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10, but not supporting the optional enhanced performance requirements types 1, 2, 3 or 3i.
+9.2.2B	Demodulation of HS-DSCH (Fixed Reference Channel) - Open Loop Diversity Performance - QPSK, Fixed Reference Channel (FRC) H-Set 4/5	Rel-5	C_RF15	RA5	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 11-12
+9.2.2C	Demodulation of HS-DSCH (Fixed Reference Channel) - Open Loop Diversity Performance - Enhanced Performance Requirements Type 1 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 1/2/3	Rel-6	C_RF19	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 1-10 and Enhanced performance requirements type 1
+9.2.2D	Demodulation of HS-DSCH (Fixed Reference Channel) - Open Loop Diversity Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 3	Rel-6	C_RF20	???	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10 and Enhanced performance requirements type 2 and not supporting the optional enhanced performance requirements Type 3 or Type 3i.
+		Rel-7	C_RF113	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 13-14 and not supporting the optional enhanced performance requirements Type 3 or Type 3i.
+9.2.2E	Demodulation of HS-DSCH (Fixed Reference Channel) - Open Loop Diversity Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 3	Rel-7	C_RF47	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10, 13-14 and Enhanced performance requirements type 3
+		Rel-7	C_RF38	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-18
+		Rel-8	C_RF59	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10, 13-14 and Enhanced performance requirements type 3i
+		Rel-8	C_RF45	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19-20.
+9.2.3A	Demodulation of HS-DSCH (Fixed Reference Channel) - Closed Loop Diversity Performance - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 1/2/3	Rel-5	C_RF14a	RA5	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 1-6, but not supporting the optional enhanced performance requirements types 1, 2, 3 or 3i.
+		Rel-6	C_RF16	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10, but not supporting the optional enhanced performance requirements types 1, 2, 3 or 3i.
+9.2.3B	Demodulation of HS-DSCH (Fixed Reference Channel) - Closed Loop Diversity Performance - QPSK, Fixed Reference Channel (FRC) H-Set 4/5	Rel-5	C_RF15	RA5	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 11-12
+9.2.3C	Demodulation of HS-DSCH (Fixed Reference Channel) - Closed Loop Diversity Performance - Enhanced Performance Requirements Type 1 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 1/2/3	Rel-6	C_RF19	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 1-10 and Enhanced performance requirements type 1
+9.2.3D	Demodulation of HS-DSCH (Fixed Reference Channel) - Closed Loop Diversity Performance - Enhanced Performance Requirements Type 2 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 6/3	Rel-6	C_RF20	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10 and Enhanced performance requirements type 2 and not supporting the optional enhanced performance requirements Type 3 or Type 3i.
+		Rel-7	C_RF113	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 13-14 and not supporting the optional enhanced performance requirements Type 3 or Type 3i.
+9.2.3E	Demodulation of HS-DSCH (Fixed Reference Channel) - Closed Loop Diversity Performance - Enhanced Performance Requirements Type 3 - QPSK/16QAM, Fixed Reference Channel (FRC) H-Set 3	Rel-7	C_RF47	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10, 13-14 and Enhanced performance requirements type 3
+		Rel-7	C_RF38	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-18.
+		Rel-8	C_RF59	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 7-10, 13-14 and Enhanced performance requirements type 3i
+		Rel-8	C_RF45	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19-20.
+9.2.4A	MIMO Performance - Fixed Reference Channel (FRC) H-Set 9	Rel-7	C_RF38	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-18
+(Note 4)
+9.2.4B	MIMO Performance - Fixed Reference Channel (FRC) H-Set 11	Rel-8	C_RF45	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19-20
+(Note 4)
+9.2.4C	MIMO Performance - Fixed Reference Channel (FRC) H-Set 9A	Rel-9	C_RF80a	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28 but not supporting dual band operation
+9.2.4CA	MIMO Performance - Fixed Reference Channel (FRC) H-Set 9A for DB-DC-HSDPA	Rel-10	C_RF80b	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28 and supporting dual band operation
+9.2.4D	MIMO Performance - Fixed Reference Channel (FRC) H-Set 11A	Rel-9	C_RF78a	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 27-28 but not supporting dual band operation
+9.2.4DA	MIMO Performance - Fixed Reference Channel (FRC) H-Set 11A for DB-DC-HSDPA	Rel-10	C_RF78b	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 27-28 and supporting dual band operation
+9.2.4E	MIMO Performance - Fixed Reference Channel (FRC) H-Set 9 Asymmetric CPICHs	Rel-10 (Note1)	C_RF38	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-18 (Note 4)
+9.2.4F	MIMO Performance - Fixed Reference Channel (FRC) H-Set 11 Asymmetric CPICHs	Rel-10 (Note2)	C_RF45	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19-20 (Note 4)
+9.2.4G	MIMO Performance - Fixed Reference Channel (FRC) H-Set 9A Asymmetric CPICHs	Rel-10 (Note3)	C_RF80	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28
+9.2.4H	MIMO Performance - Fixed Reference Channel (FRC) H-Set 11A Asymmetric CPICHs	Rel-10 (Note3)	C_RF78	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 27-28
+9.3.1	Reporting of Channel Quality Indicator - Single Link Performance - AWGN Propagation Conditions	Rel-5 only	C_RF40	RF_RO_04	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 1 - 8, 11 and 12
+		Rel-6	C_RF82	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 1 - 12
+		Rel-7	C_RF83	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 13 - 20
+9.3.1A	Reporting of Channel Quality Indicator - Single Link Performance - AWGN Propagation Conditions, 64QAM	Rel-7	C_RF35	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 13, 14 17 and 18
+		Rel-8	C_RF72	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 13, 14, 17, 18, 19 and 20
+9.3.1B	Single Link Performance - AWGN Propagation Conditions, DC-HSDPA requirements	Rel-8	C_RF66	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24
+		Rel-9	C_RF80	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28
+9.3.1BA	Single Link Performance - AWGN Propagation Conditions, DB-DC-HSDPA requirements	Rel-9	C_RF94	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-28 and dual band operation
+9.3.1BB	Single Link Performance - AWGN Propagation Conditions, 4C-HSDPA requirements (3 Carriers)	Rel-10	C_RF119	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 29-30 
+9.3.1BC	Single Link Performance - AWGN Propagation Conditions, 4C-HSDPA requirements	Rel-10	C_RF120	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 31-32
+9.3.2	Reporting of Channel Quality Indicator - Single Link Performance - Fading Propagation Conditions	Rel-5 only	C_RF40	RF_RO_04	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 1 - 8, 11 and 12
+		Rel-6	C_RF82	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 1 -12
+		Rel-7	C_RF83	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 13 - 20
+9.3.2A	Single Link Performance - Fading Propagation Conditions, DC-HSDPA requirements	Rel-8	C_RF66	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-24
+		Rel-9	C_RF80	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 25-28 
+9.3.2AA	Single Link Performance - Fading Propagation Conditions, DB-DC-HSDPA requirements	Rel-9	C_RF94	RA9	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 21-28 and dual band operation
+9.3.2AB	Single Link Performance - Fading Propagation Conditions, 4C-HSDPA requirements(3 Carriers)	Rel-10	C_RF119	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 29-30 
+9.3.2AC	Single Link Performance - Fading Propagation Conditions, 4C-HSDPA requirements	Rel-10	C_RF120	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 31-32
+9.3.2B	Reporting of Channel Quality Indicator - Single Link Performance - Fading Propagation Conditions, 64QAM	Rel-7 only	C_RF35	RF_RO_05	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 13, 14 17 and 18
+		Rel-8	C_RF72	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 13, 14 ,17, 18, 19 and 20
+9.3.2C	Single Link Performance– Fading propagation conditions, Multiflow HSDPA requirements (2 Cells)	Rel-11	C_RF137	RA11	UEs supporting FDD and support Multi flow and with HS DSCH categories 21-38. 
+9.3.2CA	Single Link Performance – Fading propagation conditions, Multiflow HSDPA requirements (3 cells)	Rel-11	C_RF138	RA11	UEs supporting FDD and support Multi flow and with HS DSCH categories 29-36 or 38.
+9.3.3	Reporting of Channel Quality Indicator - Open Loop Diversity Performance - AWGN Propagation Conditions	Rel-6	C_RF82	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 1 -12
+		Rel-7	C_RF83	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 13 - 20
+9.3.4	Reporting of Channel Quality Indicator - Open Loop Diversity Performance - Fading Propagation Conditions	Rel-6	C_RF82	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 1 -12
+		Rel-7	C_RF83	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 13 - 20
+9.3.5	Reporting of Channel Quality Indicator - Closed Loop Diversity Performance - AWGN Propagation Conditions	Rel-6	C_RF82	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 1 -12
+		Rel-7	C_RF83	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 13 - 20
+9.3.6	Reporting of Channel Quality Indicator - Closed Loop Diversity Performance - Fading Propagation Conditions	Rel-6	C_RF82	RA6	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 1 -12
+		Rel-7	C_RF83	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE categories 13 - 20
+9.3.7A	Reporting of Channel Quality Indicator - MIMO Single Stream Fading Conditions	Rel-7	C_RF38	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-18
+		Rel-8	C_RF56	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19 and 20
+9.3.7B	Reporting of Channel Quality Indicator - MIMO Dual Stream Fading Conditions	Rel-7	C_RF38	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-18
+		Rel-8	C_RF56	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19 and 20
+9.3.7C	Reporting of Channel Quality Indicator - MIMO Dual Stream Fading Conditions  – UE categories 19-20	Rel-8	C_RF56	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19 and 20
+9.3.7D	Reporting of Channel Quality Indicator - MIMO Dual Stream Static Orthogonal Conditions - UE categories 15-20	Rel-8	C_RF55	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15 to 20
+9.3.7E	Reporting of Channel Quality Indicator - MIMO Dual Stream Static Orthogonal Conditions - UE categories 19-20	Rel-8	C_RF56	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19 and 20
+9.3.7F	Reporting of Channel Quality Indicator - MIMO Single Stream Fading Conditions-Asymmetric CPICHs	Rel-10 (Note1)	C_RF55	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15 to 20
+9.3.7G	Reporting of Channel Quality Indicator - MIMO Dual Stream Fading Conditions-Asymmetric CPICHs	Rel-10 (Note1)	C_RF55	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15 to 20
+9.3.7H	Reporting of Channel Quality Indicator - MIMO Dual Stream Fading Conditions  – UE categories 19-20 -Asymmetric CPICHs	Rel-10 (Note2)	C_RF56	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19 and 20
+9.3.7I	Reporting of Channel Quality Indicator - MIMO Dual Stream Static Orthogonal Conditions - UE categories 15-20 -Asymmetric CPICHs	Rel-10 (Note2)	C_RF55	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15 to 20
+9.3.7J	Reporting of Channel Quality Indicator - MIMO Dual Stream Static Orthogonal Conditions - UE categories 19-20 -20 -Asymmetric CPICHs	Rel-10 (Note2)	C_RF56	RA8	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 19 and 20
+9.4.1	HS-SCCH Detection Performance - Single Link Performance	Rel-5	C_RF02	RA5	UEs supporting FDD and HS-PDSCH
+9.4.1A	HS-SCCH Detection Performance - Single Link Performance - Enhanced Performance Requirements Type 1	Rel-6	C_RF21	RA6	UEs supporting FDD and HS-PDSCH and Enhanced performance requirements type 1.
+		Rel-7	C_RF61	RA7	UEs supporting FDD and HS-PDSCH and Enhanced performance requirements type 3
+		Rel-8	C_RF60	RA8	UEs supporting FDD and HS-PDSCH and Enhanced performance requirements type 3i
+9.4.2	HS-SCCH Detection Performance - Open Loop Diversity Performance	Rel-6	C_RF02	RA6	UEs supporting FDD and HS-PDSCH
+9.4.2A	HS-SCCH Detection Performance - Open Loop Diversity Performance - Enhanced Performance Requirements Type 1	Rel-6	C_RF21	RA6	UEs supporting FDD and HS-PDSCH and Enhanced performance requirements type 1
+		Rel-7	C_RF61	RA7	UEs supporting FDD and HS-PDSCH and Enhanced performance requirements type 3
+		Rel-8	C_RF60	RA8	UEs supporting FDD and HS-PDSCH and Enhanced performance requirements type 3i
+9.4.3	HS-SCCH Detection Performance - HS-SCCH Type 3 Performance	Rel-7	C_RF38	RA7	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-18
+9.4.3A	HS-SCCH Type 3 Performance -STTD disabled- Asymmetric CPICHs	Rel-10	C_RF55	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-20
+9.4.3B	HS-SCCH Type 3 Performance -STTD enabled- Asymmetric CPICHs	Rel-10	C_RF99	RA10	UEs supporting FDD and HS-PDSCH and HSDPA UE capability categories 15-20 and supporting Tx Diversity on DL control channels
+9.4.4	HS-SCCH Detection Performance - HS-SCCH Type 3 Performance for MIMO only with single-stream restriction	Rel-10	C_RF100	RA10	UEs supporting FDD and HS-PDSCH and MIMO only with single-stream restriction and supporting Tx Diversity on DL control channels
+9.4.4A	HS-SCCH Detection Performance - HS-SCCH Type 3 Performance for MIMO only with single-stream restriction-Enhanced Performance Requirements Type 1	Rel-10	C_RF101	RA10	UEs supporting FDD and HS-PDSCH and MIMO only with single-stream restriction and supporting Tx Diversity on DL control channels and Enhanced performance requirements type 1
+9.4.4B	HS-SCCH Detection Performance - HS-SCCH Type 3 Performance for MIMO only with single-stream restriction-STTD disabled-asymmetric CPICHs	Rel-10	C_RF97	RA10	UEs supporting FDD and HS-PDSCH and MIMO only with single-stream restriction
+9.4.4C	HS-SCCH Detection Performance - HS-SCCH Type 3 Performance for MIMO only with single-stream restriction-STTD disabled-asymmetric CPICHs-Enhanced Performance Requirements Type 1	Rel-10	C_RF98	RA10	UEs supporting FDD and HS-PDSCH and MIMO only with single-stream restriction and Enhanced performance requirements type 1
+9.4.4D	HS-SCCH Detection Performance - HS-SCCH Type 3 Performance for MIMO only with single-stream restriction-STTD enabled-asymmetric CPICHs	Rel-10	C_RF100	RA10	UEs supporting FDD and HS-PDSCH and MIMO only with single-stream restriction and supporting Tx Diversity on DL control channels
+9.4.4E	HS-SCCH Detection Performance - HS-SCCH Type 3 Performance for MIMO only with single-stream restriction-STTD enabled-asymmetric CPICHs-Enhanced Performance Requirements Type 1	Rel-10	C_RF101	RA10	UEs supporting FDD and HS-PDSCH and MIMO only with single-stream restriction-and supporting Tx Diversity on DL control channels and Enhanced performance requirements type 1
+9.5.1	HS-SCCH-less demodulation of HS-DSCH	Rel-7	C_RF36	RA7	UEs supporting FDD and HS-SCCH-less HS-DSCH
+9.5.1A	HS-SCCH-less demodulation of HS-DSCH - Enhanced Performance Requirements Type 1	Rel-7	C_RF37	RA7	UEs supporting FDD and HS-SCCH-less HS-DSCH and Enhanced performance requirements type 1
+9.6.1	Single link HS-DSCH Demodulation performance in CELL_FACH state	Rel-7	C_RF70	RA7	UEs supporting FDD and HS-PDSCH in CELL_FACH
+9.6.2	Single link HS-SCCH Detection performance in CELL_FACH state	Rel-7	C_RF70	RA7	UEs supporting FDD and HS-PDSCH in CELL_FACH
+10.2.1.1	Detection of E-DCH HARQ ACK Indicator Channel (E-HICH) - Single link performance (10 ms TTI)	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+10.2.1.1A	Single link performance (10ms TTI, Type 1)	Rel-7	C_RF32	RA7	UEs supporting FDD and HS-PDSCH and E-DPDCH and Enhanced performance requirements type 1
+10.2.1.2	Detection of E-DCH HARQ ACK Indicator Channel (E-HICH) - Single link performance (2 ms TTI)	Rel-6	C_RF28	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH with 2 ms TTI
+10.2.1.2A	Single link performance (2ms TTI, Type 1)	Rel-7	C_RF33	RA7	UEs supporting FDD and HS-PDSCH and E-DPDCH with 2 ms TTI and Enhanced performance requirements type 1
+10.2.2.1.1	Detection in Inter-Cell Handover conditions - RLS not containing the Serving E-DCH cell (10 ms TTI)	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+10.2.2.1.1A	RLS not containing the Serving E-DCH cell (10ms TTI, Type 1)	Rel-7	C_RF32	RA7	UEs supporting FDD and HS-PDSCH and E-DPDCH and Enhanced performance requirements type 1
+10.2.2.1.2	Detection in Inter-Cell Handover conditions - RLS not containing the Serving E-DCH cell (2 ms TTI)	Rel-6	C_RF28	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH with 2 ms TTI
+10.2.2.1.2A	RLS not containing the Serving E-DCH cell (2ms TTI, Type 1)	Rel-7	C_RF33	RA7	UEs supporting FDD and HS-PDSCH and E-DPDCH with 2 ms TTI and Enhanced performance requirements type 1
+10.2.2.2.1	Detection in Inter-Cell Handover conditions - RLS containing the Serving E-DCH cell (10 ms TTI)	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+10.2.2.2.1A	RLS containing the Serving E-DCH cell (10ms TTI, Type 1)	Rel-7	C_RF32	RA7	UEs supporting FDD and HS-PDSCH and E-DPDCH and Enhanced performance requirements type 1
+10.2.2.2.2	Detection in Inter-Cell Handover conditions - RLS containing the Serving E-DCH cell (2 ms TTI)	Rel-6	C_RF28	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH with 2 ms TTI
+10.2.2.2.2A	RLS containing the Serving E-DCH cell (2ms TTI, Type 1)	Rel-7	C_RF33	RA7	UEs supporting FDD and HS-PDSCH and E-DPDCH with 2 ms TTI and Enhanced performance requirements type 1
+10.3.1.1	Detection of E-DCH Relative Grant Channel (E-RGCH) - Single link performance (10 ms TTI)	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+10.3.1.1A	Single link performance (10ms TTI, Type 1)	Rel-7	C_RF32	RA7	UEs supporting FDD and HS-PDSCH and E-DPDCH and Enhanced performance requirements type 1
+10.3.1.2	Detection of E-DCH Relative Grant Channel (E-RGCH) - Single link performance (2 ms TTI)	Rel-6	C_RF28	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH with 2 ms TTI
+10.3.1.2A	Single link performance (2ms TTI, Type 1)	Rel-7	C_RF33	RA7	UEs supporting FDD and HS-PDSCH and E-DPDCH with 2 ms TTI and Enhanced performance requirements type 1
+10.3.2	Detection of E-DCH Relative Grant Channel (E-RGCH) - Detection in Inter-Cell Handover conditions	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+10.3.2A	Detection in Inter-Cell Handover conditions (Type 1)	Rel-7	C_RF32	RA7	UEs supporting FDD and HS-PDSCH and E-DPDCH and Enhanced performance requirements type 1
+10.4.1	Demodulation of E-DCH Absolute Grant Channel (E-AGCH) - Single Link Performance	Rel-6	C_RF23	RA6	UEs supporting FDD and HS-PDSCH and E-DPDCH
+10.4.1A	Single link performance (Type 1)	Rel-7	C_RF32	RA7	UEs supporting FDD and HS-PDSCH and E-DPDCH and Enhanced performance requirements type 1
+11.2	Demodulation of MTCH	Rel-6	C_RF29a	RA6	UEs supporting FDD and MBMS. Note: For UEs for which test case 11.2A is applicable then test case 11.2 is optional.
+11.2A	Demodulation of MTCH - Enhanced Performance Requirements Type 1	Rel-7	C_RF31	RA7	UEs supporting FDD and Enhanced performance requirements type 1 for MBMS
+11.3	Demodulation of MTCH and cell identification	Rel-6	C_RF29	RA6	UEs supporting FDD and MBMS
