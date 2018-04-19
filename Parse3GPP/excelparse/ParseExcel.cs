@@ -503,8 +503,8 @@ namespace excelparse
                             {
                                 lgx.war("GCF!RF!RRM!PS: \t" + string.Join("\t", allrow));
                             }
-
-                            allrow[9] = allrow[9].Replace("_RX4", "");
+                            MISC.removetpduplicate(allrow);
+                            //allrow[9] = allrow[9].Replace("_RX4", "");
                             if ((allrow[9] == "BI")||(allrow[9] == "BI-M"))
                             {
                                 foreach(string b in BIlist)
@@ -546,7 +546,6 @@ namespace excelparse
 
 
 
-                            // allrfdatalist.Add(allrow);
                         }
                     }
                     else
@@ -558,7 +557,6 @@ namespace excelparse
 
                         oneline = String.Join(sep, allrow);
                         csvtowritedic[conspec].WriteLine(oneline);
-                        // allrfdatalist.Add(allrow);
                     }
                     csvtowritedic[conspec].Flush();
 
@@ -579,7 +577,6 @@ namespace excelparse
         public void processptcrbfile(DataTable dt, Dictionary<string, List<string>> tc_env, string[] ptcrbspec, bool sheetspecwise, string sep = "\t")
         {
             MISC.coltitle = new string[] { "TC Number", "Description", "Type of Test", "Band Applicability", "Cat", "Standards", "Environmental Condition", "Band Criteria", "Band", "ICE Recommendation for Band", "TC Status", "Certified TP [V]", "Certified TP [E]", "Certified TP [D]", "BandWidth", "RFT" };
-            //List<string []> allrfdatalist = new List<string[]>(); 
             string spec = "";
             string rft = "";
             string oldspec = "";
@@ -713,20 +710,7 @@ namespace excelparse
                             string[] patterns = { @"GPP T[RS] (\d+\.\d+(?:-\d)?)", @"(CTIA).+", @"ETSI TS (\d+\s+\d+(:?-\d)?)", @"(GSMA) PRD TS.+", @"(OMA).+", @"(AT-Command)", @"(TTY)" };
                             conspec = convertspec(spec, patterns);
                             conspec = conspec.Replace("//", "_");
-                            //conspec = spec;
-                            //if (sheetspecwise)
-                            //{
-                            //    if (allrfdata.ContainsKey(conspec))
-                            //    {
-                            //        lgx.war("spec exist" + conspec);
-                            //    }
-                            //    else
-                            //    {
-                            //        lgx.war("new list of string[] added with " + conspec);
-                            //        allrfdata.Add(conspec, new List<string[]>());
-                            //    }
-                            //    allrfdatalist = allrfdata[conspec];
-                            //}
+                   
 
                             lgx.deb("Current spec: " + spec + " => " + conspec);
                             if (!csvtowritedic.ContainsKey(conspec))
@@ -796,8 +780,9 @@ namespace excelparse
                                 {
                                     lgx.war("PTCRB!RF!RRM!PS: \t" + string.Join("\t", allrow));
                                 }
-
-                                allrow[9] = allrow[9].Replace("_RX4", "");
+                                // checking for BI and replace BI with configuration BI list in the config.
+                                MISC.removetpduplicate(allrow);
+                                //allrow[9] = allrow[9].Replace("_RX4", "");
                                 if ((allrow[9] == "BI") || (allrow[9] == "BI-M"))
                                 {
                                     foreach (string b in BIlist)
@@ -847,7 +832,6 @@ namespace excelparse
                             lgx.cri("else no bandinfo " + allrow.Count());
                             oneline = String.Join(sep, allrow);
                             csvtowritedic[conspec].WriteLine(oneline);
-                            //allrfdatalist.Add(allrow);
 
 
                             // this should match with bandinfolist
@@ -955,17 +939,6 @@ namespace excelparse
 
                 oldspec = spec;
             }
-            //lgx.war("Now printing allrfdata");
-            // debug print.
-            //foreach(KeyValuePair<string,List<string[]>> kv in allrfdata)
-            //{
-            //    lgx.war("\t\t" + kv.Key);
-            //    foreach(string[] vv in kv.Value)
-            //    {
-            //        lgx.war("->"+vv.Count() + String.Join("\t", vv));
-            //    }
-            //}
-
         }
 
         public void processenv(DataTable dt, Dictionary<string, List<string>> spec_tc_ec, string printlevel = "0")

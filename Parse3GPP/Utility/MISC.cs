@@ -468,7 +468,35 @@ namespace Utility
             return finaloutputBand;
         }
 
+        public static void removetpduplicate(string[] allrow)
+        {
+            List<string> tpv = allrow[12].Replace(" ","").Split(',').ToList();
+            List<string> tpe = allrow[13].Replace(" ","").Split(',').ToList();
+            List<string> tpd = allrow[14].Replace(" ","").Split(',').ToList();
+            foreach(string tpv1 in tpv)
+            {
+                if (tpe.Contains(tpv1))
+                {
+                    tpe.Remove(tpv1);
+                }
+                if (tpd.Contains(tpv1))
+                {
+                    tpd.Remove(tpv1);
+                }
+            }
+            foreach (string tpe1 in tpe)
+            {
+                if (tpd.Contains(tpe1))
+                {
+                    tpd.Remove(tpe1);
+                }
+                
+            }
+            allrow[12] = string.Join(",", tpv);
+            allrow[13] = string.Join(",", tpe);
+            allrow[14] = string.Join(",", tpd);
 
+        }
         public static string bandformat(string bin)
         {
             string bout=bin;
@@ -478,7 +506,7 @@ namespace Utility
             {
                 bout = "E"+m.Groups[1].ToString();
             }
-            r = new Regex("([IVX])",RegexOptions.IgnoreCase);
+            r = new Regex("([IVX]+)",RegexOptions.IgnoreCase);
             m = r.Match(bin);
             if (m.Success)
             {

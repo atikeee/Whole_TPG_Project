@@ -48,6 +48,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="34.121-1_env.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="36.521-1_env.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="36.521-3_env.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="51.010_env.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="App.config" />
     <None Include="envcond.conf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -65,6 +77,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Supported_Bands.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

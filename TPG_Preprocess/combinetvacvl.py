@@ -469,7 +469,8 @@ def removeR(log):
             break;
     return log
 def cleanrel(rel):
-    finalrel = re.sub(r'\s*\(Note\d\)','',rel)
+    finalrel = re.sub(r'\s*\s*\(Note\s*\d\)','',rel,flags=re.I)
+    finalrel = re.sub(r'\s*\s*\(\s*\d\)','',finalrel)
     # phase2 = r95            # phase1 = r92
     #finalrel = re.sub(r'phase\s*-?\s*1','R92',finalrel,flags=re.I)
     #finalrel = re.sub(r'phase\s*-?\s*2','R95',finalrel,flags=re.I)

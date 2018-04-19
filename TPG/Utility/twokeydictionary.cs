@@ -65,10 +65,10 @@ namespace Utility
                 return convertbanddic[inband];
             }
       
-            if (inband.Contains("RX4"))
-            {
-                inband = inband.Replace("_RX4", "");
-            }
+            //if (inband.Contains("RX4"))
+            //{
+            //    inband = inband.Replace("_RX4", "");
+            //}
             
             // DB /SB bands with W only.
             //re = new Regex(@"^[SD]B_([IVX]+).+?([IVX]+).*?$", RegexOptions.Compiled);
@@ -120,6 +120,17 @@ namespace Utility
                 {
                     match = true;
                     outband = "E" + m.Groups[1].ToString().PadLeft(2, '0');
+                }
+               
+            }
+            if (!match)
+            {
+                Regex regx = new Regex(@"^(\d{1,2})(M|HP)$");
+                Match m = regx.Match(inband);
+                if (m.Success)
+                {
+                    match = true;
+                    outband = "E" + m.Groups[1].ToString().PadLeft(2, '0') + m.Groups[2].ToString();
                 }
             }
             if (inband.Contains("TDS"))
