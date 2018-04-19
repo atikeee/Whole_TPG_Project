@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Utility._Dictionary&lt;T1, T2&gt;">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAEAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>twokeydictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utility.TwoKeyDictionary&lt;T1, T2, T3&gt;">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAAAEAAAECAAEBAAAAAAAAIAEAAAAAQBMAAA=</HashCode>
+      <FileName>twokeydictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.133" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

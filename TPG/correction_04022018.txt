@@ -1,0 +1,153 @@
+##XMM7660_G369_P534_V1.0
+##RRM CTPS P5.34 G3.69
+INFO	Connected to : rrmtestplandb
+INFO	Started PICS process
+INFO	Processing spec = 36.521-3
+WARN	TC missing :  6.1.12
+WARN	TC missing :  6.1.13
+WARN	TC missing :  8.1.38
+WARN	TC missing :  8.1.39
+WARN	TC missing :  8.26.7
+INFO	Processing spec = 34.121-1
+INFO	Processing spec = 34.122
+INFO	Connected to : ctpstestplandb
+INFO	Started PICS process
+INFO	Processing spec = 36.523-1
+WARN	TC missing :  7.1.4.19.2.
+WARN	TC missing :  7.1.4.20.2.
+WARN	TC missing :  8.6.5.4
+INFO	Processing spec = 34.123-1
+ERROR	Syntax error: Missing operand after 'False' operator.
+ERROR	Syntax error: Missing operand after 'False' operator.
+WARN	TC missing :  15.4.2
+INFO	Processing spec = 51.010
+WARN	TC missing :  70.7.2.1
+WARN	TC missing :  70.7.2.2
+ERROR	Syntax error: Missing operand after 'False' operator.
+ERROR	Syntax error: Missing operand after 'False' operator.
+WARN	TC missing :  27.22.6.1/14
+INFO	Processing spec = 31.121-1
+INFO	Processing spec = 31.124-1
+WARN	TC missing :  27.22.1/1
+WARN	TC missing :  27.22.5.3/1
+WARN	TC missing :  27.22.5.3/2
+WARN	TC missing :  27.22.6.1/14
+WARN	TC missing :  27.22.7.12.1/1
+INFO	Processing spec = 34.229-1
+INFO	Processing spec = 102 230-1
+INFO	Processing spec = 37.571-1
+INFO	Processing spec = 37.571-2
+WARN	TC missing :  7.2.2.1_1s
+WARN	TC missing :  7.2.2.1_4s
+WARN	TC missing :  7.2.2.2_1s
+WARN	TC missing :  7.2.2.2_4s
+WARN	TC missing :  7.2.2.2_6s
+WARN	TC missing :  7.3.4.1_1s
+WARN	TC missing :  7.3.4.1_4s
+WARN	TC missing :  7.3.4.2_1s
+WARN	TC missing :  7.3.4.2_4s
+WARN	TC missing :  7.3.4.2_6s
+WARN	TC missing :  7.3.4.3_1s
+WARN	TC missing :  7.3.4.3_4s
+WARN	TC missing :  7.3.4.4_1s
+WARN	TC missing :  7.3.4.4_4s
+WARN	TC missing :  7.3.5.1_1s
+WARN	TC missing :  7.3.5.1_4s
+INFO	Processing spec = 34.171
+INFO	Processing spec = 37.901
+WARN	TC missing :  a.3.2.2
+WARN	TC missing :  a.3.2.2
+WARN	TC missing :  a.3.2.2
+WARN	TC missing :  a.3.2.3
+WARN	TC missing :  a.3.2.3
+WARN	TC missing :  a.3.2.3
+WARN	TC missing :  a.3.2.4
+WARN	TC missing :  a.3.2.4
+WARN	TC missing :  a.3.3.2
+WARN	TC missing :  a.3.3.2
+WARN	TC missing :  a.3.3.2
+WARN	TC missing :  a.3.3.3
+WARN	TC missing :  a.3.3.3
+WARN	TC missing :  a.3.3.4
+WARN	TC missing :  a.3.4.1
+WARN	TC missing :  a.3.5.1
+WARN	TC missing :  a.3.6.1
+WARN	TC missing :  a.3.6.1
+WARN	TC missing :  a.3.6.2
+INFO	Processing spec = tty
+INFO	Processing spec = at-command
+INFO	Connected to : rrmtestplandb
+INFO	Started PICS process
+INFO	Processing spec = 36.521-3
+WARN	TC missing :  4.2.a
+WARN	TC missing :  4.2.b
+WARN	TC missing :  7.3.9_1
+WARN	TC missing :  8.1.a
+WARN	TC missing :  8.2.b
+WARN	TC missing :  8.26.7
+WARN	TC missing :  9.1.6.2_2
+INFO	Processing spec = 34.121-1
+INFO	Processing spec = 34.122
+INFO	Connected to : ctpstestplandb
+INFO	Started PICS process
+INFO	Processing spec = 36.523-1
+WARN	TC missing :  7.1.2.3b
+WARN	TC missing :  7.1.3.3b
+WARN	TC missing :  7.1.4.13a
+WARN	TC missing :  8.2.4.17.2switch
+WARN	TC missing :  8.2.4.18.2switch
+WARN	TC missing :  9.2.1.1.30
+WARN	TC missing :  22.1.2
+WARN	TC missing :  22.4.19
+WARN	TC missing :  22.6.4
+INFO	Processing spec = 34.123-1
+ERROR	Syntax error: Missing operand after 'False' operator.
+ERROR	Syntax error: Missing operand after 'False' operator.
+INFO	Processing spec = 51.010
+ERROR	Syntax error: Missing operand after 'False' operator.
+ERROR	Syntax error: Missing operand after 'False' operator.
+WARN	TC missing :  27.22.6.1/14
+INFO	Processing spec = 31.121-1
+INFO	Processing spec = 31.124-1
+WARN	TC missing :  27.22.1/1
+WARN	TC missing :  27.22.6.1/14
+WARN	TC missing :  27.22.7.12.1/1
+INFO	Processing spec = 34.229-1
+INFO	Processing spec = 102 230-1
+INFO	Processing spec = 37.571-1
+INFO	Processing spec = 37.571-2
+WARN	TC missing :  7.2.2.1_10s
+WARN	TC missing :  7.2.2.1_1s
+WARN	TC missing :  7.2.2.1_4s
+WARN	TC missing :  7.2.2.1_9s
+WARN	TC missing :  7.2.2.2_10s
+WARN	TC missing :  7.2.2.2_1s
+WARN	TC missing :  7.2.2.2_4s
+WARN	TC missing :  7.2.2.2_6s
+WARN	TC missing :  7.2.2.2_9s
+WARN	TC missing :  7.3.4.1_10s
+WARN	TC missing :  7.3.4.1_1s
+WARN	TC missing :  7.3.4.1_4s
+WARN	TC missing :  7.3.4.1_9s
+WARN	TC missing :  7.3.4.2_10s
+WARN	TC missing :  7.3.4.2_1s
+WARN	TC missing :  7.3.4.2_4s
+WARN	TC missing :  7.3.4.2_6s
+WARN	TC missing :  7.3.4.2_9s
+WARN	TC missing :  7.3.4.3_10s
+WARN	TC missing :  7.3.4.3_1s
+WARN	TC missing :  7.3.4.3_4s
+WARN	TC missing :  7.3.4.3_9s
+WARN	TC missing :  7.3.4.4_10s
+WARN	TC missing :  7.3.4.4_1s
+WARN	TC missing :  7.3.4.4_4s
+WARN	TC missing :  7.3.4.4_9s
+WARN	TC missing :  7.3.5.1_10s
+WARN	TC missing :  7.3.5.1_1s
+WARN	TC missing :  7.3.5.1_4s
+WARN	TC missing :  7.3.5.1_9s
+INFO	Processing spec = 34.171
+INFO	Processing spec = 37.901
+INFO	Processing spec = tty
+INFO	Processing spec = at-command
+INFO	Processing complete

@@ -1,0 +1,49 @@
+﻿
+// INITIAL RELEASE
+This program will parse GCF file and PTCRB file. 
+The input should be in xlsx format. 
+GCF: 
+	The file has several tabs. Each tab may contain different specs data. 
+	It will process all data from all tab and generate output CSV file as per the spec name. 
+	spec name will be converted in the code to unify the naming convention for the whole project.
+	From excel 1,2,5,6 column picked spec information converted to generate filename. 
+	final order will be TCNO,DESC,TYPE OF TEST, BAND APP, SHEET, SPEC 
+PTCRB:
+	This excel file has only one tab containing all the information. 
+
+env condition file: 
+	this is an excel file well formated and the file name and sheet name should be configured in the config.conf
+	to process the file envcond.conf file should be edited properly. this file just work as input for search and replace. 
+	this contains dictionary type data. in most cases the value is null "".That works as remove.  
+	usually bigger words should come on top and last couple of lines might have space in the replaced part to eliminate remains. 
+	This file is needed only for RF chapter 6 and 7. 
+
+Ice Recommendation bands: 
+	This file will store ice recommendation band for 2G/3G/IRAT. 
+
+
+Execution:
+	Execution takes two parameter. firstone is gcf/ptcrb second is file name. 
+
+##### This is help document to parse GCF PTCRB FILE. 
+
+
+There will be a output folder contains all test case for all spec. 
+
+Input excel file will be splitted to 3 different file as per RF / RRM / CTPS. 
+
+
+
+
+SEARCH:
+
+
+!RF!RRM!PS
+	This will be for knowing which test cases are not in any of the category.
+Current spec:
+	To find current spec. 
+Spec Convert
+	Find conversion made
+Unknown Validation Type:
+	not APBE something else. 
+

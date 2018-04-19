@@ -1,0 +1,223 @@
+3GPP TS 34.123-1	6	Idle mode operations	PS	3G	
+3GPP TS 34.123-1	7	Layer 2	PS	3G	
+3GPP TS 34.123-1	8	Radio Resource Control RRC	PS	3G	
+3GPP TS 34.123-1	9	Elementary procedures of mobility management	PS	3G	
+3GPP TS 34.123-1	10	Circuit Switched Call Control (CC)	PS	3G	
+3GPP TS 34.123-1	11	Session Management Procedures	PS	3G	
+3GPP TS 34.123-1	12	Elementary procedure for Packet Switched Mobility Management	PS	3G	
+3GPP TS 34.123-1	13	General Tests	PS	3G	
+3GPP TS 34.123-1	14	Interoperability Radio Bearer Tests	PS	3G	
+3GPP TS 34.123-1	15	Supplementary Services	PS	3G	
+3GPP TS 34.123-1	16	Short message service (SMS)	PS	3G	
+3GPP TS 34.123-1	17	Specific features	PS	3G	
+3GPP TS 34.123-1	18	Multi-Layer Functional Tests	PS	3G	
+3GPP TS 36.523-1	6	Idle mode operations	PS	4G	
+3GPP TS 36.523-1	7	Layer 2	PS	4G	
+3GPP TS 36.523-1	8	Radio Resource Control RRC	PS	4G	
+3GPP TS 36.523-1	9	EPS mobility management 	PS	4G	
+3GPP TS 36.523-1	10	EPS session management	PS	4G	
+3GPP TS 36.523-1	11	General tests	PS	4G	
+3GPP TS 36.523-1	12	E-UTRA radio bearer tests	PS	4G	
+3GPP TS 36.523-1	13	Multi layer Procedures	PS	4G	
+3GPP TS 36.523-1	14	ETWS	PS	4G	
+3GPP TS 36.523-1	15	Mobility management based on DSMIPv6 (Dual-Stack Mobile IPv6)	PS	4G	
+3GPP TS 36.523-1	16	Home (e)NB related	PS	4G	
+3GPP TS 36.523-1	17	MBMS in LTE	PS	4G	
+3GPP TS 36.523-1	18	PWS	PS	4G	
+3GPP TS 36.523-1	19	Device to Device Proximity Service	PS	4G	
+3GPP TS 36.523-1	20	Tunnel management procedures UE to ePDG	PS	4G	
+3GPP TS 36.523-1	21	SC-PTM in LTE	PS	4G	
+3GPP TS 36.523-1	22		PS	4G	
+3GPP TS 36.523-1	23		PS	4G	
+3GPP TS 36.521-1	6	Transmitter Characteristics	RF	4G	
+3GPP TS 36.521-1	7	Receiver Characteristics	RF	4G	
+3GPP TS 36.521-1	8	Performance Requirement	RF	4G	
+3GPP TS 36.521-1	9	Reporting of Channel State Information	RF	4G	
+3GPP TS 36.521-1	10	MBMS Performance	RF	4G	
+3GPP TS 36.521-1	11	Performance Requirement (ProSe Direct Discovery)	RF	4G	
+3GPP TS 36.521-1	12	Performance requirement (ProSe Direct Communication)	RF	4G	
+3GPP TS 36.521-3	4	E-UTRAN RRC_IDLE State Mobility	RRM	4G	
+3GPP TS 36.521-3	5	E-UTRAN RRC_CONNECTED State Mobility	RRM	4G	
+3GPP TS 36.521-3	6	RRC Connection Mobility Control	RRM	4G	
+3GPP TS 36.521-3	7	Timing and Signalling Characteristics	RRM	4G	
+3GPP TS 36.521-3	8	UE Measurements Procedures	RRM	4G	
+3GPP TS 36.521-3	9	Measurement Performance Requirements	RRM	4G	
+3GPP TS 36.521-3	10	Proximity-based Services in Any Cell Selection	RRM	4G	
+3GPP TS 34.121-1	4	Frequency bands and channel arrangement	RF	3G	
+3GPP TS 34.121-1	4A	Reference Conditions	RF	3G	
+3GPP TS 34.121-1	5	Transmitter Characteristics	RF	3G	
+3GPP TS 34.121-1	6	Receiver Characteristics	RF	3G	
+3GPP TS 34.121-1	7	Performance requirements	RF	3G	
+3GPP TS 34.121-1	8	Requirements for support of RRM	RRM	3G	
+3GPP TS 34.121-1	9	Performance requirements for HSDPA	RF	3G	
+3GPP TS 34.121-1	10	Performance requirement (E-DCH)	RF	3G	
+3GPP TS 34.121-1	11	Performance requirement (MBMS)	RF	3G	
+3GPP TS 51.010-1	10	Generic call set up procedures	PS	2G	
+3GPP TS 51.010-1	11	General tests	PS	2G	
+3GPP TS 51.010-1	12	Transceiver	RF	2G	
+3GPP TS 51.010-1	13	Transmitter	RF	2G	
+3GPP TS 51.010-1	14	Receiver	RF	2G	
+3GPP TS 51.010-1	15	Timing advance and absolute delay	PS	2G	
+3GPP TS 51.010-1	16	Reception time tracking speed	RF	2G	
+3GPP TS 51.010-1	17	Access times during handover	PS	2G	
+3GPP TS 51.010-1	18	Temporary reception gaps	RF	2G	
+3GPP TS 51.010-1	19	Channel release after unrecoverable errors	PS	2G	
+3GPP TS 51.010-1	20	Cell selection and reselection	PS	2G	
+3GPP TS 51.010-1	21	Received signal measurements	RF	2G	
+3GPP TS 51.010-1	22	Transmit power control timing and confirmation	RF	2G	
+3GPP TS 51.010-1	23	Single frequency reference	PS	2G	
+3GPP TS 51.010-1	24	Tests of the layer 1 signalling functions	PS	2G	
+3GPP TS 51.010-1	25	Tests of the layer 2 signalling functions	PS	2G	
+3GPP TS 51.010-1	26	Testing of layer 3 functions	PS	2G	
+3GPP TS 51.010-1	27	Testing of the SIM/ME interface	PS	2G	
+3GPP TS 51.010-1	28	Test of autocalling restrictions	PS	2G	
+3GPP TS 51.010-1	29	Testing of bearer services	PS	2G	
+3GPP TS 51.010-1	30	Speech teleservices	PS	2G	
+3GPP TS 51.010-1	31	Test of supplementary services	PS	2G	
+3GPP TS 51.010-1	32	Testing of speech transcoding functions	PS	2G	
+3GPP TS 51.010-1	33	Mobile station features	PS	2G	
+3GPP TS 51.010-1	34	Short message service (SMS)	PS	2G	
+3GPP TS 51.010-1	35	Low battery voltage detection	PS	2G	
+3GPP TS 51.010-1	36	Individual equipment type requirements and interworking - special conformance testing functions	PS	2G	
+3GPP TS 51.010-1	37	Void	PS	2G	
+3GPP TS 51.010-1	38	Void	PS	2G	
+3GPP TS 51.010-1	39	Void	PS	2G	
+3GPP TS 51.010-1	40	GPRS default conditions	PS	2G	
+3GPP TS 51.010-1	41	GPRS Paging	PS	2G	
+3GPP TS 51.010-1	42	Test of Medium Access Control (MAC) protocol	PS	2G	
+3GPP TS 51.010-1	43	RLC Test Cases	PS	2G	
+3GPP TS 51.010-1	44	Test case requirements for GPRS mobility management	PS	2G	
+3GPP TS 51.010-1	45	Session Management Procedures	PS	2G	
+3GPP TS 51.010-1	46	LLC Tests	PS	2G	
+3GPP TS 51.010-1	47	Dual Transfer Mode	PS	2G	
+3GPP TS 51.010-1	48	Void	PS	2G	
+3GPP TS 51.010-1	49	Void	PS	2G	
+3GPP TS 51.010-1	50	EGPRS Default Conditions	PS	2G	
+3GPP TS 51.010-1	51	EGPRS Paging	PS	2G	
+3GPP TS 51.010-1	52	EGPRS Test of Medium Access Control (MAC) protocol	PS	2G	
+3GPP TS 51.010-1	53	Test of EGPRS Radio Link Control (RLC) Protocol	PS	2G	
+3GPP TS 51.010-1	54	Void	PS	2G	
+3GPP TS 51.010-1	55	Void	PS	2G	
+3GPP TS 51.010-1	56	Void	PS	2G	
+3GPP TS 51.010-1	57	EGPRS Dual Transfer Mode	PS	2G	
+3GPP TS 51.010-1	58		PS	2G	
+3GPP TS 51.010-1	58a	Latency reductions	PS	2G	
+3GPP TS 51.010-1	58b	Downlink Dual Carrier and Downlink Multi Carrier	PS	2G	
+3GPP TS 51.010-1	58c	EGPRS2	PS	2G	
+3GPP TS 51.010-1	58d	EFTA	PS	2G	
+3GPP TS 51.010-1	58e	DTR	PS	2G	
+3GPP TS 51.010-1	59	Void	PS	2G	
+3GPP TS 51.010-1	60	Inter-system hard handover from GSM to UTRAN	PS	2G	
+3GPP TS 51.010-1	61	Void	PS	2G	
+3GPP TS 51.010-1	62	Void	PS	2G	
+3GPP TS 51.010-1	63	Void	PS	2G	
+3GPP TS 51.010-1	64	Void	PS	2G	
+3GPP TS 51.010-1	65	Void	PS	2G	
+3GPP TS 51.010-1	66	Void	PS	2G	
+3GPP TS 51.010-1	67	Void	PS	2G	
+3GPP TS 51.010-1	68	Void	PS	2G	
+3GPP TS 51.010-1	69	Void	PS	2G	
+3GPP TS 51.010-1	70	Location Services	PS	2G	
+3GPP TS 51.010-1	80	Generic Access default conditions	PS	2G	
+3GPP TS 51.010-1	81	GAN Discovery and Registration Procedures	PS	2G	
+3GPP TS 51.010-1	82	GAN CS Domain Procedures	PS	2G	
+3GPP TS 51.010-1	83	GAN PS Domain Procedures	PS	2G	
+3GPP TS 51.010-1	84	GAN Iu Mode Procedures	PS	2G	
+3GPP TS 51.010-1	90	Text Telephony (TTY) Services	PS	2G	
+3GPP TS 31.121	5	Subscription related tests	PS	4G	
+3GPP TS 31.121	6	Security related Tests	PS	4G	
+3GPP TS 31.121	7	PLMN related tests	PS	4G	
+3GPP TS 31.121	8	Subscription independent tests	PS	4G	
+3GPP TS 31.121	9	USIM service handling	PS	4G	
+3GPP TS 31.121	10	CSG list handling	PS	4G	
+3GPP TS 31.121	11	NAS security context parameter handling	PS	4G	
+3GPP TS 31.121	12	Non Access Stratum (NAS) Configuration parameter	PS	4G	
+3GPP TS 31.124	27	Testing of the UICC/ME interface	PS	4G	
+3GPP TS 34.122	4	Frequency Bands and Channel Arrangements	PS	3G	
+3GPP TS 34.122	5	Transmitter Characteristics	PS	3G	
+3GPP TS 34.122	6	Receiver Characteristics	PS	3G	
+3GPP TS 34.122	7	Performance Requirements	PS	3G	
+3GPP TS 34.122	8	Requirements for Support of RRM	PS	3G	
+3GPP TS 34.122	9	Performance requirements for HSDPA	PS	3G	
+3GPP TS 34.122	10	Performance requirements (MBMS)	PS	3G	
+3GPP TS 34.122	11	Performance requirement (E-DCH)	PS	3G	
+3GPP TS 34.122	12	Performance requirement under multiple-cell scenario	PS	3G	
+3GPP TR 37.901	A		PS	4G	
+3GPP TR 37.901	4	Background	PS	4G	
+3GPP TR 37.901	5	Study of UE Application Layer Data Throughput	PS	4G	
+3GPP TR 37.901	5	Performance	PS	4G	
+3GPP TR 37.901	6	Conclusions	PS	4G	
+3GPP TS 34.171	4	General Test Conditions	PS	3G	
+3GPP TS 34.171	5	Performance requirements for A-GPS	PS	3G	
+3GPP TS 37.571-2	4	Recommended Test Applicability	PS	4G	
+3GPP TS 37.571-1	4	General Test Conditions	PS	4G	
+3GPP TS 37.571-1	5	UTRA A-GPS Minimum Performance requirements	PS	4G	
+3GPP TS 37.571-1	6	UTRA A-GNSS Minimum Performance requirements	PS	4G	
+3GPP TS 37.571-1	7	E-UTRA A-GNSS minimum performance requirements	PS	4G	
+3GPP TS 37.571-1	8	E-UTRA ECID measurement requirements	PS	4G	
+3GPP TS 37.571-1	9	E-UTRA OTDOA measurement requirements	PS	4G	
+3GPP TS 37.571-1	10	E-UTRA OTDOA measurement requirements for Carrier Aggregation	PS	4G	
+3GPP TS 37.571-1	11	E-UTRA MBS measurement requirements	PS	4G	
+3GPP TS 37.571-2	6		PS	3G	
+3GPP TS 37.571-2	7		PS	4G	
+ETSI TS 102 230	4	Physical characteristic tests	PS		
+ETSI TS 102 230	5	Electrical characteristic tests	PS		
+ETSI TS 102 230	6	Initial communication tests	PS		
+ETSI TS 102 230	7	Transmission protocol tests	PS		
+ETSI TS 102 230	8	Application dependent procedures	PS		
+ETSI TS 102 230	9	Commands	PS		
+3GPP TS 51.010-4	4	Test equipment	PS	2G	
+3GPP TS 51.010-4	5	Testing methodology in general	PS	2G	
+3GPP TS 51.010-4	6	Reference test methods	PS	2G	VoLTE
+3GPP TS 51.010-4	7	Implicit testing	PS	2G	VoLTE
+3GPP TS 51.010-4	8	Measurement uncertainty	PS	2G	VoLTE
+3GPP TS 51.010-4	9	Format of tests	PS	2G	VoLTE
+3GPP TS 51.010-4	10	Generic call set up procedures	PS	2G	VoLTE
+3GPP TS 51.010-4	11	PS	2G	2G	VoLTE
+3GPP TS 51.010-4	12	PS	2G	2G	VoLTE
+3GPP TS 51.010-4	13	PS	2G	2G	VoLTE
+3GPP TS 51.010-4	14	PS	2G	4G	VoLTE
+3GPP TS 51.010-4	15	PS	2G	4G	VoLTE
+3GPP TS 51.010-4	16	PS	2G	4G	VoLTE
+3GPP TS 51.010-4	17	PS	2G	4G	VoLTE
+3GPP TS 51.010-4	18	PS	2G	4G	VoLTE
+3GPP TS 51.010-4	19	PS	2G	4G	VoLTE
+3GPP TS 51.010-4	20	PS	2G	4G	VoLTE
+3GPP TS 51.010-4	21	PS	2G	4G	VoLTE
+3GPP TS 51.010-4	22	PS	2G	4G	
+3GPP TS 51.010-4	23	PS	2G	4G	
+3GPP TS 51.010-4	24	PS	2G	4G	
+3GPP TS 51.010-4	25	PS	2G	4G	
+3GPP TS 51.010-4	26	PS	2G	4G	
+3GPP TS 51.010-4	27	Testing of the SIM/ME interface	PS	4G	
+3GPP TS 51.010-4	27.1	Void	PS	4G	
+3GPP TS 51.010-4	27.11	Void	PS	4G	
+3GPP TS 51.010-4	27.12	Void	PS	4G	
+3GPP TS 51.010-4	27.13	Void	PS	4G	
+3GPP TS 51.010-4	27.14	Void	PS	4G	
+3GPP TS 51.010-4	27.15	Void	PS	4G	
+3GPP TS 51.010-4	27.16	Void	PS	4G	
+3GPP TS 51.010-4	27.17	Void	PS	4G	
+3GPP TS 51.010-4	27.18	Void	PS	4G	
+3GPP TS 51.010-4	27.19	Void	PS	4G	
+3GPP TS 51.010-4	27.2	Void	PS	4G	
+3GPP TS 51.010-4	27.21	Void	PS	4G	
+3GPP TS 51.010-4	27.22	SIM Application Toolkit	PS	4G	
+3GPP TS 34.229-1	4	Overview	PS	4G	
+3GPP TS 34.229-1	5	Reference Conditions	PS	4G	
+3GPP TS 34.229-1	6	PDP Context Activation	PS	4G	
+3GPP TS 34.229-1	7	P-CSCF Discovery	PS	4G	
+3GPP TS 34.229-1	8	Registration	PS	4G	
+3GPP TS 34.229-1	9	Authentication	PS	4G	
+3GPP TS 34.229-1	10	Subscription	PS	4G	
+3GPP TS 34.229-1	11	Notification	PS	4G	
+3GPP TS 34.229-1	12	Call Control	PS	4G	
+3GPP TS 34.229-1	13	Signalling Compression (SIGComp)	PS	4G	
+3GPP TS 34.229-1	14	Emergency Service	PS	4G	
+3GPP TS 34.229-1	15	Supplementary Services	PS	4G	
+3GPP TS 34.229-1	16	Codec selecting	PS	4G	
+3GPP TS 34.229-1	17	Media use cases	PS	4G	
+3GPP TS 34.229-1	18	SMS over IMS	PS	4G	
+3GPP TS 34.229-1	19	Emergency Service over IMS	PS	4G	
+3GPP TS 34.229-1	20	Customized Alerting Tones (CAT)	PS	4G	
+3GPP TS 34.229-1	G		PS	4G	

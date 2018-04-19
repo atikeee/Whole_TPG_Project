@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlanGen", "TestPlanGen\TestPlanGen.csproj", "{D8A45374-7786-4909-A171-4D7BFAEB51B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD2A5F55-E28A-4203-943B-DB2B4DFCA2A5} = {FD2A5F55-E28A-4203-943B-DB2B4DFCA2A5}
+		{9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC} = {9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC}
+		{13B88695-F99F-475B-A2C4-85DD19CE180F} = {13B88695-F99F-475B-A2C4-85DD19CE180F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mysqldb", "mysqldb\mysqldb.csproj", "{FD2A5F55-E28A-4203-943B-DB2B4DFCA2A5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC} = {9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uploading_userPICS", "Uploading_userPICS\Uploading_userPICS.csproj", "{13B88695-F99F-475B-A2C4-85DD19CE180F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD2A5F55-E28A-4203-943B-DB2B4DFCA2A5} = {FD2A5F55-E28A-4203-943B-DB2B4DFCA2A5}
+		{9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC} = {9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBoxComboBox", "CheckBoxComboBox\CheckBoxComboBox.csproj", "{70A25201-8EA4-48F8-A4A6-ED13ADF8823C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reference", "reference", "{61DB14F5-D7C6-41F7-8614-7725511C1910}"
+	ProjectSection(SolutionItems) = preProject
+		reference\MySql.Data.dll = reference\MySql.Data.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8A45374-7786-4909-A171-4D7BFAEB51B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A45374-7786-4909-A171-4D7BFAEB51B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A45374-7786-4909-A171-4D7BFAEB51B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A45374-7786-4909-A171-4D7BFAEB51B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2A5F55-E28A-4203-943B-DB2B4DFCA2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2A5F55-E28A-4203-943B-DB2B4DFCA2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2A5F55-E28A-4203-943B-DB2B4DFCA2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2A5F55-E28A-4203-943B-DB2B4DFCA2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB2EE8B-B3C4-4BFD-BFC8-ACAB7BD38EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B88695-F99F-475B-A2C4-85DD19CE180F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B88695-F99F-475B-A2C4-85DD19CE180F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B88695-F99F-475B-A2C4-85DD19CE180F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B88695-F99F-475B-A2C4-85DD19CE180F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A25201-8EA4-48F8-A4A6-ED13ADF8823C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A25201-8EA4-48F8-A4A6-ED13ADF8823C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A25201-8EA4-48F8-A4A6-ED13ADF8823C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A25201-8EA4-48F8-A4A6-ED13ADF8823C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

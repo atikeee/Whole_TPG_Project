@@ -1,0 +1,26 @@
+======================================================================================================
+This is opening GCF and PTCRB file and read the tabs mentioned in the config file config.conf.
+as per the config it will generate a excel sheet and split into 3 different file. RF/RRM/CTPS.
+config file also contains the file name for env condition. which stores the mapping of tc vs 
+env condition. 
+======================================================================================================
+
+01-27-2017
+this version simplifies database structure
+there are 1 mappingtable
+3 table config data and version
+there are some duplicate config need to v
+
+03-24-2017
+There is significant change in the file structure. 
+3 different project has been made for the entire solution. 
+	1 for utility / 1 for mysql. 
+logging mechnism improved. 
+
+
+04-10-2017
+I have split tcbandconfig table into two parts. changed the db accordingly. 
+
+06-27-2017
+RRM / CTPS sheets are spec wise and it cleans up sheet as per spec name. spec = sheet. 
+CDMA specs are not covered yet. 

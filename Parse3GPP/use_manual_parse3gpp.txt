@@ -1,0 +1,7 @@
+process GCF file
+	parse3gpp g filelocation
+
+process PTCRB file
+	parse3gpp p filelocation
+
+1 input will generate 3 output files. 
