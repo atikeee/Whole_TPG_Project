@@ -60,15 +60,15 @@ namespace Utility
             Regex re;
             Match mw;
             inband = inband.ToUpper();
+            if (inband.Contains("RX4"))
+            {
+                inband = inband.Replace("_RX4", "");
+            }
             if (convertbanddic.ContainsKey(inband))
             {
                 return convertbanddic[inband];
             }
       
-            //if (inband.Contains("RX4"))
-            //{
-            //    inband = inband.Replace("_RX4", "");
-            //}
             
             // DB /SB bands with W only.
             //re = new Regex(@"^[SD]B_([IVX]+).+?([IVX]+).*?$", RegexOptions.Compiled);

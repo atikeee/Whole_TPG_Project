@@ -305,6 +305,8 @@ namespace Parse_Pixit_Table
                     
                     lg.inf("{MainProcess} TC vs True False TRL + pics file:");
                     lg.inf(dict_logic_TF.ToString());
+                    lg.inf("{MainProcess} TC vs Logic  from TRL:");
+                    lg.inf(dict_logic.ToString());
                     //_Dictionary<string, string> csvTCvsCond;
                     //_Dictionary<string, string> dict_de;
                     //frm.SetLabelstat(status + " process tc vs cond");
@@ -324,7 +326,7 @@ namespace Parse_Pixit_Table
                     //lg.inf(String.Format("progress: {0} ,progressinc: {1}, progressinc2: {2},progressinc3: {3} tccount: {4}", progress, progressinc, progressinc2, progressinc3, tccount));
                     StringProcess.mismatchedbandbandsupporthelper.Clear();
                     //read new csv file here 
-                    string picslogic = "";
+                    //string picslogic = "";
                     foreach (KeyValuePair<string, Dictionary<string, string>> temp in tc_band_id)
                     {// reading database test case - band vs id start
                         string tc = temp.Key.Replace(" ","").ToLower();
@@ -356,7 +358,7 @@ namespace Parse_Pixit_Table
                         }
                         //var tctemplist = dict_logic_TF.Keys.Where(t => t.Trim().Replace(" ", "").ToLower() == tc.Trim().Replace(" ", "").ToLower());
                         string tcapplicability = "";
-                        picslogic = "";
+                        
                         foreach (string tctemp in dict_logic_TF.Keys)
                         {
                             if (tctemp.Trim().Replace(" ", "").ToLower() == tc.Trim().Replace(" ", "").ToLower())
@@ -364,8 +366,8 @@ namespace Parse_Pixit_Table
                                 tcapplicability = dict_logic_TF[tctemp];
                                 if (dict_rel.ContainsKey(tctemp))
                                     picsRel = dict_rel[tctemp];
-                                if (dict_logic.ContainsKey(tctemp))
-                                    picslogic = dict_logic[tctemp];
+                                //if (dict_logic.ContainsKey(tctemp))
+                                //    picslogic = dict_logic[tctemp];
                                 break;
                             }
                         }
@@ -645,6 +647,16 @@ namespace Parse_Pixit_Table
                             string band_id_val = kvp.Value;
                             string pics_reco_str = pics_reco_dic[tc, band_id_val];
 
+                            string picslogic = "";
+                            if (dict_logic.ContainsKey(tc))
+                            {
+                                picslogic = dict_logic[tc];
+                            }
+                            else
+                            {
+                                picslogic = "";
+                                lg.war("logicstring error" + tc);
+                            }
                             //------converting REL to Rel - start---------
                             foreach (KeyValuePair<string, string> kvp1 in pics_reco_table)
                             {
@@ -709,7 +721,6 @@ namespace Parse_Pixit_Table
 
 
                             }
-                            
                             string map_str = String.Format("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t", idpicsver, bsrbidx, picsrecoid, band_id_val, picsbs,picslogic);
                             GenericParser.writetocsv(file_picsmapping, map_str);
 
