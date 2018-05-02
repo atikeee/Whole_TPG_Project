@@ -244,7 +244,6 @@ namespace excelparse
             string[] combostringlist = new string[1];
 
             lgx.deb("Datatable Row Count: " + dt.Rows.Count.ToString());
-            lgx.err("env Keys" + string.Join(" , ", tc_env.Keys));
             for (int i = 0; i < dt.Rows.Count; i++)
             {
                 DataRow dr = dt.Rows[i];
@@ -501,7 +500,7 @@ namespace excelparse
                             }
                             if (cat == 0)
                             {
-                                lgx.war("GCF!RF!RRM!PS: \t" + string.Join("\t", allrow));
+                                //lgx.war("GCF!RF!RRM!PS: \t" + string.Join("\t", allrow));
                             }
                             MISC.removetpduplicate(allrow);
                             //allrow[9] = allrow[9].Replace("_RX4", "");

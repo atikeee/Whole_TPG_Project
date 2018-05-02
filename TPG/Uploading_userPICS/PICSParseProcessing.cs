@@ -568,18 +568,19 @@ namespace Parse_Pixit_Table
                               //  pics_reco_str += ",Rel:NR";
                             //r(?:el)?(?:ease)?[-\s]?\d+\s*(?:to|and)\s*r(?:el)?(?:ease)?[-\s]?(\d+)\s*only
                             //\s*r(?:el)?(?:ease)?[-\s]?(\d+)\s*only
-                            // rel 2 to rel 6
-                            string relpatt = @"(?:r(?:el)?(?:ease)?[-\s]?\d+\s*(?:to|and)\s*)?r(?:el)?(?:ease)?[-\s]?(\d+)\s*only";
-                            Match relm = Regex.Match(picsRel, relpatt,RegexOptions.IgnoreCase);
-                            if (relm.Success)
-                            {
-                                int rel = int.Parse(relm.Groups[1].ToString());
-                                if ((rel < 90) && (rel < int.Parse(uerelease)))
-                                {
-                                    pics_reco_str += ", Rel:NR";
-                                }
 
-                            }
+                            // rel 2 to rel 6
+                           // string relpatt = @"(?:r(?:el)?(?:ease)?[-\s]?\d+\s*(?:to|and)\s*)?r(?:el)?(?:ease)?[-\s]?(\d+)\s*only";
+                           // Match relm = Regex.Match(picsRel, relpatt,RegexOptions.IgnoreCase);
+                           // if (relm.Success)
+                           // {
+                           //     int rel = int.Parse(relm.Groups[1].ToString());
+                           //     if ((rel < 90) && (rel < int.Parse(uerelease)))
+                           //     {
+                           //         pics_reco_str += ", Rel:NR";
+                           //     }
+                           //
+                           // }
 
 
                             string PICSSuppBand = "NS";

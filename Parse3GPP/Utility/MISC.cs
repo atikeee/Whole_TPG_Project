@@ -211,6 +211,8 @@ namespace Utility
                 Match m1 = regex.Match(band);
                 regex = new Regex(@"[a-zA-Z]+\d+-\w+");
                 Match m2 = regex.Match(band);
+                regex = new Regex(@"\d+(m|_rx4)",RegexOptions.IgnoreCase);
+                Match m3 = regex.Match(band);
                 if (band.Contains("ca_"))
                 {
                     //sh = "LTE(CA)";
@@ -227,6 +229,11 @@ namespace Utility
                     //sh = "LTE(Handover)";
                     sh = spec;
 
+                }
+                //rx4 and m
+                else if (m3.Success)
+                {
+                    sh = spec;
                 }
                 else
                 {

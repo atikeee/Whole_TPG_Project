@@ -20,7 +20,7 @@ namespace TestPlanGen
     public partial class FormTPG : Form
     {
         private MySqlDb dbobj;
-        private List<string> cols = new List<string> { "GCF/PTCRB/Operator Version", "PICS Version", "Spec", "SheetName", "Test Case Number", "Description", "Band", "Band Applicability", "Band Criteria", "Cert TP [V]", "Cert TP [E]", "Cert TP [D]", "TC Status", "PICS Status", "Env_Cond", "Band Support", "ICE Band Support", "Required Bands","wi_rft" };
+        private List<string> cols = new List<string> { "GCF/PTCRB/Operator Version", "PICS Version", "Spec", "SheetName", "Test Case Number", "Description", "Band", "Band Applicability", "Band Criteria", "Cert TP [V]", "Cert TP [E]", "Cert TP [D]", "TC Status", "PICS Status", "Env_Cond", "Band Support", "ICE Band Support", "Required Bands","wi_rft","PICSLogic" };
         DataTable dtShowData;
         String FileLocationTemp = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
         String FileLocation;
@@ -374,7 +374,7 @@ namespace TestPlanGen
 
         private void button4_Click(object sender, EventArgs e)
         {
-            dbobj.DatabaseName = tc_cat_selected[tc_cat_selected.Count - 1]+"testplandb";
+            dbobj.DatabaseName = tc_cat_selected[tc_cat_selected.Count - 1].ToLower()+"testplandb";
             dbobj.changedb();
             //PleaseWaitForm pleaseWait = new PleaseWaitForm();
             //pleaseWait.Show();
