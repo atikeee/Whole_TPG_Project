@@ -328,7 +328,63 @@ namespace Uploading_db
                     curlisttc = getlist(row, indlisttctable, new List<string>() { shnameclean });
                     curlistband = getlist(row, indlistbandtable);
                     string oldb = curlistband[0];
+                    if (oldb.StartsWith("BI:"))
+                    {
+                        oldb = oldb.Replace("BI:","");
+                    }else if (oldb.StartsWith("BI-M:"))
+                    {
+                        oldb = oldb.Replace("BI-M:", "");
+                    }
+                    else if (oldb.StartsWith("BA:"))
+                    {
+                        oldb = oldb.Replace("BA:", "");
+                    }
+                    else if (oldb.Contains(">"))
+                    {
+                        oldb = oldb.Split('>')[1];
+                    }
                     string newb = BandProcess.convertband(oldb);
+
+                    // this is to swap band based on rat. 
+                    Regex r = new Regex(@"^(([EUGC])\d+)-(([EUGC])\d+)-?(([EUGC])\d+)?$", RegexOptions.Compiled);
+                    Match m = r.Match(newb);
+                    if (m.Success)
+                    {
+                        r = new Regex(@"(([EUGC])\d+)", RegexOptions.Compiled);
+                        List<string> alleb = new List<string>();
+                        List<string> allub = new List<string>();
+                        List<string> allgb = new List<string>();
+                        List<string> allcb = new List<string>();
+                        foreach (Match match in r.Matches(newb))
+                        {
+                            if (match.ToString().StartsWith("E"))
+                            {
+                                alleb.Add(match.ToString());
+                            }
+                            else if (match.ToString().StartsWith("U"))
+                            {
+                                allub.Add(match.ToString());
+                            }
+                            else if (match.ToString().StartsWith("G"))
+                            {
+                                allgb.Add(match.ToString());
+                            }
+                            else if (match.ToString().StartsWith("C"))
+                            {
+                                allcb.Add(match.ToString());
+                            }
+
+
+
+                        }
+                        alleb.AddRange(allub);
+                        alleb.AddRange(allgb);
+                        alleb.AddRange(allcb);
+                        newb=(string.Join("-", alleb));
+                    }
+
+
+
                     curlistband.Add(newb);
                     curlistdata = getlist(row, indlistdatatable);
                     if (!curlisttc.chkmatch(listoflisttc, new List<int>() { 0, 1, 5 }))
@@ -350,7 +406,6 @@ namespace Uploading_db
                         listoflistdata.Add(curlistdata);
                         lg.inf(curlistdata.ToString());
                     }
-
 
                 }
 

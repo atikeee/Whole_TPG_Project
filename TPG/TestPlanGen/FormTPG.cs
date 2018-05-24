@@ -20,7 +20,7 @@ namespace TestPlanGen
     public partial class FormTPG : Form
     {
         private MySqlDb dbobj;
-        private List<string> cols = new List<string> { "GCF/PTCRB/Operator Version", "PICS Version", "Spec", "SheetName", "Test Case Number", "Description", "Band", "Band Applicability", "Band Criteria", "Cert TP [V]", "Cert TP [E]", "Cert TP [D]", "TC Status", "PICS Status", "Env_Cond", "Band Support", "ICE Band Support", "Required Bands","wi_rft","PICSLogic" };
+        private List<string> cols = new List<string> { "GCF/PTCRB/Operator Version", "PICS Version", "Spec", "SheetName", "Test Case Number", "Description", "Band", "Band Applicability", "Band Criteria", "Cert TP [V]", "Cert TP [E]", "Cert TP [D]", "TC Status", "PICS Status", "Env_Cond", "Band Support", "ICE Band Support", "Required Bands","wi_rft","PICSLogic","Band_old" };
         DataTable dtShowData;
         String FileLocationTemp = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
         String FileLocation;
@@ -194,14 +194,16 @@ namespace TestPlanGen
             //dbobj.changedb();
             string picsver = comboBoxPICSVer.SelectedItem.ToString();
             List<string> bandsupport = dbobj.getuniqueitem("picssupportedbandlist", String.Format("picsver=\"{0}\"", picsver));
+            List<string> icebandsupport = dbobj.getuniqueitem("icebands", String.Format("picsver=\"{0}\"", picsver));
             if (bandsupport.Count > 0)
             {
                 textBox2.Text = bandsupport[0];
-
+                textBox_icesb.Text = icebandsupport[0];
             }
             else
             {
                 textBox2.Text = "";
+                textBox_icesb.Text = "";
             }
             //dbobj.DatabaseName = dbname ;
             //dbobj.changedb();
@@ -282,30 +284,41 @@ namespace TestPlanGen
 
         private void button3_Click(object sender, EventArgs e)
         {
+            string txttoshow = "";
             var iChoiceBandTemp = Convert.ToString(textBox3.Text);
-            var iChoiceBand = iChoiceBandTemp.Trim();
+            var iChoiceBand = iChoiceBandTemp.Trim().ToUpper();
 
             //string[] SC_7560 = new string[] { "3A-8A", "7A-12A", "39A-41C", "41C", "28", "V", "4A-13A", "4A-7A", "4A-12A", "1A-3A-26A", "40", "1A-7A-20A", "2C-29A", "III", "2A-4A-4A", "25", "26", "27", "20", "39A-41A", "4A-4A-7A", "29", "3A-7A-20A", "3A-20A", "2", "4", "1A-7A", "2A-4A-12A", "41A-41A", "8", "1A-3A-19A", "2A-4A", "XI", "40C", "7A-28A", "3", "3A-5A", "1A-20A", "1A-3A-8A", "2A-2A-13A", "38", "12A-30A", "2C", "7A-7A", "2A-2A", "29A-30A", "13", "12", "17", "19", "18", "4A-5A-30A", "3A-19A", "5A-7A", "2A-30A", "VIII", "4A-29A-30A", "4A-17A", "1A-8A", "4A-29A", "2A-17A", "4A-4A-5A", "IX", "1A-3A-20A", "2A-12A-30A", "1A-19A", "5A-30A", "4A-5A", "2A-5A-30A", "3C", "5", "1A-3A-5A", "38C", "7C", "2A-2A-5A", "1A-5A", "4A-4A-12A", "2A-29A", "7A-20A", "41", "1", "4A-30A", "1A-28A", "7A-8A", "7", "2A-12A", "3A-28A", "1A-19A-21A", "3C-7A", "4A-12A-30A", "I", "VI", "4A-4A", "3A-7A", "1A-3A", "1A-18A", "3A-3A", "2A-4A-13A", "2A-5A", "II", "1A-5A-7A", "3A-26A", "1A-26A", "IV", "39C", "2A-29A-30A", "39", "12B", "4A-4A-13A", "32", "30", "25A-25A", "2A-13A" };
-            string[] SC_7560 = textBox2.Text.Split(',', ' ');
-            Debug.Print(String.Format("VALUE:" + SC_7560[0]));
+            string[] picsband = textBox2.Text.Split(',', ' ');
+            string[] iceband = textBox_icesb.Text.Split(' ', ' ');
+            Debug.Print(String.Format("VALUE:" + picsband[0]));
 
-            int pos_7560 = Array.IndexOf(SC_7560, iChoiceBand);
+            int pos = Array.IndexOf(picsband, iChoiceBand);
+            int pos2 = Array.IndexOf(iceband, iChoiceBand);
             if (iChoiceBand != "")
             {
-                if (pos_7560 > -1)
+                if (pos > -1)
                 {
-                    textBox4.Text = "The Band is supported ";
+                    txttoshow = "PICS = Yes ";
                 }
-
                 else
                 {
-                    textBox4.Text = "The Band is NOT supported";
+                    txttoshow = "PICS = No ";
+                }
+                if (pos2 > -1)
+                {
+                    txttoshow += "ICEDoc = Yes.";
+                }
+                else
+                {
+                    txttoshow += "ICEDoc = No.";
                 }
             }
             else
             {
-                textBox4.Text = "Enter the band information!";
+                txttoshow = "Enter the band information!";
             }
+            textBox4.Text= txttoshow;
         }
 
 
@@ -1018,25 +1031,22 @@ namespace TestPlanGen
                                 Dictionary<string, List<string>> ptcrbidvsrow = (Dictionary<string, List<string>>)ptcrbobj[1];
 
                                 DataTable dtcomb = new DataTable();
-                                List<string> combcollist = new List<string>() { "Spec", "SheetName", "Test Case Number", "Description", "Band", "EnvCondition", "TC Status[G]", "TC Status[P]", "TP V[G]", "TP V[P]", "TP E[G]", "TP E[P]", "TP D[G]", "TP D[P]", "PICS Status [G]", "PICS Status [P]", "Band Support", "ICE Band Support" ,"WI","RFT","Band Applicability[G]", "Band Applicability[P]", "Band Criteria[G]", "Band Criteria[P]" };
+                                List<string> combcollist = new List<string>() { "Spec", "SheetName", "Test Case Number", "Description", "Band", "EnvCondition", "TC Status[G]", "TC Status[P]", "TP V[G]", "TP V[P]", "TP E[G]", "TP E[P]", "TP D[G]", "TP D[P]", "PICS Status [G]", "PICS Status [P]", "Band Support", "ICE Band Support" ,"WI","RFT","Band Applicability[G]", "Band Applicability[P]", "Band Criteria[G]", "Band Criteria[P]","PICS Logic[G]", "PICS Logic[P]","Band raw[G]","Band raw[P]" };
                                 foreach (string combcol in combcollist)
                                 {
                                     dtcomb.Columns.Add(combcol, typeof(System.String));
                                 }
                                 foreach (string gtc in gcftcvsid.Keys)
                                 {
-                                    if(gtc=="9.7")
-                                        Debug.Print("**** tc: "+gtc + ". band: ");
+                                    
                                     List<string> gids = gcftcvsid[gtc];
                                     List<string> gidsclone = new List<string>(gids);
-                                    if (gtc == "9.7")
-                                        Debug.Print("pids " + string.Join("-", gids));
+                                    
 
                                     if (ptcrbtcvsid.ContainsKey(gtc))
                                     {
                                         List<string> pids = ptcrbtcvsid[gtc];
-                                        if (gtc == "9.7")
-                                            Debug.Print("pids " + string.Join("-",pids));
+                                       
                                         List<string> pidsclone = new List<string>(pids);
                                         foreach (string gid in gidsclone)
                                         {
@@ -1047,8 +1057,6 @@ namespace TestPlanGen
                                                 List<string> ptcrbrow = ptcrbidvsrow[pid];
                                                 if ((gcfrow[2] == ptcrbrow[2]) && (gcfrow[6] == ptcrbrow[6]))
                                                 {
-                                                    if (gtc == "9.7")
-                                                        Debug.Print("match " + gid+" "+pid);
                                                     DataRow dr = dtcomb.NewRow();
                                                     dr["Spec"] = gcfrow[2];
                                                     dr["SheetName"] = gcfrow[3];
@@ -1074,7 +1082,12 @@ namespace TestPlanGen
                                                     dr["Band Applicability[P]"] = ptcrbrow[7];
                                                     dr["Band Criteria[G]"] = gcfrow[8];
                                                     dr["Band Criteria[P]"] = ptcrbrow[8];
+                                                    dr["PICS Logic[G]"] = gcfrow[19];
+                                                    dr["PICS Logic[P]"] = ptcrbrow[19];
+                                                    dr["Band raw[G]"] = gcfrow[20];
+                                                    dr["Band raw[P]"] = ptcrbrow[20];
 
+                                                    
                                                     dtcomb.Rows.Add(dr);
                                                     pids.Remove(pid);
                                                     gids.Remove(gid);
@@ -1087,8 +1100,7 @@ namespace TestPlanGen
                                         }
                                         foreach (string gid in gids)
                                         {
-                                            if (gtc == "9.7")
-                                                Debug.Print("remaining gid" + gid + " " );
+                                            
                                             //0{ "GCF/PTCRB/Operator Version", "PICS Version", "Spec", "SheetName", "Test Case Number", "Description",
                                             //6  "Band", "Band Applicability", "Band Criteria", "Cert TP [V]", "Cert TP [E]", 
                                             //11 "Cert TP [D]", "TC Status", "PICS Status", "Env_Cond", "Band Support", 
@@ -1112,7 +1124,8 @@ namespace TestPlanGen
                                             dr["Band Applicability[G]"] = gcfrow[7];
                                             
                                             dr["Band Criteria[G]"] = gcfrow[8];
-                                            
+                                            dr["PICS Logic[G]"] = gcfrow[19];
+                                            dr["Band raw[G]"] = gcfrow[20];
 
                                             dtcomb.Rows.Add(dr);
 
@@ -1125,8 +1138,7 @@ namespace TestPlanGen
                                     {
                                         foreach (string gid in gids)
                                         {
-                                            if (gtc == "9.7")
-                                                Debug.Print("remaining gid2" + gid + " ");
+                                           
                                             //0{ "GCF/PTCRB/Operator Version", "PICS Version", "Spec", "SheetName", "Test Case Number", "Description",
                                             //6  "Band", "Band Applicability", "Band Criteria", "Cert TP [V]", "Cert TP [E]", 
                                             //11 "Cert TP [D]", "TC Status", "PICS Status", "Env_Cond", "Band Support", 
@@ -1150,7 +1162,8 @@ namespace TestPlanGen
                                             dr["Band Applicability[G]"] = gcfrow[7];
                                             
                                             dr["Band Criteria[G]"] = gcfrow[8];
-                                            
+                                            dr["PICS Logic[G]"] = gcfrow[19];
+                                            dr["Band raw[G]"] = gcfrow[20];
 
                                             dtcomb.Rows.Add(dr);
 
@@ -1162,8 +1175,7 @@ namespace TestPlanGen
                                 {
                                     List<string> pids_remaining = kvpp.Value;
                                     string ptc = kvpp.Key;
-                                    if (ptc == "9.7")
-                                        Debug.Print("pids_remaining list" + string.Join("-" ,pids_remaining));
+                                    
                                     foreach (string pid in pids_remaining)
                                     {
                                         
@@ -1188,11 +1200,9 @@ namespace TestPlanGen
                                         dr["Band Applicability[P]"] = ptcrbrow[7];
                                         
                                         dr["Band Criteria[P]"] = ptcrbrow[8];
-                                        if (ptc == "9.7")
-                                            Debug.Print("PID " + pid + ptcrbrow[6].ToString()+dtcomb.Rows.Count.ToString() );
-                                        dtcomb.Rows.Add(dr);
-                                        if (ptc == "9.7")
-                                            Debug.Print("PID " + dtcomb.Rows.Count.ToString());
+                                        dr["PICS Logic[P]"] = ptcrbrow[19];
+                                        dr["Band raw[P]"]   = ptcrbrow[20];
+
 
                                     }
 

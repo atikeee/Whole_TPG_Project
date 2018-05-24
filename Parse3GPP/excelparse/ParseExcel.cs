@@ -20,9 +20,12 @@ namespace excelparse
         private string _sheetname = "";
         private string _outputpath = "";
         public static string[] BIlist;
+        public static string[] BIlistW;
+        public static string[] BIlistM;
         private Dictionary<string, DataTable> allrfdata = new Dictionary<string, DataTable>();
         private Dictionary<string, DataTable> allrrmdata = new Dictionary<string, DataTable>();
         private Dictionary<string, DataTable> allctpsdata = new Dictionary<string, DataTable>();
+        
         public Logging lgx;
         private Dictionary<string, StreamWriter> csvtowritedic = new Dictionary<string, StreamWriter>();
         public ParseExcel(string _FilePath, string _type)
@@ -226,8 +229,15 @@ namespace excelparse
             MISC.writetoexcel(allrrmdata, prefix + "RRM.xlsx");
             MISC.writetoexcel(allctpsdata, prefix + "CTPS.xlsx");
         }
-        public void processgcffile(DataTable dt, Dictionary<string, List<string>> tc_env, bool sheetspecwise = true, string sep = "\t")
+        public void processgcffile(DataTable dt, Dictionary<string, List<string>> tc_env, string sep = "\t")
         {
+            //reading config files. 
+            TwoKeyDictionary<string, string, string> iratsm = new TwoKeyDictionary<string, string, string>();
+            MISC.readconfig_2kdict("conf\\GCF_IRAT_SM_TC.conf", iratsm);
+            Dictionary<string, List<string>> bandlistdic = MISC.readconfiglist("conf\\GCF_IRAT_band.conf", '\t');
+            MISC.allrfdata = allrfdata;
+            MISC.allrrmdata = allrrmdata;
+            MISC.allctpsdata = allctpsdata;
             MISC.coltitle = new string[] { "TC Number", "Description", "Type of Test", "Band Applicability", "sheetname", "Standards", "Environmental Condition", "Band Criteria", "Band", "ICE Recommendation for Band", "TC Status", "Certified TP [V]", "Certified TP [E]", "Certified TP [D]", "BandWidth", "WI" };
             string wi = "";
             string spec = "";
@@ -504,41 +514,63 @@ namespace excelparse
                             }
                             MISC.removetpduplicate(allrow);
                             //allrow[9] = allrow[9].Replace("_RX4", "");
-                            if ((allrow[9] == "BI")||(allrow[9] == "BI-M"))
+                            if (allrow[9] == "BI-M")
+                            {
+                                foreach (string b in BIlistM)
+                                {
+                                    string[] allrow2 = new string[allrow.Length];
+                                    Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
+                                    allrow2[9] = allrow[9] + ":" + b+"M";
+                                    
+                                    MISC.adddata(cat,allrow2);
+                                }
+                            }
+                            else  if (allrow[9] == "BI")
                             {
                                 foreach(string b in BIlist)
                                 {
                                     string[] allrow2 = new string[allrow.Length]; 
                                     Array.Copy(allrow,0,allrow2,0,allrow.Length);
-                                    allrow2[9] = b;
-                                    if (cat == 1)
-                                    {
-                                        MISC.adddata(allrfdata, allrow2);
-                                    }
-                                    else if (cat == 2)
-                                    {
-                                        MISC.adddata(allrrmdata, allrow2);
-                                    }
-                                    else if (cat == 3)
-                                    {
-                                        MISC.adddata(allctpsdata, allrow2);
-                                    }
+                                    allrow2[9] = allrow[9]+":" +b;
+                                   
+                                    MISC.adddata(cat, allrow2);
                                 }
                             }
                             else
                             {
-                                if (cat == 1)
+                                if (iratsm.ContainsKey(allrow[6],allrow[1]))
                                 {
-                                    MISC.adddata(allrfdata, allrow);
-                                }
-                                else if (cat == 2)
+
+                                    List<string> allband = bandlistdic[iratsm[allrow[6], allrow[1]]];
+                                    string[] allrow2 = new string[allrow.Length];
+                                    Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
+                                    
+                                    Regex r = new Regex("^([IVX]+)$", RegexOptions.IgnoreCase);
+                                    Match m = r.Match(allrow[9]);
+                                    foreach (string b in allband)
+                                    {
+                                        if (b.Split('-')[0].Trim('E').TrimStart('0') == allrow[9])
+                                        {
+                                            allrow2[9] = allrow[9]+">" +b;
+                                            MISC.adddata(cat, allrow2);
+                                        }
+
+                                        else if (m.Success)
+                                        {
+                                            if (b.Split('-')[0].Trim('U').TrimStart('0') == MISC.RtoI[allrow[9]])
+                                            {
+                                                allrow2[9] = allrow[9]+">" +b;
+                                                MISC.adddata(cat, allrow2);
+                                            }
+                                        }
+                                        
+
+                                    }
+                                }else
                                 {
-                                    MISC.adddata(allrrmdata, allrow);
+                                    MISC.adddata(cat, allrow);
                                 }
-                                else if (cat == 3)
-                                {
-                                    MISC.adddata(allctpsdata, allrow);
-                                }
+                                
                             }
                             
                             
@@ -573,8 +605,14 @@ namespace excelparse
             bout = bout.Replace("GSM", "").Trim();
             return bout;
         }
-        public void processptcrbfile(DataTable dt, Dictionary<string, List<string>> tc_env, string[] ptcrbspec, bool sheetspecwise, string sep = "\t")
+        public void processptcrbfile(DataTable dt, Dictionary<string, List<string>> tc_env, string[] ptcrbspec, string sep = "\t")
         {
+            MISC.allrfdata = allrfdata;
+            MISC.allrrmdata = allrrmdata;
+            MISC.allctpsdata = allctpsdata;
+            TwoKeyDictionary<string, string, string> iratsm = new TwoKeyDictionary<string, string, string>();
+            MISC.readconfig_2kdict("conf\\PTCRB_IRAT_SM_TC.conf", iratsm);
+            Dictionary<string, List<string>> bandlistdic = MISC.readconfiglist("conf\\PTCRB_IRAT_band.conf", '\t');
             MISC.coltitle = new string[] { "TC Number", "Description", "Type of Test", "Band Applicability", "Cat", "Standards", "Environmental Condition", "Band Criteria", "Band", "ICE Recommendation for Band", "TC Status", "Certified TP [V]", "Certified TP [E]", "Certified TP [D]", "BandWidth", "RFT" };
             string spec = "";
             string rft = "";
@@ -782,40 +820,78 @@ namespace excelparse
                                 // checking for BI and replace BI with configuration BI list in the config.
                                 MISC.removetpduplicate(allrow);
                                 //allrow[9] = allrow[9].Replace("_RX4", "");
-                                if ((allrow[9] == "BI") || (allrow[9] == "BI-M"))
+                                // find out which BIlist to pick up 
+                                string[] bil=BIlist; 
+
+
+                                if (conspec == "AT-Command")
                                 {
-                                    foreach (string b in BIlist)
+                                    string[] allrow2 = new string[allrow.Length];
+                                    Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
+                                    MISC.adddata(3, allrow2);
+                                }
+                                else if (allrow[9] == "BA") 
+                                {
+                                    if (conspec == "31.124-1")
+                                        bil = BIlistW;
+
+                                    foreach (string b in bil)
                                     {
                                         string[] allrow2 = new string[allrow.Length];
                                         Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
-                                        allrow2[9] = b;
-                                        if (cat == 1)
-                                        {
-                                            MISC.adddata(allrfdata, allrow2);
-                                        }
-                                        else if (cat == 2)
-                                        {
-                                            MISC.adddata(allrrmdata, allrow2);
-                                        }
-                                        else if (cat == 3)
-                                        {
-                                            MISC.adddata(allctpsdata, allrow2);
-                                        }
+                                        
+                                        allrow2[9] = allrow[9] + ":" + b;
+                                        
+                                        MISC.adddata(cat,allrow2);
+                                    }
+                                }
+                                else if (allrow[9] == "BI")
+                                {
+
+                                    foreach (string b in bil)
+                                    {
+                                        string[] allrow2 = new string[allrow.Length];
+                                        Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
+
+                                        allrow2[9] = allrow[9] + ":" + b;
+
+                                        MISC.adddata(cat, allrow2);
                                     }
                                 }
                                 else
                                 {
-                                    if (cat == 1)
+                                    if (iratsm.ContainsKey(allrow[6], allrow[1]))
                                     {
-                                        MISC.adddata(allrfdata, allrow);
+
+                                        List<string> allband = bandlistdic[iratsm[allrow[6], allrow[1]]];
+                                        string[] allrow2 = new string[allrow.Length];
+                                        Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
+
+                                        Regex r = new Regex("^([IVX]+)$", RegexOptions.IgnoreCase);
+                                        Match m = r.Match(allrow[9]);
+                                        foreach (string b in allband)
+                                        {
+                                            if (b.Split('-')[0].Trim('E').TrimStart('0') == allrow[9])
+                                            {
+                                                allrow2[9] = allrow[9] + ">" + b;
+                                                MISC.adddata(cat, allrow2);
+                                            }
+
+                                            else if (m.Success)
+                                            {
+                                                if (b.Split('-')[0].Trim('U').TrimStart('0') == MISC.RtoI[allrow[9]])
+                                                {
+                                                    allrow2[9] = allrow[9] + ">" + b;
+                                                    MISC.adddata(cat, allrow2);
+                                                }
+                                            }
+
+
+                                        }
                                     }
-                                    else if (cat == 2)
+                                    else
                                     {
-                                        MISC.adddata(allrrmdata, allrow);
-                                    }
-                                    else if (cat == 3)
-                                    {
-                                        MISC.adddata(allctpsdata, allrow);
+                                        MISC.adddata(cat, allrow);
                                     }
                                 }
 
@@ -895,16 +971,7 @@ namespace excelparse
                                     spcbandidx++;
                                 }
 
-                                //if(tband== "band independent")
-                                //{
-                                //    band = "BI";
-                                //}else if(tband == "bearer agnostic")
-                                //{
-                                //    band = "BA";
-                                //}else if (tband == "network independent")
-                                //{
-                                //    band = "NI";
-                                //}
+                               
                             }
                             else
                             {
@@ -944,7 +1011,7 @@ namespace excelparse
         {
             string spec = this._FilePath.Split('_')[0];
             lgx.deb("Datatable Row Count: " + dt.Rows.Count.ToString());
-            string[] lines = File.ReadAllLines(@"envcond.conf");
+            string[] lines = File.ReadAllLines(@"conf\envcond.conf");
             List<string> envk = new List<string>();
             List<string> envv = new List<string>();
             foreach (string line in lines)

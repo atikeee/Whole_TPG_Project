@@ -329,6 +329,8 @@ namespace Parse_Pixit_Table
                     //string picslogic = "";
                     foreach (KeyValuePair<string, Dictionary<string, string>> temp in tc_band_id)
                     {// reading database test case - band vs id start
+                        string ms1 = DateTime.Now.Millisecond.ToString();
+                        string s1 = DateTime.Now.Second.ToString();
                         string tc = temp.Key.Replace(" ","").ToLower();
                         string oldTC = tc;
                         string picstmpstr = "";
@@ -501,12 +503,11 @@ namespace Parse_Pixit_Table
 
                             string pics_reco_str = picstmpstr;
                             picsBand = "";
-                            bool isSuppBand = false;
+                            bool isSuppBand = StringProcess.bandSupportHelper(band_id_key, picsSupBandList); 
                             if((frm.testcat=="rf") || (frm.testcat =="att") || (frm.testcat == "vzw") || (frm.testcat == "cmcc"))
                             {
                                 band_rb_val = "";
                             }
-
                             if (spec == "36.521-1")
                             {
                                 //string PICSRecoBand = "";
@@ -532,22 +533,9 @@ namespace Parse_Pixit_Table
                                         if (picsSupBandList.Contains(band_id_key_mod))
                                             isSuppBand = true;
                                     }
-                                    else
-                                    {
-                                        isSuppBand = StringProcess.bandSupportHelper(band_id_key, picsSupBandList);
-                                    }
                                 }
-                                else
-                                {
-                                    isSuppBand = StringProcess.bandSupportHelper(band_id_key, picsSupBandList);
-                                }
-                                
-
                             }
-                            else
-                            {
-                                isSuppBand = StringProcess.bandSupportHelper(band_id_key, picsSupBandList);
-                            }
+                            
                             picsRel = picsRel.Replace(","," ");
                             if (picsTCReco != "")
                                 if (pics_reco_str == "")

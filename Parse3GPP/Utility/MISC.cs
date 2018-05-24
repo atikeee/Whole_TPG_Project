@@ -16,11 +16,36 @@ namespace Utility
 {
     public static class MISC
     {
+        public static Dictionary<string, DataTable> allrfdata;
+        public static Dictionary<string, DataTable> allrrmdata;
+        public static Dictionary<string, DataTable> allctpsdata;
+        public static Dictionary<string, string> RtoI = new Dictionary<string, string>()
+        {
+            { "I","1" },
+            { "II", "2" },
+            { "III", "3" },
+            { "IV", "4" },
+            { "V", "5" },
+            { "VI", "6" },
+            { "VII", "7" },
+            { "VIII", "8" },
+            { "IX", "9" },
+            { "X", "10" },
+            { "XI", "11" },
+            { "XII", "12" },
+            { "XIII", "13" },
+            { "XIV", "14" },
+            { "XV", "15" },
+            { "XVI", "16" },
+            { "XVII", "17" },
+            { "XVIII", "18" },
+            { "XIX", "19" },
+        };
         public static string getbw(string tc, string band)
         {
             string allbw = "";
-            ReadConfig rc1 = new ReadConfig("1.txt", 1);
-            ReadConfig rc2 = new ReadConfig("2.txt", 2);
+            ReadConfig rc1 = new ReadConfig("conf\\1.txt", 1);
+            ReadConfig rc2 = new ReadConfig("conf\\2.txt", 2);
             /*
             foreach (KeyValuePair<string, string> kvp in rc1.getdict())
             {
@@ -64,7 +89,7 @@ namespace Utility
         }
         public static _List<string> PICSBandSupportList;
         public static Logging lgstr;
-        public static _Dictionary<string, string> readconfig(string fn)
+        public static _Dictionary<string, string> readconfig(string fn , char sp = '=')
         {
             _Dictionary<string, string> retdic = new _Dictionary<string, string>();
             string[] lines = File.ReadAllLines(fn);
@@ -72,7 +97,7 @@ namespace Utility
             {
                 if (!line.StartsWith("#"))
                 {
-                    string[] kvp = line.Split('=');
+                    string[] kvp = line.Split(sp);
                     if (kvp.Count() > 1)
                     {
                         retdic.Add(kvp[0].Trim(), kvp[1].Trim());
@@ -84,10 +109,52 @@ namespace Utility
             }
             return retdic;
         }
-        public static string[] coltitle;
-        public static void adddata(Dictionary<string,DataTable> datadic, string[] indat)
+        public static Dictionary<string, List<string>> readconfiglist(string fn, char sp = '=')
         {
+            Dictionary<string, List<string>> retdic = new Dictionary<string, List<string>>();
+            string[] lines = File.ReadAllLines(fn);
+            foreach (string line in lines)
+            {
+                if (!line.StartsWith("#"))
+                {
+                    string[] kvp = line.Split(sp);
+                    if (kvp.Count() > 1)
+                    {
+                        if (retdic.ContainsKey(kvp[0].Trim()))
+                        {
+                            retdic[kvp[0].Trim()].Add(kvp[1].Trim());
+                        }else
+                        {
+                            retdic.Add(kvp[0].Trim(), new List<string> { kvp[1].Trim() });
+                        }
 
+                    }
+                }
+
+                // Use a tab to indent each line of the file.
+            }
+            return retdic;
+        }
+        public static string[] coltitle;
+        public static void adddata(int cat, string[] indat)
+        {
+            Dictionary<string, DataTable> datadic;
+            if (cat == 1)
+            {
+                datadic = allrfdata;
+            }
+            else if (cat == 2)
+            {
+                datadic = allrrmdata;
+            }
+            else if (cat == 3)
+            {
+                datadic = allctpsdata;
+            }
+            else
+            {
+                return;
+            }
             if (indat.Count() > 1)
             {
                 string key = indat[0];
@@ -521,6 +588,26 @@ namespace Utility
             }
             return bout; 
         }
+        
+        public static void readconfig_2kdict(string fn, TwoKeyDictionary<string, string, string> retdic)
+        {
+        //    TwoKeyDictionary<string, string, string> retdic = new TwoKeyDictionary<string, string, string>();
+            string[] lines = File.ReadAllLines(fn);
+            foreach (string line in lines)
+            {
+                if (!line.StartsWith("#") && line.Trim()!= "")
+                {
+                    string[] kvp = line.Split('\t');
+                    if (kvp.Count() > 2)
+                    {
+                        retdic.Add(kvp[0].Trim(), kvp[1].Trim(),kvp[2].Trim());
 
+                    }
+                }
+
+                // Use a tab to indent each line of the file.
+            }
+          //  return retdic;
+        }
     }
 }

@@ -90,6 +90,8 @@
             this.labelcommon = new System.Windows.Forms.Label();
             this.folderBrowserDialogall = new System.Windows.Forms.FolderBrowserDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.textBox_icesb = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -127,11 +129,11 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.Location = new System.Drawing.Point(4, 63);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(5, 78);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1010, 410);
+            this.dataGridView1.Size = new System.Drawing.Size(1347, 505);
             this.dataGridView1.TabIndex = 0;
             // 
             // contextMenuStrip1
@@ -157,10 +159,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(215, 11);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(287, 14);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(74, 25);
+            this.button1.Size = new System.Drawing.Size(99, 31);
             this.button1.TabIndex = 1;
             this.button1.Text = "Show Data";
             this.button1.UseVisualStyleBackColor = true;
@@ -168,11 +170,11 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Location = new System.Drawing.Point(98, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Location = new System.Drawing.Point(131, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(458, 35);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(611, 43);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select Test Group";
@@ -181,30 +183,28 @@
             // 
             this.comboBoxVer.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxVer.FormattingEnabled = true;
-            this.comboBoxVer.Location = new System.Drawing.Point(4, 21);
-            this.comboBoxVer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxVer.Location = new System.Drawing.Point(5, 26);
+            this.comboBoxVer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxVer.Name = "comboBoxVer";
-            this.comboBoxVer.Size = new System.Drawing.Size(92, 21);
+            this.comboBoxVer.Size = new System.Drawing.Size(121, 24);
             this.comboBoxVer.TabIndex = 3;
             this.comboBoxVer.SelectedIndexChanged += new System.EventHandler(this.comboBoxVer_SelectedIndexChanged_1);
             // 
             // labelver
             // 
             this.labelver.AutoSize = true;
-            this.labelver.Location = new System.Drawing.Point(4, 4);
-            this.labelver.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelver.Location = new System.Drawing.Point(5, 5);
             this.labelver.Name = "labelver";
-            this.labelver.Size = new System.Drawing.Size(48, 15);
+            this.labelver.Size = new System.Drawing.Size(56, 17);
             this.labelver.TabIndex = 4;
             this.labelver.Text = "Version";
             // 
             // labelpics
             // 
             this.labelpics.AutoSize = true;
-            this.labelpics.Location = new System.Drawing.Point(117, 5);
-            this.labelpics.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelpics.Location = new System.Drawing.Point(156, 6);
             this.labelpics.Name = "labelpics";
-            this.labelpics.Size = new System.Drawing.Size(78, 15);
+            this.labelpics.Size = new System.Drawing.Size(90, 17);
             this.labelpics.TabIndex = 5;
             this.labelpics.Text = "PICS Version";
             // 
@@ -212,19 +212,19 @@
             // 
             this.comboBoxPICSVer.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPICSVer.FormattingEnabled = true;
-            this.comboBoxPICSVer.Location = new System.Drawing.Point(119, 21);
-            this.comboBoxPICSVer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxPICSVer.Location = new System.Drawing.Point(159, 26);
+            this.comboBoxPICSVer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxPICSVer.Name = "comboBoxPICSVer";
-            this.comboBoxPICSVer.Size = new System.Drawing.Size(92, 21);
+            this.comboBoxPICSVer.Size = new System.Drawing.Size(121, 24);
             this.comboBoxPICSVer.TabIndex = 6;
             this.comboBoxPICSVer.SelectedIndexChanged += new System.EventHandler(this.comboBoxPICSVer_SelectedIndexChanged);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(182, 12);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(243, 15);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(70, 23);
+            this.button2.Size = new System.Drawing.Size(93, 28);
             this.button2.TabIndex = 8;
             this.button2.Text = "Get TC Info";
             this.button2.UseVisualStyleBackColor = true;
@@ -232,19 +232,18 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(103, 16);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Location = new System.Drawing.Point(137, 20);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(76, 20);
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 9;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 17);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(13, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 15);
+            this.label1.Size = new System.Drawing.Size(118, 17);
             this.label1.TabIndex = 10;
             this.label1.Text = "Enter TC Number";
             // 
@@ -252,39 +251,38 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 713);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(21, 878);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 15);
+            this.label2.Size = new System.Drawing.Size(118, 17);
             this.label2.TabIndex = 12;
             this.label2.Text = "Supported Bands";
             // 
             // textBox3
             // 
             this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox3.Location = new System.Drawing.Point(4, 560);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Location = new System.Drawing.Point(5, 689);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(97, 20);
+            this.textBox3.Size = new System.Drawing.Size(128, 22);
             this.textBox3.TabIndex = 13;
             // 
             // textBox4
             // 
             this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox4.Location = new System.Drawing.Point(235, 557);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Location = new System.Drawing.Point(313, 686);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(264, 19);
+            this.textBox4.Size = new System.Drawing.Size(351, 22);
             this.textBox4.TabIndex = 14;
             // 
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button3.Location = new System.Drawing.Point(116, 552);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Location = new System.Drawing.Point(155, 679);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(56, 28);
+            this.button3.Size = new System.Drawing.Size(75, 34);
             this.button3.TabIndex = 15;
             this.button3.Text = "Get Info";
             this.button3.UseVisualStyleBackColor = true;
@@ -294,10 +292,9 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(2, 543);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(3, 664);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(199, 15);
+            this.label3.Size = new System.Drawing.Size(234, 17);
             this.label3.TabIndex = 16;
             this.label3.Text = "Band Query [put band withoud CA_]";
             // 
@@ -309,17 +306,19 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(8, 38);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Location = new System.Drawing.Point(11, 47);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1029, 606);
+            this.tabControl1.Size = new System.Drawing.Size(1372, 746);
             this.tabControl1.TabIndex = 17;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             this.tabControl1.Click += new System.EventHandler(this.gcfptcrbcombinedtabclicked);
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label8);
+            this.tabPage1.Controls.Add(this.textBox_icesb);
             this.tabPage1.Controls.Add(this.label7);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.button_alldld);
@@ -337,11 +336,11 @@
             this.tabPage1.Controls.Add(this.labelver);
             this.tabPage1.Controls.Add(this.comboBoxPICSVer);
             this.tabPage1.Controls.Add(this.comboBoxVer);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage1.Size = new System.Drawing.Size(1021, 580);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage1.Size = new System.Drawing.Size(1364, 717);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "TC Info";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -350,19 +349,18 @@
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(2, 476);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(3, 586);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 15);
+            this.label7.Size = new System.Drawing.Size(145, 17);
             this.label7.TabIndex = 19;
             this.label7.Text = "PICS Supported Band";
             // 
             // button_alldld
             // 
-            this.button_alldld.Location = new System.Drawing.Point(236, 6);
-            this.button_alldld.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_alldld.Location = new System.Drawing.Point(315, 7);
+            this.button_alldld.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_alldld.Name = "button_alldld";
-            this.button_alldld.Size = new System.Drawing.Size(64, 36);
+            this.button_alldld.Size = new System.Drawing.Size(85, 44);
             this.button_alldld.TabIndex = 20;
             this.button_alldld.Text = "Download All";
             this.button_alldld.UseVisualStyleBackColor = true;
@@ -372,10 +370,9 @@
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(-1, 588);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(-1, 724);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(126, 15);
+            this.label6.Size = new System.Drawing.Size(145, 17);
             this.label6.TabIndex = 19;
             this.label6.Text = "PICS Supported Band";
             // 
@@ -387,8 +384,7 @@
             this.label_showdata.AutoSize = true;
             this.label_showdata.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_showdata.ForeColor = System.Drawing.Color.Purple;
-            this.label_showdata.Location = new System.Drawing.Point(18, 46);
-            this.label_showdata.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_showdata.Location = new System.Drawing.Point(24, 57);
             this.label_showdata.Name = "label_showdata";
             this.label_showdata.Size = new System.Drawing.Size(0, 17);
             this.label_showdata.TabIndex = 17;
@@ -398,11 +394,11 @@
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Location = new System.Drawing.Point(749, 0);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Location = new System.Drawing.Point(999, 0);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox3.Size = new System.Drawing.Size(258, 42);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Size = new System.Drawing.Size(344, 52);
             this.groupBox3.TabIndex = 14;
             this.groupBox3.TabStop = false;
             // 
@@ -412,21 +408,20 @@
             this.groupBox2.Controls.Add(this.labelSheet);
             this.groupBox2.Controls.Add(this.comboBoxSheet);
             this.groupBox2.Controls.Add(this.buttonDownload);
-            this.groupBox2.Location = new System.Drawing.Point(330, 1);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Location = new System.Drawing.Point(440, 1);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox2.Size = new System.Drawing.Size(387, 41);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(516, 50);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             // 
             // labelSheet
             // 
             this.labelSheet.AutoSize = true;
-            this.labelSheet.Location = new System.Drawing.Point(8, 14);
-            this.labelSheet.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelSheet.Location = new System.Drawing.Point(11, 17);
             this.labelSheet.Name = "labelSheet";
-            this.labelSheet.Size = new System.Drawing.Size(75, 15);
+            this.labelSheet.Size = new System.Drawing.Size(88, 17);
             this.labelSheet.TabIndex = 12;
             this.labelSheet.Text = "Subcategory";
             // 
@@ -434,18 +429,18 @@
             // 
             this.comboBoxSheet.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxSheet.FormattingEnabled = true;
-            this.comboBoxSheet.Location = new System.Drawing.Point(105, 11);
-            this.comboBoxSheet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxSheet.Location = new System.Drawing.Point(140, 14);
+            this.comboBoxSheet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxSheet.Name = "comboBoxSheet";
-            this.comboBoxSheet.Size = new System.Drawing.Size(92, 21);
+            this.comboBoxSheet.Size = new System.Drawing.Size(121, 24);
             this.comboBoxSheet.TabIndex = 11;
             // 
             // buttonDownload
             // 
-            this.buttonDownload.Location = new System.Drawing.Point(313, 11);
-            this.buttonDownload.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonDownload.Location = new System.Drawing.Point(417, 14);
+            this.buttonDownload.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonDownload.Name = "buttonDownload";
-            this.buttonDownload.Size = new System.Drawing.Size(64, 25);
+            this.buttonDownload.Size = new System.Drawing.Size(85, 31);
             this.buttonDownload.TabIndex = 15;
             this.buttonDownload.Text = "Download";
             this.buttonDownload.UseVisualStyleBackColor = true;
@@ -454,12 +449,13 @@
             // textBox2
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox2.Location = new System.Drawing.Point(4, 492);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Location = new System.Drawing.Point(5, 606);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(1010, 49);
+            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox2.Size = new System.Drawing.Size(446, 59);
             this.textBox2.TabIndex = 11;
             // 
             // tabPage2
@@ -473,11 +469,11 @@
             this.tabPage2.Controls.Add(this.dataGridViewConfig);
             this.tabPage2.Controls.Add(this.comboBoxV2);
             this.tabPage2.Controls.Add(this.comboBoxV1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage2.Size = new System.Drawing.Size(1021, 580);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage2.Size = new System.Drawing.Size(1364, 717);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Version Comparison";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -486,10 +482,10 @@
             // 
             this.comboBoxPICS2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPICS2.FormattingEnabled = true;
-            this.comboBoxPICS2.Location = new System.Drawing.Point(638, 6);
-            this.comboBoxPICS2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxPICS2.Location = new System.Drawing.Point(851, 7);
+            this.comboBoxPICS2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxPICS2.Name = "comboBoxPICS2";
-            this.comboBoxPICS2.Size = new System.Drawing.Size(150, 21);
+            this.comboBoxPICS2.Size = new System.Drawing.Size(199, 24);
             this.comboBoxPICS2.TabIndex = 13;
             this.comboBoxPICS2.SelectedIndexChanged += new System.EventHandler(this.comboBoxPICS2_SelectedIndexChanged);
             // 
@@ -497,20 +493,20 @@
             // 
             this.comboBoxPICS1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPICS1.FormattingEnabled = true;
-            this.comboBoxPICS1.Location = new System.Drawing.Point(220, 6);
-            this.comboBoxPICS1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxPICS1.Location = new System.Drawing.Point(293, 7);
+            this.comboBoxPICS1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxPICS1.Name = "comboBoxPICS1";
-            this.comboBoxPICS1.Size = new System.Drawing.Size(150, 21);
+            this.comboBoxPICS1.Size = new System.Drawing.Size(199, 24);
             this.comboBoxPICS1.TabIndex = 12;
             this.comboBoxPICS1.SelectedIndexChanged += new System.EventHandler(this.comboBoxPICS1_SelectedIndexChanged);
             // 
             // buttondldelta
             // 
             this.buttondldelta.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttondldelta.Location = new System.Drawing.Point(884, 5);
-            this.buttondldelta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttondldelta.Location = new System.Drawing.Point(1179, 6);
+            this.buttondldelta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttondldelta.Name = "buttondldelta";
-            this.buttondldelta.Size = new System.Drawing.Size(77, 28);
+            this.buttondldelta.Size = new System.Drawing.Size(103, 34);
             this.buttondldelta.TabIndex = 11;
             this.buttondldelta.Text = "Download";
             this.buttondldelta.UseVisualStyleBackColor = true;
@@ -519,10 +515,10 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(804, 3);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Location = new System.Drawing.Point(1072, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(70, 30);
+            this.button4.Size = new System.Drawing.Size(93, 37);
             this.button4.TabIndex = 10;
             this.button4.Text = "Compare";
             this.button4.UseVisualStyleBackColor = true;
@@ -531,20 +527,18 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(398, 9);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(531, 11);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(21, 15);
+            this.label5.Size = new System.Drawing.Size(25, 17);
             this.label5.TabIndex = 8;
             this.label5.Text = "V2";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 8);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(8, 10);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(21, 15);
+            this.label4.Size = new System.Drawing.Size(25, 17);
             this.label4.TabIndex = 7;
             this.label4.Text = "V1";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -576,12 +570,12 @@
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewConfig.DefaultCellStyle = dataGridViewCellStyle4;
-            this.dataGridViewConfig.Location = new System.Drawing.Point(4, 38);
-            this.dataGridViewConfig.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewConfig.Location = new System.Drawing.Point(5, 47);
+            this.dataGridViewConfig.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridViewConfig.Name = "dataGridViewConfig";
             this.dataGridViewConfig.ReadOnly = true;
             this.dataGridViewConfig.RowTemplate.Height = 24;
-            this.dataGridViewConfig.Size = new System.Drawing.Size(1014, 540);
+            this.dataGridViewConfig.Size = new System.Drawing.Size(1352, 665);
             this.dataGridViewConfig.TabIndex = 4;
             this.dataGridViewConfig.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewConfig_CellContentClick);
             // 
@@ -589,10 +583,10 @@
             // 
             this.comboBoxV2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxV2.FormattingEnabled = true;
-            this.comboBoxV2.Location = new System.Drawing.Point(421, 6);
-            this.comboBoxV2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxV2.Location = new System.Drawing.Point(561, 7);
+            this.comboBoxV2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxV2.Name = "comboBoxV2";
-            this.comboBoxV2.Size = new System.Drawing.Size(199, 21);
+            this.comboBoxV2.Size = new System.Drawing.Size(264, 24);
             this.comboBoxV2.TabIndex = 1;
             this.comboBoxV2.SelectedIndexChanged += new System.EventHandler(this.comboBoxV2_SelectedIndexChanged);
             // 
@@ -600,10 +594,10 @@
             // 
             this.comboBoxV1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxV1.FormattingEnabled = true;
-            this.comboBoxV1.Location = new System.Drawing.Point(27, 6);
-            this.comboBoxV1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxV1.Location = new System.Drawing.Point(36, 7);
+            this.comboBoxV1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxV1.Name = "comboBoxV1";
-            this.comboBoxV1.Size = new System.Drawing.Size(176, 21);
+            this.comboBoxV1.Size = new System.Drawing.Size(233, 24);
             this.comboBoxV1.TabIndex = 0;
             this.comboBoxV1.SelectedIndexChanged += new System.EventHandler(this.comboBoxV1_SelectedIndexChanged);
             // 
@@ -619,21 +613,21 @@
             this.tabPage3.Controls.Add(this.labelpicsver);
             this.tabPage3.Controls.Add(this.labelptcrbver);
             this.tabPage3.Controls.Add(this.labelgcfver);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage3.Size = new System.Drawing.Size(1021, 580);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage3.Size = new System.Drawing.Size(1364, 717);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "CombineGCF_PTCRB";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // buttonSearch
             // 
-            this.buttonSearch.Location = new System.Drawing.Point(884, 11);
-            this.buttonSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSearch.Location = new System.Drawing.Point(1179, 14);
+            this.buttonSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(56, 24);
+            this.buttonSearch.Size = new System.Drawing.Size(75, 30);
             this.buttonSearch.TabIndex = 9;
             this.buttonSearch.Text = "Search";
             this.buttonSearch.UseVisualStyleBackColor = true;
@@ -641,10 +635,10 @@
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(603, 12);
-            this.textBoxSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxSearch.Location = new System.Drawing.Point(804, 15);
+            this.textBoxSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(259, 20);
+            this.textBoxSearch.Size = new System.Drawing.Size(344, 22);
             this.textBoxSearch.TabIndex = 8;
             // 
             // dataGridViewgcfptcrb
@@ -654,19 +648,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewgcfptcrb.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewgcfptcrb.ContextMenuStrip = this.contextMenuStrip1;
-            this.dataGridViewgcfptcrb.Location = new System.Drawing.Point(7, 42);
-            this.dataGridViewgcfptcrb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewgcfptcrb.Location = new System.Drawing.Point(9, 52);
+            this.dataGridViewgcfptcrb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridViewgcfptcrb.Name = "dataGridViewgcfptcrb";
             this.dataGridViewgcfptcrb.RowTemplate.Height = 24;
-            this.dataGridViewgcfptcrb.Size = new System.Drawing.Size(1012, 535);
+            this.dataGridViewgcfptcrb.Size = new System.Drawing.Size(1349, 658);
             this.dataGridViewgcfptcrb.TabIndex = 7;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(513, 2);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Location = new System.Drawing.Point(684, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(68, 38);
+            this.button5.Size = new System.Drawing.Size(91, 47);
             this.button5.TabIndex = 6;
             this.button5.Text = "Combine  Download";
             this.button5.UseVisualStyleBackColor = true;
@@ -676,10 +670,10 @@
             // 
             this.comboBoxptcrbver.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxptcrbver.FormattingEnabled = true;
-            this.comboBoxptcrbver.Location = new System.Drawing.Point(389, 14);
-            this.comboBoxptcrbver.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxptcrbver.Location = new System.Drawing.Point(519, 17);
+            this.comboBoxptcrbver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxptcrbver.Name = "comboBoxptcrbver";
-            this.comboBoxptcrbver.Size = new System.Drawing.Size(97, 21);
+            this.comboBoxptcrbver.Size = new System.Drawing.Size(128, 24);
             this.comboBoxptcrbver.TabIndex = 5;
             this.comboBoxptcrbver.SelectedIndexChanged += new System.EventHandler(this.comboBoxptcrbver_SelectedIndexChanged);
             // 
@@ -687,10 +681,10 @@
             // 
             this.comboBoxgcfver.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxgcfver.FormattingEnabled = true;
-            this.comboBoxgcfver.Location = new System.Drawing.Point(210, 15);
-            this.comboBoxgcfver.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxgcfver.Location = new System.Drawing.Point(280, 18);
+            this.comboBoxgcfver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxgcfver.Name = "comboBoxgcfver";
-            this.comboBoxgcfver.Size = new System.Drawing.Size(104, 21);
+            this.comboBoxgcfver.Size = new System.Drawing.Size(137, 24);
             this.comboBoxgcfver.TabIndex = 4;
             this.comboBoxgcfver.SelectedIndexChanged += new System.EventHandler(this.comboBoxgcfver_SelectedIndexChanged);
             // 
@@ -698,40 +692,37 @@
             // 
             this.comboBoxPICS.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPICS.FormattingEnabled = true;
-            this.comboBoxPICS.Location = new System.Drawing.Point(52, 15);
-            this.comboBoxPICS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxPICS.Location = new System.Drawing.Point(69, 18);
+            this.comboBoxPICS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxPICS.Name = "comboBoxPICS";
-            this.comboBoxPICS.Size = new System.Drawing.Size(102, 21);
+            this.comboBoxPICS.Size = new System.Drawing.Size(135, 24);
             this.comboBoxPICS.TabIndex = 3;
             this.comboBoxPICS.SelectedIndexChanged += new System.EventHandler(this.comboBoxPICS_SelectedIndexChanged);
             // 
             // labelpicsver
             // 
             this.labelpicsver.AutoSize = true;
-            this.labelpicsver.Location = new System.Drawing.Point(4, 15);
-            this.labelpicsver.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelpicsver.Location = new System.Drawing.Point(5, 18);
             this.labelpicsver.Name = "labelpicsver";
-            this.labelpicsver.Size = new System.Drawing.Size(50, 15);
+            this.labelpicsver.Size = new System.Drawing.Size(58, 17);
             this.labelpicsver.TabIndex = 2;
             this.labelpicsver.Text = "PICSver";
             // 
             // labelptcrbver
             // 
             this.labelptcrbver.AutoSize = true;
-            this.labelptcrbver.Location = new System.Drawing.Point(324, 15);
-            this.labelptcrbver.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelptcrbver.Location = new System.Drawing.Point(432, 18);
             this.labelptcrbver.Name = "labelptcrbver";
-            this.labelptcrbver.Size = new System.Drawing.Size(63, 15);
+            this.labelptcrbver.Size = new System.Drawing.Size(74, 17);
             this.labelptcrbver.TabIndex = 1;
             this.labelptcrbver.Text = "PTCRBver";
             // 
             // labelgcfver
             // 
             this.labelgcfver.AutoSize = true;
-            this.labelgcfver.Location = new System.Drawing.Point(163, 17);
-            this.labelgcfver.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelgcfver.Location = new System.Drawing.Point(217, 21);
             this.labelgcfver.Name = "labelgcfver";
-            this.labelgcfver.Size = new System.Drawing.Size(47, 15);
+            this.labelgcfver.Size = new System.Drawing.Size(56, 17);
             this.labelgcfver.TabIndex = 0;
             this.labelgcfver.Text = "GCFver";
             // 
@@ -742,8 +733,8 @@
             this.pICSUploadToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1047, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1396, 28);
             this.menuStrip1.TabIndex = 18;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -759,8 +750,7 @@
             this.labelcommon.AutoSize = true;
             this.labelcommon.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelcommon.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.labelcommon.Location = new System.Drawing.Point(561, 7);
-            this.labelcommon.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelcommon.Location = new System.Drawing.Point(748, 9);
             this.labelcommon.Name = "labelcommon";
             this.labelcommon.Size = new System.Drawing.Size(0, 17);
             this.labelcommon.TabIndex = 19;
@@ -769,12 +759,34 @@
             // 
             this.folderBrowserDialogall.SelectedPath = "C:\\";
             // 
+            // textBox_icesb
+            // 
+            this.textBox_icesb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBox_icesb.Location = new System.Drawing.Point(457, 606);
+            this.textBox_icesb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox_icesb.Multiline = true;
+            this.textBox_icesb.Name = "textBox_icesb";
+            this.textBox_icesb.ReadOnly = true;
+            this.textBox_icesb.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox_icesb.Size = new System.Drawing.Size(464, 59);
+            this.textBox_icesb.TabIndex = 21;
+            // 
+            // label8
+            // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(454, 585);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(136, 17);
+            this.label8.TabIndex = 22;
+            this.label8.Text = "ICE Supported Band";
+            // 
             // FormTPG
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1047, 647);
+            this.ClientSize = new System.Drawing.Size(1396, 796);
             this.Controls.Add(this.labelcommon);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.groupBox1);
@@ -782,7 +794,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormTPG";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Test Plan Generator(V3.2)";
@@ -869,6 +881,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem saveAsExcelToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox_icesb;
     }
 }
 

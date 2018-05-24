@@ -622,12 +622,12 @@ namespace Parse_Pixit_Table
 
         public static bool bandSupportHelper(string inputBand, _List<string> PICSBandSupportList)
         {
+
             if ((inputBand.ToUpper() == "BI") || (inputBand.ToUpper() == "NI") || (inputBand.ToUpper() == "BA"))
             {
                 return true;
             }
-
-            string outputBand = inputBand.Trim();
+            //start code here
             string outputBandHOA1 = "";
             string outputBandHOA2 = "";
             string outputBandHOB1 = "";
@@ -642,8 +642,25 @@ namespace Parse_Pixit_Table
 
             bool finaloutputBand = false;
 
-            string pattSC = @"^\d+$";
+            string pattEG = @"^[EG]\d+$";
+            string pattU = @"^[U]\d+$";
+            Match mcEG = Regex.Match(inputBand, pattEG);
+            Match mcU = Regex.Match(inputBand, pattU);
+            if (mcEG.Success)
+            {
+                inputBand = inputBand.TrimStart('E').TrimStart('G').TrimStart('0');
+            }
+            else if (mcU.Success)
+            {
+                inputBand = inputBand.TrimStart('U').TrimStart('0');
+                inputBand = BandProcess.getwbandinroman(inputBand);
+
+            }
+            string pattSC = @"^(\d|[IVX])+$";
             Match mcSC = Regex.Match(inputBand, pattSC);
+            //string pattSCU = @"^[IVX]+$";
+            //Match mcSCU = Regex.Match(inputBand, pattSCU);
+            string outputBand = inputBand.Trim();
             if (mcSC.Success)
             {
                 if (PICSBandSupportList.Contains(outputBand))

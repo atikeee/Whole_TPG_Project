@@ -25,6 +25,17 @@ namespace Utility
             }
             return c; 
         }
+        public static string getwbandinroman(string band)
+        {
+            foreach (KeyValuePair<string, string> kvp in wband)
+            {
+                if(kvp.Value == band)
+                {
+                    return kvp.Key;
+                }
+            }
+            return "WB";
+        }
         private static Dictionary<string, string> wband = new Dictionary<string, string>
         {
             { "I","1"},

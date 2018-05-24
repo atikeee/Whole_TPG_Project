@@ -769,9 +769,10 @@ namespace Parse_Pixit_Table
             band_vs_icesupport.Clear();
             foreach (DataRow row in dt.Rows)
             {
-                string ba = row["band"].ToString();
+                string ba = row["band2"].ToString();
                 string icesupport = bandSupportHelper(ba, icebandsupportall) ?"S":"NS";
-                band_vs_icesupport.Add(ba,icesupport);
+                if(!band_vs_icesupport.ContainsKey(ba))
+                    band_vs_icesupport.Add(ba,icesupport);
             }
             lg.deb("band vs customer band support: \n\t\t\t" + band_vs_icesupport.ToString());
             //Debug.Print(band_vs_icesupport.ToString());

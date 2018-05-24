@@ -17,11 +17,24 @@ namespace parse3GPP
         
         static void Main(string[] args)
         {
-
-            
+            /*
+            TwoKeyDictionary<string, string, string> readconf = new TwoKeyDictionary<string, string, string>();
+            MISC.readconfig_2kdict("conf\\GCF_BI_IRAT_TC.conf",readconf);
+            Debug.Print(readconf.ToString());
+            Dictionary<
+                string,string> ab = readconf["36.523-1"];
+            _Dictionary<string,string> abc = new _Dictionary<string, string>(ab);
+            Debug.Print(abc.ToString());
+            Dictionary<string, List<string>> t1 = MISC.readconfiglist("conf\\PTCRB_IRAT_band.conf",'\t');
+            foreach (KeyValuePair<string , List<string>> kvp in t1)
+            {
+                Debug.Print(kvp.Key);
+                Debug.Print("\t\t"+string.Join(",",kvp.Value));
+            }
+            */
             Logging lg = new Logging("log.log",0);
             MISC.lgstr = lg;
-            _Dictionary<string, string> configdic = MISC.readconfig(@"config.conf");
+            _Dictionary<string, string> configdic = MISC.readconfig(@"conf\\config.conf");
             string[] excelfilearr_env = configdic["ecfile"].Split(',');
             string[] sheetnamearr_env = configdic["ecsheet"].Split(',');
             string printlevelforenvcondition = configdic["envdebprint"];
@@ -30,8 +43,11 @@ namespace parse3GPP
             bool sheetspecwise = Convert.ToBoolean(configdic["sheetspecwise"]);
             string[] gcfsheetarr =  configdic["gcfsheetarr"].Split(',');
             string[] gcfarrBI =  configdic["gcfbandlistforBI"].Split(',');
+            string[] gcfarrBIM =  configdic["gcfbandlistforBIM"].Split(',');
+            string[] gcfarrBIW =  configdic["gcfbandlistforBIW"].Split(',');
             string[] ptcrbspecarr =  configdic["ptcrbspecarr"].Trim().Split(',');
             string[] ptcrbarrBI =  configdic["ptcrbbandlistforBI"].Trim().Split(',');
+            string[] ptcrbarrBIW =  configdic["ptcrbbandlistforBIW"].Trim().Split(',');
             
             _Dictionary<string, string> bandlistdic = MISC.readconfig(bandsupportfile);
             Debug.Print(bandlistdic.ToString());
@@ -93,6 +109,8 @@ namespace parse3GPP
                         //code for gcf here. 
                         Console.WriteLine("Now GCF file processing ...");
                         ParseExcel.BIlist = gcfarrBI;
+                        ParseExcel.BIlistW = gcfarrBIW;
+                        ParseExcel.BIlistM = gcfarrBIM;
                         ParseExcel pex = new ParseExcel(file,"g");
 
                         pex.lgx = lg;
@@ -103,7 +121,7 @@ namespace parse3GPP
                         {
                             lg.inf("processing Sheet: " + sh);
                             DataTable dt = pex.GetExcelData(sh+"$");
-                            pex.processgcffile(dt, spec_tc_env,sheetspecwise);
+                            pex.processgcffile(dt, spec_tc_env);
                         }
                         pex.writeoutput();
                         Console.WriteLine("Processing done");
@@ -113,11 +131,12 @@ namespace parse3GPP
                         //code for ptcrb here. 
                         Console.WriteLine("Now PTCRB file processing ...");
                         ParseExcel.BIlist = ptcrbarrBI;
+                        ParseExcel.BIlistW = ptcrbarrBIW;
                         ParseExcel pex = new ParseExcel(file,"p");
                         pex.lgx = lg;
                         pex.cleanupfolder();
                         DataTable dt = pex.GetExcelData("Sheet$");
-                        pex.processptcrbfile(dt, spec_tc_env, ptcrbspecarr, sheetspecwise);
+                        pex.processptcrbfile(dt, spec_tc_env, ptcrbspecarr);
                         pex.writeoutput();
                         Console.WriteLine("Processing done");
                     }
@@ -134,46 +153,8 @@ namespace parse3GPP
                 }
                 
             }
-            
 
-            //ParseExcel pex = new ParseExcel(@"C:\Dropbox\Scripts\C#\parse3GPP\3.65.2_20170415_r021.xlsx");
-            //Console.Write("Select input file type: ( [G]CF or [P]TCRB ): G/P -> ");
-            //string type = Console.ReadLine();
-            //while (type.ToLower() !="g" && type.ToLower() != "p")
-            //{
-            //    Console.Write("try again with correct letter.\n");
-            //    Console.Write("Select input file type: ( [G]CF or [P]TCRB ): G/P -> ");
-            //    type = Console.ReadLine();
-            //
-            //}
-            //Console.Write("Enter file");
-            //
-            //
-            //
-            //Console.Write("\n\nEnter any key to exit");
-            //Console.ReadLine();
-
-            /*            
-                        ParseExcel pex = new ParseExcel(@"C:\Dropbox\Scripts\C#\parse3GPP\TestCaseStatus_Version_5.30_(Rel._Date_2016-12-13)_as_of_2017-01-22.xlsx");
-                        pex.lgx = lg;
-                        pex.cleanupfolder();
-                        DataTable dt = pex.GetExcelData("Sheet$");
-                        //pex.writetocsv(dt,"output.csv");
-                        pex.writetocsvptcrb(dt,"\t");
-
-
-                        //ParseExcel pex = new ParseExcel(@"sampleinput.xlsx");
-                        List<string> sheetlist = pex.GetExcelsheetslist();
-                        foreach(string sh in sheetlist)
-                        {
-                            lg.inf("processing Sheet: " + sh);
-                            DataTable dt = pex.GetExcelData(sh);
-                            pex.writetocsvgcf(dt, "\t");
-                        }
-            */
-
-
-
+          
         }
     }
 }
