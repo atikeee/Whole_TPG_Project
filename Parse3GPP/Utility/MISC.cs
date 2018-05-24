@@ -609,5 +609,30 @@ namespace Utility
             }
           //  return retdic;
         }
+        public static void readconfig_BI(string fn, Dictionary<string, List<string>> retdic)
+        {
+            //    TwoKeyDictionary<string, string, string> retdic = new TwoKeyDictionary<string, string, string>();
+            string[] lines = File.ReadAllLines(fn);
+            foreach (string line in lines)
+            {
+                if (!line.StartsWith("#") && line.Trim() != "")
+                {
+                    string[] kvp = line.Split('\t');
+                    if (kvp.Count() > 2)
+                    {
+                        string bikey = kvp[0].Trim() +":"+ kvp[1].Trim();
+                        if (!retdic.ContainsKey(kvp[0]))
+                        {
+                            retdic[bikey] = new List<string>();
+                        }
+                        retdic[bikey].Add(kvp[2].Trim());
+
+                    }
+                }
+
+                // Use a tab to indent each line of the file.
+            }
+            //  return retdic;
+        }
     }
 }

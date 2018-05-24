@@ -108,6 +108,50 @@ namespace WritingToDB
                 }
             }
         }
+        // corrected gettblaslist
+        public Dictionary<string, DataRow> gettblaslist2(List<string> colnames, string cond)
+        {
+            //tcvsid = 
+            Dictionary<string, DataRow> spectcbandvsrow = new Dictionary<string, DataRow>(); ;
+
+            string colname = String.Join("`,`", colnames);
+            colname = "`" + colname + "`";
+            colname = colname + String.Format(", `{0}` ", "id#tcconf");
+            string sqlCmd;
+            if (cond == "" || cond == null)
+            {
+                sqlCmd = string.Format("SELECT  {0} from {1} ", colname, tablename);
+            }
+            else
+            {
+                sqlCmd = string.Format("SELECT  {0} from {1} where {2}", colname, tablename, cond);
+
+            }
+            Debug.Print("getdatatable1: " + sqlCmd);
+            if (logenable)
+                lgsql.deb(" {mysqldb:getdatatble1} sqlcmd: " + sqlCmd + "\tdbname: " + DatabaseName);
+            MySqlDataAdapter adr = new MySqlDataAdapter(sqlCmd, dbConnection);
+            adr.SelectCommand.CommandType = CommandType.Text;
+            DataTable dt = new DataTable();
+            adr.Fill(dt); //opens and closes the DB connection automatically !! (fetches from pool)
+            foreach (DataRow dr in dt.Rows)
+            {
+                List<string> onerowdata = new List<string>();
+                string spectcband = dr["id#tcconf"].ToString()+":" + dr["Band"].ToString();
+                if (!spectcbandvsrow.ContainsKey(spectcband))
+                {
+                    spectcbandvsrow[spectcband] = dr;
+                }
+                else
+                {
+                    lgsql.err("duplicate entry with same  spectcid: "+ dr["id#tcconf"].ToString()+" Band: "+ dr["Band"].ToString());
+                }
+
+
+            }
+            return spectcbandvsrow;
+        }
+
         //public Dictionary<string,List<string>> tcvsid; // used only the below function
         public object gettblaslist(List<string> colnames, string cond,string idcol = "id#picsmapping")
         {

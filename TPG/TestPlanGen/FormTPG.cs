@@ -20,7 +20,7 @@ namespace TestPlanGen
     public partial class FormTPG : Form
     {
         private MySqlDb dbobj;
-        private List<string> cols = new List<string> { "GCF/PTCRB/Operator Version", "PICS Version", "Spec", "SheetName", "Test Case Number", "Description", "Band", "Band Applicability", "Band Criteria", "Cert TP [V]", "Cert TP [E]", "Cert TP [D]", "TC Status", "PICS Status", "Env_Cond", "Band Support", "ICE Band Support", "Required Bands","wi_rft","PICSLogic","Band_old" };
+        private List<string> cols = new List<string> {"GCF/PTCRB/Operator Version", "PICS Version", "Spec", "SheetName", "Test Case Number", "Description", "Band", "Band Applicability", "Band Criteria", "Cert TP [V]", "Cert TP [E]", "Cert TP [D]", "TC Status", "PICS Status", "Env_Cond", "Band Support", "ICE Band Support", "Required Bands","wi_rft","PICSLogic","Band_old" };
         DataTable dtShowData;
         String FileLocationTemp = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
         String FileLocation;
@@ -1021,14 +1021,16 @@ namespace TestPlanGen
                                 string condg = String.Format("`PICS Version` = '{0}' and `GCF/PTCRB/Operator Version` = '{1}'", comboBoxPICS.SelectedItem.ToString(), comboBoxgcfver.SelectedItem.ToString());
                                 string condp = String.Format("`PICS Version` = '{0}' and `GCF/PTCRB/Operator Version` = '{1}'", comboBoxPICS.SelectedItem.ToString(), comboBoxptcrbver.SelectedItem.ToString());
 
+                                Dictionary<string,DataRow> gcfspectcbandvsrow =dbobj.gettblaslist2(cols2, condg);
+                                Dictionary<string, DataRow> ptcrbspectcbandvsrow = dbobj.gettblaslist2(cols2, condp);
 
-
-                                List<object> gcfobj = (List<object>)dbobj.gettblaslist(cols2, condg);
-                                Dictionary<string, List<string>> gcftcvsid = (Dictionary<string, List<string>>)gcfobj[0];
-                                Dictionary<string, List<string>> gcfidvsrow = (Dictionary<string, List<string>>)gcfobj[1];
-                                List<object> ptcrbobj = (List<object>)dbobj.gettblaslist(cols2, condp);
-                                Dictionary<string, List<string>> ptcrbtcvsid = (Dictionary<string, List<string>>)ptcrbobj[0];
-                                Dictionary<string, List<string>> ptcrbidvsrow = (Dictionary<string, List<string>>)ptcrbobj[1];
+                                List<string> gcfspectcbandid = new List<string>(gcfspectcbandvsrow.Keys);
+                                List<string> ptcrbspectcbandid = new List<string>(ptcrbspectcbandvsrow.Keys);
+                                List<string> gcfspectcbandid2 = new List<string>(gcfspectcbandvsrow.Keys);
+                                List<string> ptcrbspectcbandid2 = new List<string>(ptcrbspectcbandvsrow.Keys);
+                                var gcfptcrbspectcbandid = gcfspectcbandid2.Intersect(ptcrbspectcbandid2);
+                                gcfspectcbandid.RemoveAll(delegate (string y) { return ptcrbspectcbandid2.Contains(y); });
+                                ptcrbspectcbandid.RemoveAll(delegate (string y) { return gcfspectcbandid2.Contains(y); });
 
                                 DataTable dtcomb = new DataTable();
                                 List<string> combcollist = new List<string>() { "Spec", "SheetName", "Test Case Number", "Description", "Band", "EnvCondition", "TC Status[G]", "TC Status[P]", "TP V[G]", "TP V[P]", "TP E[G]", "TP E[P]", "TP D[G]", "TP D[P]", "PICS Status [G]", "PICS Status [P]", "Band Support", "ICE Band Support" ,"WI","RFT","Band Applicability[G]", "Band Applicability[P]", "Band Criteria[G]", "Band Criteria[P]","PICS Logic[G]", "PICS Logic[P]","Band raw[G]","Band raw[P]" };
@@ -1036,176 +1038,89 @@ namespace TestPlanGen
                                 {
                                     dtcomb.Columns.Add(combcol, typeof(System.String));
                                 }
-                                foreach (string gtc in gcftcvsid.Keys)
+                                
+                                foreach(string gpstbid in gcfptcrbspectcbandid)
                                 {
-                                    
-                                    List<string> gids = gcftcvsid[gtc];
-                                    List<string> gidsclone = new List<string>(gids);
-                                    
-
-                                    if (ptcrbtcvsid.ContainsKey(gtc))
-                                    {
-                                        List<string> pids = ptcrbtcvsid[gtc];
-                                       
-                                        List<string> pidsclone = new List<string>(pids);
-                                        foreach (string gid in gidsclone)
-                                        {
-                                            List<string> gcfrow = gcfidvsrow[gid];
-
-                                            foreach (string pid in pidsclone)
-                                            {
-                                                List<string> ptcrbrow = ptcrbidvsrow[pid];
-                                                if ((gcfrow[2] == ptcrbrow[2]) && (gcfrow[6] == ptcrbrow[6]))
-                                                {
-                                                    DataRow dr = dtcomb.NewRow();
-                                                    dr["Spec"] = gcfrow[2];
-                                                    dr["SheetName"] = gcfrow[3];
-                                                    dr["Test Case Number"] = gcfrow[4];
-                                                    dr["Description"] = gcfrow[5];
-                                                    dr["Band"] = gcfrow[6];
-                                                    dr["EnvCondition"] = gcfrow[14];
-                                                    dr["TC Status[G]"] = gcfrow[12];
-                                                    dr["TC Status[P]"] = ptcrbrow[12];
-                                                    dr["TP V[G]"] = gcfrow[9];
-                                                    dr["TP V[P]"] = ptcrbrow[9];
-                                                    dr["TP E[G]"] = gcfrow[10];
-                                                    dr["TP E[P]"] = ptcrbrow[10];
-                                                    dr["TP D[G]"] = gcfrow[11];
-                                                    dr["TP D[P]"] = ptcrbrow[11];
-                                                    dr["PICS Status [G]"] = gcfrow[13];
-                                                    dr["PICS Status [P]"] = ptcrbrow[13];
-                                                    dr["Band Support"] = gcfrow[15];
-                                                    dr["ICE Band Support"] = gcfrow[16];
-                                                    dr["WI"] = gcfrow[18];
-                                                    dr["RFT"] = ptcrbrow[18];
-                                                    dr["Band Applicability[G]"] = gcfrow[7];
-                                                    dr["Band Applicability[P]"] = ptcrbrow[7];
-                                                    dr["Band Criteria[G]"] = gcfrow[8];
-                                                    dr["Band Criteria[P]"] = ptcrbrow[8];
-                                                    dr["PICS Logic[G]"] = gcfrow[19];
-                                                    dr["PICS Logic[P]"] = ptcrbrow[19];
-                                                    dr["Band raw[G]"] = gcfrow[20];
-                                                    dr["Band raw[P]"] = ptcrbrow[20];
-
-                                                    
-                                                    dtcomb.Rows.Add(dr);
-                                                    pids.Remove(pid);
-                                                    gids.Remove(gid);
-                                                    break;
-
-                                                }
-                                            }
-
-
-                                        }
-                                        foreach (string gid in gids)
-                                        {
-                                            
-                                            //0{ "GCF/PTCRB/Operator Version", "PICS Version", "Spec", "SheetName", "Test Case Number", "Description",
-                                            //6  "Band", "Band Applicability", "Band Criteria", "Cert TP [V]", "Cert TP [E]", 
-                                            //11 "Cert TP [D]", "TC Status", "PICS Status", "Env_Cond", "Band Support", 
-                                            //16 "ICE Band Support", "Required Bands" }
-                                            List<string> gcfrow = gcfidvsrow[gid];
-                                            DataRow dr = dtcomb.NewRow();
-                                            dr["Spec"] = gcfrow[2];
-                                            dr["SheetName"] = gcfrow[3];
-                                            dr["Test Case Number"] = gcfrow[4];
-                                            dr["Description"] = gcfrow[5];
-                                            dr["Band"] = gcfrow[6];
-                                            dr["EnvCondition"] = gcfrow[14];
-                                            dr["TP V[G]"] = gcfrow[9];
-                                            dr["TP E[G]"] = gcfrow[10];
-                                            dr["TP D[G]"] = gcfrow[11];
-                                            dr["TC Status[G]"] = gcfrow[12];
-                                            dr["PICS Status [G]"] = gcfrow[13];
-                                            dr["Band Support"] = gcfrow[15];
-                                            dr["ICE Band Support"] = gcfrow[16];
-                                            dr["WI"] = gcfrow[18];
-                                            dr["Band Applicability[G]"] = gcfrow[7];
-                                            
-                                            dr["Band Criteria[G]"] = gcfrow[8];
-                                            dr["PICS Logic[G]"] = gcfrow[19];
-                                            dr["Band raw[G]"] = gcfrow[20];
-
-                                            dtcomb.Rows.Add(dr);
-
-                                        }
-
-
-
-                                    }
-                                    else
-                                    {
-                                        foreach (string gid in gids)
-                                        {
-                                           
-                                            //0{ "GCF/PTCRB/Operator Version", "PICS Version", "Spec", "SheetName", "Test Case Number", "Description",
-                                            //6  "Band", "Band Applicability", "Band Criteria", "Cert TP [V]", "Cert TP [E]", 
-                                            //11 "Cert TP [D]", "TC Status", "PICS Status", "Env_Cond", "Band Support", 
-                                            //16 "ICE Band Support", "Required Bands" }
-                                            List<string> gcfrow = gcfidvsrow[gid];
-                                            DataRow dr = dtcomb.NewRow();
-                                            dr["Spec"] = gcfrow[2];
-                                            dr["SheetName"] = gcfrow[3];
-                                            dr["Test Case Number"] = gcfrow[4];
-                                            dr["Description"] = gcfrow[5];
-                                            dr["Band"] = gcfrow[6];
-                                            dr["EnvCondition"] = gcfrow[14];
-                                            dr["TP V[G]"] = gcfrow[9];
-                                            dr["TP E[G]"] = gcfrow[10];
-                                            dr["TP D[G]"] = gcfrow[11];
-                                            dr["TC Status[G]"] = gcfrow[12];
-                                            dr["PICS Status [G]"] = gcfrow[13];
-                                            dr["Band Support"] = gcfrow[15];
-                                            dr["ICE Band Support"] = gcfrow[16];
-                                            dr["WI"] = gcfrow[18];
-                                            dr["Band Applicability[G]"] = gcfrow[7];
-                                            
-                                            dr["Band Criteria[G]"] = gcfrow[8];
-                                            dr["PICS Logic[G]"] = gcfrow[19];
-                                            dr["Band raw[G]"] = gcfrow[20];
-
-                                            dtcomb.Rows.Add(dr);
-
-                                        }
-
-                                    }
+                                    DataRow gcfrow = gcfspectcbandvsrow[gpstbid];
+                                    DataRow ptcrbrow = ptcrbspectcbandvsrow[gpstbid];
+                                    DataRow dr = dtcomb.NewRow();
+                                    dr["Spec"] = gcfrow[2];
+                                    dr["SheetName"] = gcfrow[3];
+                                    dr["Test Case Number"] = gcfrow[4];
+                                    dr["Description"] = gcfrow[5];
+                                    dr["Band"] = gcfrow[6];
+                                    dr["EnvCondition"] = gcfrow[14];
+                                    dr["TC Status[G]"] = gcfrow[12];
+                                    dr["TC Status[P]"] = ptcrbrow[12];
+                                    dr["TP V[G]"] = gcfrow[9];
+                                    dr["TP V[P]"] = ptcrbrow[9];
+                                    dr["TP E[G]"] = gcfrow[10];
+                                    dr["TP E[P]"] = ptcrbrow[10];
+                                    dr["TP D[G]"] = gcfrow[11];
+                                    dr["TP D[P]"] = ptcrbrow[11];
+                                    dr["PICS Status [G]"] = gcfrow[13];
+                                    dr["PICS Status [P]"] = ptcrbrow[13];
+                                    dr["Band Support"] = gcfrow[15];
+                                    dr["ICE Band Support"] = gcfrow[16];
+                                    dr["WI"] = gcfrow[18];
+                                    dr["RFT"] = ptcrbrow[18];
+                                    dr["Band Applicability[G]"] = gcfrow[7];
+                                    dr["Band Applicability[P]"] = ptcrbrow[7];
+                                    dr["Band Criteria[G]"] = gcfrow[8];
+                                    dr["Band Criteria[P]"] = ptcrbrow[8];
+                                    dr["PICS Logic[G]"] = gcfrow[19];
+                                    dr["PICS Logic[P]"] = ptcrbrow[19];
+                                    dr["Band raw[G]"] = gcfrow[20];
+                                    dr["Band raw[P]"] = ptcrbrow[20];
+                                    dtcomb.Rows.Add(dr);
                                 }
-                                foreach (KeyValuePair<string, List<string>> kvpp in ptcrbtcvsid)
+                                foreach (string gstbid in gcfspectcbandid)
                                 {
-                                    List<string> pids_remaining = kvpp.Value;
-                                    string ptc = kvpp.Key;
-                                    
-                                    foreach (string pid in pids_remaining)
-                                    {
-                                        
-    
-                                        List <string> ptcrbrow = ptcrbidvsrow[pid];
-                                        DataRow dr = dtcomb.NewRow();
-                                        dr["Spec"] = ptcrbrow[2];
-                                        dr["SheetName"] = ptcrbrow[3];
-                                        dr["Test Case Number"] = ptcrbrow[4];
-                                        dr["Description"] = ptcrbrow[5];
-                                        dr["Band"] = ptcrbrow[6];
-                                        dr["EnvCondition"] = ptcrbrow[14];
-                                        dr["TP V[P]"] = ptcrbrow[9];
-                                        dr["TP E[P]"] = ptcrbrow[10];
-                                        dr["TP D[P]"] = ptcrbrow[11];
-                                        dr["TC Status[P]"] = ptcrbrow[12];
-                                        dr["PICS Status [P]"] = ptcrbrow[13];
-                                        dr["Band Support"] = ptcrbrow[15];
-                                        dr["ICE Band Support"] = ptcrbrow[16];
-                                        dr["RFT"] = ptcrbrow[18];
-                                        
-                                        dr["Band Applicability[P]"] = ptcrbrow[7];
-                                        
-                                        dr["Band Criteria[P]"] = ptcrbrow[8];
-                                        dr["PICS Logic[P]"] = ptcrbrow[19];
-                                        dr["Band raw[P]"]   = ptcrbrow[20];
-
-
-                                    }
-
+                                    DataRow gcfrow = gcfspectcbandvsrow[gstbid];
+                                    DataRow dr = dtcomb.NewRow();
+                                    dr["Spec"] = gcfrow[2];
+                                    dr["SheetName"] = gcfrow[3];
+                                    dr["Test Case Number"] = gcfrow[4];
+                                    dr["Description"] = gcfrow[5];
+                                    dr["Band"] = gcfrow[6];
+                                    dr["EnvCondition"] = gcfrow[14];
+                                    dr["TP V[G]"] = gcfrow[9];
+                                    dr["TP E[G]"] = gcfrow[10];
+                                    dr["TP D[G]"] = gcfrow[11];
+                                    dr["TC Status[G]"] = gcfrow[12];
+                                    dr["PICS Status [G]"] = gcfrow[13];
+                                    dr["Band Support"] = gcfrow[15];
+                                    dr["ICE Band Support"] = gcfrow[16];
+                                    dr["WI"] = gcfrow[18];
+                                    dr["Band Applicability[G]"] = gcfrow[7];
+                                    dr["Band Criteria[G]"] = gcfrow[8];
+                                    dr["PICS Logic[G]"] = gcfrow[19];
+                                    dr["Band raw[G]"] = gcfrow[20];
+                                    dtcomb.Rows.Add(dr);
+                                }
+                                foreach (string pstbid in ptcrbspectcbandid)
+                                {
+                                    DataRow ptcrbrow = ptcrbspectcbandvsrow[pstbid];
+                                    DataRow dr = dtcomb.NewRow();
+                                    dr["Spec"] = ptcrbrow[2];
+                                    dr["SheetName"] = ptcrbrow[3];
+                                    dr["Test Case Number"] = ptcrbrow[4];
+                                    dr["Description"] = ptcrbrow[5];
+                                    dr["Band"] = ptcrbrow[6];
+                                    dr["EnvCondition"] = ptcrbrow[14];
+                                    dr["TP V[P]"] = ptcrbrow[9];
+                                    dr["TP E[P]"] = ptcrbrow[10];
+                                    dr["TP D[P]"] = ptcrbrow[11];
+                                    dr["TC Status[P]"] = ptcrbrow[12];
+                                    dr["PICS Status [P]"] = ptcrbrow[13];
+                                    dr["Band Support"] = ptcrbrow[15];
+                                    dr["ICE Band Support"] = ptcrbrow[16];
+                                    dr["RFT"] = ptcrbrow[18];
+                                    dr["Band Applicability[P]"] = ptcrbrow[7];
+                                    dr["Band Criteria[P]"] = ptcrbrow[8];
+                                    dr["PICS Logic[P]"] = ptcrbrow[19];
+                                    dr["Band raw[P]"] = ptcrbrow[20];
+                                    dtcomb.Rows.Add(dr);
                                 }
 
                                 dataGridViewgcfptcrb.DataSource = dtcomb;

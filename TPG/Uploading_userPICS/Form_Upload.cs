@@ -770,8 +770,10 @@ namespace Parse_Pixit_Table
             foreach (DataRow row in dt.Rows)
             {
                 string ba = row["band2"].ToString();
-                string icesupport = bandSupportHelper(ba, icebandsupportall) ?"S":"NS";
-                if(!band_vs_icesupport.ContainsKey(ba))
+                //string icesupport = bandSupportHelper(ba, icebandsupportall) ?"S":"NS";
+                _List<string> icebandalllst = new _List<string>(icebandsupportall.Split(' ').ToList());
+                string icesupport = StringProcess.bandSupportHelper(ba, icebandalllst) ? "S" : "NS";
+                if (!band_vs_icesupport.ContainsKey(ba))
                     band_vs_icesupport.Add(ba,icesupport);
             }
             lg.deb("band vs customer band support: \n\t\t\t" + band_vs_icesupport.ToString());
@@ -799,6 +801,7 @@ namespace Parse_Pixit_Table
             }
             return outB;
         }
+        //delete this function
 
         private bool bandSupportHelper(string inputBand,string PICSBandSupportList)
         {

@@ -823,7 +823,12 @@ namespace excelparse
                                 // find out which BIlist to pick up 
                                 string[] bil=BIlist; 
 
-
+                                List<string> allspeclistforM = new List<string>() { "34.229-1", "36.521-3", "36.523-1" };
+                                bool mband = false;
+                                if ((rft == "132") && (allspeclistforM.Contains(allrow[6].ToString())))
+                                {
+                                    mband = true;
+                                }
                                 if (conspec == "AT-Command")
                                 {
                                     string[] allrow2 = new string[allrow.Length];
@@ -839,8 +844,13 @@ namespace excelparse
                                     {
                                         string[] allrow2 = new string[allrow.Length];
                                         Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
-                                        
-                                        allrow2[9] = allrow[9] + ":" + b;
+                                        if (mband)
+                                        {
+                                            allrow2[9] += ":" + b + "M";
+                                        }else
+                                        {
+                                            allrow2[9] += ":" + b ;
+                                        }
                                         
                                         MISC.adddata(cat,allrow2);
                                     }
@@ -853,7 +863,14 @@ namespace excelparse
                                         string[] allrow2 = new string[allrow.Length];
                                         Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
 
-                                        allrow2[9] = allrow[9] + ":" + b;
+                                        if (mband)
+                                        {
+                                            allrow2[9] += ":" + b + "M";
+                                        }
+                                        else
+                                        {
+                                            allrow2[9] += ":" + b;
+                                        }
 
                                         MISC.adddata(cat, allrow2);
                                     }
@@ -891,6 +908,13 @@ namespace excelparse
                                     }
                                     else
                                     {
+                                        Regex rgxband = new Regex(@"^(\d+)");
+                                        Match mb = rgxband.Match(allrow[9]);
+                                        if (mb.Success)
+                                        {
+                                            if (mband)
+                                                allrow[9] += ">"+allrow[9]+"M";
+                                        }
                                         MISC.adddata(cat, allrow);
                                     }
                                 }
