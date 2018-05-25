@@ -232,8 +232,10 @@ namespace excelparse
         public void processgcffile(DataTable dt, Dictionary<string, List<string>> tc_env, string sep = "\t")
         {
             //reading config files. 
-            TwoKeyDictionary<string, string, string> iratsm = new TwoKeyDictionary<string, string, string>();
-            MISC.readconfig_2kdict("conf\\GCF_IRAT_SM_TC.conf", iratsm);
+            Dictionary<string, List<string>> iratsm = new Dictionary<string, List<string>>();
+            Dictionary<string,List<string>> iratbi = new Dictionary<string, List<string>>();
+            MISC.readconfig_BI("conf\\GCF_IRAT_SM_TC.conf", iratsm);
+            MISC.readconfig_BI("conf\\GCF_IRAT_BI_TC.conf", iratbi);
             Dictionary<string, List<string>> bandlistdic = MISC.readconfiglist("conf\\GCF_IRAT_band.conf", '\t');
             MISC.allrfdata = allrfdata;
             MISC.allrrmdata = allrrmdata;
@@ -514,44 +516,49 @@ namespace excelparse
                             }
                             MISC.removetpduplicate(allrow);
                             //allrow[9] = allrow[9].Replace("_RX4", "");
-                            if (allrow[9] == "BI-M")
+                            string spectc = allrow[6]+":"+ allrow[1];
+                            List<string> allband = new List<string>();
+                            bool iratconfig = false;
+                            bool mband = false;
+                            if (allrow[9].Contains("M"))
                             {
-                                foreach (string b in BIlistM)
-                                {
-                                    string[] allrow2 = new string[allrow.Length];
-                                    Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
-                                    allrow2[9] = allrow[9] + ":" + b+"M";
-                                    
-                                    MISC.adddata(cat,allrow2);
-                                }
+                                mband = true;
                             }
-                            else  if (allrow[9] == "BI")
+                            if (iratsm.ContainsKey(spectc))
                             {
-                                foreach(string b in BIlist)
-                                {
-                                    string[] allrow2 = new string[allrow.Length]; 
-                                    Array.Copy(allrow,0,allrow2,0,allrow.Length);
-                                    allrow2[9] = allrow[9]+":" +b;
-                                   
-                                    MISC.adddata(cat, allrow2);
-                                }
+                                iratconfig = true;
+                                foreach (string iratbandcat in iratsm[spectc])
+                                    if (bandlistdic.ContainsKey(iratbandcat))
+                                        foreach (string b in bandlistdic[iratbandcat])
+                                        {
+                                            allband.Add(b);
+                                        }
                             }
-                            else
+                                
+                            else if (iratbi.ContainsKey(spectc))
                             {
-                                if (iratsm.ContainsKey(allrow[6],allrow[1]))
+                                iratconfig = true;
+                                foreach (string iratbandcat in iratbi[spectc])
+                                    if (bandlistdic.ContainsKey(iratbandcat))
+                                        foreach (string b in bandlistdic[iratbandcat])
+                                        {
+                                            allband.Add(b);
+                                        }
+                            }
+                                
+                            if (iratconfig)
+                            {
+                                string[] allrow2 = new string[allrow.Length];
+                                Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
+                                Regex r = new Regex("^([IVX]+)$", RegexOptions.IgnoreCase);
+                                Match m = r.Match(allrow[9]);
+                                foreach (string b in allband)
                                 {
-
-                                    List<string> allband = bandlistdic[iratsm[allrow[6], allrow[1]]];
-                                    string[] allrow2 = new string[allrow.Length];
-                                    Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
-                                    
-                                    Regex r = new Regex("^([IVX]+)$", RegexOptions.IgnoreCase);
-                                    Match m = r.Match(allrow[9]);
-                                    foreach (string b in allband)
+                                    if (!((b.Contains("M")) ^ mband))
                                     {
                                         if (b.Split('-')[0].Trim('E').TrimStart('0') == allrow[9])
                                         {
-                                            allrow2[9] = allrow[9]+">" +b;
+                                            allrow2[9] = allrow[9] + ">" + b;
                                             MISC.adddata(cat, allrow2);
                                         }
 
@@ -559,24 +566,57 @@ namespace excelparse
                                         {
                                             if (b.Split('-')[0].Trim('U').TrimStart('0') == MISC.RtoI[allrow[9]])
                                             {
-                                                allrow2[9] = allrow[9]+">" +b;
+                                                allrow2[9] = allrow[9] + ">" + b;
                                                 MISC.adddata(cat, allrow2);
                                             }
                                         }
-                                        
-
+                                        else
+                                        {
+                                            allrow2[9] = allrow[9] + ">" + b;
+                                            MISC.adddata(cat, allrow2);
+                                        }
                                     }
-                                }else
-                                {
-                                    MISC.adddata(cat, allrow);
+                                    
                                 }
-                                
                             }
-                            
-                            
+                            //else if (iratbi.ContainsKey(spectc))
+                            //{
+                            //    string[] allrow2 = new string[allrow.Length];
+                            //    Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
+                            //    foreach (string iratbandcat in iratsm[spectc])
+                            //        foreach (string b in bandlistdic[iratbandcat])
+                            //        {
+                            //            allrow2[9] = allrow[9] + ">" + b;
+                            //            MISC.adddata(cat, allrow2);
+                            //        }
+                            //}
+                            else if (allrow[9] == "BI-M")
+                            {
+                                foreach (string b in BIlistM)
+                                {
+                                    string[] allrow2 = new string[allrow.Length];
+                                    Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
+                                    allrow2[9] = allrow[9] + ":" + b + "M";
 
+                                    MISC.adddata(cat, allrow2);
+                                }
+                            }
+                            else if (allrow[9] == "BI")
+                            {
+                                foreach (string b in BIlist)
+                                {
+                                    string[] allrow2 = new string[allrow.Length];
+                                    Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
+                                    allrow2[9] = allrow[9] + ":" + b;
 
+                                    MISC.adddata(cat, allrow2);
+                                }
+                            }
+                            else
+                            {
+                                MISC.adddata(cat, allrow);
 
+                            }
                         }
                     }
                     else
@@ -607,12 +647,14 @@ namespace excelparse
         }
         public void processptcrbfile(DataTable dt, Dictionary<string, List<string>> tc_env, string[] ptcrbspec, string sep = "\t")
         {
+            Dictionary<string, List<string>> iratsm = new Dictionary<string, List<string>>();
+            Dictionary<string, List<string>> iratbi = new Dictionary<string, List<string>>();
+            MISC.readconfig_BI("conf\\PTCRB_IRAT_SM_TC.conf", iratsm);
+            MISC.readconfig_BI("conf\\PTCRB_IRAT_BI_TC.conf", iratbi);
+            Dictionary<string, List<string>> bandlistdic = MISC.readconfiglist("conf\\PTCRB_IRAT_band.conf", '\t');
             MISC.allrfdata = allrfdata;
             MISC.allrrmdata = allrrmdata;
             MISC.allctpsdata = allctpsdata;
-            TwoKeyDictionary<string, string, string> iratsm = new TwoKeyDictionary<string, string, string>();
-            MISC.readconfig_2kdict("conf\\PTCRB_IRAT_SM_TC.conf", iratsm);
-            Dictionary<string, List<string>> bandlistdic = MISC.readconfiglist("conf\\PTCRB_IRAT_band.conf", '\t');
             MISC.coltitle = new string[] { "TC Number", "Description", "Type of Test", "Band Applicability", "Cat", "Standards", "Environmental Condition", "Band Criteria", "Band", "ICE Recommendation for Band", "TC Status", "Certified TP [V]", "Certified TP [E]", "Certified TP [D]", "BandWidth", "RFT" };
             string spec = "";
             string rft = "";
@@ -829,12 +871,76 @@ namespace excelparse
                                 {
                                     mband = true;
                                 }
-                                if (conspec == "AT-Command")
+
+
+                                List<string> allband = new List<string>();
+                                bool iratconfig = false;
+                                
+                                string spectc = allrow[6] + ":" + allrow[1];
+                                if (iratsm.ContainsKey(spectc))
+                                {
+                                    iratconfig = true;
+                                    foreach (string iratbandcat in iratsm[spectc])
+                                        if (bandlistdic.ContainsKey(iratbandcat))
+                                            foreach (string b in bandlistdic[iratbandcat])
+                                            {
+                                                allband.Add(b);
+                                            }
+                                }
+
+                                else if (iratbi.ContainsKey(spectc))
+                                {
+                                    iratconfig = true;
+                                    foreach (string iratbandcat in iratbi[spectc])
+                                        if (bandlistdic.ContainsKey(iratbandcat))
+                                            foreach (string b in bandlistdic[iratbandcat])
+                                            {
+                                                allband.Add(b);
+                                            }
+                                }
+
+                                if (iratconfig)
+                                {
+                                    string[] allrow2 = new string[allrow.Length];
+                                    Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
+                                    Regex r = new Regex("^([IVX]+)$", RegexOptions.IgnoreCase);
+                                    Match m = r.Match(allrow[9]);
+                                    foreach (string b in allband)
+                                    {
+                                        //if (!((b.Contains("M")) ^ mband))
+                                        {
+                                            if (b.Split('-')[0].Trim('E').TrimStart('0') == allrow[9])
+                                            {
+                                                allrow2[9] = allrow[9] + ">" + b;
+                                                MISC.adddata(cat, allrow2);
+                                            }
+
+                                            else if (m.Success)
+                                            {
+                                                if (b.Split('-')[0].Trim('U').TrimStart('0') == MISC.RtoI[allrow[9]])
+                                                {
+                                                    allrow2[9] = allrow[9] + ">" + b;
+                                                    MISC.adddata(cat, allrow2);
+                                                }
+                                            }
+                                            else
+                                            {
+                                                allrow2[9] = allrow[9] + ">" + b;
+                                                MISC.adddata(cat, allrow2);
+                                            }
+                                        }
+
+                                    }
+                                }
+
+
+                                else if (conspec == "AT-Command")
                                 {
                                     string[] allrow2 = new string[allrow.Length];
                                     Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
                                     MISC.adddata(3, allrow2);
                                 }
+
                                 else if (allrow[9] == "BA") 
                                 {
                                     if (conspec == "31.124-1")
@@ -877,50 +983,15 @@ namespace excelparse
                                 }
                                 else
                                 {
-                                    if (iratsm.ContainsKey(allrow[6], allrow[1]))
+                                    Regex rgxband = new Regex(@"^(\d+)");
+                                    Match mb = rgxband.Match(allrow[9]);
+                                    if (mb.Success)
                                     {
-
-                                        List<string> allband = bandlistdic[iratsm[allrow[6], allrow[1]]];
-                                        string[] allrow2 = new string[allrow.Length];
-                                        Array.Copy(allrow, 0, allrow2, 0, allrow.Length);
-
-                                        Regex r = new Regex("^([IVX]+)$", RegexOptions.IgnoreCase);
-                                        Match m = r.Match(allrow[9]);
-                                        foreach (string b in allband)
-                                        {
-                                            if (b.Split('-')[0].Trim('E').TrimStart('0') == allrow[9])
-                                            {
-                                                allrow2[9] = allrow[9] + ">" + b;
-                                                MISC.adddata(cat, allrow2);
-                                            }
-
-                                            else if (m.Success)
-                                            {
-                                                if (b.Split('-')[0].Trim('U').TrimStart('0') == MISC.RtoI[allrow[9]])
-                                                {
-                                                    allrow2[9] = allrow[9] + ">" + b;
-                                                    MISC.adddata(cat, allrow2);
-                                                }
-                                            }
-
-
-                                        }
+                                        if (mband)
+                                            allrow[9] += ">" + allrow[9] + "M";
                                     }
-                                    else
-                                    {
-                                        Regex rgxband = new Regex(@"^(\d+)");
-                                        Match mb = rgxband.Match(allrow[9]);
-                                        if (mb.Success)
-                                        {
-                                            if (mband)
-                                                allrow[9] += ">"+allrow[9]+"M";
-                                        }
-                                        MISC.adddata(cat, allrow);
-                                    }
+                                    MISC.adddata(cat, allrow);
                                 }
-
-
-
                             }
                         }
                         else

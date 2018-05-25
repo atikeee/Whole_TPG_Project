@@ -621,7 +621,7 @@ namespace Utility
                     if (kvp.Count() > 2)
                     {
                         string bikey = kvp[0].Trim() +":"+ kvp[1].Trim();
-                        if (!retdic.ContainsKey(kvp[0]))
+                        if (!retdic.ContainsKey(bikey))
                         {
                             retdic[bikey] = new List<string>();
                         }
